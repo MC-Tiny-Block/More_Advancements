@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:minecart"
+        },
+        "frame": "task",
+        "title": "废弃的矿井",
+        "description": "到达废弃矿井"
+    },
+    "criteria": {
+        "mineshaft":{
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "#minecraft:mineshaft"
+                    }
+                }
+            }
+        }
+    },
+    "parent": "madv:mine/into_cave"
+}

@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:diamond"
+        },
+        "frame": "goal",
+        "title": "钻石",
+        "description": "获得钻石",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "diamond":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:story/get_woodena_hoe"
+}

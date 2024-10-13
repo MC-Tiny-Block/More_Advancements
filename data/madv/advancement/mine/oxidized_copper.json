@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:oxidized_copper"
+        },
+        "frame": "goal",
+        "title": "它氧化了！",
+        "description": "让铜块完全氧化"
+    },
+    "criteria": {
+        "oxidized_copper":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:oxidized_copper"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:mine/copper_block"
+}

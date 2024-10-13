@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:bookshelf"
+        },
+        "frame": "task",
+        "title": "图书管理员",
+        "description": "制作书架以增强附魔台能力"
+    },
+    "criteria": {
+        "bookshelf":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:bookshelf"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:enchantments_and_crafting/enchanting_table"
+}

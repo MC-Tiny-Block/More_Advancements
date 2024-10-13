@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:flint_and_steel"
+        },
+        "frame": "task",
+        "title": "燃起火焰",
+        "description": "使用打火石打火"
+    },
+    "criteria": {
+        "flint_and_steel":{
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "match_tool",
+                        "predicate": {
+                            "items": "minecraft:flint_and_steel"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:mine/flint_and_steel"
+}

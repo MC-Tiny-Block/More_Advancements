@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:moss_block"
+        },
+        "frame": "task",
+        "title": "苔痕上阶绿",
+        "description": "对苔藓块使用骨粉使其蔓延"
+    },
+    "criteria": {
+        "moss_block":{
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "match_tool",
+                        "predicate": {
+                            "items": "minecraft:bone_meal"
+                        }
+                    },
+                    {
+                        "condition": "block_state_property",
+                        "block": "moss_block"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:mine/into_cave"
+}

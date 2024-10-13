@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:gold_block",
+            "components": {
+                "minecraft:enchantment_glint_override": true
+            }
+        },
+        "frame": "challenge",
+        "title": "财富溢出",
+        "description": "获得64个金块以彰显你的财富"
+    },
+    "criteria": {
+        "gold_block":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:gold_block",
+                        "count": {
+                            "min": 64
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:mine/gold_block"
+}

@@ -1,0 +1,43 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:granite"
+        },
+        "frame": "task",
+        "title": "三废石",
+        "description": "获得花岗岩、闪长岩和安山岩"
+    },
+    "criteria": {
+        "granite":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:granite"
+                    }
+                ]
+            }
+        },
+        "diorite":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diorite"
+                    }
+                ]
+            }
+        },
+        "andesite":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:andesite"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "minecraft:story/mine_stone"
+}

@@ -1,0 +1,36 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:torch"
+        },
+        "frame": "task",
+        "title": "照亮前方",
+        "description": "合成一些火把"
+    },
+    "criteria": {
+        "torch":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:torch"
+                    }
+                ]
+            }
+        },
+        "soul_torch":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:soul_torch"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:mine/coal",
+    "requirements": [
+        ["soul_torch","torch"]
+    ]
+}

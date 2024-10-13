@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:raw_iron"
+        },
+        "frame": "task",
+        "title": "待加工矿石",
+        "description": "挖到一块粗铁"
+    },
+    "criteria": {
+        "raw_iron":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:raw_iron"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:mine/furnace"
+}

@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:sculk_shrieker"
+        },
+        "frame": "task",
+        "title": "警报迭起",
+        "description": "不好，你触发了幽匿尖啸体！"
+    },
+    "criteria": {
+        "darkness":{
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "darkness": {}
+                }
+            }
+        }
+    },
+    "parent": "madv:mine/to_ancient_city"
+}

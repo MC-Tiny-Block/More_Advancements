@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:quartz"
+        },
+        "frame": "task",
+        "title": "逻辑晶体",
+        "description": "挖到下界石英"
+    },
+    "criteria": {
+        "quartz":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:quartz"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:mine/into_deep_nether"
+}

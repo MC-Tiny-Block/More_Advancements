@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:ender_pearl"
+        },
+        "frame": "task",
+        "title": "三界旅者",
+        "description": "击杀一个末影人"
+    },
+    "criteria": {
+        "enderman":{
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:enderman"
+                }
+            }
+        }
+    },
+    "parent": "madv:monsters_and_combat/kill_witch"
+}

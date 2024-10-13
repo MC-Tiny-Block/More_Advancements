@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:diamond_pickaxe"
+        },
+        "frame": "task",
+        "title": "金刚钻",
+        "description": "制作一把钻石镐"
+    },
+    "criteria": {
+        "diamond_pickaxe":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_pickaxe"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "minecraft:story/mine_diamond"
+}

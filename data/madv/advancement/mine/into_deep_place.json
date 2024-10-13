@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:deepslate"
+        },
+        "frame": "goal",
+        "title": "更下一层楼",
+        "description": "进入深层区域"
+    },
+    "criteria": {
+        "into_deep_place":{
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "position": {
+                            "y": {
+                                "max": 0
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "parent": "minecraft:story/iron_tools"
+}

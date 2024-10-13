@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:bow"
+        },
+        "frame": "task",
+        "title": "拉弓上弦",
+        "description": "长按右键以拉弓"
+    },
+    "criteria": {
+        "bow":{
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:bow"
+                    ]
+                }
+            }
+        }
+    },
+    "parent": "madv:monsters_and_combat/atk_smite_axe"
+}

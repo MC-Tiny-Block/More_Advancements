@@ -1,0 +1,76 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:sculk_shrieker"
+        },
+        "frame": "challenge",
+        "title": "幽匿狂热者",
+        "description": "获得所有幽匿方块"
+    },
+    "criteria": {
+        "sculk":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:sculk"
+                    }
+                ]
+            }
+        },
+        "sculk_catalyst":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:sculk_catalyst"
+                    }
+                ]
+            }
+        },
+        "sculk_sensor":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:sculk_sensor"
+                    }
+                ]
+            }
+        },
+        "sculk_shrieker":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:sculk_shrieker"
+                    }
+                ]
+            }
+        },
+        "sculk_vein":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:sculk_vein"
+                    }
+                ]
+            }
+        },
+        "calibrated_sculk_sensor":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:calibrated_sculk_sensor"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:mine/near_warden",
+    "rewards": {
+        "experience": 100
+    }
+}

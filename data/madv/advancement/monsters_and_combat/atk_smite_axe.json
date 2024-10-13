@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:diamond_axe",
+            "components": {
+                "minecraft:enchantment_glint_override": true
+            }
+        },
+        "frame": "task",
+        "title": "亡灵猎人",
+        "description": "使用只带有亡灵杀手V附魔的斧攻击敌人"
+    },
+    "criteria": {
+        "smite_axe_attack":{
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "player": {
+                    "slots": {
+                        "weapon.mainhand": {
+                            "items": "#minecraft:axes",
+                            "components": {
+                                "minecraft:enchantments": {
+                                    "minecraft:smite": 5
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "parent": "madv:monsters_and_combat/atk_stone_axe"
+}

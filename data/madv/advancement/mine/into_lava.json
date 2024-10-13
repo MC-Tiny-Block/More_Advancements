@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:lava_bucket"
+        },
+        "frame": "task",
+        "title": "泡个温泉",
+        "description": "你试图在熔岩里游泳"
+    },
+    "criteria": {
+        "into_lava":{
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "fluid": {
+                            "fluids": [
+                                "minecraft:lava",
+                                "minecraft:flowing_lava"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "parent": "minecraft:story/smelt_iron"
+}

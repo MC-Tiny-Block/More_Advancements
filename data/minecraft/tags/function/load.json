@@ -1,0 +1,9 @@
+{
+    "values": [
+        "madv:load",
+        "madv:codition/warden_in_40b",
+        "madv:codition/throw_netherite_item",
+        "madv:codition/two_hearts",
+        "madv:codition/block_ravager"
+    ]
+}

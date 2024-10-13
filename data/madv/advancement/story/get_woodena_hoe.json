@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:wooden_hoe"
+        },
+        "frame": "task",
+        "title": "耕种时间到！",
+        "description": "制作一把木锄"
+    },
+    "criteria": {
+        "wooden_hoe":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:wooden_hoe"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:story/get_wooden_shovel"
+}

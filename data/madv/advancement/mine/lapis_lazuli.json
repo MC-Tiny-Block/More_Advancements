@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:lapis_lazuli"
+        },
+        "frame": "task",
+        "title": "不可思议的魔法石",
+        "description": "它似乎蕴含着经验的力量！"
+    },
+    "criteria": {
+        "lapis_lazuli":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:lapis_lazuli"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "minecraft:story/upgrade_tools"
+}

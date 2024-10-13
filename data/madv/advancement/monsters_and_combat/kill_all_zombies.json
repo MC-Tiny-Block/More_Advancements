@@ -1,0 +1,45 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:rotten_flesh"
+        },
+        "frame": "task",
+        "title": "僵尸公敌",
+        "description": "击杀所有僵尸类生物"
+    },
+    "criteria": {
+        "zombie":{
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:zombie"
+                }
+            }
+        },
+        "husk":{
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:husk"
+                }
+            }
+        },
+        "zombie_villager":{
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:zombie_villager"
+                }
+            }
+        },
+        "drowned":{
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:drowned"
+                }
+            }
+        }
+    },
+    "parent": "madv:monsters_and_combat/kill_zombie"
+}

@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:diamond_sword"
+        },
+        "frame": "challenge",
+        "title": "赶尽杀绝",
+        "description": "在一击内造成9颗心的伤害"
+    },
+    "criteria": {
+        "18_damage":{
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "taken": {
+                        "min": 18
+                    }
+                }
+            }
+        }
+    },
+    "parent": "madv:monsters_and_combat/atk_smite_axe"
+}

@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:coal"
+        },
+        "frame": "task",
+        "title": "黑色黄金",
+        "description": "挖到黑乎乎的煤炭"
+    },
+    "criteria": {
+        "coal":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:coal"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "minecraft:story/mine_stone"
+}

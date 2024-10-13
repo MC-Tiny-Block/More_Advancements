@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:book"
+        },
+        "frame": "task",
+        "title": "精神食粮",
+        "description": "制作一本书"
+    },
+    "criteria": {
+        "book":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:book"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:enchantments_and_crafting/root"
+}

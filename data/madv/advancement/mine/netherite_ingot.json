@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:netherite_ingot"
+        },
+        "frame": "goal",
+        "title": "高级合金",
+        "description": "获得下界合金锭"
+    },
+    "criteria": {
+        "netherite_ingot":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_ingot"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "minecraft:nether/obtain_ancient_debris"
+}

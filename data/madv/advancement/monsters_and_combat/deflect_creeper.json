@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:tnt"
+        },
+        "frame": "goal",
+        "title": "防爆盾牌",
+        "description": "用盾牌挡住苦力怕的爆炸"
+    },
+    "criteria": {
+        "deflect_creeper":{
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "blocked": true,
+                    "source_entity": {
+                        "type": "minecraft:creeper"
+                    }
+                }
+            }
+        }
+    },
+    "parent": "madv:monsters_and_combat/kill_creeper"
+}

@@ -1,0 +1,32 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:gold_ore"
+        },
+        "frame": "task",
+        "title": "淘金热",
+        "description": "在恶地的地下挖矿，这里有许多的金子"
+    },
+    "criteria": {
+        "badlands":{
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": [
+                            "minecraft:badlands",
+                            "minecraft:wooded_badlands",
+                            "minecraft:eroded_badlands"
+                        ],
+                        "position": {
+                            "y": {
+                                "max": 30
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "parent": "minecraft:story/iron_tools"
+}

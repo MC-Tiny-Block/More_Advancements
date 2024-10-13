@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:nether_star"
+        },
+        "frame": "challenge",
+        "title": "硬核挑战",
+        "description": "MC无极限，你也一样",
+        "background": "minecraft:textures/block/bedrock.png",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "dragon_egg":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:dragon_egg"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:ice"
+        },
+        "frame": "task",
+        "title": "速冻保鲜",
+        "description": "打开一个远古城市冰窖的战利品箱"
+    },
+    "criteria": {
+        "ice_room":{
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/ancient_city_ice_box"
+            }
+        }
+    },
+    "parent": "madv:mine/to_ancient_city"
+}

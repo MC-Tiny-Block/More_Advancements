@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:potion",
+            "components": {
+                "minecraft:potion_contents": {
+                    "potion": "minecraft:healing"
+                }
+            }
+        },
+        "frame": "task",
+        "title": "命悬一线",
+        "description": "你的血条在发抖，它快撑不住了……"
+    },
+    "criteria": {
+        "2_hearts":{
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "madv:monsters_and_combat/root"
+}

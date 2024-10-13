@@ -1,0 +1,18 @@
+{
+    "criteria": {
+      "test": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "display": {
+      "announce_to_chat": false,
+      "background": "textures/block/sculk_sensor_bottom.png",
+      "description": "这里的进度作者还没有想好放在哪里！（正式版将删除此标签页）",
+      "icon": {
+        "count": 1,
+        "id": "minecraft:barrier"
+      },
+      "show_toast": false,
+      "title": "临时存放"
+    }
+}

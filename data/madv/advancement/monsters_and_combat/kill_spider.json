@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:spider_eye"
+        },
+        "frame": "task",
+        "title": "爬墙能手",
+        "description": "击杀一只蜘蛛"
+    },
+    "criteria": {
+        "spider":{
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:spider"
+                }
+            }
+        }
+    },
+    "parent": "madv:monsters_and_combat/kill_creeper"
+}

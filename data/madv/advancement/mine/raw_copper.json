@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:raw_copper"
+        },
+        "frame": "task",
+        "title": "橙绿相间",
+        "description": "挖到粗铜"
+    },
+    "criteria": {
+        "raw_copper":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:raw_copper"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "minecraft:story/upgrade_tools"
+}

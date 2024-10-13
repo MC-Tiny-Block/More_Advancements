@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:music_disc_5"
+        },
+        "frame": "task",
+        "title": "Five",
+        "description": "找到5号唱片"
+    },
+    "criteria": {
+        "music_disc_5":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:music_disc_5"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:mine/to_ancient_city"
+}

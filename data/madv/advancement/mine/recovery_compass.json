@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:recovery_compass"
+        },
+        "frame": "goal",
+        "title": "追溯死亡的回响",
+        "description": "制作追溯指针"
+    },
+    "criteria": {
+        "recovery_compass":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:recovery_compass"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:mine/echo_shard"
+}

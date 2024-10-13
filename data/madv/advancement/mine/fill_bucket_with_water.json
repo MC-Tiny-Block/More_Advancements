@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:water_bucket"
+        },
+        "frame": "task",
+        "title": "用它装水！",
+        "description": "用铁桶装水"
+    },
+    "criteria": {
+        "water_bucket":{
+            "trigger": "minecraft:filled_bucket",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:water_bucket"
+                }
+            }
+        }
+    },
+    "parent": "minecraft:story/smelt_iron"
+}

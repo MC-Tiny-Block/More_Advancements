@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:gold_ingot"
+        },
+        "frame": "task",
+        "title": "金子！",
+        "description": "冶炼出一块金锭"
+    },
+    "criteria": {
+        "gold_ingot":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:gold_ingot"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:mine/raw_gold"
+}

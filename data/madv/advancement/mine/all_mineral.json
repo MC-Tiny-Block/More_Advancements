@@ -1,0 +1,130 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:diamond",
+            "components": {
+                "enchantment_glint_override": true
+            }
+        },
+        "frame": "challenge",
+        "title": "矿石专家",
+        "description": "获得所有矿物原材料"
+    },
+    "criteria": {
+        "copper_ingot":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:copper_ingot"
+                    }
+                ]
+            }
+        },
+        "iron_ingot":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:iron_ingot"
+                    }
+                ]
+            }
+        },
+        "gold_ingot":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:gold_ingot"
+                    }
+                ]
+            }
+        },
+        "netherite_ingot":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_ingot"
+                    }
+                ]
+            }
+        },
+        "amethyst_shard":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:amethyst_shard"
+                    }
+                ]
+            }
+        },
+        "diamond":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond"
+                    }
+                ]
+            }
+        },
+        "emerald":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:emerald"
+                    }
+                ]
+            }
+        },
+        "lapis_lazuli":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:lapis_lazuli"
+                    }
+                ]
+            }
+        },
+        "quartz":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:quartz"
+                    }
+                ]
+            }
+        },
+        "redstone":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:redstone"
+                    }
+                ]
+            }
+        },
+        "coal":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:coal"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:mine/netherite_ingot",
+    "rewards": {
+        "function": "madv:rewards/all_mineral",
+        "experience": 1000
+    }
+}

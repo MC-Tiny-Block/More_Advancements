@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:sculk"
+        },
+        "frame": "task",
+        "title": "寂静无声",
+        "description": "到达深暗之域，记得安静点！"
+    },
+    "criteria": {
+        "deep_dark":{
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "minecraft:deep_dark"
+                    }
+                }
+            }
+        }
+    },
+    "parent": "madv:mine/into_cave"
+}

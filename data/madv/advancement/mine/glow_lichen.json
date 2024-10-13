@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:glow_lichen"
+        },
+        "frame": "task",
+        "title": "钻石？",
+        "description": "那只是个发光地衣"
+    },
+    "criteria": {
+        "glow_lichen":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:glow_lichen"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:mine/into_darkness"
+}

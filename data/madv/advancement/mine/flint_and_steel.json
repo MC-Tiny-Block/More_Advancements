@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:flint_and_steel"
+        },
+        "frame": "task",
+        "title": "迸发火星",
+        "description": "制作一个打火石"
+    },
+    "criteria": {
+        "flint_and_steel":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:flint_and_steel"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:mine/flint"
+}

@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:clock"
+        },
+        "frame": "task",
+        "title": "分秒必争",
+        "description": "在暗无天日的洞穴中用时钟来了解时间"
+    },
+    "criteria": {
+        "clock":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:clock"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:mine/gold_ingot"
+}

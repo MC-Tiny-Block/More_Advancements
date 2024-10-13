@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:tnt_minecart"
+        },
+        "frame": "challenge",
+        "title": "黑曜石体质",
+        "description": "受到苦力怕的20点爆炸伤害"
+    },
+    "criteria": {
+        "hurt_by_creeper":{
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity": {
+                        "type": "minecraft:creeper"
+                    },
+                    "blocked": false,
+                    "dealt": {
+                        "min": 20
+                    }
+                }
+            }
+        }
+    },
+    "parent": "madv:monsters_and_combat/deflect_creeper"
+}

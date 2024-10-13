@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:wooden_pickaxe"
+        },
+        "frame": "task",
+        "title": "采矿时间到！",
+        "description": "制作一把木镐"
+    },
+    "criteria": {
+        "wooden_pickaxe":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:wooden_pickaxe"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:story/get_crafting_table"
+}

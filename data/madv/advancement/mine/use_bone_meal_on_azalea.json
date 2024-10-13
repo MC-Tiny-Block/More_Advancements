@@ -1,0 +1,50 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:azalea"
+        },
+        "frame": "task",
+        "title": "地下的木头",
+        "description": "对杜鹃花丛使用骨粉"
+    },
+    "criteria": {
+        "azalea":{
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "match_tool",
+                        "predicate": {
+                            "items": "minecraft:bone_meal"
+                        }
+                    },
+                    {
+                        "condition": "block_state_property",
+                        "block": "minecraft:azalea"
+                    }
+                ]
+            }
+        },
+        "flowering_azalea":{
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "match_tool",
+                        "predicate": {
+                            "items": "minecraft:bone_meal"
+                        }
+                    },
+                    {
+                        "condition": "block_state_property",
+                        "block": "minecraft:flowering_azalea"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:mine/eat_glow_berries",
+    "requirements": [
+        ["azalea","flowering_azalea"]
+    ]
+}

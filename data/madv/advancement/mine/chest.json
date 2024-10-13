@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:chest"
+        },
+        "frame": "task",
+        "title": "物品存储",
+        "description": "制作一个箱子"
+    },
+    "criteria": {
+        "chest":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chest"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:mine/furnace"
+}

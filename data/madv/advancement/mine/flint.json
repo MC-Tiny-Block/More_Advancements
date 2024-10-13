@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:flint"
+        },
+        "frame": "task",
+        "title": "小心割伤！",
+        "description": "找到燧石"
+    },
+    "criteria": {
+        "flint":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:flint"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:mine/gravel"
+}

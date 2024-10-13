@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:golden_boots"
+        },
+        "frame": "challenge",
+        "title": "信仰之跃！",
+        "description": "从50格高的地方跳下来"
+    },
+    "criteria": {
+        "jump_off_50b":{
+            "trigger": "minecraft:fall_from_height",
+            "conditions": {
+                "distance": {
+                    "y": {
+                        "min": 50
+                    }
+                }
+            }
+        }
+    },
+    "parent": "minecraft:story/iron_tools"
+}

@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:amethyst_shard"
+        },
+        "frame": "task",
+        "title": "音乐水晶",
+        "description": "在紫晶洞里挖到紫水晶碎片"
+    },
+    "criteria": {
+        "amethyst_shard":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "amethyst_shard"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:mine/into_cave"
+}

@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:wooden_shovel"
+        },
+        "frame": "task",
+        "title": "整地时间到！",
+        "description": "制作一把木锹"
+    },
+    "criteria": {
+        "wooden_shovel":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:wooden_shovel"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:story/get_wooden_axe"
+}

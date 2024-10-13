@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:golden_pickaxe"
+        },
+        "frame": "task",
+        "title": "华而不实",
+        "description": "制作一把金镐"
+    },
+    "criteria": {
+        "golden_pickaxe":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_pickaxe"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:mine/gold_ingot"
+}

@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:spyglass"
+        },
+        "frame": "task",
+        "title": "凸透镜成像",
+        "description": "使用望远镜观察远处"
+    },
+    "criteria": {
+        "spyglass":{
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:spyglass"
+                }
+            }
+        }
+    },
+    "parent": "madv:mine/amethyst_shard"
+}

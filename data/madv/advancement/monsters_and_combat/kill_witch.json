@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:witch_spawn_egg"
+        },
+        "frame": "task",
+        "title": "魔法巫师",
+        "description": "击杀一个女巫"
+    },
+    "criteria": {
+        "witch":{
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:witch"
+                }
+            }
+        }
+    },
+    "parent": "madv:monsters_and_combat/kill_slime"
+}

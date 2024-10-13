@@ -1,0 +1,27 @@
+{
+    "display": {
+        "description": {"text":"Minecraft的主线已完成，但你的故事仍将继续……","color": "yellow"},
+        "title": {"color": "light_purple","text": "结束了……"},
+        "icon": {
+            "id": "minecraft:grass_block"
+        },
+        "frame": "goal"
+    },
+    "criteria": {
+    "killed_dragon": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:ender_dragon"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "parent": "minecraft:story/enter_the_end"
+}

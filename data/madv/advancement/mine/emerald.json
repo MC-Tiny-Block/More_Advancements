@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:emerald"
+        },
+        "frame": "task",
+        "title": "流通货币",
+        "description": "获得绿宝石"
+    },
+    "criteria": {
+        "emerald":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:emerald"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "minecraft:story/iron_tools"
+}

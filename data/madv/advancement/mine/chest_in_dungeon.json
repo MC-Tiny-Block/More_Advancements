@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:mossy_cobblestone"
+        },
+        "frame": "task",
+        "title": "Minecraft:地下城",
+        "description": "打开一个地牢的战利品箱"
+    },
+    "criteria": {
+        "dungeon":{
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/simple_dungeon"
+            }
+        }
+    },
+    "parent": "madv:mine/in_cobweb"
+}

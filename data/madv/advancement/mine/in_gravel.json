@@ -1,0 +1,31 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:gravel"
+        },
+        "frame": "task",
+        "title": "矿难事故",
+        "description": "被沙子或沙砾掩埋住"
+    },
+    "criteria": {
+        "in_gravel":{
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "location_check",
+                        "offsetY": 1,
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "sand","gravel"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:mine/gravel"
+}

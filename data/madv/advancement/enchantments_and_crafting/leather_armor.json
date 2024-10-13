@@ -1,0 +1,56 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:leather_chestplate"
+        },
+        "frame": "task",
+        "title": "厚实保暖",
+        "description": "制作任意一件皮革衣服"
+    },
+    "criteria": {
+        "leather_helmet":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_helmet"
+                    }
+                ]
+            }
+        },
+        "leather_chestplate":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_chestplate"
+                    }
+                ]
+            }
+        },
+        "leather_leggings":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_leggings"
+                    }
+                ]
+            }
+        },
+        "leather_boots":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leather_boots"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:enchantments_and_crafting/root",
+    "requirements": [
+        ["leather_boots","leather_chestplate","leather_helmet","leather_leggings"]
+    ]
+}

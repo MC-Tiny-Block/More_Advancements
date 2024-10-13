@@ -1,0 +1,32 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:diamond_block",
+            "components": {
+                "minecraft:enchantment_glint_override": true
+            }
+        },
+        "frame": "challenge",
+        "title": "我们之中出了个大人物！",
+        "description": "那个人是怎么挖到64个钻石块的？！"
+    },
+    "criteria": {
+        "diamond_block":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_block",
+                        "count": {
+                            "min": 64
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:mine/diamond_block",
+    "rewards": {
+        "experience": 1000
+    }
+}

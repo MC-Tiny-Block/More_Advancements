@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:iron_sword"
+        },
+        "frame": "task",
+        "title": "利刃出鞘",
+        "description": "使用铁剑攻击你的敌人"
+    },
+    "criteria": {
+        "iron_sword":{
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "player": {
+                    "slots": {
+                        "weapon.mainhand": {
+                            "items": "minecraft:iron_sword"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "parent": "madv:monsters_and_combat/root"
+}

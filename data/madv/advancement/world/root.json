@@ -1,0 +1,25 @@
+{
+    "criteria": {
+      "boat": {
+        "conditions": {
+          "items": [
+            {
+                "items": "#boats"
+            }
+          ]
+        },
+        "trigger": "minecraft:inventory_changed"
+      }
+    },
+    "display": {
+      "announce_to_chat": false,
+      "background": "textures/block/stripped_birch_log.png",
+      "description": "游历这个世界！",
+      "icon": {
+        "count": 1,
+        "id": "minecraft:oak_sapling"
+      },
+      "show_toast": false,
+      "title": "世界"
+    }
+}

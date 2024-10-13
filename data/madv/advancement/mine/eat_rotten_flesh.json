@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:rotten_flesh"
+        },
+        "frame": "task",
+        "title": "强大的胃",
+        "description": "吃腐肉充饥"
+    },
+    "criteria": {
+        "rotten_flesh":{
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "rotten_flesh"
+                }
+            }
+        }
+    },
+    "parent": "minecraft:story/upgrade_tools"
+}

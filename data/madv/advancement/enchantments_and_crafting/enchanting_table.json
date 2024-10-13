@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:enchanting_table"
+        },
+        "frame": "task",
+        "title": "注入魔力",
+        "description": "制作一个附魔台"
+    },
+    "criteria": {
+        "enchanting_table":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:enchanting_table"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:enchantments_and_crafting/book"
+}

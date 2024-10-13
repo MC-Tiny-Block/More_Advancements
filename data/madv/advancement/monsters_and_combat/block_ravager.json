@@ -1,0 +1,16 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:shield"
+        },
+        "frame": "task",
+        "title": "硬直状态",
+        "description": "用盾挡住劫掠兽的攻击并使其眩晕"
+    },
+    "criteria": {
+        "block_ravager":{
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "madv:monsters_and_combat/kill_enderman"
+}

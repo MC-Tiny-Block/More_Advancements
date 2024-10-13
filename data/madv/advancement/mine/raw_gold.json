@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:raw_gold"
+        },
+        "frame": "task",
+        "title": "是金子吗？",
+        "description": "挖到一块粗金"
+    },
+    "criteria": {
+        "raw_gold":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:raw_gold"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:mine/into_deep_place"
+}

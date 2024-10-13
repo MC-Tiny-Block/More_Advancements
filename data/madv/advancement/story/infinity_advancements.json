@@ -1,0 +1,32 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:player_head",
+            "components": {
+                "profile": {
+                    "id": [1292091154,-1922610007,-2144268250,1292510952]
+                }
+            }
+        },
+        "frame": "challenge",
+        "title": {
+            "text": "无限进度！（未完成）",
+            "bold": true,
+            "color": "light_purple"
+        },
+        "description": {
+            "text": "更多进度已经到此为止了！\n但Minecraft的无限可能还没有结束……",
+            "color": "gold"
+    }
+    },
+    "criteria": {
+        "all_the_advancements":{
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "madv:story/all_minecraft_advancements",
+    "rewards": {
+        "experience": 1000,
+        "function": "madv:rewards/infinity_advancements"
+    }
+}

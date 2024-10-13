@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:oak_log"
+        },
+        "frame": "task",
+        "title": "获得木头",
+        "description": "从树上砍下一块原木"
+    },
+    "criteria": {
+        "log":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "#minecraft:logs"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "minecraft:story/root"
+}

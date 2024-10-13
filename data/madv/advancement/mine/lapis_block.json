@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:lapis_block"
+        },
+        "frame": "task",
+        "title": "铺路石",
+        "description": "你觉得青金石块为什么被用来铺路呢？"
+    },
+    "criteria": {
+        "lapis_block":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:lapis_block"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:mine/lapis_lazuli"
+}

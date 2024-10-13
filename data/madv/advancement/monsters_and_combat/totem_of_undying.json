@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:totem_of_undying"
+        },
+        "frame": "goal",
+        "title": "免死金牌",
+        "description": "获得不死图腾"
+    },
+    "criteria": {
+        "skeleton":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:totem_of_undying"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:monsters_and_combat/kill_evoker"
+}

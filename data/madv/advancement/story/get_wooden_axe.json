@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:wooden_axe"
+        },
+        "frame": "task",
+        "title": "砍树时间到！",
+        "description": "制作一把木斧"
+    },
+    "criteria": {
+        "wooden_axe":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:wooden_axe"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:story/get_wooden_sword"
+}

@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:wooden_pickaxe"
+        },
+        "frame": "task",
+        "title": "该死，又坏掉了",
+        "description": "用坏一把工具"
+    },
+    "criteria": {
+        "destory_tools":{
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "durability": 0
+            }
+        }
+    },
+    "parent": "minecraft:story/upgrade_tools"
+}

@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:black_concrete"
+        },
+        "frame": "task",
+        "title": "堕入黑暗",
+        "description": "伸手不见五指"
+    },
+    "criteria": {
+        "into_darkness":{
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "light": {
+                            "light": 0
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "parent": "minecraft:story/smelt_iron"
+}

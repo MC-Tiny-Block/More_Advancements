@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:echo_shard"
+        },
+        "frame": "task",
+        "title": "深渊的回响",
+        "description": "获得回响碎片"
+    },
+    "criteria": {
+        "echo_shard":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:echo_shard"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:mine/to_ancient_city"
+}

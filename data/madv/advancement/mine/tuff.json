@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:tuff"
+        },
+        "frame": "task",
+        "title": "固实压缩",
+        "description": "挖取一块凝灰岩"
+    },
+    "criteria": {
+        "gold_ingot":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:tuff"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:mine/into_deep_place"
+}

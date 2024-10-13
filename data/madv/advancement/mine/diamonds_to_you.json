@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:diamond"
+        },
+        "frame": "task",
+        "title": "给你钻石！",
+        "description": "把钻石扔到别的玩家那儿"
+    },
+    "criteria": {
+        "diamond":{
+            "trigger": "minecraft:thrown_item_picked_up_by_entity",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:diamond"
+                },
+                "entity": {
+                    "distance": {
+                        "absolute": {
+                            "min": 0.0001
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "parent": "minecraft:story/mine_diamond"
+}

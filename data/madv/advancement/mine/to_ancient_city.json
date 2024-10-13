@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:reinforced_deepslate"
+        },
+        "frame": "task",
+        "title": "失落的地下废都",
+        "description": "进入远古城市"
+    },
+    "criteria": {
+        "ancient_city":{
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "minecraft:ancient_city"
+                    }
+                }
+            }
+        }
+    },
+    "parent": "minecraft:adventure/avoid_vibration"
+}

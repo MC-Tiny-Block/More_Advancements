@@ -1,0 +1,25 @@
+{
+    "criteria": {
+      "crafting_table": {
+        "conditions": {
+          "items": [
+            {
+                "items": "crafting_table"
+            }
+          ]
+        },
+        "trigger": "minecraft:inventory_changed"
+      }
+    },
+    "display": {
+      "announce_to_chat": false,
+      "background": "textures/block/polished_blackstone.png",
+      "description": "锻造物品，然后给他们附上魔咒！",
+      "icon": {
+        "count": 1,
+        "id": "minecraft:smithing_table"
+      },
+      "show_toast": false,
+      "title": "魔咒与工艺"
+    }
+}

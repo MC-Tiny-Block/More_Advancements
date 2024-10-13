@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:compass"
+        },
+        "frame": "task",
+        "title": "家的方向",
+        "description": "制作一个指南针来定位你的重生点"
+    },
+    "criteria": {
+        "compass":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:compass"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:mine/redstone"
+}

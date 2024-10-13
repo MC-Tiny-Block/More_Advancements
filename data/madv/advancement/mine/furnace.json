@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:furnace"
+        },
+        "frame": "task",
+        "title": "\"热\"门话题",
+        "description": "制作一个熔炉"
+    },
+    "criteria": {
+        "furnace":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:furnace"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "minecraft:story/upgrade_tools"
+}

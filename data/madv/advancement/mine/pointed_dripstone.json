@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:pointed_dripstone"
+        },
+        "frame": "task",
+        "title": "喀斯特地貌",
+        "description": "获得滴水石锥"
+    },
+    "criteria": {
+        "pointed_dripstone":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:pointed_dripstone"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:mine/into_cave"
+}

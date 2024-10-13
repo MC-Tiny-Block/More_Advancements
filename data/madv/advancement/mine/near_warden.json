@@ -1,0 +1,16 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:warden_spawn_egg"
+        },
+        "frame": "task",
+        "title": "我们有麻烦了……",
+        "description": "我们的动静太大了……"
+    },
+    "criteria": {
+        "near_warden":{
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "madv:mine/get_darkness"
+}

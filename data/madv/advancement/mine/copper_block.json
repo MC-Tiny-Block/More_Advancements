@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:copper_block"
+        },
+        "frame": "task",
+        "title": "bang!",
+        "description": "放置一个铜块"
+    },
+    "criteria": {
+        "copper_block":{
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "block_state_property",
+                        "block": "minecraft:copper_block"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:mine/copper_ingot"
+}

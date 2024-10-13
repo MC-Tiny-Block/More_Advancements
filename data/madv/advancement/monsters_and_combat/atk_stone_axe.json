@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:stone_axe"
+        },
+        "frame": "task",
+        "title": "维京人",
+        "description": "用你的斧头重重砸击敌人!"
+    },
+    "criteria": {
+        "stone_axe":{
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "player": {
+                    "slots": {
+                        "weapon.mainhand": {
+                            "items": "#minecraft:axes"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "parent": "madv:monsters_and_combat/atk_netherite_sword"
+}

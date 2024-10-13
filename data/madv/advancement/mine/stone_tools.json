@@ -1,0 +1,53 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:stone_shovel"
+        },
+        "frame": "task",
+        "title": "石质工具包",
+        "description": "制作石镐、石斧、石锹和石锄"
+    },
+    "criteria": {
+        "stone_pickaxe":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_pickaxe"
+                    }
+                ]
+            }
+        },
+        "stone_axe":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_axe"
+                    }
+                ]
+            }
+        },
+        "stone_shovel":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_shovel"
+                    }
+                ]
+            }
+        },
+        "stone_hoe":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:stone_hoe"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "minecraft:story/upgrade_tools"
+}

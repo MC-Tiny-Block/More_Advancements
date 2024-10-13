@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:filled_map",
+            "components": {
+                        "minecraft:map_color": 12741452
+                    }
+        },
+        "frame": "task",
+        "title": "远征之路",
+        "description": "在制图师那里交易到试炼探险家地图"
+    },
+    "criteria": {
+        "creeper":{
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "components": {
+                        "minecraft:map_color": 12741452
+                    }
+                }
+            }
+        }
+    },
+    "parent": "madv:temp/root"
+}

@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:crafting_table"
+        },
+        "frame": "task",
+        "title": "这是？工作台！",
+        "description": "用4个木板来制作一个工作台"
+    },
+    "criteria": {
+        "crafting_table":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:crafting_table"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:story/get_wood"
+}

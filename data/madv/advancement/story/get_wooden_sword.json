@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:wooden_sword"
+        },
+        "frame": "task",
+        "title": "出击时间到！",
+        "description": "制作一把木剑"
+    },
+    "criteria": {
+        "wooden_sword":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:wooden_sword"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:story/get_wooden_pickaxe"
+}

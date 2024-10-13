@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:gold_block"
+        },
+        "frame": "task",
+        "title": "金砖",
+        "description": "制作一个金块"
+    },
+    "criteria": {
+        "gold_block":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:gold_block"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:mine/gold_ingot"
+}

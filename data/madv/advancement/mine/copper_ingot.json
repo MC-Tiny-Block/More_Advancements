@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:copper_ingot"
+        },
+        "frame": "task",
+        "title": "优质导体",
+        "description": "冶炼出一块铜锭"
+    },
+    "criteria": {
+        "copper_ingot":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:copper_ingot"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:mine/raw_copper"
+}

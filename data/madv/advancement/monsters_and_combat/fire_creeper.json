@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:flint_and_steel"
+        },
+        "frame": "task",
+        "title": "手动引爆",
+        "description": "引爆一只苦力怕"
+    },
+    "criteria": {
+        "creeper":{
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:creeper"
+                },
+                "item": {
+                    "items": "minecraft:flint_and_steel"
+                }
+            }
+        }
+    },
+    "parent": "madv:monsters_and_combat/kill_creeper"
+}

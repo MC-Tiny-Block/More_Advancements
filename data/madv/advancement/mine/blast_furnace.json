@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:blast_furnace"
+        },
+        "frame": "goal",
+        "title": "专一优化",
+        "description": "制作一个高炉"
+    },
+    "criteria": {
+        "blast_furnace":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:blast_furnace"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "minecraft:story/smelt_iron"
+}

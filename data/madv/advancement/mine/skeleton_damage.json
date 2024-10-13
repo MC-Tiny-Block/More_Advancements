@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:skeleton_spawn_egg"
+        },
+        "frame": "task",
+        "title": "谁™偷袭我",
+        "description": "骷髅找到了你！"
+    },
+    "criteria": {
+        "skeleton":{
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity": {
+                        "type": "minecraft:skeleton"
+                    }
+                }
+            }
+        }
+    },
+    "parent": "madv:mine/into_darkness"
+}

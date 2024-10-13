@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:netherite_block"
+        },
+        "frame": "challenge",
+        "title": "史上最炫方块！",
+        "description": "下界合金块！炫死我了"
+    },
+    "criteria": {
+        "netherite_block":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_block"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:mine/netherite_ingot",
+    "rewards": {
+        "experience": 1000
+    }
+}

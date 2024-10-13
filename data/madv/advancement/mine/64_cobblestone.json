@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:cobblestone"
+        },
+        "frame": "goal",
+        "title": "采石工",
+        "description": "挖取64个圆石"
+    },
+    "criteria": {
+        "cobblestone":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:cobblestone",
+                        "count": {
+                            "min": 64
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "minecraft:story/mine_stone"
+}

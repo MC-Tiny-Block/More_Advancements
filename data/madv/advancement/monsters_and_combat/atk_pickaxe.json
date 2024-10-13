@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:stone_pickaxe"
+        },
+        "frame": "task",
+        "title": "镐击！",
+        "description": "也不是不能用，虽然伤害有点低……"
+    },
+    "criteria": {
+        "pickaxe_attack":{
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "player": {
+                    "slots": {
+                        "weapon.mainhand": {
+                            "items": "#minecraft:pickaxes"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "parent": "madv:monsters_and_combat/root"
+}

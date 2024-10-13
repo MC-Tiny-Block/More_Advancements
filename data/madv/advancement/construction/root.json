@@ -1,0 +1,26 @@
+{
+    "criteria": {
+      "oak_planks": {
+        "conditions": {
+          "location": [
+            {
+                "condition": "block_state_property",
+                "block": "minecraft:oak_planks"
+            }
+          ]
+        },
+        "trigger": "minecraft:placed_block"
+      }
+    },
+    "display": {
+      "announce_to_chat": false,
+      "background": "textures/block/oak_planks.png",
+      "description": "发挥你的创造力",
+      "icon": {
+        "count": 1,
+        "id": "minecraft:oak_planks"
+      },
+      "show_toast": false,
+      "title": "建筑"
+    }
+}

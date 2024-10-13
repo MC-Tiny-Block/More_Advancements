@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:cobbled_deepslate"
+        },
+        "frame": "task",
+        "title": "新岩层",
+        "description": "挖取一块深板岩圆石"
+    },
+    "criteria": {
+        "cobbled_deepslate":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:cobbled_deepslate"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:mine/into_deep_place"
+}

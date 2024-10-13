@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:gravel"
+        },
+        "frame": "task",
+        "title": "\"碎\"石",
+        "description": "挖到一块沙砾"
+    },
+    "criteria": {
+        "gravel":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:gravel"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "minecraft:story/mine_stone"
+}

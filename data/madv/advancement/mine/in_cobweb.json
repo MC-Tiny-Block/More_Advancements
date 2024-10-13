@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:cobweb"
+        },
+        "frame": "task",
+        "title": "前方限速！",
+        "description": "陷入蜘蛛网"
+    },
+    "criteria": {
+        "in_cobweb":{
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "minecraft:cobweb"
+            }
+        }
+    },
+    "parent": "madv:mine/to_mineshaft"
+}

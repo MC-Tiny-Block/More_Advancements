@@ -1,0 +1,21 @@
+{
+    "criteria": {
+      "kill_mob": {
+        "conditions": {
+          "entity": {}
+        },
+        "trigger": "minecraft:player_killed_entity"
+      }
+    },
+    "display": {
+      "announce_to_chat": false,
+      "background": "textures/block/mossy_stone_bricks.png",
+      "description": "了解并除掉你的敌人，与朋友并肩作战",
+      "icon": {
+        "count": 1,
+        "id": "minecraft:netherite_sword"
+      },
+      "show_toast": false,
+      "title": "怪物与战斗"
+    }
+}
