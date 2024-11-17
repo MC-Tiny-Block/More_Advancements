@@ -513,7 +513,8 @@
         "count": 1,
         "id": "minecraft:sculk_catalyst"
       },
-      "title": "滋养幽匿"
+      "title": "滋养幽匿",
+      "hidden": true
     },
     "rewards": {
       "experience": 500

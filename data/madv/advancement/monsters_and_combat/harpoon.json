@@ -1,0 +1,35 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:cod"
+        },
+        "frame": "task",
+        "title": "鱼叉？",
+        "description": "使用带穿刺魔咒的三叉戟近战攻击水生生物"
+    },
+    "criteria": {
+        "trident":{
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "player": {
+                    "slots": {
+                        "weapon.mainhand": {
+                            "items": "minecraft:trident",
+                            "predicates": {
+                                "enchantments": [
+                                    {
+                                        "enchantments": "impaling"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "entity": {
+                    "type": "#aquatic"
+                }
+            }
+        }
+    },
+    "parent": "minecraft:adventure/throw_trident"
+}
