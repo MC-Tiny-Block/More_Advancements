@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:zombified_piglin_spawn_egg"
+        },
+        "frame": "task",
+        "title": "千军万马，常伴吾身",
+        "description": "攻击一只僵尸猪灵"
+    },
+    "criteria": {
+        "zombified_piglin":{
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "zombified_piglin"
+                }
+            }
+        }
+    },
+    "parent": "madv:monsters_and_combat/kill_enderman"
+}

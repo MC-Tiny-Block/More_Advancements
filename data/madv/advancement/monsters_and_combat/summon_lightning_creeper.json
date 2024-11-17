@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:trident"
+        },
+        "frame": "goal",
+        "title": "闪电充能",
+        "description": "雷击一只苦力怕"
+    },
+    "criteria": {
+        "creeper":{
+            "trigger": "minecraft:channeled_lightning",
+            "conditions": {
+                "victims": [
+                    {
+                        "type": "creeper"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "minecraft:adventure/very_very_frightening"
+}

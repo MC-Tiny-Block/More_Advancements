@@ -1,18 +1,19 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:flint_and_steel"
+            "id":"minecraft:tnt"
         },
         "frame": "task",
-        "title": "手动引爆",
-        "description": "引爆一只苦力怕"
+        "title": "快——逃——",
+        "description": "引燃一只闪电苦力怕"
     },
     "criteria": {
-        "creeper":{
+        "lightning_creeper":{
             "trigger": "minecraft:player_interacted_with_entity",
             "conditions": {
                 "entity": {
-                    "type": "minecraft:creeper"
+                    "type": "creeper",
+                    "nbt": "{'powered': true}"
                 },
                 "item": {
                     "items": "#creeper_igniters"
@@ -20,5 +21,5 @@
             }
         }
     },
-    "parent": "madv:monsters_and_combat/kill_creeper"
+    "parent": "madv:monsters_and_combat/summon_lightning_creeper"
 }

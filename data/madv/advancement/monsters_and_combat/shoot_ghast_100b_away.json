@@ -1,0 +1,37 @@
+{
+    "display": {
+        "icon": {
+            "id": "arrow",
+            "components": {
+                "enchantment_glint_override": true
+            }
+        },
+        "title": "幕后黑手",
+        "description": "在100格外射杀一只恶魂",
+        "frame": "challenge"
+    },
+    "criteria": {
+        "ghast":{
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "distance": {
+                        "absolute": {
+                            "min": 100
+                        }
+                    },
+                    "type": "ghast"
+                },
+                "killing_blow": {
+                    "direct_entity": {
+                        "type": "arrow"
+                    }
+                }
+            }
+        }
+    },
+    "parent": "minecraft:adventure/sniper_duel",
+    "rewards": {
+        "experience": 1000
+    }
+}

@@ -17,5 +17,5 @@
             }
         }
     },
-    "parent": "madv:monsters_and_combat/kill_enderman"
+    "parent": "madv:monsters_and_combat/kill_evoker"
 }

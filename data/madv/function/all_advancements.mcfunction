@@ -161,3 +161,9 @@
         advancement grant @s only madv:monsters_and_combat/block_ravager
         advancement grant @s only madv:monsters_and_combat/kill_ravager
         advancement grant @s only madv:monsters_and_combat/totem_of_undying
+        advancement grant @s only madv:monsters_and_combat/shoot_ghast_100b_away
+        advancement grant @s only madv:monsters_and_combat/summon_lightning_creeper
+        advancement grant @s only madv:monsters_and_combat/fire_lighting_creeper
+        advancement grant @s only madv:monsters_and_combat/many_zombified_piglins
+        advancement grant @s only madv:monsters_and_combat/atk_mace
+        advancement grant @s only madv:monsters_and_combat/mace_smash
