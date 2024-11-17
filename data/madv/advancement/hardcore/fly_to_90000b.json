@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:elytra"
+        },
+        "frame": "challenge",
+        "title": "扶摇直上九万里",
+        "description": "\"太空电梯\"\n飞到y=90000以上"
+    },
+    "criteria": {
+        "10000b":{
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "position": {
+                            "y": {
+                                "min": 90000
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "parent": "madv:hardcore/root",
+    "rewards": {
+        "experience": 200
+    }
+}

@@ -8,7 +8,7 @@
         },
         "frame": "task",
         "title": "亡灵猎人",
-        "description": "使用只带有亡灵杀手V附魔的斧攻击敌人"
+        "description": "使用带有亡灵杀手V附魔的斧攻击敌人"
     },
     "criteria": {
         "smite_axe_attack":{
@@ -18,10 +18,13 @@
                     "slots": {
                         "weapon.mainhand": {
                             "items": "#minecraft:axes",
-                            "components": {
-                                "minecraft:enchantments": {
-                                    "minecraft:smite": 5
-                                }
+                            "predicates": {
+                                "enchantments": [
+                                    {
+                                        "enchantments": "smite",
+                                        "levels": 5
+                                    }
+                                ]
                             }
                         }
                     }

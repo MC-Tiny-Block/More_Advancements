@@ -20,6 +20,14 @@
                             "items": "minecraft:air"
                         }
                     }
+                },
+                "killing_blow": {
+                    "tags": [
+                        {
+                            "expected": true,
+                            "id": "is_player_attack"
+                        }
+                    ]
                 }
             }
         }

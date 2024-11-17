@@ -139,6 +139,11 @@
         advancement grant @s only madv:construction/root
 
     #Beta 1.1
+
+        #采掘
+
+        advancement grant @s only madv:mine/kill_all_monsters_near_sculk_catalyst
+
         #怪物与战斗
 
         advancement grant @s only madv:monsters_and_combat/use_bow
@@ -167,3 +172,11 @@
         advancement grant @s only madv:monsters_and_combat/many_zombified_piglins
         advancement grant @s only madv:monsters_and_combat/atk_mace
         advancement grant @s only madv:monsters_and_combat/mace_smash
+        advancement grant @s only madv:monsters_and_combat/hurted_by_ghast
+        advancement grant @s only madv:monsters_and_combat/kill_ender_dragon_by_mace
+        advancement grant @s only madv:monsters_and_combat/wind_brust
+        advancement grant @s only madv:monsters_and_combat/shoot_ghast
+
+        #硬核挑战
+
+        advancement grant @s only madv:hardcore/fly_to_90000b

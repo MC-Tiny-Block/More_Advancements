@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:fire_charge"
+        },
+        "frame": "task",
+        "title": "空袭警告！",
+        "description": "被恶魂的火球炸伤"
+    },
+    "criteria": {
+        "hurted_by_ghast":{
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity": {
+                        "type": "minecraft:ghast"
+                    }
+                }
+            }
+        }
+    },
+    "parent": "madv:monsters_and_combat/many_zombified_piglins"
+}

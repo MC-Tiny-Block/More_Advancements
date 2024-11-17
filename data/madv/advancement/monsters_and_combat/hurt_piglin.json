@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:piglin_head"
+        },
+        "frame": "task",
+        "title": "猪灵之战",
+        "description": "攻击猪灵"
+    },
+    "criteria": {
+        "piglin":{
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:piglin"
+                }
+            }
+        }
+    },
+    "parent": "madv:monsters_and_combat/shoot_ghast"
+}

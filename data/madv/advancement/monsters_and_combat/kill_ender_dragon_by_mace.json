@@ -3,12 +3,12 @@
         "icon": {
             "id":"minecraft:mace"
         },
-        "frame": "goal",
-        "title": "重力势能",
-        "description": "从高处坠落并用重锤粉碎敌人生还的梦(造成至少20点伤害)"
+        "frame": "challenge",
+        "title": "让震天动地的声音响彻末地！",
+        "description": "用重锤一击终结末影龙"
     },
     "criteria": {
-        "mace":{
+        "ender_dragon":{
             "trigger": "minecraft:player_hurt_entity",
             "conditions": {
                 "damage": {
@@ -29,11 +29,18 @@
                         ]
                     },
                     "dealt": {
-                        "min": 20
+                        "min": 200
                     }
+                },
+                "entity": {
+                    "type": "ender_dragon"
                 }
             }
         }
     },
-    "parent": "madv:monsters_and_combat/atk_mace"
+    "parent": "minecraft:adventure/overoverkill",
+    "rewards": {
+        "experience": 1000,
+        "function": "madv:rewards/kill_ender_dragon_by_mace"
+    }
 }

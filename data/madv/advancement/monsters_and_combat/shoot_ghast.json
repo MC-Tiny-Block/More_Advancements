@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "id": "ghast_spawn_egg"
+        },
+        "title": "气球射击",
+        "description": "用箭射击恶魂",
+        "frame": "task"
+    },
+    "criteria": {
+        "ghast":{
+            "trigger": "killed_by_arrow",
+            "conditions": {
+                "victims": [
+                    {
+                        "type": "ghast"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:monsters_and_combat/hurted_by_ghast",
+    "rewards": {
+        "experience": 1000
+    }
+}

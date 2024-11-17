@@ -1,0 +1,45 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:wind_charge"
+        },
+        "frame": "task",
+        "title": "旋风之力",
+        "description": "用带风爆附魔的重锤砸击生物(至少造成20点伤害)"
+    },
+    "criteria": {
+        "crossbow":{
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "dealt": {
+                        "min": 20
+                    },
+                    "type": {
+                        "tags": [
+                            {
+                                "id": "is_player_attack",
+                                "expected": true
+                            }
+                        ]
+                    }
+                },
+                "player": {
+                    "slots": {
+                        "weapon.mainhand": {
+                            "items": "mace",
+                            "predicates": {
+                                "enchantments": [
+                                    {
+                                        "enchantments": "wind_burst"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "parent": "madv:monsters_and_combat/mace_smash"
+}

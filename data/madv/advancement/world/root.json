@@ -2,13 +2,16 @@
     "criteria": {
       "boat": {
         "conditions": {
-          "items": [
-            {
-                "items": "#boats"
+          "player": {
+            "type_specific": {
+              "type": "player",
+              "advancements": {
+                "madv:story/get_wooden_sword": true
+              }
             }
-          ]
+          }
         },
-        "trigger": "minecraft:inventory_changed"
+        "trigger": "minecraft:tick"
       }
     },
     "display": {

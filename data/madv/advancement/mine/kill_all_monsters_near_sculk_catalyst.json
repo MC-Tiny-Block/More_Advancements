@@ -1,0 +1,521 @@
+{
+    "parent": "minecraft:adventure/kill_mob_near_sculk_catalyst",
+    "criteria": {
+      "minecraft:blaze": {
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:blaze"
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+      },
+      "minecraft:bogged": {
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:bogged"
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+      },
+      "minecraft:breeze": {
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:breeze"
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+      },
+      "minecraft:cave_spider": {
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:cave_spider"
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+      },
+      "minecraft:creeper": {
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:creeper"
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+      },
+      "minecraft:drowned": {
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:drowned"
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+      },
+      "minecraft:elder_guardian": {
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:elder_guardian"
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+      },
+      "minecraft:ender_dragon": {
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:ender_dragon"
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+      },
+      "minecraft:enderman": {
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:enderman"
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+      },
+      "minecraft:endermite": {
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:endermite"
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+      },
+      "minecraft:evoker": {
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:evoker"
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+      },
+      "minecraft:ghast": {
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:ghast"
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+      },
+      "minecraft:guardian": {
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:guardian"
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+      },
+      "minecraft:hoglin": {
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:hoglin"
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+      },
+      "minecraft:husk": {
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:husk"
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+      },
+      "minecraft:magma_cube": {
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:magma_cube"
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+      },
+      "minecraft:phantom": {
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:phantom"
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+      },
+      "minecraft:piglin": {
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:piglin"
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+      },
+      "minecraft:piglin_brute": {
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:piglin_brute"
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+      },
+      "minecraft:pillager": {
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:pillager"
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+      },
+      "minecraft:ravager": {
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:ravager"
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+      },
+      "minecraft:shulker": {
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:shulker"
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+      },
+      "minecraft:silverfish": {
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:silverfish"
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+      },
+      "minecraft:skeleton": {
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:skeleton"
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+      },
+      "minecraft:slime": {
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:slime"
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+      },
+      "minecraft:spider": {
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:spider"
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+      },
+      "minecraft:stray": {
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:stray"
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+      },
+      "minecraft:vex": {
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:vex"
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+      },
+      "minecraft:vindicator": {
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:vindicator"
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+      },
+      "minecraft:witch": {
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:witch"
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+      },
+      "minecraft:wither": {
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:wither"
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+      },
+      "minecraft:wither_skeleton": {
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:wither_skeleton"
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+      },
+      "minecraft:zoglin": {
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:zoglin"
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+      },
+      "minecraft:zombie": {
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:zombie"
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+      },
+      "minecraft:zombie_villager": {
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:zombie_villager"
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+      },
+      "minecraft:zombified_piglin": {
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:zombified_piglin"
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+      }
+    },
+    "display": {
+      "description": "在幽匿催发体旁边击杀所有种类的敌对生物",
+      "frame": "challenge",
+      "icon": {
+        "count": 1,
+        "id": "minecraft:sculk_catalyst"
+      },
+      "title": "滋养幽匿"
+    },
+    "rewards": {
+      "experience": 500
+    }
+  }

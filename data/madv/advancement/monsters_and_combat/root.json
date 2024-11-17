@@ -1,10 +1,17 @@
 {
     "criteria": {
-      "kill_mob": {
+      "wooden_sword": {
         "conditions": {
-          "entity": {}
+          "player": {
+            "type_specific": {
+              "type": "player",
+              "advancements": {
+                "madv:story/get_wooden_sword": true
+              }
+            }
+          }
         },
-        "trigger": "minecraft:player_killed_entity"
+        "trigger": "minecraft:tick"
       }
     },
     "display": {

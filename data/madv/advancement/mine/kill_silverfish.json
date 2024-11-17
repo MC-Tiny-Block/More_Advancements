@@ -9,7 +9,7 @@
     },
     "criteria": {
         "silverfish":{
-            "trigger": "minecraft:player_killed_entity",
+            "trigger": "minecraft:kill_mob_near_sculk_catalyst",
             "conditions": {
                 "entity": {
                     "type": "silverfish"
