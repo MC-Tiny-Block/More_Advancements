@@ -4,8 +4,14 @@
             "id":"minecraft:echo_shard"
         },
         "frame": "task",
-        "title": "深渊的回响",
-        "description": "获得回响碎片"
+        "title": {
+            "fallback": "深渊的回响",
+            "translate": "echo_shard.title"
+        },
+        "description": {
+            "fallback": "获得回响碎片",
+            "translate": "echo_shard.description"
+        }
     },
     "criteria": {
         "echo_shard":{

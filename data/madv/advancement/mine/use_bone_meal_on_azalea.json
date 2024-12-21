@@ -4,8 +4,14 @@
             "id":"minecraft:azalea"
         },
         "frame": "task",
-        "title": "地下的木头",
-        "description": "对杜鹃花丛使用骨粉"
+        "title": {
+            "fallback": "矿工的大救星！",
+            "translate": "use_bone_meal_on_azalea.title"
+        },
+        "description": {
+            "fallback": "对杜鹃花丛使用骨粉",
+            "translate": "use_bone_meal_on_azalea.description"
+        }
     },
     "criteria": {
         "azalea":{

@@ -4,8 +4,14 @@
             "id":"minecraft:copper_block"
         },
         "frame": "task",
-        "title": "bang!",
-        "description": "放置一个铜块"
+        "title": {
+            "fallback": "梆！",
+            "translate": "copper_block.title"
+        },
+        "description": {
+            "fallback": "放置一个铜块",
+            "translate": "copper_block.description"
+        }
     },
     "criteria": {
         "copper_block":{

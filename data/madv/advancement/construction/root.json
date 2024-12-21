@@ -15,12 +15,18 @@
     "display": {
       "announce_to_chat": false,
       "background": "textures/block/oak_planks.png",
-      "description": "发挥你的创造力",
+      "description": {
+        "translate": "construction_root.description",
+        "fallback": "发挥你的创造力！"
+      },
       "icon": {
         "count": 1,
         "id": "minecraft:oak_planks"
       },
       "show_toast": false,
-      "title": "建筑"
+      "title": {
+        "translate": "construction_root.title",
+        "fallback": "建筑"
+      }
     }
 }

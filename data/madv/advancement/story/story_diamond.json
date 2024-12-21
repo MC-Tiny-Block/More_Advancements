@@ -4,8 +4,14 @@
             "id":"minecraft:diamond"
         },
         "frame": "goal",
-        "title": "钻石",
-        "description": "获得钻石",
+        "title": {
+            "fallback": "钻石",
+            "translate": "story_diamond.title"
+        },
+        "description": {
+            "fallback": "获得钻石",
+            "translate": "story_diamond.description"
+        },
         "show_toast": false,
         "announce_to_chat": false
     },
@@ -21,5 +27,5 @@
             }
         }
     },
-    "parent": "madv:story/get_woodena_hoe"
+    "parent": "madv:story/get_wooden_hoe"
 }

@@ -4,8 +4,14 @@
             "id":"minecraft:recovery_compass"
         },
         "frame": "goal",
-        "title": "追溯死亡的回响",
-        "description": "制作追溯指针"
+        "title": {
+            "fallback": "追溯死亡的回响",
+            "translate": "recovery_compass.title"
+        },
+        "description": {
+            "fallback": "制作追溯指针",
+            "translate": "recovery_compass.description"
+        }
     },
     "criteria": {
         "recovery_compass":{

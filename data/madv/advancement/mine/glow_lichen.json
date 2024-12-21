@@ -4,8 +4,14 @@
             "id":"minecraft:glow_lichen"
         },
         "frame": "task",
-        "title": "钻石？",
-        "description": "那只是个发光地衣"
+        "title": {
+            "fallback": "钻石？",
+            "translate": "glow_lichen.title"
+        },
+        "description": {
+            "fallback": "那只是个发光地衣",
+            "translate": "glow_lichen.description"
+        }
     },
     "criteria": {
         "glow_lichen":{

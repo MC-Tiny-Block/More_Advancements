@@ -4,8 +4,14 @@
             "id":"minecraft:coal_block"
         },
         "frame": "task",
-        "title": "充分燃烧",
-        "description": "将9个煤炭合成为煤炭块，让火烧得更猛烈些吧！"
+        "title": {
+            "fallback": "充分燃烧",
+            "translate": "coal_block.title"
+        },
+        "description": {
+            "fallback": "将9个煤炭合成为煤炭块，让火烧得更猛烈些吧！",
+            "translate": "coal_block.description"
+        }
     },
     "criteria": {
         "coal_block":{

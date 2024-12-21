@@ -1,0 +1,53 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:pale_oak_log"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "宁静之园？",
+            "translate": "to_pale_garden.title"
+        },
+        "description": {
+            "fallback": "在白天到达苍白之园",
+            "translate": "to_pale_garden.description"
+        },
+        "hidden": true 
+    },
+    "criteria": {
+        "pale_garden":{
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "all_of",
+                        "terms": [
+                            {
+                                "condition": "inverted",
+                                "term":                             {
+                                    "condition": "time_check",
+                                    "value": {
+                                        "min": 13800,
+                                        "max": 22200
+                                    },
+                                    "period": 24000
+                                }
+                            },
+                            {
+                                "condition": "weather_check",
+                                "thundering": false
+                            }
+                        ]
+                    },
+                    {
+                        "condition": "location_check",
+                        "predicate": {
+                            "biomes": "pale_garden"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:monsters_and_combat/kill_enderman"
+}

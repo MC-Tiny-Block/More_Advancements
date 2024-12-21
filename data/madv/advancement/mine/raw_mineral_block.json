@@ -4,8 +4,14 @@
             "id":"minecraft:raw_iron_block"
         },
         "frame": "task",
-        "title": "育碧服务器",
-        "description": "制作粗铁块，粗铜块，粗金块"
+        "title": {
+            "fallback": "育碧服务器",
+            "translate": "raw_mineral_block.title"
+        },
+        "description": {
+            "fallback": "制作粗铁块，粗铜块，粗金块",
+            "translate": "raw_mineral_block.description"
+        }
     },
     "criteria": {
         "raw_iron_block":{

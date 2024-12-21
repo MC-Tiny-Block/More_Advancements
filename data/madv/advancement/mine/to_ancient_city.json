@@ -4,8 +4,14 @@
             "id":"minecraft:reinforced_deepslate"
         },
         "frame": "task",
-        "title": "失落的地下废都",
-        "description": "进入远古城市"
+        "title": {
+            "fallback": "失落的地下废都",
+            "translate": "to_ancient_city.title"
+        },
+        "description": {
+            "fallback": "进入远古城市",
+            "translate": "to_ancient_city.description"
+        }
     },
     "criteria": {
         "ancient_city":{

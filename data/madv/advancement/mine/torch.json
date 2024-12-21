@@ -4,8 +4,14 @@
             "id":"minecraft:torch"
         },
         "frame": "task",
-        "title": "照亮前方",
-        "description": "合成一些火把"
+        "title": {
+            "fallback": "照亮前方",
+            "translate": "torch.title"
+        },
+        "description": {
+            "fallback": "合成一些火把",
+            "translate": "torch.description"
+        }
     },
     "criteria": {
         "torch":{

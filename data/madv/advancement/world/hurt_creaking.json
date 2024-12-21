@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:creaking_spawn_egg"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "将心比心",
+            "translate": "hurt_creaking.title"
+        },
+        "description": {
+            "fallback": "嘎枝：“不吃这套，谢谢”",
+            "translate": "hurt_creaking.description"
+        },
+        "hidden": true
+    },
+    "criteria": {
+        "creaking":{
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "madv:world/near_creaking"
+}

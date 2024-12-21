@@ -4,8 +4,14 @@
             "id":"minecraft:netherite_scrap"
         },
         "frame": "goal",
-        "title": "真“金”不怕火炼",
-        "description": "这玩意不怕熔岩？？？"
+        "title": {
+            "fallback": "真“金”不怕火炼",
+            "translate": "throw_netherite_item.title"
+        },
+        "description": {
+            "fallback": "这玩意不怕熔岩？？？",
+            "translate": "throw_netherite_item.description"
+        }
     },
     "criteria": {
         "throw_netherite_item":{

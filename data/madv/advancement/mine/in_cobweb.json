@@ -4,8 +4,14 @@
             "id":"minecraft:cobweb"
         },
         "frame": "task",
-        "title": "前方限速！",
-        "description": "陷入蜘蛛网"
+        "title": {
+            "fallback": "前方限速！",
+            "translate": "in_cobweb.title"
+        },
+        "description": {
+            "fallback": "陷入蜘蛛网",
+            "translate": "in_cobweb.description"
+        }
     },
     "criteria": {
         "in_cobweb":{

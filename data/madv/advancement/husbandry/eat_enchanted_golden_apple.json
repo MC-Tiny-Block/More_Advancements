@@ -4,8 +4,14 @@
             "id":"minecraft:enchanted_golden_apple"
         },
         "frame": "challenge",
-        "title": "君临天下",
-        "description": "吃一个附魔金苹果，感受自己的强大"
+        "title": {
+            "fallback": "君临天下",
+            "translate": "eat_enchanted_golden_apple.title"
+        },
+        "description": {
+            "fallback": "吃一个附魔金苹果，感受自己的强大",
+            "translate": "eat_enchanted_golden_apple.description"
+        }
     },
     "criteria": {
         "enchanted_golden_apple":{

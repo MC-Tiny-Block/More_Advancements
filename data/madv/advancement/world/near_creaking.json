@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:pale_oak_sapling"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "潜然而生",
+            "translate": "near_creaking.title"
+        },
+        "description": {
+            "fallback": "有什么东西……",
+            "translate": "near_creaking.description"
+        },
+        "hidden": true
+    },
+    "criteria": {
+        "creaking":{
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "madv:world/in_pale_garden_at_night"
+}

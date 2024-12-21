@@ -22,5 +22,5 @@
             }
         }
     },
-    "parent": "madv:temp/root"
+    "parent": "madv:monsters_and_combat/root"
 }

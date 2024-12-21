@@ -4,8 +4,14 @@
             "id":"minecraft:glow_berries"
         },
         "frame": "task",
-        "title": "矿工浆果",
-        "description": "吃掉一个发光浆果"
+        "title": {
+            "fallback": "矿工浆果",
+            "translate": "eat_glow_berries.title"
+        },
+        "description": {
+            "fallback": "吃掉一个发光浆果",
+            "translate": "eat_glow_berries.description"
+        }
     },
     "criteria": {
         "glow_berries":{

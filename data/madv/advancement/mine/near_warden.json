@@ -4,8 +4,14 @@
             "id":"minecraft:warden_spawn_egg"
         },
         "frame": "task",
-        "title": "我们有麻烦了……",
-        "description": "我们的动静太大了……"
+        "title": {
+            "fallback": "我们有麻烦了……",
+            "translate": "near_warden.title"
+        },
+        "description": {
+            "fallback": "我们的动静太大了……",
+            "translate": "near_warden.description"
+        }
     },
     "criteria": {
         "near_warden":{

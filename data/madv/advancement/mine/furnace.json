@@ -4,8 +4,14 @@
             "id":"minecraft:furnace"
         },
         "frame": "task",
-        "title": "\"热\"门话题",
-        "description": "制作一个熔炉"
+        "title": {
+            "fallback": "“热”门话题",
+            "translate": "furnace.title"
+        },
+        "description": {
+            "fallback": "制作一个熔炉",
+            "translate": "furnace.description"
+        }
     },
     "criteria": {
         "furnace":{

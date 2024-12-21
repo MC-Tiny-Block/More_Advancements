@@ -4,8 +4,14 @@
             "id":"minecraft:netherrack"
         },
         "frame": "goal",
-        "title": "下界矿工",
-        "description": "挖掘至下界y小于或等于15的高度"
+        "title": {
+            "fallback": "下界矿工",
+            "translate": "into_deep_nether.title"
+        },
+        "description": {
+            "fallback": "挖掘至下界y小于等于15的高度",
+            "translate": "into_deep_nether.description"
+        }
     },
     "criteria": {
         "deep_nether":{

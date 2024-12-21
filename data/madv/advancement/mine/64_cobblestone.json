@@ -4,8 +4,14 @@
             "id":"minecraft:cobblestone"
         },
         "frame": "goal",
-        "title": "采石工",
-        "description": "挖取64个圆石"
+        "title": {
+            "fallback": "采石工",
+            "translate": "64_cobblestone.title"
+        },
+        "description": {
+            "fallback": "挖取64个圆石",
+            "translate": "64_cobblestone.description"
+        }
     },
     "criteria": {
         "cobblestone":{

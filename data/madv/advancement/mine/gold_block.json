@@ -4,8 +4,14 @@
             "id":"minecraft:gold_block"
         },
         "frame": "task",
-        "title": "金砖",
-        "description": "制作一个金块"
+        "title": {
+            "fallback": "金砖",
+            "translate": "gold_block.title"
+        },
+        "description": {
+            "fallback": "制作一个金块",
+            "translate": "gold_block.description"
+        }
     },
     "criteria": {
         "gold_block":{

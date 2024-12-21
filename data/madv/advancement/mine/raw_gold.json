@@ -4,8 +4,14 @@
             "id":"minecraft:raw_gold"
         },
         "frame": "task",
-        "title": "是金子吗？",
-        "description": "挖到一块粗金"
+        "title": {
+            "fallback": "是金子吗？",
+            "translate": "raw_gold.title"
+        },
+        "description": {
+            "fallback": "挖到一块粗金",
+            "translate": "raw_gold.description"
+        }
     },
     "criteria": {
         "raw_gold":{

@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:wind_charge"
+        },
+        "frame": "task",
+        "title": {
+            "translate": "现在谁才是旋风人？"
+    },
+        "description": {
+            "translate": "用风弹击杀一只旋风人"
+        }
+    },
+    "criteria": {
+        "breeze":{
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:breeze"
+                },
+                "killing_blow": {
+                    "direct_entity": {
+                        "type": "minecraft:wind_charge"
+                    },
+                    "source_entity": {
+                        "type": "player"
+                    }
+                }
+            }
+        }
+    },
+    "parent": "adventure/blowback"
+}

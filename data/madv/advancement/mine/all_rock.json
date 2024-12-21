@@ -4,8 +4,14 @@
             "id":"minecraft:diorite"
         },
         "frame": "challenge",
-        "title": "地质学家",
-        "description": "获得所有种类的岩石"
+        "title": {
+            "fallback": "地质学家",
+            "translate": "all_rock.title"
+        },
+        "description": {
+            "fallback": "获得所有种类的岩石",
+            "translate": "all_rock.description"
+        }
     },
     "criteria": {
         "stone":{

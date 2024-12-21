@@ -4,8 +4,13 @@
             "id":"minecraft:wooden_axe"
         },
         "frame": "task",
-        "title": "砍树时间到！",
-        "description": "制作一把木斧"
+        "title": {
+            "fallback": "砍树时间到！",
+            "translate": "get_wooden_axe.title"
+        },
+        "description": {
+            "fallback": "制作一把木斧",
+            "translate": "get_wooden_axe.description"}
     },
     "criteria": {
         "wooden_axe":{

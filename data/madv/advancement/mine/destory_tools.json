@@ -4,8 +4,14 @@
             "id":"minecraft:wooden_pickaxe"
         },
         "frame": "task",
-        "title": "该死，又坏掉了",
-        "description": "用坏一把工具"
+        "title": {
+            "fallback": "该死！坏掉了",
+            "translate": "destory_tools.title"
+        },
+        "description": {
+            "fallback": "用坏一把工具",
+            "translate": "destory_tools.description"
+        }
     },
     "criteria": {
         "destory_tools":{

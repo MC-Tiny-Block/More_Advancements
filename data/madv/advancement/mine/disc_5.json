@@ -4,8 +4,14 @@
             "id":"minecraft:music_disc_5"
         },
         "frame": "task",
-        "title": "Five",
-        "description": "找到5号唱片"
+        "title": {
+            "fallback": "“5”",
+            "translate": "disc_5.title"
+        },
+        "description": {
+            "fallback": "制作5号唱片",
+            "translate": "disc_5.description"
+        }
     },
     "criteria": {
         "music_disc_5":{

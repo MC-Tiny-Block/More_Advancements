@@ -4,8 +4,14 @@
             "id":"minecraft:bookshelf"
         },
         "frame": "task",
-        "title": "图书管理员",
-        "description": "制作书架以增强附魔台能力"
+        "title": {
+            "fallback": "图书管理员",
+            "translate": "bookshelf.title"
+        },
+        "description": {
+            "fallback": "制作书架以增强附魔台能力",
+            "translate": "bookshelf.description"
+        }
     },
     "criteria": {
         "bookshelf":{

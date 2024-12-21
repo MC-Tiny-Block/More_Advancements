@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:breeze_rod"
+        },
+        "frame": "task",
+        "title": {
+            "translate": "呼呼呼——"
+    },
+        "description": {
+            "translate": "击杀一只旋风人"
+        }
+    },
+    "criteria": {
+        "breeze":{
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:breeze"
+                }
+            }
+        }
+    },
+    "parent": "minecraft:adventure/minecraft_trials_edition"
+}

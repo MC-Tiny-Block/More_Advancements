@@ -4,8 +4,14 @@
             "id":"minecraft:oak_log"
         },
         "frame": "task",
-        "title": "获得木头",
-        "description": "从树上砍下一块原木"
+        "title": {
+            "translate": "get_wood.title",
+            "fallback": "获得木头"
+        },
+        "description": {
+            "fallback": "从树上砍下一块原木",
+            "translate": "get_wood.description"
+        }
     },
     "criteria": {
         "log":{

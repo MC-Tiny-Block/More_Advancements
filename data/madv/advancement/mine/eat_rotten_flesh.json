@@ -4,8 +4,14 @@
             "id":"minecraft:rotten_flesh"
         },
         "frame": "task",
-        "title": "强大的胃",
-        "description": "吃腐肉充饥"
+        "title": {
+            "fallback": "强大的胃",
+            "translate": "eat_rotten_flesh.title"
+        },
+        "description": {
+            "fallback": "吃腐肉充饥",
+            "translate": "eat_rotten_flesh.description"
+        }
     },
     "criteria": {
         "rotten_flesh":{

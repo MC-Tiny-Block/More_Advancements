@@ -4,8 +4,14 @@
             "id":"minecraft:coal"
         },
         "frame": "task",
-        "title": "黑色黄金",
-        "description": "挖到黑乎乎的煤炭"
+        "title": {
+            "fallback": "黑色黄金",
+            "translate": "coal.title"
+        },
+        "description": {
+            "fallback": "挖到黑乎乎的煤炭",
+            "translate": "coal.description"
+        }
     },
     "criteria": {
         "coal":{

@@ -4,8 +4,14 @@
             "id":"minecraft:enchanting_table"
         },
         "frame": "task",
-        "title": "注入魔力",
-        "description": "制作一个附魔台"
+        "title": {
+            "fallback": "注入魔力",
+            "translate": "enchanting_table.title"
+        },
+        "description": {
+            "fallback": "制作一个附魔台",
+            "translate": "enchanting_table.description"
+        }
     },
     "criteria": {
         "enchanting_table":{

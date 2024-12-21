@@ -4,8 +4,14 @@
             "id":"minecraft:tuff"
         },
         "frame": "task",
-        "title": "固实压缩",
-        "description": "挖取一块凝灰岩"
+        "title": {
+            "fallback": "固实压缩",
+            "translate": "tuff.title"
+        },
+        "description": {
+            "fallback": "挖取一块凝灰岩",
+            "translate": "tuff.description"
+        }
     },
     "criteria": {
         "gold_ingot":{

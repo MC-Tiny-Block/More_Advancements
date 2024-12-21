@@ -4,8 +4,14 @@
             "id":"minecraft:compass"
         },
         "frame": "task",
-        "title": "家的方向",
-        "description": "制作一个指南针来定位你的重生点"
+        "title": {
+            "fallback": "家的方向",
+            "translate": "compass.title"
+        },
+        "description": {
+            "fallback": "制作一个指南针来定位世界出生点",
+            "translate": "compass.description"
+            }
     },
     "criteria": {
         "compass":{

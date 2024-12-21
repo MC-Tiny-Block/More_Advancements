@@ -14,12 +14,18 @@
     "display": {
       "announce_to_chat": false,
       "background": "textures/block/polished_blackstone.png",
-      "description": "锻造物品，然后给他们附上魔咒！",
+      "description": {
+        "fallback": "锻造物品，然后给他们附上魔咒！",
+        "translate": "enchantments_and_crafting_root.description"
+      },
       "icon": {
         "count": 1,
         "id": "minecraft:smithing_table"
       },
       "show_toast": false,
-      "title": "魔咒与工艺"
+      "title": {
+        "fallback": "魔咒与工艺",
+        "translate": "enchantments_and_crafting_root.title"
+      }
     }
 }

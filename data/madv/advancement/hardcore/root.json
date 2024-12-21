@@ -4,8 +4,14 @@
             "id":"minecraft:nether_star"
         },
         "frame": "challenge",
-        "title": "硬核挑战",
-        "description": "MC无极限，你也一样",
+        "title": {
+            "fallback": "硬核挑战",
+            "translate": "hardcore_root.title"
+        },
+        "description": {
+            "fallback": "MC无极限，你也一样",
+            "translate": "hardcore_root.description"
+        },
         "background": "minecraft:textures/block/bedrock.png",
         "show_toast": false,
         "announce_to_chat": false

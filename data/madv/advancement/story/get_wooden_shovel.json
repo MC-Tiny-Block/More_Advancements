@@ -4,8 +4,14 @@
             "id":"minecraft:wooden_shovel"
         },
         "frame": "task",
-        "title": "整地时间到！",
-        "description": "制作一把木锹"
+        "title": {
+            "fallback": "整地时间到！",
+            "translate": "get_wooden_shovel.title"
+        },
+        "description": {
+            "fallback": "制作一把木锹",
+            "translate": "get_wooden_shovel.description"
+        }
     },
     "criteria": {
         "wooden_shovel":{

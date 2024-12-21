@@ -4,8 +4,14 @@
             "id":"minecraft:water_bucket"
         },
         "frame": "goal",
-        "title": "落地水！",
-        "description": "从30格及以上的高度跳入水中"
+        "title": {
+            "fallback": "落地水！",
+            "translate": "landing_water.title"
+        },
+        "description": {
+            "fallback": "从30格及以上的高度跳入水中",
+            "translate": "landing_water.description"
+        }
     },
     "criteria": {
         "landing_water":{

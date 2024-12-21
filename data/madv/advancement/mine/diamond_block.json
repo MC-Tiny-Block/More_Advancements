@@ -4,8 +4,14 @@
             "id":"minecraft:diamond_block"
         },
         "frame": "task",
-        "title": "令人垂涎欲滴的方块",
-        "description": "制作一个钻石块"
+        "title": {
+            "fallback": "令人垂涎欲滴的方块",
+            "translate": "diamond_block.title"
+        },
+        "description": {
+            "fallback":"制作一个钻石块",
+            "translate": "diamond_block.description"
+        }
     },
     "criteria": {
         "diamond_block":{

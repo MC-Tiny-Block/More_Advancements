@@ -4,8 +4,14 @@
             "id":"minecraft:chest"
         },
         "frame": "task",
-        "title": "物品存储",
-        "description": "制作一个箱子"
+        "title": {
+            "fallback": "物品存储",
+            "translate": "chest.title"
+        },
+        "description": {
+            "fallback": "制作一个箱子",
+            "translate": "chest.description"
+        }
     },
     "criteria": {
         "chest":{

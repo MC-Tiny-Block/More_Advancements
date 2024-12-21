@@ -4,8 +4,14 @@
             "id":"minecraft:flint_and_steel"
         },
         "frame": "task",
-        "title": "燃起火焰",
-        "description": "使用打火石打火"
+        "title": {
+            "fallback": "燃起火焰",
+            "translate": "sparking.title"
+        },
+        "description": {
+            "fallback": "使用打火石打火",
+            "translate": "sparking.description"
+        }
     },
     "criteria": {
         "flint_and_steel":{

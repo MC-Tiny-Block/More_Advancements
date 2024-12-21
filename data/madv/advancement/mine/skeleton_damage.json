@@ -4,8 +4,14 @@
             "id":"minecraft:skeleton_spawn_egg"
         },
         "frame": "task",
-        "title": "谁™偷袭我",
-        "description": "骷髅找到了你！"
+        "title": {
+            "fallback": "谁™偷袭我",
+            "translate": "skeleton_damage.title"
+        },
+        "description": {
+            "fallback": "骷髅找到了你！",
+            "translate": "skeleton_damage.description"
+        }
     },
     "criteria": {
         "skeleton":{

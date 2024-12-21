@@ -4,8 +4,14 @@
             "id":"minecraft:pointed_dripstone"
         },
         "frame": "task",
-        "title": "喀斯特地貌",
-        "description": "获得滴水石锥"
+        "title": {
+            "fallback": "喀斯特地貌",
+            "translate": "pointed_dripstone.title"
+        },
+        "description": {
+            "fallback": "获得滴水石锥",
+            "translate": "pointed_dripstone.description"
+        }
     },
     "criteria": {
         "pointed_dripstone":{

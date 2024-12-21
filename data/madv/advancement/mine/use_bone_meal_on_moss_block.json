@@ -4,8 +4,14 @@
             "id":"minecraft:moss_block"
         },
         "frame": "task",
-        "title": "苔痕上阶绿",
-        "description": "对苔藓块使用骨粉使其蔓延"
+        "title": {
+            "fallback": "苔痕上阶绿",
+            "translate": "use_bone_meal_on_moss_block.title"
+        },
+        "description": {
+            "fallback": "对苔藓块使用骨粉使其蔓延",
+            "translate": "use_bone_meal_on_moss_block.description"
+        }
     },
     "criteria": {
         "moss_block":{

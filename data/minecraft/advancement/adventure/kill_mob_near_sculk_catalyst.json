@@ -16,7 +16,8 @@
     },
     "title": {
       "translate": "advancements.adventure.kill_mob_near_sculk_catalyst.title"
-    }
+    },
+    "hidden": true
   },
   "requirements": [
     [

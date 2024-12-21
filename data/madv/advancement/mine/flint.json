@@ -4,8 +4,14 @@
             "id":"minecraft:flint"
         },
         "frame": "task",
-        "title": "小心割伤！",
-        "description": "找到燧石"
+        "title": {
+            "fallback": "小心割伤！",
+            "translate": "flint.title"
+        },
+        "description": {
+            "fallback": "找到燧石",
+            "translate": "flint.description"
+        }
     },
     "criteria": {
         "flint":{

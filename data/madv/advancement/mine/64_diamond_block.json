@@ -7,8 +7,14 @@
             }
         },
         "frame": "challenge",
-        "title": "我们之中出了个大人物！",
-        "description": "那个人是怎么挖到64个钻石块的？！"
+        "title": {
+            "fallback": "我们之中出了个大人物！",
+            "translate": "64_diamond_block.title"
+        },
+        "description": {
+            "fallback": "那个人是怎么挖到64个钻石块的？！",
+            "translate": "64_diamond_block.description"
+        }
     },
     "criteria": {
         "diamond_block":{

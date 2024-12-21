@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:netherite_axe"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "嘎然而止",
+            "translate": "kill_creaking.title"
+        },
+        "description": {
+            "fallback": "破坏嘎枝之心以击杀嘎枝",
+            "translate": "kill_creaking.description"
+        },
+        "hidden": true
+    },
+    "criteria": {
+        "creaking_heart":{
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "creaking"
+                }
+            }
+        }
+    },
+    "parent": "madv:world/hurt_creaking"
+}

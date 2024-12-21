@@ -4,8 +4,14 @@
             "id":"minecraft:stone"
         },
         "frame": "task",
-        "title": "采掘",
-        "description": "做个矿工",
+        "title": {
+            "fallback": "采掘",
+            "translate": "mine_root.title"
+        },
+        "description": {
+            "fallback": "做个矿工",
+            "translate": "mine_root.description"
+        },
         "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
         "show_toast": false,
         "announce_to_chat": false

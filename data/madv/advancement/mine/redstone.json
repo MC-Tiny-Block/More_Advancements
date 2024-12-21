@@ -4,8 +4,14 @@
             "id":"minecraft:redstone"
         },
         "frame": "task",
-        "title": "红石能量",
-        "description": "挖到红石粉"
+        "title": {
+            "fallback": "红石能量",
+            "translate": "redstone.title"
+        },
+        "description": {
+            "fallback": "挖到红石粉",
+            "translate": "redstone.description"
+        }
     },
     "criteria": {
         "redstone":{

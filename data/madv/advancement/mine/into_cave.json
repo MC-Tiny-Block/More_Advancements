@@ -4,8 +4,14 @@
             "id":"minecraft:stone"
         },
         "frame": "goal",
-        "title": "洞穴历险",
-        "description": "进入任意洞穴生物群系"
+        "title": {
+            "fallback": "洞穴历险",
+            "translate": "into_cave.title"
+        },
+        "description": {
+            "fallback": "进入任意洞穴生物群系",
+            "translate": "into_cave.description"
+        }
     },
     "criteria": {
         "lush_caves":{

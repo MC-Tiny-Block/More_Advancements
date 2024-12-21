@@ -4,8 +4,14 @@
             "id":"minecraft:oxidized_copper"
         },
         "frame": "goal",
-        "title": "它氧化了！",
-        "description": "让铜块完全氧化"
+        "title": {
+            "fallback": "它氧化了！",
+            "translate": "oxidized_copper.title"
+        },
+        "description": {
+            "fallback": "让铜块完全氧化",
+            "translate": "oxidized_copper.description"
+        }
     },
     "criteria": {
         "oxidized_copper":{

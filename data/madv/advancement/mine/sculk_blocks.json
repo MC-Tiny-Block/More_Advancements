@@ -4,8 +4,14 @@
             "id":"minecraft:sculk_shrieker"
         },
         "frame": "challenge",
-        "title": "幽匿狂热者",
-        "description": "获得所有幽匿方块"
+        "title": {
+            "fallback": "幽匿狂热者",
+            "translate": "sculk_blocks.title"
+        },
+        "description": {
+            "fallback": "获得所有种类的幽匿方块",
+            "translate": "sculk_blocks.description"
+        }
     },
     "criteria": {
         "sculk":{

@@ -7,8 +7,14 @@
             }
         },
         "frame": "challenge",
-        "title": "矿石专家",
-        "description": "获得所有矿物原材料"
+        "title": {
+            "fallback": "矿石专家",
+            "translate": "all_mineral.title"
+        },
+        "description": {
+            "fallback": "获得所有矿物原材料",
+            "translate": "all_mineral.description"
+        }
     },
     "criteria": {
         "copper_ingot":{

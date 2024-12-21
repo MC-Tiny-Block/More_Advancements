@@ -4,8 +4,14 @@
             "id":"minecraft:deepslate"
         },
         "frame": "goal",
-        "title": "更下一层楼",
-        "description": "进入深层区域"
+        "title": {
+            "fallback": "更下一层楼",
+            "translate": "into_deep_place.title"
+        },
+        "description": {
+            "fallback": "进入深层区域",
+            "translate": "into_deep_place.description"
+        }
     },
     "criteria": {
         "into_deep_place":{

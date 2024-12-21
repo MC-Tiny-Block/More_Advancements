@@ -4,8 +4,14 @@
             "id":"minecraft:clock"
         },
         "frame": "task",
-        "title": "分秒必争",
-        "description": "在暗无天日的洞穴中用时钟来了解时间"
+        "title": {
+            "fallback": "分秒必争",
+            "translate": "clock.title"
+        },
+        "description": {
+            "fallback": "在暗无天日的洞穴中用时钟来了解时间",
+            "translate": "clock.description"
+        }
     },
     "criteria": {
         "clock":{

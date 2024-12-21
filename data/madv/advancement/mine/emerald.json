@@ -1,14 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:emerald"
+            "id": "minecraft:emerald"
         },
         "frame": "task",
-        "title": "流通货币",
-        "description": "获得绿宝石"
+        "title": {
+            "fallback": "流通货币",
+            "translate": "emerald.title"
+        },
+        "description": {
+            "fallback": "获得绿宝石",
+            "translate": "emerald.description"
+        }
     },
     "criteria": {
-        "emerald":{
+        "emerald": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

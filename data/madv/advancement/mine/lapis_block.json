@@ -4,8 +4,14 @@
             "id":"minecraft:lapis_block"
         },
         "frame": "task",
-        "title": "铺路石",
-        "description": "你觉得青金石块为什么被用来铺路呢？"
+        "title": {
+            "fallback": "铺路石",
+            "translate": "lapis_block.title"
+        },
+        "description": {
+            "fallback": "你觉得青金石块为什么被用来铺路呢？",
+            "translate": "lapis_block.description"
+        }
     },
     "criteria": {
         "lapis_block":{

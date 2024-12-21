@@ -1,0 +1,37 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:carved_pumpkin"
+        },
+        "frame": "task",
+        "title": {
+            "translate": "watch_creaking_with_pumpkin.title",
+            "fallback": "失控的木头人"
+    },
+        "description": {
+            "translate": "watch_creaking_with_pumpkin.description",
+            "fallback": "戴上雕刻南瓜，然后注视嘎枝……"
+        }
+    },
+    "criteria": {
+        "creaking":{
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "looking_at": {
+                            "type": "creaking"
+                        }
+                    },
+                    "slots": {
+                        "armor.head": {
+                            "items": "carved_pumpkin"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "parent": "madv:monsters_and_combat/kill_enderman"
+}

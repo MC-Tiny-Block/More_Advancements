@@ -4,8 +4,14 @@
             "id":"minecraft:diamond"
         },
         "frame": "task",
-        "title": "给你钻石！",
-        "description": "把钻石扔到别的玩家那儿"
+        "title": {
+            "fallback": "给你钻石！",
+            "translate": "diamonds_to_you.title"
+        },
+        "description": {
+            "fallback": "把钻石扔到别的玩家那儿",
+            "translate": "diamonds_to_you.description"
+        }
     },
     "criteria": {
         "diamond":{

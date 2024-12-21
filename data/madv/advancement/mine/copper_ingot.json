@@ -4,8 +4,14 @@
             "id":"minecraft:copper_ingot"
         },
         "frame": "task",
-        "title": "优质导体",
-        "description": "冶炼出一块铜锭"
+        "title": {
+            "fallback": "优质导体",
+            "translate": "copper_ingot.title"
+        },
+        "description": {
+            "fallback": "冶炼出一块铜锭",
+            "translate": "copper_ingot.description"
+        }
     },
     "criteria": {
         "copper_ingot":{

@@ -4,8 +4,14 @@
             "id":"minecraft:iron_block"
         },
         "frame": "task",
-        "title": "金属的砖",
-        "description": "制作铁块"
+        "title": {
+            "fallback": "金属的砖",
+            "translate": "iron_block.title"
+        },
+        "description": {
+            "fallback": "制作铁块",
+            "translate": "iron_block.description"
+        }
     },
     "criteria": {
         "iron_block":{

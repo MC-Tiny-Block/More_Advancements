@@ -4,8 +4,14 @@
             "id":"minecraft:granite"
         },
         "frame": "task",
-        "title": "三废石",
-        "description": "获得花岗岩、闪长岩和安山岩"
+        "title": {
+            "fallback": "三色杯",
+            "translate": "three_stone.title"
+        },
+        "description": {
+            "fallback": "获得花岗岩、闪长岩和安山岩",
+            "translate": "three_stone.description"
+        }
     },
     "criteria": {
         "granite":{

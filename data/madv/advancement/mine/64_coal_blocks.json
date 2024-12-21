@@ -7,8 +7,14 @@
             }
         },
         "frame": "challenge",
-        "title": "山西煤老板",
-        "description": "获取64个煤炭块"
+        "title": {
+            "fallback": "山西煤老板",
+            "translate": "64_coal_blocks.title"
+        },
+        "description": {
+            "fallback": "获取64个煤炭块",
+            "translate": "64_coal_blocks.description"
+        }
     },
     "criteria": {
         "coal_block":{

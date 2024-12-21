@@ -4,8 +4,14 @@
             "id":"minecraft:golden_boots"
         },
         "frame": "challenge",
-        "title": "信仰之跃！",
-        "description": "从50格高的地方跳下来"
+        "title": {
+            "fallback": "信仰之跃！",
+            "translate": "jump_off_50b.title"
+        },
+        "description": {
+            "fallback": "从50格高的地方跳下来",
+            "translate": "jump_off_50b.description"
+        }
     },
     "criteria": {
         "jump_off_50b":{

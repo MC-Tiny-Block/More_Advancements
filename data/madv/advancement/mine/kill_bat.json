@@ -4,8 +4,14 @@
             "id":"minecraft:bat_spawn_egg"
         },
         "frame": "task",
-        "title": "吓死我了！",
-        "description": "你为什么会闲到去杀死蝙蝠？"
+        "title": {
+            "fallback": "吓死我了！",
+            "translate": "kill_bat.title"
+        },
+        "description": {
+            "fallback": "你为什么会闲到去杀死蝙蝠？",
+            "translate": "kill_bat.description"
+        }
     },
     "criteria": {
         "bat":{

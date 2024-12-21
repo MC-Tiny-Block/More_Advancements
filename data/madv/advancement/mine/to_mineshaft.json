@@ -4,8 +4,14 @@
             "id":"minecraft:minecart"
         },
         "frame": "task",
-        "title": "废弃的矿井",
-        "description": "到达废弃矿井"
+        "title": {
+            "fallback": "废弃的矿井",
+            "translate": "to_mineshaft.title"
+        },
+        "description": {
+            "fallback": "进入废弃矿井",
+            "translate": "to_mineshaft.description"
+        }
     },
     "criteria": {
         "mineshaft":{

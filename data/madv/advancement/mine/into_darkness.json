@@ -4,8 +4,14 @@
             "id":"minecraft:black_concrete"
         },
         "frame": "task",
-        "title": "堕入黑暗",
-        "description": "伸手不见五指"
+        "title": {
+            "fallback": "堕入黑暗",
+            "translate": "into_darkness.title"
+        },
+        "description": {
+            "fallback": "伸手不见五指",
+            "translate": "into_darkness.description"
+        }
     },
     "criteria": {
         "into_darkness":{

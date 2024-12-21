@@ -4,8 +4,13 @@
             "id":"minecraft:wooden_sword"
         },
         "frame": "task",
-        "title": "出击时间到！",
-        "description": "制作一把木剑"
+        "title": {
+            "fallback": "出击时间到！",
+            "translate": "get_wooden_sword.title"
+        },
+        "description": {
+            "fallback": "制作一把木剑",
+            "translate": "get_wooden_sword.description"}
     },
     "criteria": {
         "wooden_sword":{

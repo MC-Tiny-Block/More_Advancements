@@ -4,8 +4,14 @@
             "id":"minecraft:bedrock"
         },
         "frame": "goal",
-        "title": "地心游记",
-        "description": "到达主世界最底层"
+        "title": {
+            "fallback": "地心游记",
+            "translate": "on_the_deepist.title"
+        },
+        "description": {
+            "fallback": "到达主世界最底层",
+            "translate": "on_the_deepist.description"
+        }
     },
     "criteria": {
         "y=-59":{

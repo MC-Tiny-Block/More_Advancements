@@ -4,8 +4,14 @@
             "id":"minecraft:leather_chestplate"
         },
         "frame": "task",
-        "title": "厚实保暖",
-        "description": "制作任意一件皮革衣服"
+        "title": {
+            "fallback": "厚实保暖",
+            "translate": "leather_armor.title"
+        },
+        "description": {
+            "fallback": "制作任意一件皮革衣服",
+            "translate": "leather_armor.description"
+        }
     },
     "criteria": {
         "leather_helmet":{

@@ -4,8 +4,14 @@
             "id":"minecraft:raw_copper"
         },
         "frame": "task",
-        "title": "橙绿相间",
-        "description": "挖到粗铜"
+        "title": {
+            "fallback": "橙绿相间",
+            "translate": "raw_copper.title"
+        },
+        "description": {
+            "fallback": "挖到粗铜",
+            "translate": "raw_copper.description"
+        }
     },
     "criteria": {
         "raw_copper":{

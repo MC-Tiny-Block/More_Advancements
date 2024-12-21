@@ -4,8 +4,14 @@
             "id":"minecraft:gravel"
         },
         "frame": "task",
-        "title": "\"碎\"石",
-        "description": "挖到一块沙砾"
+        "title": {
+            "fallback": "“碎”石",
+            "translate": "gravel.title"
+        },
+        "description": {
+            "fallback": "挖到一块沙砾",
+            "translate": "gravel.description"
+        }
     },
     "criteria": {
         "gravel":{

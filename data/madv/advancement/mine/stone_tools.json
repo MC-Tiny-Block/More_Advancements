@@ -4,8 +4,14 @@
             "id":"minecraft:stone_shovel"
         },
         "frame": "task",
-        "title": "石质工具包",
-        "description": "制作石镐、石斧、石锹和石锄"
+        "title": {
+            "fallback": "石质工具包",
+            "translate": "stone_tool.title"
+        },
+        "description": {
+            "fallback": "制作石镐、石斧、石锹和石锄",
+            "translate": "stone_tool.description"
+        }
     },
     "criteria": {
         "stone_pickaxe":{

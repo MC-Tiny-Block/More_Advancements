@@ -4,8 +4,14 @@
             "id":"minecraft:sculk"
         },
         "frame": "task",
-        "title": "寂静无声",
-        "description": "到达深暗之域，记得安静点！"
+        "title": {
+            "fallback": "寂静无声",
+            "translate": "to_deep_dark.title"
+        },
+        "description": {
+            "fallback": "到达深暗之域。记得安静点！",
+            "translate": "to_deep_dark.description"
+        }
     },
     "criteria": {
         "deep_dark":{

@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:resin_clump"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "树的血液",
+            "translate": "resin_clump.title"
+        },
+        "description": {
+            "fallback": "破坏凝结在苍白橡树上的树脂团来获取它",
+            "translate": "resin_clump.description"
+        },
+        "hidden": true
+    },
+    "criteria": {
+        "resin_clump":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "resin_clump"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:world/hurt_creaking"
+}

@@ -4,8 +4,14 @@
             "id":"minecraft:blast_furnace"
         },
         "frame": "goal",
-        "title": "专一优化",
-        "description": "制作一个高炉"
+        "title": {
+            "fallback": "专一优化",
+            "translate": "blast_furnace.title"
+        },
+        "description": {
+            "fallback": "制作一个高炉",
+            "translate": "blast_furnace.description"
+        }
     },
     "criteria": {
         "blast_furnace":{

@@ -4,8 +4,14 @@
             "id":"minecraft:diamond_pickaxe"
         },
         "frame": "task",
-        "title": "金刚钻",
-        "description": "制作一把钻石镐"
+        "title": {
+            "fallback": "金刚钻",
+            "translate": "diamond_pickaxe.title"
+        },
+        "description": {
+            "fallback": "制作一把钻石镐",
+            "translate": "diamond_pickaxe.description"
+        }
     },
     "criteria": {
         "diamond_pickaxe":{

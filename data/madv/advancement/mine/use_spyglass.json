@@ -4,8 +4,14 @@
             "id":"minecraft:spyglass"
         },
         "frame": "task",
-        "title": "凸透镜成像",
-        "description": "使用望远镜观察远处"
+        "title": {
+            "fallback": "凸透镜成像",
+            "translate": "use_spyglass.title"
+        },
+        "description": {
+            "fallback": "使用望远镜观察远处",
+            "translate": "use_spyglass.description"
+        }
     },
     "criteria": {
         "spyglass":{

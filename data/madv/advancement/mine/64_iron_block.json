@@ -7,8 +7,14 @@
             }
         },
         "frame": "challenge",
-        "title": "工业骨骼",
-        "description": "制作一组铁块！"
+        "title": {
+            "fallback": "工业骨骼",
+            "translate": "64_iron_block.title"
+        },
+        "description": {
+            "fallback": "制作一组铁块！",
+            "translate": "64_iron_block.description"
+        }
     },
     "criteria": {
         "iron_block":{

@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:trial_key"
+        },
+        "frame": "task",
+        "title": {
+            "translate": "神秘钥匙"
+        },
+        "description": {
+            "translate": "获得试炼钥匙"
+        }
+    },
+    "criteria": {
+        "skeleton":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "trial_key"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "minecraft:adventure/minecraft_trials_edition"
+}

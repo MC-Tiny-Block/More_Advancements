@@ -10,14 +10,17 @@
         },
         "frame": "challenge",
         "title": {
-            "text": "无限进度！（未完成）",
+            "fallback": "无限进度！（未完成）",
             "bold": true,
-            "color": "light_purple"
+            "color": "light_purple",
+            "translate": "ia.title"
         },
         "description": {
-            "text": "更多进度已经到此为止了！\n但Minecraft的无限可能还没有结束……",
-            "color": "gold"
-    }
+            "fallback": "更多进度已经到此为止了！\n但Minecraft的无限可能还没有结束……",
+            "color": "gold",
+            "translate": "ia.description"
+        },
+        "hidden": true
     },
     "criteria": {
         "all_the_advancements":{

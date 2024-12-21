@@ -4,8 +4,14 @@
             "id":"minecraft:wooden_hoe"
         },
         "frame": "task",
-        "title": "耕种时间到！",
-        "description": "制作一把木锄"
+        "title": {
+            "fallback": "耕种时间到！",
+            "translate": "get_wooden_hoe.title"
+        },
+        "description": {
+            "fallback": "制作一把木锄",
+            "translate": "get_wooden_hoe.description"
+        }
     },
     "criteria": {
         "wooden_hoe":{

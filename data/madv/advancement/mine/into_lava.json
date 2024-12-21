@@ -4,8 +4,14 @@
             "id":"minecraft:lava_bucket"
         },
         "frame": "task",
-        "title": "泡个温泉",
-        "description": "你试图在熔岩里游泳"
+        "title": {
+            "fallback": "泡个温泉",
+            "translate": "into_lava.title"
+        },
+        "description": {
+            "fallback": "你试图在熔岩里游泳",
+            "translate": "into_lava.description"
+        }
     },
     "criteria": {
         "into_lava":{

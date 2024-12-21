@@ -4,8 +4,14 @@
             "id":"minecraft:book"
         },
         "frame": "task",
-        "title": "精神食粮",
-        "description": "制作一本书"
+        "title": {
+            "fallback": "精神食粮",
+            "translate": "book.title"
+        },
+        "description": {
+            "fallback": "制作一本书",
+            "translate": "book.description"
+    }
     },
     "criteria": {
         "book":{

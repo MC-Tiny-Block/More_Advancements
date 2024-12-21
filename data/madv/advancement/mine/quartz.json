@@ -4,8 +4,14 @@
             "id":"minecraft:quartz"
         },
         "frame": "task",
-        "title": "逻辑晶体",
-        "description": "挖到下界石英"
+        "title": {
+            "fallback": "逻辑晶体",
+            "translate": "quartz.title"
+        },
+        "description": {
+            "fallback": "挖到下界石英",
+            "translate": "quartz.description"
+        }
     },
     "criteria": {
         "quartz":{

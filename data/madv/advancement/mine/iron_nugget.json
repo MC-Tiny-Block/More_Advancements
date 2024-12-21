@@ -4,8 +4,14 @@
             "id":"minecraft:iron_nugget"
         },
         "frame": "task",
-        "title": "九等分的铁",
-        "description": "制作一些铁粒"
+        "title": {
+            "fallback": "九等分的铁",
+            "translate": "iron_nugget.title"
+        },
+        "description": {
+            "fallback": "制作一些铁粒",
+            "translate": "iron_nugget.description"
+        }
     },
     "criteria": {
         "iron_nugget":{

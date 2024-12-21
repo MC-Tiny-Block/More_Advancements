@@ -4,8 +4,14 @@
             "id":"minecraft:gold_ore"
         },
         "frame": "task",
-        "title": "淘金热",
-        "description": "在恶地的地下挖矿，这里有许多的金子"
+        "title": {
+            "fallback": "淘金热",
+            "translate": "in_deep_badlands.title"
+        },
+        "description": {
+            "fallback": "在恶地的地下挖矿，这里有许多好东西",
+            "translate": "in_deep_badlands.description"
+        }
     },
     "criteria": {
         "badlands":{
@@ -13,11 +19,7 @@
             "conditions": {
                 "player": {
                     "location": {
-                        "biomes": [
-                            "minecraft:badlands",
-                            "minecraft:wooded_badlands",
-                            "minecraft:eroded_badlands"
-                        ],
+                        "biomes": "#is_badlands",
                         "position": {
                             "y": {
                                 "max": 30

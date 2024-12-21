@@ -4,8 +4,14 @@
             "id":"minecraft:silverfish_spawn_egg"
         },
         "frame": "task",
-        "title": "令矿工厌烦的虱虫",
-        "description": "击杀一只蠹虫"
+        "title": {
+            "fallback": "令矿工厌烦的虱虫",
+            "translate": "kill_silverfish.title"
+        },
+        "description": {
+            "fallback": "击杀一只蠹虫",
+            "translate": "kill_silverfish.description"
+        }
     },
     "criteria": {
         "silverfish":{

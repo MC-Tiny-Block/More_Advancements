@@ -4,8 +4,14 @@
             "id":"minecraft:gravel"
         },
         "frame": "task",
-        "title": "矿难事故",
-        "description": "被沙子或沙砾掩埋住"
+        "title": {
+            "fallback": "矿难事故",
+            "translate": "in_gravel.title"
+        },
+        "description": {
+            "fallback": "被沙子或沙砾掩埋住",
+            "translate": "in_gravel.description"
+        }
     },
     "criteria": {
         "in_gravel":{

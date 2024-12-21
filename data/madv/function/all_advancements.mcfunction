@@ -6,7 +6,7 @@
     advancement grant @s only madv:story/get_wooden_pickaxe
     advancement grant @s only madv:story/get_wooden_shovel
     advancement grant @s only madv:story/get_wooden_sword
-    advancement grant @s only madv:story/get_woodena_hoe
+    advancement grant @s only madv:story/get_wooden_hoe
     advancement grant @s only madv:story/story_diamond
     advancement grant @s only madv:story/story_finish
     advancement grant @s only madv:story/all_minecraft_advancements
@@ -93,7 +93,7 @@
         advancement grant @s only madv:mine/chest
         advancement grant @s only madv:mine/into_deep_place
         advancement grant @s only madv:mine/throw_netherite_item
-        advancement grant @s only madv:mine/gold_pickaxe
+        advancement grant @s only madv:mine/golden_pickaxe
         advancement grant @s only madv:mine/redstone
         advancement grant @s only madv:mine/all_mineral
         advancement grant @s only madv:mine/to_mineshaft
@@ -138,7 +138,7 @@
 
         advancement grant @s only madv:construction/root
 
-    #Beta 1.1
+    #Beta 1.0.1
 
         #采掘
 
@@ -176,7 +176,28 @@
         advancement grant @s only madv:monsters_and_combat/kill_ender_dragon_by_mace
         advancement grant @s only madv:monsters_and_combat/wind_brust
         advancement grant @s only madv:monsters_and_combat/shoot_ghast
+        advancement grant @s only madv:monsters_and_combat/kill_breeze
+        advancement grant @s only madv:monsters_and_combat/trial_key
+        advancement grant @s only madv:monsters_and_combat/kill_breeze_with_wind_charge
 
         #硬核挑战
 
         advancement grant @s only madv:hardcore/fly_to_90000b
+
+    #Beta 1.1
+        
+        #采掘
+        advancement grant @s only madv:mine/destory_netherite_pickaxe
+
+        #世界（暂时放在怪物与战斗）
+        advancement grant @s only madv:world/creaking_heart
+        advancement grant @s only madv:world/enable_creaking_heart
+        advancement grant @s only madv:world/hurt_creaking
+        advancement grant @s only madv:world/in_pale_garden_at_night
+        advancement grant @s only madv:world/kill_creaking
+        advancement grant @s only madv:world/near_creaking
+        advancement grant @s only madv:world/resin_clump
+        advancement grant @s only madv:world/to_pale_garden
+
+        #怪物与战斗
+        advancement grant @s only madv:monsters_and_combat/watch_creaking_with_pumpkin

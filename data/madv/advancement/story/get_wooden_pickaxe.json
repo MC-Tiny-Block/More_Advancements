@@ -4,8 +4,12 @@
             "id":"minecraft:wooden_pickaxe"
         },
         "frame": "task",
-        "title": "采矿时间到！",
-        "description": "制作一把木镐"
+        "title": {
+            "fallback": "采矿时间到！",
+            "translate": "get_wooden_pickaxe.title"},
+        "description": {
+            "fallback": "制作一把木镐",
+            "translate": "get_wooden_pickaxe.description"}
     },
     "criteria": {
         "wooden_pickaxe":{

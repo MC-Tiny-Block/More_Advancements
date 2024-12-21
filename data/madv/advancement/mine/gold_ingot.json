@@ -4,8 +4,14 @@
             "id":"minecraft:gold_ingot"
         },
         "frame": "task",
-        "title": "金子！",
-        "description": "冶炼出一块金锭"
+        "title": {
+            "fallback": "金子！",
+            "translate": "gold_ingot.title"
+        },
+        "description": {
+            "fallback": "冶炼出一块金锭",
+            "translate": "gold_ingot.description"
+        }
     },
     "criteria": {
         "gold_ingot":{

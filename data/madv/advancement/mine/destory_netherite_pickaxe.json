@@ -1,0 +1,40 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:netherite_pickaxe"
+        },
+        "frame": "challenge",
+        "hidden": true,
+        "title": {
+            "fallback": "鞠躬尽瘁，死而后已",
+            "translate": "destory_netherite_pickaxe.title"
+        },
+        "description": {
+            "fallback": "用坏一把附有耐久III的下界合金镐",
+            "translate": "destory_netherite_pickaxe.description"
+        }
+    },
+    "criteria": {
+        "destory_tools":{
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "durability": 0,
+                "item": {
+                    "items": "minecraft:netherite_pickaxe",
+                    "predicates": {
+                        "enchantments": [
+                            {
+                                "enchantments": "unbreaking",
+                                "levels": 3
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "parent": "madv:mine/netherite_ingot",
+    "rewards": {
+        "experience": 300
+    }
+}

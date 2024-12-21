@@ -1,5 +1,5 @@
 {
-  "parent": "madv:temp/root",
+  "parent": "madv:monsters_and_combat/buy_trial_map",
   "criteria": {
     "minecraft_trials_edition": {
       "conditions": {

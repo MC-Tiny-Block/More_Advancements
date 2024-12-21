@@ -4,8 +4,14 @@
             "id":"minecraft:water_bucket"
         },
         "frame": "task",
-        "title": "用它装水！",
-        "description": "用铁桶装水"
+        "title": {
+            "fallback": "用它装水！",
+            "translate": "fill_bucket_with_water.title"
+        },
+        "description": {
+            "fallback": "用铁桶装水",
+            "translate": "fill_bucket_with_water.description"
+        }
     },
     "criteria": {
         "water_bucket":{

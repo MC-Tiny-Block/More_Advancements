@@ -4,8 +4,14 @@
             "id":"minecraft:deepslate_emerald_ore"
         },
         "frame": "challenge",
-        "title": "开山之作",
-        "description": "获得所有矿石"
+        "title": {
+            "fallback": "开山之作",
+            "translate": "all_ores.title"
+        },
+        "description": {
+            "fallback": "获得所有矿石",
+            "translate": "all_ores.description"
+        }
     },
     "criteria": {
         "coal_ore":{

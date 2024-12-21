@@ -4,8 +4,14 @@
             "id":"minecraft:flint_and_steel"
         },
         "frame": "task",
-        "title": "迸发火星",
-        "description": "制作一个打火石"
+        "title": {
+            "fallback": "迸发火星",
+            "translate": "flint_and_steel.title"
+        },
+        "description": {
+            "fallback": "制作一个打火石",
+            "translate": "flint_and_steel.description"
+        }
     },
     "criteria": {
         "flint_and_steel":{

@@ -9,13 +9,16 @@
         "frame": "challenge",
         "title": {
             "color": "light_purple",
-            "text": "Minecraft全进度完成！（未完成）",
-            "bold": true
+            "fallback": "Minecraft全进度完成！（未完成）",
+            "bold": true,
+            "translate": "ama.title"
         },
         "description":{
-            "text": "你是Minecraft大师！",
-            "color": "gold"
-        }
+            "fallback": "你是Minecraft大师！",
+            "color": "gold",
+            "translate": "ama.description"
+        },
+        "hidden": true
     },
     "criteria": {
         "empty":{

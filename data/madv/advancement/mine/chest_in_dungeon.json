@@ -4,8 +4,14 @@
             "id":"minecraft:mossy_cobblestone"
         },
         "frame": "task",
-        "title": "Minecraft:地下城",
-        "description": "打开一个地牢的战利品箱"
+        "title": {
+            "fallback": "Minecraft：地下城",
+            "translate": "chest_in_dungeon.title"
+        },
+        "description": {
+            "fallback": "打开一个地牢的战利品箱",
+            "translate": "chest_in_dungeon.description"
+        }
     },
     "criteria": {
         "dungeon":{

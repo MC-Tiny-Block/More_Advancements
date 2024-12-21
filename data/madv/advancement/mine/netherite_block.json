@@ -4,8 +4,14 @@
             "id":"minecraft:netherite_block"
         },
         "frame": "challenge",
-        "title": "史上最炫方块！",
-        "description": "下界合金块！炫死我了"
+        "title": {
+            "fallback": "史上最炫方块！",
+            "translate": "netherite_block.title"
+        },
+        "description": {
+            "fallback": "下界合金块！炫死我了",
+            "translate": "netherite_block.description"
+        }
     },
     "criteria": {
         "netherite_block":{

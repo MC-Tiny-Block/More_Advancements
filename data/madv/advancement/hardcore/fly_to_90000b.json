@@ -4,8 +4,14 @@
             "id":"minecraft:elytra"
         },
         "frame": "challenge",
-        "title": "扶摇直上九万里",
-        "description": "\"太空电梯\"\n飞到y=90000以上"
+        "title": {
+            "fallback": "扶摇直上九万里",
+            "translate": "fly_to_90000b.title"
+        },
+        "description": {
+            "fallback": "\"太空电梯\"\n飞到y=90000以上",
+            "translate": "fly_to_90000b.description"
+        }
     },
     "criteria": {
         "10000b":{

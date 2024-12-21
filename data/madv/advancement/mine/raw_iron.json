@@ -4,8 +4,14 @@
             "id":"minecraft:raw_iron"
         },
         "frame": "task",
-        "title": "待加工矿石",
-        "description": "挖到一块粗铁"
+        "title": {
+            "fallback": "待加工矿石",
+            "translate": "raw_iron.title"
+        },
+        "description": {
+            "fallback": "挖到一块粗铁",
+            "translate": "raw_iron.description"
+        }
     },
     "criteria": {
         "raw_iron":{

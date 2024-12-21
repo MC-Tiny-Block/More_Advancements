@@ -7,8 +7,14 @@
             }
         },
         "frame": "challenge",
-        "title": "财富溢出",
-        "description": "获得64个金块以彰显你的财富"
+        "title": {
+            "fallback": "财富溢出",
+            "translate": "64_gold_block.title"
+        },
+        "description": {
+            "fallback": "获得64个金块以彰显你的财富",
+            "translate": "64_gold_block.description"
+        }
     },
     "criteria": {
         "gold_block":{

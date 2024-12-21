@@ -4,8 +4,14 @@
             "id":"minecraft:amethyst_shard"
         },
         "frame": "task",
-        "title": "音乐水晶",
-        "description": "在紫晶洞里挖到紫水晶碎片"
+        "title": {
+            "fallback": "音乐水晶",
+            "translate": "amethyst_shard.title"
+        },
+        "description": {
+            "fallback": "在紫晶洞里挖到紫水晶碎片",
+            "translate": "amethyst_shard.description"
+        }
     },
     "criteria": {
         "amethyst_shard":{

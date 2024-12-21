@@ -4,8 +4,14 @@
             "id":"minecraft:netherite_ingot"
         },
         "frame": "goal",
-        "title": "高级合金",
-        "description": "获得下界合金锭"
+        "title": {
+            "fallback": "高级合金",
+            "translate": "netherite_ingot.title"
+        },
+        "description": {
+            "fallback": "获得下界合金锭",
+            "translate": "netherite_ingot.description"
+        }
     },
     "criteria": {
         "netherite_ingot":{
