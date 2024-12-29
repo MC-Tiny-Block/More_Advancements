@@ -4,8 +4,14 @@
             "id":"minecraft:fire_charge"
         },
         "frame": "task",
-        "title": "空袭警告！",
-        "description": "被恶魂的火球炸伤"
+        "title": {
+            "fallback": "空袭警告！",
+            "translate": "hurted_by_ghast.title"
+        },
+        "description": {
+            "fallback": "被恶魂的火球炸伤",
+            "translate": "hurted_by_ghast.description"
+        }
     },
     "criteria": {
         "hurted_by_ghast":{

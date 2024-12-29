@@ -4,8 +4,14 @@
             "id":"minecraft:mace"
         },
         "frame": "challenge",
-        "title": "让震天动地的声音响彻末地！",
-        "description": "用重锤一击终结末影龙"
+        "title": {
+            "fallback": "地动山摇",
+            "translate": "kill_ender_dragon_by_mace.title"
+        },
+        "description": {
+            "fallback": "用重锤一击终结末影龙",
+            "translate": "kill_ender_dragon_by_mace.description"
+        }
     },
     "criteria": {
         "ender_dragon":{

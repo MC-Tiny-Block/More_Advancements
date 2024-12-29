@@ -5,10 +5,12 @@
         },
         "frame": "task",
         "title": {
-            "translate": "现在谁才是旋风人？"
+            "fallback": "现在谁才是旋风人？",
+            "translate": "kill_breeze_with_wind_charge.title"
     },
         "description": {
-            "translate": "用风弹击杀一只旋风人"
+            "fallback": "用风弹击杀一只旋风人",
+            "translate": "kill_breeze_with_wind_charge.description"
         }
     },
     "criteria": {

@@ -6,8 +6,14 @@
                 "enchantment_glint_override": true
             }
         },
-        "title": "幕后黑手",
-        "description": "在100格外射杀一只恶魂",
+        "title": {
+            "fallback": "幕后黑手",
+            "translate": "shoot_ghast_100b_away.title"
+        },
+        "description": {
+            "fallback": "在100格外射杀一只恶魂",
+            "translate": "shoot_ghast_100b_away.description"
+        },
         "frame": "challenge"
     },
     "criteria": {

@@ -4,8 +4,14 @@
             "id":"minecraft:zombified_piglin_spawn_egg"
         },
         "frame": "task",
-        "title": "千军万马，常伴吾身",
-        "description": "攻击一只僵尸猪灵"
+        "title": {
+            "fallback": "千军万马，常伴吾身",
+            "translate": "many_zombified_piglins.title"
+        },
+        "description": {
+            "fallback": "攻击一只僵尸猪灵",
+            "translate": "many_zombified_piglins.description"
+        }
     },
     "criteria": {
         "zombified_piglin":{

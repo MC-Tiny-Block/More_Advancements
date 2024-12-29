@@ -301,7 +301,7 @@
       "id": "minecraft:sculk_catalyst"
     },
     "title": {
-      "fallback": "滋养幽匿",
+      "fallback": "潜滋暗长",
       "translate": "kill_all_monsters_near_sculk_catalyst.title"
     }
   },

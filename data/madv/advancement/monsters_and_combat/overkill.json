@@ -4,8 +4,14 @@
             "id":"minecraft:diamond_sword"
         },
         "frame": "challenge",
-        "title": "赶尽杀绝",
-        "description": "在一击内造成9颗心的伤害"
+        "title": {
+            "fallback": "赶尽杀绝",
+            "translate": "overkill.title"
+        },
+        "description": {
+            "fallback": "在一击内造成9颗心的伤害",
+            "translate": "overkill.description"
+        }
     },
     "criteria": {
         "18_damage":{

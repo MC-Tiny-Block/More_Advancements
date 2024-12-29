@@ -1,0 +1,1 @@
+scoreboard objectives add madv_lava_timer dummy

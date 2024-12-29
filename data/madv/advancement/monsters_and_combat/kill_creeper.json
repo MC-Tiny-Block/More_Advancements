@@ -4,8 +4,14 @@
             "id":"minecraft:creeper_head"
         },
         "frame": "task",
-        "title": "滋滋滋……",
-        "description": "击杀一只苦力怕"
+        "title": {
+            "fallback": "滋滋滋……",
+            "translate": "kill_creeper.title"
+        },
+        "description": {
+            "fallback": "击杀一只苦力怕",
+            "translate": "kill_creeper.description"
+        }
     },
     "criteria": {
         "creeper":{

@@ -4,8 +4,14 @@
             "id":"minecraft:wooden_sword"
         },
         "frame": "task",
-        "title": "空手道",
-        "description": "空手击杀一只僵尸"
+        "title": {
+            "fallback": "空手道",
+            "translate": "kill_zombie_by_hand.title"
+        },
+        "description": {
+            "fallback": "空手击杀一只僵尸",
+            "translate": "kill_zombie_by_hand.description"
+        }
     },
     "criteria": {
         "zombie":{

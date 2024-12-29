@@ -1,0 +1,7 @@
+{
+    "criteria": {
+        "is_dead": {
+            "trigger": "entity_killed_player"
+        }
+    }
+}

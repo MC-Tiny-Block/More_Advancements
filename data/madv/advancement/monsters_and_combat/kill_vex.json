@@ -4,8 +4,14 @@
             "id":"minecraft:vex_spawn_egg"
         },
         "frame": "task",
-        "title": "啊啊啊啊烦死人了！！",
-        "description": "击杀一个恼鬼"
+        "title": {
+            "fallback": "啊啊啊啊烦死人了！！",
+            "translate": "kill_vex.title"
+        },
+        "description": {
+            "fallback": "击杀一个恼鬼",
+            "translate": "kill_vex.description"
+        }
     },
     "criteria": {
         "vex":{

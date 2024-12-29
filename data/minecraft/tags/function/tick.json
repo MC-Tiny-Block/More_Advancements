@@ -1,0 +1,14 @@
+{
+    "values": [
+        "madv:codition/kill_dragon/if_dead",
+        "madv:codition/in_deep_lava/add_time",
+        "madv:codition/in_deep_lava/give_adv",
+        "madv:codition/other/is_dead_clear",
+        "madv:codition/warden_in_40b",
+        "madv:codition/throw_netherite_item",
+        "madv:codition/two_hearts",
+        "madv:codition/block_ravager",
+        "madv:codition/near_creaking",
+        "madv:codition/hurt_creaking"
+    ]
+}

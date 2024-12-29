@@ -4,8 +4,14 @@
             "id":"minecraft:flint_and_steel"
         },
         "frame": "task",
-        "title": "手动引爆",
-        "description": "引爆一只苦力怕"
+        "title": {
+            "fallback": "手动引爆",
+            "translate": "fire_creeper.title"
+        },
+        "description": {
+            "fallback": "引爆一只苦力怕",
+            "translate": "fire_creeper.description"
+        }
     },
     "criteria": {
         "creeper":{

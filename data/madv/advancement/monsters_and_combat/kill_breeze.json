@@ -5,10 +5,12 @@
         },
         "frame": "task",
         "title": {
-            "translate": "呼呼呼——"
+            "fallback": "呼呼呼——",
+            "translate": "kill_breeze.title"
     },
         "description": {
-            "translate": "击杀一只旋风人"
+            "fallback": "击杀一只旋风人",
+            "translate": "kill_breeze.description"
         }
     },
     "criteria": {

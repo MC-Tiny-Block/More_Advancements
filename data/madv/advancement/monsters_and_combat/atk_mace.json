@@ -4,8 +4,14 @@
             "id":"minecraft:mace"
         },
         "frame": "task",
-        "title": "这我玩个锤子啊！",
-        "description": "使用重锤攻击你的敌人"
+        "title": {
+            "fallback": "这我玩个锤子啊！",
+            "translate": "atk_mace.title"
+        },
+        "description": {
+            "fallback": "使用重锤攻击你的敌人",
+            "translate": "atk_mace.description"
+        }
     },
     "criteria": {
         "mace":{

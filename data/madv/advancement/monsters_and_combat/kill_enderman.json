@@ -4,8 +4,14 @@
             "id":"minecraft:ender_pearl"
         },
         "frame": "task",
-        "title": "三界旅者",
-        "description": "击杀一个末影人"
+        "title": {
+            "fallback": "三界旅者",
+            "translate": "kill_enderman.title"
+        },
+        "description": {
+            "fallback": "击杀一个末影人",
+            "translate": "kill_enderman.description"
+        }
     },
     "criteria": {
         "enderman":{

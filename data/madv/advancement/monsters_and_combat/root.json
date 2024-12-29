@@ -1,28 +1,34 @@
 {
     "criteria": {
-      "wooden_sword": {
-        "conditions": {
-          "player": {
-            "type_specific": {
-              "type": "player",
-              "advancements": {
-                "madv:story/get_wooden_sword": true
-              }
-            }
-          }
-        },
-        "trigger": "minecraft:tick"
-      }
+        "wooden_sword": {
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "advancements": {
+                            "madv:story/get_wooden_sword": true
+                        }
+                    }
+                }
+            },
+            "trigger": "minecraft:tick"
+        }
     },
     "display": {
-      "announce_to_chat": false,
-      "background": "textures/block/mossy_stone_bricks.png",
-      "description": "了解并除掉你的敌人，与朋友并肩作战",
-      "icon": {
-        "count": 1,
-        "id": "minecraft:netherite_sword"
-      },
-      "show_toast": false,
-      "title": "怪物与战斗"
+        "announce_to_chat": false,
+        "background": "textures/block/mossy_stone_bricks.png",
+        "description": {
+            "fallback": "了解并除掉你的敌人，与朋友并肩作战",
+            "translate": "monsters_and_combat_root.description"
+        },
+        "icon": {
+            "count": 1,
+            "id": "minecraft:netherite_sword"
+        },
+        "show_toast": false,
+        "title": {
+            "fallback": "怪物与战斗",
+            "translate": "monsters_and_combat_root.title"
+        }
     }
 }

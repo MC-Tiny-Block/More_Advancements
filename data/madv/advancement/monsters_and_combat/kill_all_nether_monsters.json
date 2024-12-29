@@ -4,8 +4,14 @@
             "id":"minecraft:netherrack"
         },
         "frame": "goal",
-        "title": "洗清祸患",
-        "description": "击杀所有下界敌对生物"
+        "title": {
+            "fallback": "洗清祸患",
+            "translate": "kill_all_nether_monsters.title"
+        },
+        "description": {
+            "fallback": "击杀所有下界敌对生物",
+            "translate": "kill_all_nether_monsters.description"
+        }
     },
     "criteria": {
         "ghast":{

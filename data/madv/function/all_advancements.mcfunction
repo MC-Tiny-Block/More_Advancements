@@ -179,6 +179,8 @@
         advancement grant @s only madv:monsters_and_combat/kill_breeze
         advancement grant @s only madv:monsters_and_combat/trial_key
         advancement grant @s only madv:monsters_and_combat/kill_breeze_with_wind_charge
+        advancement grant @s only madv:monsters_and_combat/hurt_piglin
+        advancement grant @s only madv:monsters_and_combat/kill_all_nether_monsters
 
         #硬核挑战
 
@@ -188,6 +190,7 @@
         
         #采掘
         advancement grant @s only madv:mine/destory_netherite_pickaxe
+        advancement grant @s only madv:mine/in_deep_lava
 
         #世界（暂时放在怪物与战斗）
         advancement grant @s only madv:world/creaking_heart

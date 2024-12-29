@@ -1,0 +1,1 @@
+advancement revoke @e[type=player] only madv:tech/is_dead_by_mob

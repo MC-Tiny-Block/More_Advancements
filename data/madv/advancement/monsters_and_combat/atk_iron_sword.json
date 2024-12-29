@@ -4,8 +4,14 @@
             "id":"minecraft:iron_sword"
         },
         "frame": "task",
-        "title": "利刃出鞘",
-        "description": "使用铁剑攻击你的敌人"
+        "title": {
+            "fallback": "利刃出鞘",
+            "translate": "atk_iron_sword.title"
+        },
+        "description": {
+            "fallback": "使用铁剑攻击你的敌人",
+            "translate": "atk_iron_sword.description"
+        }
     },
     "criteria": {
         "iron_sword":{

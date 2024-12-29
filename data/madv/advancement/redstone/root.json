@@ -14,12 +14,18 @@
     "display": {
       "announce_to_chat": false,
       "background": "textures/block/smooth_stone.png",
-      "description": "在工程师手里，红石是无限可能",
+      "description": {
+        "fallback": "在工程师手里，红石是无限可能",
+        "translate": "redstone_root.description"
+      },
       "icon": {
         "count": 1,
         "id": "minecraft:redstone"
       },
       "show_toast": false,
-      "title": "红石"
+      "title": {
+        "fallback": "红石",
+        "translate": "redstone_root.title"
+      }
     }
 }

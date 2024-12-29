@@ -4,8 +4,14 @@
             "id":"minecraft:slime_spawn_egg"
         },
         "frame": "task",
-        "title": "它会分裂？",
-        "description": "击杀中、大型史莱姆"
+        "title": {
+            "fallback": "它会分裂？",
+            "translate": "kill_slime.title"
+        },
+        "description": {
+            "fallback": "击杀一只史莱姆并眼睁睁看着它分裂",
+            "translate": "kill_slime.description"
+        }
     },
     "criteria": {
         "big_slime":{

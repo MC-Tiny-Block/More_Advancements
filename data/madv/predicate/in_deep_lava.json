@@ -1,0 +1,22 @@
+[
+    {
+        "condition": "minecraft:location_check",
+        "predicate": {
+            "position": {
+                "y": {
+                    "max": 5.5
+                }
+            },
+            "dimension": "minecraft:the_nether"
+        }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetY": 1,
+        "predicate": {
+            "block": {
+                "blocks": "minecraft:lava"
+            }
+        }
+    }
+]

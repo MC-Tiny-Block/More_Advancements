@@ -4,8 +4,14 @@
             "id":"minecraft:witch_spawn_egg"
         },
         "frame": "task",
-        "title": "魔法巫师",
-        "description": "击杀一个女巫"
+        "title": {
+            "fallback": "魔法巫师",
+            "translate": "kill_witch.title"
+        },
+        "description": {
+            "fallback": "击杀一个女巫",
+            "translate": "kill_witch.description"
+        }
     },
     "criteria": {
         "witch":{

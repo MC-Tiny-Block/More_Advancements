@@ -4,8 +4,14 @@
             "id":"minecraft:netherite_sword"
         },
         "frame": "task",
-        "title": "终极武器",
-        "description": "使用下界合金剑攻击你的敌人"
+        "title": {
+            "fallback": "终极武器",
+            "translate": "atk_netherite_sword.title"
+        },
+        "description": {
+            "fallback": "使用下界合金剑攻击你的敌人",
+            "translate": "atk_netherite_sword.description"
+        }
     },
     "criteria": {
         "iron_sword":{

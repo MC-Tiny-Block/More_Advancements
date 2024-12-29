@@ -5,10 +5,12 @@
         },
         "frame": "task",
         "title": {
-            "translate": "神秘钥匙"
+            "fallback": "神秘钥匙",
+            "translate": "trial_key.title"
         },
         "description": {
-            "translate": "获得试炼钥匙"
+            "fallback": "获得试炼钥匙",
+            "translate": "trial_key.description"
         }
     },
     "criteria": {

@@ -4,8 +4,14 @@
             "id":"minecraft:cave_spider_spawn_egg"
         },
         "frame": "task",
-        "title": "锐利毒牙",
-        "description": "击杀一只洞穴蜘蛛"
+        "title": {
+            "fallback": "锐利毒牙",
+            "translate": "kill_cave_spider.title"
+        },
+        "description": {
+            "fallback": "击杀一只洞穴蜘蛛",
+            "translate": "kill_cave_spider.description"
+        }
     },
     "criteria": {
         "cave_spider":{

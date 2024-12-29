@@ -4,8 +4,14 @@
             "id":"minecraft:cod"
         },
         "frame": "task",
-        "title": "鱼叉？",
-        "description": "使用带穿刺魔咒的三叉戟近战攻击水生生物"
+        "title": {
+            "fallback": "鱼叉？",
+            "translate": "harpoon.title"
+        },
+        "description": {
+            "fallback": "使用带穿刺魔咒的三叉戟近战攻击水生生物",
+            "translate": "harpoon.description"
+        }
     },
     "criteria": {
         "trident":{

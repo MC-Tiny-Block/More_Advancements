@@ -4,8 +4,14 @@
             "id":"minecraft:skeleton_skull"
         },
         "frame": "task",
-        "title": "白骨嶙峋",
-        "description": "击杀一只骷髅"
+        "title": {
+            "fallback": "白骨嶙峋",
+            "translate": "kill_skeleton.title"
+        },
+        "description": {
+            "fallback": "击杀一只骷髅",
+            "translate": "kill_skeleton.description"
+        }
     },
     "criteria": {
         "skeleton":{

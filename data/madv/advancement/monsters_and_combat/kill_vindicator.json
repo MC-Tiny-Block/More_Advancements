@@ -4,8 +4,14 @@
             "id":"minecraft:vindicator_spawn_egg"
         },
         "frame": "task",
-        "title": "狂战士",
-        "description": "击杀一个卫道士"
+        "title": {
+            "fallback": "狂战士",
+            "translate": "kill_vindicator.title"
+        },
+        "description": {
+            "fallback": "击杀一个卫道士",
+            "translate": "kill_vindicator.description"
+        }
     },
     "criteria": {
         "vindicator_spawn_egg":{

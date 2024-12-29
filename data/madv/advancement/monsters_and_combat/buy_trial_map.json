@@ -7,8 +7,14 @@
                     }
         },
         "frame": "task",
-        "title": "远征之路",
-        "description": "在制图师那里交易到试炼探险家地图"
+        "title": {
+            "fallback": "远征之路",
+            "translate": "buy_trial_map.title"
+        },
+        "description": {
+            "fallback": "在制图师那里交易到试炼探险家地图",
+            "translate": "buy_trial_map.description"
+        }
     },
     "criteria": {
         "creeper":{

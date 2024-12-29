@@ -4,8 +4,14 @@
             "id":"minecraft:tnt"
         },
         "frame": "goal",
-        "title": "防爆盾牌",
-        "description": "用盾牌挡住苦力怕的爆炸"
+        "title": {
+            "fallback": "防爆盾牌",
+            "translate": "deflect_creeper.title"
+        },
+        "description": {
+            "fallback": "用盾牌挡住苦力怕的爆炸",
+            "translate": "deflect_creeper.description"
+        }
     },
     "criteria": {
         "deflect_creeper":{

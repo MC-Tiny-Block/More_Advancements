@@ -4,8 +4,14 @@
             "id":"minecraft:bow"
         },
         "frame": "task",
-        "title": "拉弓上弦",
-        "description": "长按右键以拉弓"
+        "title": {
+            "fallback": "拉弓上弦",
+            "translate": "use_bow.title"
+        },
+        "description": {
+            "fallback": "长按右键以拉弓",
+            "translate": "use_bow.description"
+        }
     },
     "criteria": {
         "bow":{

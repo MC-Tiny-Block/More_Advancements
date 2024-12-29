@@ -4,8 +4,14 @@
             "id":"minecraft:piglin_head"
         },
         "frame": "task",
-        "title": "猪灵之战",
-        "description": "攻击猪灵"
+        "title": {
+            "fallback": "猪灵之战",
+            "translate": "hurt_piglin.title"
+        },
+        "description": {
+            "fallback": "攻击猪灵",
+            "translate": "hurt_piglin.description"
+        }
     },
     "criteria": {
         "piglin":{

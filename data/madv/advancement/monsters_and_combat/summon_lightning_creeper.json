@@ -4,8 +4,14 @@
             "id":"minecraft:trident"
         },
         "frame": "goal",
-        "title": "闪电充能",
-        "description": "雷击一只苦力怕"
+        "title": {
+            "fallback": "闪电充能",
+            "translate": "summon_lightning_creeper.title"
+        },
+        "description": {
+            "fallback": "雷击一只苦力怕",
+            "translate": "summon_lightning_creeper.description"
+        }
     },
     "criteria": {
         "creeper":{

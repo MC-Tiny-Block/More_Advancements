@@ -4,8 +4,14 @@
             "id":"minecraft:rotten_flesh"
         },
         "frame": "task",
-        "title": "僵尸公敌",
-        "description": "击杀所有僵尸类生物"
+        "title": {
+            "fallback": "僵尸公敌",
+            "translate": "kill_all_zombies.title"
+        },
+        "description": {
+            "fallback": "击杀所有僵尸类生物",
+            "translate": "kill_all_zombies.description"
+            }
     },
     "criteria": {
         "zombie":{

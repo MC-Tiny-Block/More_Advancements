@@ -4,8 +4,14 @@
             "id":"minecraft:totem_of_undying"
         },
         "frame": "goal",
-        "title": "免死金牌",
-        "description": "获得不死图腾"
+        "title": {
+            "fallback": "免死金牌",
+            "translate": "madv_totem_of_undying.title"
+        },
+        "description": {
+            "fallback": "获得不死图腾",
+            "translate": "madv_totem_of_undying.description"
+        }
     },
     "criteria": {
         "skeleton":{

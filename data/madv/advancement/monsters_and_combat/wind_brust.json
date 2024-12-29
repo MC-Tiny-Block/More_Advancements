@@ -4,8 +4,14 @@
             "id":"minecraft:wind_charge"
         },
         "frame": "task",
-        "title": "旋风之力",
-        "description": "用带风爆附魔的重锤砸击生物(至少造成20点伤害)"
+        "title": {
+            "fallback": "旋风之力",
+            "translate": "wind_brust.title"
+        },
+        "description": {
+            "fallback": "用带风爆附魔的重锤砸击生物(至少造成20点伤害)",
+            "translate": "wind_brust.description"
+        }
     },
     "criteria": {
         "crossbow":{

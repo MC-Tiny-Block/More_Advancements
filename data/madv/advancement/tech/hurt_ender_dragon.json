@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "ender_dragon":{
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:ender_dragon"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "madv:codition/kill_dragon/dragon_tag"
+    }
+}

@@ -4,8 +4,14 @@
             "id":"minecraft:pillager_spawn_egg"
         },
         "frame": "task",
-        "title": "正当防卫",
-        "description": "击杀一个掠夺者"
+        "title": {
+            "fallback": "正当防卫",
+            "translate": "kill_pillager.title"
+        },
+        "description": {
+            "fallback": "击杀一个掠夺者",
+            "translate": "kill_pillager.description"
+        }
     },
     "criteria": {
         "pillager":{

@@ -4,8 +4,15 @@
             "id":"minecraft:tnt"
         },
         "frame": "task",
-        "title": "快——逃——",
-        "description": "引燃一只闪电苦力怕"
+        "title": {
+            "fallback": "快——逃——",
+            "translate": "fire_lighting_creeper.title"
+        },
+        "description": {
+            "fallback": "引燃一只闪电苦力怕",
+            "translate": "fire_lighting_creeper.description"
+        },
+        "hidden": true
     },
     "criteria": {
         "lightning_creeper":{

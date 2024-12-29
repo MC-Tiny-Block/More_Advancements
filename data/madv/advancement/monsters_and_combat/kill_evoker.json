@@ -4,8 +4,14 @@
             "id":"minecraft:evoker_spawn_egg"
         },
         "frame": "goal",
-        "title": "真正的魔法师",
-        "description": "击杀一个唤魔者"
+        "title": {
+            "fallback": "真正的魔法师",
+            "translate": "kill_evoker.title"
+        },
+        "description": {
+            "fallback": "击杀一个唤魔者",
+            "translate": "kill_evoker.description"
+        }
     },
     "criteria": {
         "evoker":{

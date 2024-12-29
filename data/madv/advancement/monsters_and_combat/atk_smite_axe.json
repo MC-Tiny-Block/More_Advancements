@@ -7,8 +7,14 @@
             }
         },
         "frame": "task",
-        "title": "亡灵猎人",
-        "description": "使用带有亡灵杀手V附魔的斧攻击敌人"
+        "title": {
+            "fallback": "亡灵猎人",
+            "translate": "atk_smite_axe.title"
+        },
+        "description": {
+            "fallback": "使用带有亡灵杀手V魔咒的斧攻击敌人",
+            "translate": "atk_smite_axe.description"
+        }
     },
     "criteria": {
         "smite_axe_attack":{

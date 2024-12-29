@@ -4,8 +4,14 @@
             "id":"minecraft:shield"
         },
         "frame": "task",
-        "title": "硬直状态",
-        "description": "用盾挡住劫掠兽的攻击并使其眩晕"
+        "title": {
+            "fallback": "硬直状态",
+            "translate": "block_ravager.title"
+        },
+        "description": {
+            "fallback": "用盾牌挡住劫掠兽的攻击并使其眩晕",
+            "translate": "block_ravager.description"
+        }
     },
     "criteria": {
         "block_ravager":{

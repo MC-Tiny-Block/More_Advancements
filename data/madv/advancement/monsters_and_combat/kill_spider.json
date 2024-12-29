@@ -4,8 +4,14 @@
             "id":"minecraft:spider_eye"
         },
         "frame": "task",
-        "title": "爬墙能手",
-        "description": "击杀一只蜘蛛"
+        "title": {
+            "fallback": "爬墙能手",
+            "translate": "kill_spider.title"
+        },
+        "description": {
+            "fallback": "击杀一只蜘蛛",
+            "translate": "kill_spider.description"
+        }
     },
     "criteria": {
         "spider":{

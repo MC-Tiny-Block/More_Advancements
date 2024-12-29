@@ -3,8 +3,14 @@
         "icon": {
             "id": "ghast_spawn_egg"
         },
-        "title": "气球射击",
-        "description": "用箭射击恶魂",
+        "title": {
+            "fallback": "气球射击",
+            "translate": "shoot_ghast.title"
+        },
+        "description": {
+            "fallback": "用箭射击恶魂",
+            "translate": "shoot_ghast.description"
+        },
         "frame": "task"
     },
     "criteria": {
