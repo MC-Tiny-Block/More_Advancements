@@ -11,9 +11,11 @@
     advancement grant @s only madv:story/story_finish
     advancement grant @s only madv:story/all_minecraft_advancements
     advancement grant @s only madv:story/infinity_advancements
+    #11个
+
+
+
     #Beta 1.0
-        #更新内容
-            #把解放末地改成挑战进度
 
         #采掘标签页
         advancement grant @s only madv:mine/root
@@ -99,17 +101,17 @@
         advancement grant @s only madv:mine/to_mineshaft
         advancement grant @s only madv:mine/near_warden
         advancement grant @s only madv:mine/recovery_compass
+        #83个
 
         #魔咒与工艺标签页
-
         advancement grant @s only madv:enchantments_and_crafting/root
         advancement grant @s only madv:enchantments_and_crafting/leather_armor
         advancement grant @s only madv:enchantments_and_crafting/book
         advancement grant @s only madv:enchantments_and_crafting/enchanting_table
         advancement grant @s only madv:enchantments_and_crafting/bookshelf
+        #5个
 
         #怪物与战斗标签页
-
         advancement grant @s only madv:monsters_and_combat/root
         advancement grant @s only madv:monsters_and_combat/atk_iron_sword
         advancement grant @s only madv:monsters_and_combat/atk_pickaxe
@@ -121,31 +123,33 @@
         advancement grant @s only madv:monsters_and_combat/overkill
         advancement grant @s only madv:monsters_and_combat/kill_spider
         advancement grant @s only madv:monsters_and_combat/kill_zombie_by_hand
+        #11个
 
         #世界标签页
-
         advancement grant @s only madv:world/root
 
         #硬核挑战标签页
-
         advancement grant @s only madv:hardcore/root
 
         #红石标签页
-
         advancement grant @s only madv:redstone/root
 
         #建筑标签页
-
         advancement grant @s only madv:construction/root
+        
+        #以上4个标签页共4个
+
+    #Beta 1.0 共新增114个
+
+
 
     #Beta 1.0.1
 
         #采掘
-
         advancement grant @s only madv:mine/kill_all_monsters_near_sculk_catalyst
+        #1个
 
         #怪物与战斗
-
         advancement grant @s only madv:monsters_and_combat/use_bow
         advancement grant @s only madv:monsters_and_combat/kill_all_zombies
         advancement grant @s only madv:monsters_and_combat/two_hearts
@@ -181,10 +185,15 @@
         advancement grant @s only madv:monsters_and_combat/kill_breeze_with_wind_charge
         advancement grant @s only madv:monsters_and_combat/hurt_piglin
         advancement grant @s only madv:monsters_and_combat/kill_all_nether_monsters
+        #35个
 
         #硬核挑战
-
         advancement grant @s only madv:hardcore/fly_to_90000b
+        #1个
+
+    #Beta 1.0.1 共新增37个
+
+
 
     #Beta 1.1
         
@@ -204,3 +213,5 @@
 
         #怪物与战斗
         advancement grant @s only madv:monsters_and_combat/watch_creaking_with_pumpkin
+
+    #Beta 1.1 共新增11个
