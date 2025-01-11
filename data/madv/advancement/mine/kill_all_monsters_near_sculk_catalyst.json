@@ -1,311 +1,303 @@
 {
-  "parent": "minecraft:adventure/kill_mob_near_sculk_catalyst",
-  "criteria": {
-    "minecraft:blaze": {
-      "conditions": {
-        "entity": {
-          "type": "blaze"
+    "parent": "minecraft:adventure/kill_mob_near_sculk_catalyst",
+    "criteria": {
+        "minecraft:blaze": {
+            "conditions": {
+                "entity": {
+                    "type": "blaze"
+                }
+            },
+            "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+        },
+        "minecraft:bogged": {
+            "conditions": {
+                "entity": {
+                    "type": "bogged"
+                }
+            },
+            "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+        },
+        "minecraft:breeze": {
+            "conditions": {
+                "entity": {
+                    "type": "breeze"
+                }
+            },
+            "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+        },
+        "minecraft:cave_spider": {
+            "conditions": {
+                "entity": {
+                    "type": "cave_spider"
+                }
+            },
+            "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+        },
+        "minecraft:creeper": {
+            "conditions": {
+                "entity": {
+                    "type": "creeper"
+                }
+            },
+            "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+        },
+        "minecraft:drowned": {
+            "conditions": {
+                "entity": {
+                    "type": "drowned"
+                }
+            },
+            "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+        },
+        "minecraft:elder_guardian": {
+            "conditions": {
+                "entity": {
+                    "type": "elder_guardian"
+                }
+            },
+            "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+        },
+        "minecraft:enderman": {
+            "conditions": {
+                "entity": {
+                    "type": "enderman"
+                }
+            },
+            "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+        },
+        "minecraft:endermite": {
+            "conditions": {
+                "entity": {
+                    "type": "endermite"
+                }
+            },
+            "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+        },
+        "minecraft:evoker": {
+            "conditions": {
+                "entity": {
+                    "type": "evoker"
+                }
+            },
+            "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+        },
+        "minecraft:ghast": {
+            "conditions": {
+                "entity": {
+                    "type": "ghast"
+                }
+            },
+            "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+        },
+        "minecraft:guardian": {
+            "conditions": {
+                "entity": {
+                    "type": "guardian"
+                }
+            },
+            "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+        },
+        "minecraft:hoglin": {
+            "conditions": {
+                "entity": {
+                    "type": "hoglin"
+                }
+            },
+            "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+        },
+        "minecraft:husk": {
+            "conditions": {
+                "entity": {
+                    "type": "husk"
+                }
+            },
+            "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+        },
+        "minecraft:magma_cube": {
+            "conditions": {
+                "entity": {
+                    "type": "magma_cube"
+                }
+            },
+            "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+        },
+        "minecraft:phantom": {
+            "conditions": {
+                "entity": {
+                    "type": "phantom"
+                }
+            },
+            "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+        },
+        "minecraft:piglin": {
+            "conditions": {
+                "entity": {
+                    "type": "piglin"
+                }
+            },
+            "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+        },
+        "minecraft:piglin_brute": {
+            "conditions": {
+                "entity": {
+                    "type": "piglin_brute"
+                }
+            },
+            "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+        },
+        "minecraft:pillager": {
+            "conditions": {
+                "entity": {
+                    "type": "pillager"
+                }
+            },
+            "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+        },
+        "minecraft:ravager": {
+            "conditions": {
+                "entity": {
+                    "type": "ravager"
+                }
+            },
+            "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+        },
+        "minecraft:shulker": {
+            "conditions": {
+                "entity": {
+                    "type": "shulker"
+                }
+            },
+            "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+        },
+        "minecraft:silverfish": {
+            "conditions": {
+                "entity": {
+                    "type": "silverfish"
+                }
+            },
+            "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+        },
+        "minecraft:skeleton": {
+            "conditions": {
+                "entity": {
+                    "type": "skeleton"
+                }
+            },
+            "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+        },
+        "minecraft:slime": {
+            "conditions": {
+                "entity": {
+                    "type": "slime"
+                }
+            },
+            "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+        },
+        "minecraft:spider": {
+            "conditions": {
+                "entity": {
+                    "type": "spider"
+                }
+            },
+            "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+        },
+        "minecraft:stray": {
+            "conditions": {
+                "entity": {
+                    "type": "stray"
+                }
+            },
+            "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+        },
+        "minecraft:vex": {
+            "conditions": {
+                "entity": {
+                    "type": "vex"
+                }
+            },
+            "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+        },
+        "minecraft:vindicator": {
+            "conditions": {
+                "entity": {
+                    "type": "vindicator"
+                }
+            },
+            "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+        },
+        "minecraft:witch": {
+            "conditions": {
+                "entity": {
+                    "type": "witch"
+                }
+            },
+            "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+        },
+        "minecraft:wither": {
+            "conditions": {
+                "entity": {
+                    "type": "wither"
+                }
+            },
+            "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+        },
+        "minecraft:wither_skeleton": {
+            "conditions": {
+                "entity": {
+                    "type": "wither_skeleton"
+                }
+            },
+            "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+        },
+        "minecraft:zoglin": {
+            "conditions": {
+                "entity": {
+                    "type": "zoglin"
+                }
+            },
+            "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+        },
+        "minecraft:zombie": {
+            "conditions": {
+                "entity": {
+                    "type": "zombie"
+                }
+            },
+            "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+        },
+        "minecraft:zombie_villager": {
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager"
+                }
+            },
+            "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+        },
+        "minecraft:zombified_piglin": {
+            "conditions": {
+                "entity": {
+                    "type": "zombified_piglin"
+                }
+            },
+            "trigger": "minecraft:kill_mob_near_sculk_catalyst"
         }
-      },
-      "trigger": "minecraft:kill_mob_near_sculk_catalyst"
     },
-    "minecraft:bogged": {
-      "conditions": {
-        "entity": {
-          "type": "bogged"
+    "display": {
+        "description": {
+            "fallback": "在幽匿催发体旁边击杀所有种类的敌对生物",
+            "translate": "kill_all_monsters_near_sculk_catalyst.description"
+        },
+        "frame": "challenge",
+        "icon": {
+            "count": 1,
+            "id": "minecraft:sculk_catalyst"
+        },
+        "title": {
+            "fallback": "潜滋暗长",
+            "translate": "kill_all_monsters_near_sculk_catalyst.title"
         }
-      },
-      "trigger": "minecraft:kill_mob_near_sculk_catalyst"
     },
-    "minecraft:breeze": {
-      "conditions": {
-        "entity": {
-          "type": "breeze"
-        }
-      },
-      "trigger": "minecraft:kill_mob_near_sculk_catalyst"
-    },
-    "minecraft:cave_spider": {
-      "conditions": {
-        "entity": {
-          "type": "cave_spider"
-        }
-      },
-      "trigger": "minecraft:kill_mob_near_sculk_catalyst"
-    },
-    "minecraft:creeper": {
-      "conditions": {
-        "entity": {
-          "type": "creeper"
-        }
-      },
-      "trigger": "minecraft:kill_mob_near_sculk_catalyst"
-    },
-    "minecraft:drowned": {
-      "conditions": {
-        "entity": {
-          "type": "drowned"
-        }
-      },
-      "trigger": "minecraft:kill_mob_near_sculk_catalyst"
-    },
-    "minecraft:elder_guardian": {
-      "conditions": {
-        "entity": {
-          "type": "elder_guardian"
-        }
-      },
-      "trigger": "minecraft:kill_mob_near_sculk_catalyst"
-    },
-    "minecraft:ender_dragon": {
-      "conditions": {
-        "entity": {
-          "type": "ender_dragon"
-        }
-      },
-      "trigger": "minecraft:kill_mob_near_sculk_catalyst"
-    },
-    "minecraft:enderman": {
-      "conditions": {
-        "entity": {
-          "type": "enderman"
-        }
-      },
-      "trigger": "minecraft:kill_mob_near_sculk_catalyst"
-    },
-    "minecraft:endermite": {
-      "conditions": {
-        "entity": {
-          "type": "endermite"
-        }
-      },
-      "trigger": "minecraft:kill_mob_near_sculk_catalyst"
-    },
-    "minecraft:evoker": {
-      "conditions": {
-        "entity": {
-          "type": "evoker"
-        }
-      },
-      "trigger": "minecraft:kill_mob_near_sculk_catalyst"
-    },
-    "minecraft:ghast": {
-      "conditions": {
-        "entity": {
-          "type": "ghast"
-        }
-      },
-      "trigger": "minecraft:kill_mob_near_sculk_catalyst"
-    },
-    "minecraft:guardian": {
-      "conditions": {
-        "entity": {
-          "type": "guardian"
-        }
-      },
-      "trigger": "minecraft:kill_mob_near_sculk_catalyst"
-    },
-    "minecraft:hoglin": {
-      "conditions": {
-        "entity": {
-          "type": "hoglin"
-        }
-      },
-      "trigger": "minecraft:kill_mob_near_sculk_catalyst"
-    },
-    "minecraft:husk": {
-      "conditions": {
-        "entity": {
-          "type": "husk"
-        }
-      },
-      "trigger": "minecraft:kill_mob_near_sculk_catalyst"
-    },
-    "minecraft:magma_cube": {
-      "conditions": {
-        "entity": {
-          "type": "magma_cube"
-        }
-      },
-      "trigger": "minecraft:kill_mob_near_sculk_catalyst"
-    },
-    "minecraft:phantom": {
-      "conditions": {
-        "entity": {
-          "type": "phantom"
-        }
-      },
-      "trigger": "minecraft:kill_mob_near_sculk_catalyst"
-    },
-    "minecraft:piglin": {
-      "conditions": {
-        "entity": {
-          "type": "piglin"
-        }
-      },
-      "trigger": "minecraft:kill_mob_near_sculk_catalyst"
-    },
-    "minecraft:piglin_brute": {
-      "conditions": {
-        "entity": {
-          "type": "piglin_brute"
-        }
-      },
-      "trigger": "minecraft:kill_mob_near_sculk_catalyst"
-    },
-    "minecraft:pillager": {
-      "conditions": {
-        "entity": {
-          "type": "pillager"
-        }
-      },
-      "trigger": "minecraft:kill_mob_near_sculk_catalyst"
-    },
-    "minecraft:ravager": {
-      "conditions": {
-        "entity": {
-          "type": "ravager"
-        }
-      },
-      "trigger": "minecraft:kill_mob_near_sculk_catalyst"
-    },
-    "minecraft:shulker": {
-      "conditions": {
-        "entity": {
-          "type": "shulker"
-        }
-      },
-      "trigger": "minecraft:kill_mob_near_sculk_catalyst"
-    },
-    "minecraft:silverfish": {
-      "conditions": {
-        "entity": {
-          "type": "silverfish"
-        }
-      },
-      "trigger": "minecraft:kill_mob_near_sculk_catalyst"
-    },
-    "minecraft:skeleton": {
-      "conditions": {
-        "entity": {
-          "type": "skeleton"
-        }
-      },
-      "trigger": "minecraft:kill_mob_near_sculk_catalyst"
-    },
-    "minecraft:slime": {
-      "conditions": {
-        "entity": {
-          "type": "slime"
-        }
-      },
-      "trigger": "minecraft:kill_mob_near_sculk_catalyst"
-    },
-    "minecraft:spider": {
-      "conditions": {
-        "entity": {
-          "type": "spider"
-        }
-      },
-      "trigger": "minecraft:kill_mob_near_sculk_catalyst"
-    },
-    "minecraft:stray": {
-      "conditions": {
-        "entity": {
-          "type": "stray"
-        }
-      },
-      "trigger": "minecraft:kill_mob_near_sculk_catalyst"
-    },
-    "minecraft:vex": {
-      "conditions": {
-        "entity": {
-          "type": "vex"
-        }
-      },
-      "trigger": "minecraft:kill_mob_near_sculk_catalyst"
-    },
-    "minecraft:vindicator": {
-      "conditions": {
-        "entity": {
-          "type": "vindicator"
-        }
-      },
-      "trigger": "minecraft:kill_mob_near_sculk_catalyst"
-    },
-    "minecraft:witch": {
-      "conditions": {
-        "entity": {
-          "type": "witch"
-        }
-      },
-      "trigger": "minecraft:kill_mob_near_sculk_catalyst"
-    },
-    "minecraft:wither": {
-      "conditions": {
-        "entity": {
-          "type": "wither"
-        }
-      },
-      "trigger": "minecraft:kill_mob_near_sculk_catalyst"
-    },
-    "minecraft:wither_skeleton": {
-      "conditions": {
-        "entity": {
-          "type": "wither_skeleton"
-        }
-      },
-      "trigger": "minecraft:kill_mob_near_sculk_catalyst"
-    },
-    "minecraft:zoglin": {
-      "conditions": {
-        "entity": {
-          "type": "zoglin"
-        }
-      },
-      "trigger": "minecraft:kill_mob_near_sculk_catalyst"
-    },
-    "minecraft:zombie": {
-      "conditions": {
-        "entity": {
-          "type": "zombie"
-        }
-      },
-      "trigger": "minecraft:kill_mob_near_sculk_catalyst"
-    },
-    "minecraft:zombie_villager": {
-      "conditions": {
-        "entity": {
-          "type": "zombie_villager"
-        }
-      },
-      "trigger": "minecraft:kill_mob_near_sculk_catalyst"
-    },
-    "minecraft:zombified_piglin": {
-      "conditions": {
-        "entity": {
-          "type": "zombified_piglin"
-        }
-      },
-      "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+    "rewards": {
+        "experience": 500
     }
-  },
-  "display": {
-    "description": {
-      "fallback": "在幽匿催发体旁边击杀所有种类的敌对生物",
-      "translate": "kill_all_monsters_near_sculk_catalyst.description"
-    },
-    "frame": "challenge",
-    "icon": {
-      "count": 1,
-      "id": "minecraft:sculk_catalyst"
-    },
-    "title": {
-      "fallback": "潜滋暗长",
-      "translate": "kill_all_monsters_near_sculk_catalyst.title"
-    }
-  },
-  "rewards": {
-    "experience": 500
-  }
 }
