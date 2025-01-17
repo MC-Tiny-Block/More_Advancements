@@ -1,0 +1,32 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:fern"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "蕨！",
+            "translate": "fern.title"
+        },
+        "description": {
+            "fallback": "获得蕨或大型蕨",
+            "translate": "fern.description"
+        }
+    },
+    "criteria": {
+        "taiga":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "fern",
+                            "large_fern"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:world/in_old_taiga"
+}

@@ -1,28 +1,28 @@
 {
     "criteria": {
-      "boat": {
-        "conditions": {
-          "player": {
-            "type_specific": {
-              "type": "player",
-              "advancements": {
-                "madv:story/get_wooden_sword": true
-              }
-            }
-          }
-        },
-        "trigger": "minecraft:tick"
-      }
+        "get_wooden_sword": {
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "advancements": {
+                            "madv:story/get_wooden_sword": true
+                        }
+                    }
+                }
+            },
+            "trigger": "minecraft:tick"
+        }
     },
     "display": {
-      "announce_to_chat": false,
-      "background": "textures/block/stripped_birch_log.png",
-      "description": "游历这个世界！",
-      "icon": {
-        "count": 1,
-        "id": "minecraft:oak_sapling"
-      },
-      "show_toast": false,
-      "title": "世界"
+        "announce_to_chat": false,
+        "background": "textures/block/stripped_birch_log.png",
+        "description": "游历这个世界！",
+        "icon": {
+            "count": 1,
+            "id": "minecraft:oak_sapling"
+        },
+        "show_toast": false,
+        "title": "世界"
     }
 }

@@ -1,0 +1,67 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:bundle"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "冒险启程",
+            "translate": "start.title"
+        },
+        "description": {
+            "fallback": "为你的冒险准备好一张床、一个工作台、64块木板、64块圆石和满满的勇气！",
+            "translate": "start.description"
+        }
+    },
+    "criteria": {
+        "bed":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "#beds"
+                    }
+                ]
+            }
+        },
+        "crafting_table":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "crafting_table",
+                            "crafter"
+                        ]
+                    }
+                ]
+            }
+        },
+        "planks":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "#planks",
+                        "count": 64
+                    }
+                ]
+            }
+        },
+        "cobblestone":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "cobblestone",
+                            "cobbled_deepslate"
+                        ],
+                        "count": 64
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:world/stick"
+}

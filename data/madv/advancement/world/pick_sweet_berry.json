@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:sweet_berries"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "采浆果的小姑娘",
+            "translate": "pick_sweet_berries.title"
+        },
+        "description": {
+            "fallback": "采下几颗甜浆果",
+            "translate": "pick_sweet_berries.description"
+        }
+    },
+    "criteria": {
+        "sweet_berries": {
+            "trigger": "minecraft:any_block_use",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "block_state_property",
+                        "block": "sweet_berry_bush",
+                        "properties": {
+                            "age": "1"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:world/in_sweet_berry_bush"
+}

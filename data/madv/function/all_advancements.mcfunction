@@ -215,3 +215,15 @@
         advancement grant @s only madv:monsters_and_combat/watch_creaking_with_pumpkin
 
     #Beta 1.1 共新增11个
+
+    #Beta 1.2
+
+        #世界
+        advancement grant @s only madv:world/start
+        advancement grant @s only madv:world/in_taiga
+        advancement grant @s only madv:world/in_old_taiga
+        advancement grant @s only madv:world/fern
+        advancement grant @s only madv:world/stick
+        advancement grant @s only madv:world/in_sweet_berry_bush
+        advancement grant @s only madv:world/pick_sweet_berry
+        advancement grant @s only madv:world/fern

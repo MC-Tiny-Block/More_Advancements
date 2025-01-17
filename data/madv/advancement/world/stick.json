@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:stick"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "流落荒野",
+            "translate": "stick.title"
+        },
+        "description": {
+            "fallback": "以你意想不到的方式得到一根木棍",
+            "translate": "stick.description"
+        }
+    },
+    "criteria": {
+        "stick":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "stick"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:world/root"
+}

@@ -1,0 +1,39 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:spruce_sapling"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "遍地云杉",
+            "translate": "in_taiga.title"
+        },
+        "description": {
+            "fallback": "造访针叶林和积雪针叶林",
+            "translate": "in_taiga.description"
+        }
+    },
+    "criteria": {
+        "taiga":{
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "taiga"
+                    }
+                }
+            }
+        },
+        "snowy_taiga": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "snowy_taiga"
+                    }
+                }
+            }
+        }
+    },
+    "parent": "madv:world/start"
+}
