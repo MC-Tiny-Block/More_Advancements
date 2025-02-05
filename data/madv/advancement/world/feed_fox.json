@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:fox_spawn_egg"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "毛茸茸的“伙伴”",
+            "translate": "feed_fox.title"
+        },
+        "description": {
+            "fallback": "用甜浆果喂食狐狸来博取它的信任",
+            "translate": "feed_fox.description"
+        }
+    },
+    "criteria": {
+        "fox":{
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:fox"
+                },
+                "item": {
+                    "items": "minecraft:sweet_berries"
+                }
+            }
+        }
+    },
+    "parent": "madv:world/pick_sweet_berry"
+}

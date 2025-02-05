@@ -1,0 +1,39 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:oak_log"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "基础生态",
+            "translate": "forests.title"
+        },
+        "description": {
+            "fallback": "造访森林和桦木森林",
+            "translate": "forests.description"
+        }
+    },
+    "criteria": {
+        "forest":{
+            "trigger": "minecraft:location",
+            "conditions": {
+               "player": {
+                    "location": {
+                        "biomes": "minecraft:forest"
+                    }
+               }
+            }
+        },
+        "birch_forest": {
+            "trigger": "minecraft:location",
+            "conditions": {
+               "player": {
+                    "location": {
+                        "biomes": "minecraft:birch_forest"
+                    }
+               }
+            }
+        }
+    },
+    "parent": "madv:world/start"
+}

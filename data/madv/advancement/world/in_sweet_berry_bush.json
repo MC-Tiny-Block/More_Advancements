@@ -10,7 +10,7 @@
         },
         "description": {
             "fallback": "走到甜浆果丛里",
-            "translate": "in_taiga.description"
+            "translate": "in_sweet_berry_bush.description"
         }
     },
     "criteria": {

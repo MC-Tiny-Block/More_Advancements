@@ -218,6 +218,10 @@
 
     #Beta 1.2
 
+        #采掘
+
+        advancement grant @s only madv:mine/calcite
+
         #世界
         advancement grant @s only madv:world/start
         advancement grant @s only madv:world/in_taiga
@@ -227,3 +231,7 @@
         advancement grant @s only madv:world/in_sweet_berry_bush
         advancement grant @s only madv:world/pick_sweet_berry
         advancement grant @s only madv:world/fern
+        advancement grant @s only madv:world/feed_fox
+        advancement grant @s only madv:world/fox_trade
+        advancement grant @s only madv:world/mushroom_in_taiga
+        advancement grant @s only madv:world/forests

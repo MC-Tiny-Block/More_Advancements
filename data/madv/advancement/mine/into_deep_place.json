@@ -23,7 +23,8 @@
                             "y": {
                                 "max": 0
                             }
-                        }
+                        },
+                        "dimension": "minecraft:overworld"
                     }
                 }
             }
