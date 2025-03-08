@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:mud_bricks"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "往事残骸",
+            "translate": "trail_ruins.title"
+        },
+        "description": {
+            "fallback": "发现一处古迹废墟",
+            "translate": "trail_ruins.description"
+        },
+        "hidden": true
+    },
+    "criteria": {
+        "trail_ruins":{
+            "trigger": "minecraft:location",
+            "conditions": {
+               "player": {
+                    "location": {
+                        "structures": "minecraft:trail_ruins"
+                    }
+               }
+            }
+        }
+    },
+    "parent": "madv:world/old_growth_birch_forest"
+}

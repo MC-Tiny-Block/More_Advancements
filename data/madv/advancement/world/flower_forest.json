@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:dandelion"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "百花齐放",
+            "translate": "flower_forest.title"
+        },
+        "description": {
+            "fallback": "造访繁花森林",
+            "translate": "flower_forest.description"
+        }
+    },
+    "criteria": {
+        "flower_forest":{
+            "trigger": "minecraft:location",
+            "conditions": {
+               "player": {
+                    "location": {
+                        "biomes": "minecraft:flower_forest"
+                    }
+               }
+            }
+        }
+    },
+    "parent": "madv:world/forests"
+}

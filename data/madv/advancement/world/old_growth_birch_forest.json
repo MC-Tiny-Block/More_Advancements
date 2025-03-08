@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:birch_log"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "群白林立",
+            "translate": "old_growth_birch_forest.title"
+        },
+        "description": {
+            "fallback": "造访原始桦木森林",
+            "translate": "old_growth_birch_forest.description"
+        }
+    },
+    "criteria": {
+        "old_growth_birch_forest":{
+            "trigger": "minecraft:location",
+            "conditions": {
+               "player": {
+                    "location": {
+                        "biomes": "minecraft:old_growth_birch_forest"
+                    }
+               }
+            }
+        }
+    },
+    "parent": "madv:world/forests"
+}

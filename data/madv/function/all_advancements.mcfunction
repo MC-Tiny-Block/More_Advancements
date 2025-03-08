@@ -235,3 +235,10 @@
         advancement grant @s only madv:world/fox_trade
         advancement grant @s only madv:world/mushroom_in_taiga
         advancement grant @s only madv:world/forests
+        advancement grant @s only madv:world/eyeblossom
+        advancement grant @s only madv:world/world_center
+        advancement grant @s only madv:world/brush_trails
+        advancement grant @s only madv:world/bundle
+        advancement grant @s only madv:world/flower_forest
+        advancement grant @s only madv:world/old_growth_birch_forest
+        advancement grant @s only madv:world/trail_ruins

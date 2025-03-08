@@ -1,0 +1,34 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:suspicious_gravel"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "沙砾掩埋的历史",
+            "translate": "brush_trails.title"
+        },
+        "description": {
+            "fallback": "刷扫古迹废墟中可疑的沙砾",
+            "translate": "brush_trails.description"
+        }
+    },
+    "criteria": {
+        "suspicious_gravel_common": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "archaeology/trail_ruins_common"
+            }
+        },
+        "suspicious_gravel_rare": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "archaeology/trail_ruins_rare"
+            }
+        }
+    },
+    "parent": "madv:world/trail_ruins",
+    "requirements": [
+        ["suspicious_gravel_common", "suspicious_gravel_rare"]
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:grass_block"
+        },
+        "frame": "goal",
+        "title": {
+            "fallback": "世界之原点",
+            "translate": "world_center.title"
+        },
+        "description": {
+            "fallback": "到达这个世界的(0, 0)坐标处",
+            "translate": "world_center.description"
+        },
+        "hidden": true
+    },
+    "criteria": {
+        "resin_clump":{
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "position": {
+                            "x": {
+                                "max": 0.999,
+                                "min": 0.001
+                            },
+                            "z": {
+                                "max": 0.999,
+                                "min": 0.001
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "parent": "madv:world/start"
+}

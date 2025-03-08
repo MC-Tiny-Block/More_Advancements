@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:bundle"
+            "id":"minecraft:filled_map"
         },
         "frame": "task",
         "title": {
