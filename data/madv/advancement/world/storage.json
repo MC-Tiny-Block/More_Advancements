@@ -1,0 +1,38 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:chest"
+        },
+        "frame": "goal",
+        "title": {
+            "fallback": "硬盘、小U盘、大U盘、网盘",
+            "translate": "storage.title"
+        },
+        "description": {
+            "fallback": "在你的物品栏里放上箱子、收纳袋、潜影盒、末影箱",
+            "translate": "storage.description"
+        }
+    },
+    "criteria": {
+        "storage":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chest"
+                    },
+                    {
+                        "items": "#minecraft:bundles"
+                    },
+                    {
+                        "items": "#minecraft:shulker_boxes"
+                    },
+                    {
+                        "items": "minecraft:ender_chest"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:world/bundle"
+}

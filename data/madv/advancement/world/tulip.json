@@ -1,0 +1,59 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:red_tulip"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "四色花",
+            "translate": "tulip.title"
+        },
+        "description": {
+            "fallback": "采集四种郁金香",
+            "translate": "tulip.description"
+        }
+    },
+    "criteria": {
+        "red_tulip":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:red_tulip"
+                    }
+                ]
+            }
+        },
+        "pink_tulip":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:pink_tulip"
+                    }
+                ]
+            }
+        },
+        "white_tulip":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:white_tulip"
+                    }
+                ]
+            }
+        },
+        "orange_tulip":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:orange_tulip"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:world/flower"
+}

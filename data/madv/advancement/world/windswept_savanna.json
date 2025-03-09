@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:coarse_dirt"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "支离破碎",
+            "translate": "windswept_savanna.title"
+        },
+        "description": {
+            "fallback": "造访山势险峻的风袭热带草原",
+            "translate": "windswept_savanna.description"
+        }
+    },
+    "criteria": {
+        "bundle": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "minecraft:windswept_savanna"
+                    }
+                }
+            }
+        }
+    },
+    "parent": "madv:world/savanna"
+}

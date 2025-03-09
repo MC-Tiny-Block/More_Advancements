@@ -1,0 +1,39 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:poppy"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "自然主义",
+            "translate": "flower.title"
+        },
+        "description": {
+            "fallback": "采一些蒲公英和虞美人",
+            "translate": "flower.description"
+        }
+    },
+    "criteria": {
+        "dandelion":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:dandelion"
+                    }
+                ]
+            }
+        },
+        "poppy": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:poppy"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:world/start"
+}

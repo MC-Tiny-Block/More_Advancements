@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:brush"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "你搁这扫地呢",
+            "translate": "use_brush.title"
+        },
+        "description": {
+            "fallback": "用刷子扫点什么",
+            "translate": "use_brush.description"
+        }
+    },
+    "criteria": {
+        "brush":{
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:brush"
+                }
+            }
+        }
+    },
+    "parent": "madv:world/start"
+}

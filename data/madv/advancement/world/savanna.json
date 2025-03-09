@@ -1,0 +1,39 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:acacia_sapling"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "萨瓦纳草原",
+            "translate": "savanna.title"
+        },
+        "description": {
+            "fallback": "造访热带草原和热带高原",
+            "translate": "savanna.description"
+        }
+    },
+    "criteria": {
+        "savanna":{
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "minecraft:savanna"
+                    }
+                }
+            }
+        },
+        "s": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "minecraft:savanna_plateau"
+                    }
+                }
+            }
+        }
+    },
+    "parent": "madv:world/start"
+}

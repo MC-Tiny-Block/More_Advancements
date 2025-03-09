@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:peony"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "国色天香",
+            "translate": "peony.title"
+        },
+        "description": {
+            "fallback": "采集一些牡丹",
+            "translate": "peony.description"
+        }
+    },
+    "criteria": {
+        "peony":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:peony"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:world/lily_of_the_valley"
+}

@@ -1,0 +1,31 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:chest"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "另一种搬家方式",
+            "translate": "chest_on_llama.title"
+        },
+        "description": {
+            "fallback": "给羊驼装上箱子",
+            "translate": "chest_on_llama.description"
+        }
+    },
+    "criteria": {
+        "llama":{
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:llama",
+                    "nbt": "{'ChestedHorse': 1b,'Tame': 1b}"
+                },
+                "item": {
+                    "items": "minecraft:chest"
+                }
+            }
+        }
+    },
+    "parent": "madv:world/kill_llama"
+}

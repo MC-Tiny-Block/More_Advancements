@@ -26,5 +26,5 @@
             }
         }
     },
-    "parent": "madv:world/old_growth_birch_forest"
+    "parent": "madv:world/use_brush"
 }

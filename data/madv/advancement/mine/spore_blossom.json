@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:spore_blossom"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "散布孢子",
+            "translate": "spore_blossom.title"
+        },
+        "description": {
+            "fallback": "这玩意为啥有孢子植物的孢子和被子植物的花？",
+            "translate": "spore_blossom.description"
+        }
+    },
+    "criteria": {
+        "spore_blossom":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:spore_blossom"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:mine/use_bone_meal_on_azalea"
+}

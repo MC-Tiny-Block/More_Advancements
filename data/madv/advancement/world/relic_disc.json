@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:music_disc_relic"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "余音绕梁",
+            "translate": "relic_disc.title"
+        },
+        "description": {
+            "fallback": "在古迹废墟中扫出Relic唱片",
+            "translate": "relic_disc.description"
+        }
+    },
+    "criteria": {
+        "music_disc_relic":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:music_disc_relic"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:world/all_ruins_template"
+}

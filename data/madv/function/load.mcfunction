@@ -1,1 +1,1 @@
-tellraw @a [{"text": "[MAdv] "},{"fallback": "§a更多进度数据包Beta1.1加载完成！","translate": "load","shadow_color": 1095428874}]
+tellraw @a [{"text": "[MAdv] "},{"fallback": "§a更多进度数据包Beta1.2加载完成！","translate": "load","shadow_color": 1095428874}]

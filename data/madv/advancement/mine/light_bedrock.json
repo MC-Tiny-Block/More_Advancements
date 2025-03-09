@@ -1,0 +1,40 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:bedrock"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "没有基岩粉！",
+            "translate": "light_bedrock.title"
+        },
+        "description": {
+            "fallback": "你没装Ender IO！",
+            "translate": "light_bedrock.description"
+        },
+        "hidden": true
+    },
+    "criteria": {
+        "bedrock": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "match_tool",
+                        "predicate": {
+                            "items": [
+                                "minecraft:flint_and_steel",
+                                "minecraft:fire_charge"
+                            ]
+                        }
+                    },
+                    {
+                        "condition": "minecraft:block_state_property",
+                        "block": "minecraft:bedrock"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:mine/on_the_deepist"
+}

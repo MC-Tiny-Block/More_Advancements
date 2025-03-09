@@ -1,0 +1,36 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:bedrock"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "我再说一遍！没有基岩粉！",
+            "translate": "brush_bedrock.title"
+        },
+        "description": {
+            "fallback": "你为何如此执迷不悟？",
+            "translate": "brush_bedrock.description"
+        }
+    },
+    "criteria": {
+        "bedrock":{
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "block_state_property",
+                        "block": "minecraft:bedrock"
+                    },
+                    {
+                        "condition": "match_tool",
+                        "predicate": {
+                            "items": "minecraft:brush"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:world/use_brush"
+}

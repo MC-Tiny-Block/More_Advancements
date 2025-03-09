@@ -219,8 +219,9 @@
     #Beta 1.2
 
         #采掘
-
         advancement grant @s only madv:mine/calcite
+        advancement grant @s only madv:mine/spore_blossom
+        advancement grant @s only madv:mine/light_bedrock
 
         #世界
         advancement grant @s only madv:world/start
@@ -242,3 +243,18 @@
         advancement grant @s only madv:world/flower_forest
         advancement grant @s only madv:world/old_growth_birch_forest
         advancement grant @s only madv:world/trail_ruins
+        advancement grant @s only madv:world/all_flowers
+        advancement grant @s only madv:world/all_ruins_template
+        advancement grant @s only madv:world/brush_bedrock
+        advancement grant @s only madv:world/chest_on_llama
+        advancement grant @s only madv:world/flower
+        advancement grant @s only madv:world/kill_llama
+        advancement grant @s only madv:world/lily_of_the_valley
+        advancement grant @s only madv:world/peony
+        advancement grant @s only madv:world/relic_disc
+        advancement grant @s only madv:world/ride_llama
+        advancement grant @s only madv:world/savanna
+        advancement grant @s only madv:world/storage
+        advancement grant @s only madv:world/tulip
+        advancement grant @s only madv:world/use_brush
+        advancement grant @s only madv:world/windswept_savanna
