@@ -222,6 +222,8 @@
         advancement grant @s only madv:mine/calcite
         advancement grant @s only madv:mine/spore_blossom
         advancement grant @s only madv:mine/light_bedrock
+        advancement grant @s only madv:mine/break_wooden_pickaxe
+        advancement grant @s only madv:mine/coal_smelt_coal
 
         #世界
         advancement grant @s only madv:world/start
@@ -245,7 +247,7 @@
         advancement grant @s only madv:world/trail_ruins
         advancement grant @s only madv:world/all_flowers
         advancement grant @s only madv:world/all_ruins_template
-        advancement grant @s only madv:world/brush_bedrock2
+        advancement grant @s only madv:world/brush_bedrock
         advancement grant @s only madv:world/chest_on_llama
         advancement grant @s only madv:world/flower
         advancement grant @s only madv:world/kill_llama
@@ -258,3 +260,31 @@
         advancement grant @s only madv:world/tulip
         advancement grant @s only madv:world/use_brush
         advancement grant @s only madv:world/windswept_savanna
+        advancement grant @s only madv:world/armadillo_scute
+        advancement grant @s only madv:world/atk_armadillo
+        advancement grant @s only madv:world/jiao_long
+        advancement grant @s only madv:world/jungle
+        advancement grant @s only madv:world/lead_trader_llama
+        advancement grant @s only madv:world/shears
+        advancement grant @s only madv:world/short_grass
+        advancement grant @s only madv:world/tall_grass
+        advancement grant @s only madv:world/village
+        advancement grant @s only madv:world/village_savanna
+        advancement grant @s only madv:world/village_taiga
+
+        #怪物与战斗
+        advancement grant @s only madv:monsters_and_combat/all_heads
+        advancement grant @s only madv:monsters_and_combat/boom_creeper
+        
+        #冒险
+        advancement grant @s only madv:adventure/all_discs
+        
+        #魔咒与工艺
+        advancement grant @s only madv:enchantments_and_crafting/mojang_pattern
+        advancement grant @s only madv:enchantments_and_crafting/netherite_lite
+
+        #下界
+        advancement grant @s only madv:nether/top_of_nether
+
+        #农牧业
+        advancement grant @s only madv:husbandry/eat_cake
