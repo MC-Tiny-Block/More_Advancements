@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:lead"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "游子归家",
+            "translate": "lead_trader_llama.title"
+        },
+        "description": {
+            "fallback": "对着身处热带高原的行商羊驼使用拴绳",
+            "translate": "lead_trader_llama.description"
+        }
+    },
+    "criteria": {
+        "lead_trader_llama":{
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:trader_llama",
+                    "location": {
+                        "biomes": "minecraft:savanna_plateau"
+                    }
+                },
+                "item": {
+                    "items": "minecraft:lead"
+                }
+            }
+        }
+    },
+    "parent": "madv:world/chest_on_llama"
+}

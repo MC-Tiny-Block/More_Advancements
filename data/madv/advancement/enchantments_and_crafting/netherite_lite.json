@@ -1,0 +1,43 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:diamond_chestplate",
+            "components": {
+                "minecraft:trim": {
+                    "pattern": "minecraft:bolt",
+                    "material": "minecraft:netherite"
+                }
+            }
+        },
+        "frame": "challenge",
+        "title": {
+            "fallback": "下界合金盔甲Lite",
+            "translate": "netherite_lite.title"
+        },
+        "description": {
+            "fallback": "给钻石盔甲锻上下界合金花纹（很好看不是吗？）",
+            "translate": "netherite_lite.description"
+        }
+    },
+    "criteria": {
+        "diamond_chestplate":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond_chestplate",
+                        "predicates": {
+                            "minecraft:trim": {
+                                "material": "minecraft:netherite"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:temp/root",
+    "rewards": {
+        "experience": 300
+    }
+}

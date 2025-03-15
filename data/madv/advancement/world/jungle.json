@@ -1,0 +1,39 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:jungle_sapling"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "植被繁盛",
+            "translate": "jungle.title"
+        },
+        "description": {
+            "fallback": "造访丛林和稀疏丛林",
+            "translate": "jungle.description"
+        }
+    },
+    "criteria": {
+        "jungle":{
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "minecraft:jungle"
+                    }
+                }
+            }
+        },
+        "sparse_jungle": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "minecraft:sparse_jungle"
+                    }
+                }
+            }
+        }
+    },
+    "parent": "madv:world/forests"
+}

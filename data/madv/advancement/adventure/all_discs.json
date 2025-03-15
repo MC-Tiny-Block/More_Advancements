@@ -1,0 +1,212 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:music_disc_13"
+        },
+        "frame": "challenge",
+        "title": {
+            "fallback": "唱片收藏家",
+            "translate": "all_discs.title"
+        },
+        "description": {
+            "fallback": "收集所有种类的唱片",
+            "translate": "all_discs.description"
+        }
+    },
+    "criteria": {
+        "music_disc_13": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:music_disc_13"
+                    }
+                ]
+            }
+        },
+        "music_disc_cat": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:music_disc_cat"
+                    }
+                ]
+            }
+        },
+        "music_disc_blocks": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:music_disc_blocks"
+                    }
+                ]
+            }
+        },
+        "music_disc_chirp": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:music_disc_chirp"
+                    }
+                ]
+            }
+        },
+        "music_disc_far": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:music_disc_far"
+                    }
+                ]
+            }
+        },
+        "music_disc_mall": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:music_disc_mall"
+                    }
+                ]
+            }
+        },
+        "music_disc_mellohi": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:music_disc_mellohi"
+                    }
+                ]
+            }
+        },
+        "music_disc_stal": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:music_disc_stal"
+                    }
+                ]
+            }
+        },
+        "music_disc_strad": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:music_disc_strad"
+                    }
+                ]
+            }
+        },
+        "music_disc_ward": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:music_disc_ward"
+                    }
+                ]
+            }
+        },
+        "music_disc_11": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:music_disc_11"
+                    }
+                ]
+            }
+        },
+        "music_disc_creator_music_box": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:music_disc_creator_music_box"
+                    }
+                ]
+            }
+        },
+        "music_disc_wait": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:music_disc_wait"
+                    }
+                ]
+            }
+        },
+        "music_disc_creator": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:music_disc_creator"
+                    }
+                ]
+            }
+        },
+        "music_disc_precipice": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:music_disc_precipice"
+                    }
+                ]
+            }
+        },
+        "music_disc_otherside": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:music_disc_otherside"
+                    }
+                ]
+            }
+        },
+        "music_disc_relic": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:music_disc_relic"
+                    }
+                ]
+            }
+        },
+        "music_disc_5": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:music_disc_5"
+                    }
+                ]
+            }
+        },
+        "music_disc_pigstep": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:music_disc_pigstep"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:temp/root",
+    "rewards": {
+        "experience": 100
+    }
+}

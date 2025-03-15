@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:oak_planks"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "屋舍俨然",
+            "translate": "village.title"
+        },
+        "description": {
+            "fallback": "找到一处平原村庄",
+            "translate": "village.description"
+        }
+    },
+    "criteria": {
+        "village":{
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "minecraft:village_plains"
+                    }
+                }
+            }
+        }
+    },
+    "parent": "madv:world/start"
+}

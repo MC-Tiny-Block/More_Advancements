@@ -1,0 +1,39 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:cake"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "美味回忆",
+            "translate": "eat_cake.title"
+        },
+        "description": {
+            "fallback": "在饥饿值为0时吃一块蛋糕",
+            "translate": "eat_cake.description"
+        }
+    },
+    "criteria": {
+        "cake":{
+            "trigger": "minecraft:any_block_use",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{foodLevel: 2}"
+                        }
+                    }
+                ],
+                "location": [
+                    {
+                        "condition": "minecraft:block_state_property",
+                        "block": "minecraft:cake"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:temp/root"
+}

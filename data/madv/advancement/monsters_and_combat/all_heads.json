@@ -1,0 +1,82 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:creeper_head"
+        },
+        "frame": "challenge",
+        "title": {
+            "fallback": "战果累累",
+            "translate": "all_heads.title"
+        },
+        "description": {
+            "fallback": "获得所有种类的生物头颅",
+            "translate": "all_heads.description"
+        }
+    },
+    "criteria": {
+        "skeleton_skull": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:skeleton_skull"
+                    }
+                ]
+            }
+        },
+        "wither_skeleton_skull": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:wither_skeleton_skull"
+                    }
+                ]
+            }
+        },
+        "zombie_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:zombie_head"
+                    }
+                ]
+            }
+        },
+        "creeper_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:creeper_head"
+                    }
+                ]
+            }
+        },
+        "piglin_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:piglin_head"
+                    }
+                ]
+            }
+        },
+        "dragon_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:dragon_head"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "minecraft:adventure/kill_all_mobs",
+    "rewards": {
+        "experience": 100
+    }
+}

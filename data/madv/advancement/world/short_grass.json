@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:short_grass"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "草！",
+            "translate": "short_grass.title"
+        },
+        "description": {
+            "fallback": "剪一些矮草丛",
+            "translate": "short_grass.description"
+        }
+    },
+    "criteria": {
+        "short_grass":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:short_grass"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:world/shears"
+}

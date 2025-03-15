@@ -1,5 +1,5 @@
 {
-  "parent": "madv:adventure/compass",
+  "parent": "madv:mine/compass",
   "criteria": {
     "use_lodestone": {
       "conditions": {

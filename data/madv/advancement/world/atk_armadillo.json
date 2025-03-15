@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:armadillo_spawn_egg"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "这家伙壳可真硬！",
+            "translate": "atk_armadillo.title"
+        },
+        "description": {
+            "fallback": "攻击一只蜷缩着的犰狳",
+            "translate": "atk_armadillo.description"
+        }
+    },
+    "criteria": {
+        "llama":{
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:armadillo",
+                    "nbt": "{state: 'scared'}"
+                }
+            }
+        }
+    },
+    "parent": "madv:world/savanna"
+}

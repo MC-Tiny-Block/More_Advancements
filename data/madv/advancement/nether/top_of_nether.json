@@ -1,0 +1,35 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:bedrock"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "无人之境",
+            "translate": "top_of_nether.title"
+        },
+        "description": {
+            "fallback": "先别管你怎么上来的，看看你背包里有没有黑曜石和打火石之类的……",
+            "translate": "top_of_nether.description"
+        },
+        "hidden": true
+    },
+    "criteria": {
+        "top_of_nether":{
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "dimension": "minecraft:the_nether",
+                        "position": {
+                            "y": {
+                                "min": 128
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "parent": "madv:temp/root"
+}

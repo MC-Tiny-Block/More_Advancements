@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:acacia_planks"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "热带高脚屋",
+            "translate": "village_savanna.title"
+        },
+        "description": {
+            "fallback": "找到一处热带草原村庄",
+            "translate": "village_savanna.description"
+        }
+    },
+    "criteria": {
+        "village":{
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "minecraft:village_savanna"
+                    }
+                }
+            }
+        }
+    },
+    "parent": "madv:world/savanna"
+}

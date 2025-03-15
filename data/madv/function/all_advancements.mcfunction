@@ -245,7 +245,7 @@
         advancement grant @s only madv:world/trail_ruins
         advancement grant @s only madv:world/all_flowers
         advancement grant @s only madv:world/all_ruins_template
-        advancement grant @s only madv:world/brush_bedrock
+        advancement grant @s only madv:world/brush_bedrock2
         advancement grant @s only madv:world/chest_on_llama
         advancement grant @s only madv:world/flower
         advancement grant @s only madv:world/kill_llama

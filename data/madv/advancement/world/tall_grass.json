@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:tall_grass"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "不可再生草",
+            "translate": "tall_grass.title"
+        },
+        "description": {
+            "fallback": "在热带草原村庄找到高草丛（很生草不是吗？）",
+            "translate": "tall_grass.description"
+        },
+        "hidden": true
+    },
+    "criteria": {
+        "tall_grass":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:tall_grass"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:world/village_savanna"
+}

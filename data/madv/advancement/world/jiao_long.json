@@ -1,0 +1,55 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:turtle_helmet"
+        },
+        "frame": "challenge",
+        "title": {
+            "fallback": "蛟龙号",
+            "translate": "jiao_long.title"
+        },
+        "description": {
+            "fallback": "穿戴海龟壳并潜至深海类生物群系的y<-50处",
+            "translate": "jiao_long.description"
+        }
+    },
+    "criteria": {
+        "jiao_long": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "offsetY": 1,
+                        "predicate": {
+                            "biomes": "#minecraft:is_deep_ocean",
+                            "position": {
+                                "y": {
+                                    "max": -49
+                                }
+                            },
+                            "block": {
+                                "blocks": "minecraft:water"
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "head": {
+                                    "items": "minecraft:turtle_helmet"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:temp/root",
+        "rewards": {
+            "experience": 300
+        }
+}

@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:mojang_banner_pattern"
+        },
+        "frame": "challenge",
+        "title": {
+            "fallback": "没这图案的话……",
+            "translate": "mojang_pattern.title"
+        },
+        "description": {
+            "fallback": "要么在你的旗帜图案上花上一整颗附魔金苹果，要么烧掉织布机",
+            "translate": "mojang_pattern.description"
+        },
+        "hidden": true
+    },
+    "criteria": {
+        "mojang_pattern":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:mojang_banner_pattern"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:temp/root"
+}

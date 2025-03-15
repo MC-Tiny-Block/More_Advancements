@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:wooden_pickaxe"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "不止三点",
+            "translate": "break_wooden_pickaxe.title"
+        },
+        "description": {
+            "fallback": "用坏一把木镐\n（你就这么喜爱你的木镐吗？）",
+            "translate": "break_wooden_pickaxe.description"
+        }
+    },
+    "criteria": {
+        "wooden_pickaxe":{
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "durability": 0,
+                "item": {
+                    "items": "minecraft:wooden_pickaxe"
+                }
+            }
+        }
+    },
+    "parent": "madv:mine/destory_tools"
+}

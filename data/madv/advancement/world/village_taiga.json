@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:spruce_planks"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "中世纪村庄",
+            "translate": "village_taiga.title"
+        },
+        "description": {
+            "fallback": "找到一处针叶林村庄",
+            "translate": "village_taiga.description"
+        }
+    },
+    "criteria": {
+        "village":{
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "minecraft:village_taiga"
+                    }
+                }
+            }
+        }
+    },
+    "parent": "madv:world/in_taiga"
+}

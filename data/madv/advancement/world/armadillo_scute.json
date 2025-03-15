@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:armadillo_scute"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "生物护甲",
+            "translate": "armadillo_scute.title"
+        },
+        "description": {
+            "fallback": "捡起犰狳掉落的鳞甲",
+            "translate": "armadillo_scute.description"
+        }
+    },
+    "criteria": {
+        "armadillo_scute":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:armadillo_scute"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "minecraft:adventure/brush_armadillo"
+}
