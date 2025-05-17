@@ -1,29 +1,29 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:stick"
+            "id":"minecraft:snowball"
         },
         "frame": "task",
         "title": {
-            "fallback": "流落荒野",
-            "translate": "stick.title"
+            "fallback": "扔出去试试？",
+            "translate": "snowball.title"
         },
         "description": {
-            "fallback": "以你意想不到的方式得到一根木棍",
-            "translate": "stick.description"
+            "fallback": "铲一些雪球",
+            "translate": "snowball.description"
         }
     },
     "criteria": {
-        "stick":{
+        "snowball": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": "minecraft:stick"
+                        "items": "minecraft:snowball"
                     }
                 ]
             }
         }
     },
-    "parent": "madv:world/root"
+    "parent": "madv:world/cold_place"
 }

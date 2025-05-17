@@ -20,24 +20,15 @@
             "conditions": {
                 "player": [
                     {
-                        "condition": "all_of",
-                        "terms": [
-                            {
-                                "condition": "inverted",
-                                "term":                             {
-                                    "condition": "time_check",
-                                    "value": {
-                                        "min": 13800,
-                                        "max": 22200
-                                    },
-                                    "period": 24000
-                                }
+                        "condition": "inverted",
+                        "term": {
+                            "condition": "time_check",
+                            "value": {
+                                "min": 12600,
+                                "max": 23400
                             },
-                            {
-                                "condition": "weather_check",
-                                "thundering": false
-                            }
-                        ]
+                            "period": 24000
+                        }
                     },
                     {
                         "condition": "location_check",
@@ -49,5 +40,5 @@
             }
         }
     },
-    "parent": "madv:monsters_and_combat/kill_enderman"
+    "parent": "madv:world/dark_forest"
 }

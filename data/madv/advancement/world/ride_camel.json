@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:birch_boat"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "沙漠之舟",
+            "translate": "camel.title"
+        },
+        "description": {
+            "fallback": "骑上一只骆驼",
+            "translate": "camel.description"
+        }
+    },
+    "criteria": {
+        "camel":{
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "vehicle": {
+                        "type": "minecraft:camel"
+                    }
+                }
+            }
+        }
+    },
+    "parent": "madv:world/desert"
+}

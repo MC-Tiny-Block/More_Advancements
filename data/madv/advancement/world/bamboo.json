@@ -1,29 +1,29 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:stick"
+            "id":"minecraft:bamboo"
         },
         "frame": "task",
         "title": {
-            "fallback": "流落荒野",
-            "translate": "stick.title"
+            "fallback": "另一种木头",
+            "translate": "advancements.madv.bamboo.title"
         },
         "description": {
-            "fallback": "以你意想不到的方式得到一根木棍",
-            "translate": "stick.description"
+            "fallback": "用剑砍几根竹子",
+            "translate": "advancements.madv.bamboo.description"
         }
     },
     "criteria": {
-        "stick":{
+        "bamboo":{
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": "minecraft:stick"
+                        "items": "minecraft:bamboo"
                     }
                 ]
             }
         }
     },
-    "parent": "madv:world/root"
+    "parent": "madv:world/bamboo_jungle"
 }

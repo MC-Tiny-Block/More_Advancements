@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:bamboo"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "合理密植",
+            "translate": "advancements.madv.bamboo_jungle.title"
+        },
+        "description": {
+            "fallback": "造访一片竹林",
+            "translate": "advancements.madv.bamboo_jungle.description"
+        }
+    },
+    "criteria": {
+        "bamboo_jungle":{
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "minecraft:bamboo_jungle"
+                    }
+                }
+            }
+        }
+    },
+    "parent": "madv:world/jungle"
+}

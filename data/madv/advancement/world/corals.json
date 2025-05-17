@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:fire_coral"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "缤纷珊瑚",
+            "translate": "advancements.madv.corals.title"
+        },
+        "description": {
+            "fallback": "在暖水海洋里发现珊瑚礁",
+            "translate": "advancements.madv.corals.description"
+        }
+    },
+    "criteria": {
+        "corals":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "#madv:coral_items"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:world/warm_ocean"
+}

@@ -1,0 +1,49 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:dark_oak_log"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "黑暗森林",
+            "translate": "dark_forest.title"
+        },
+        "description": {
+            "fallback": "在晚上造访黑森林或许不是个好主意……",
+            "translate": "dark_forest.description"
+        }
+    },
+    "criteria": {
+        "dark_forest": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:any_of",
+                        "terms": [
+                            {
+                                "condition": "minecraft:time_check",
+                                "value": {
+                                    "min": 13800,
+                                    "max": 22200
+                                },
+                                "period": 24000
+                            },
+                            {
+                                "condition": "weather_check",
+                                "thundering": true
+                            }
+                        ]
+                    },
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "biomes": "minecraft:dark_forest"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:world/forests"
+}

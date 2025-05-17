@@ -1,5 +1,5 @@
 {
-  "parent": "madv:temp/root",
+  "parent": "madv:world/igloo_chest",
   "criteria": {
     "cured_zombie": {
       "trigger": "minecraft:cured_zombie_villager"

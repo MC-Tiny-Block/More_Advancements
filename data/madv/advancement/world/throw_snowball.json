@@ -1,0 +1,31 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:snowball"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "打雪仗",
+            "translate": "throw_snowball.title"
+        },
+        "description": {
+            "fallback": "扔雪球砸中生物",
+            "translate": "throw_snowball.description"
+        }
+    },
+    "criteria": {
+        "snowball": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "direct_entity": {
+                            "type": "minecraft:snowball"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "parent": "madv:world/snowball"
+}

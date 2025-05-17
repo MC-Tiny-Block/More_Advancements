@@ -1,0 +1,32 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:filled_map"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "指引宝藏",
+            "translate": "advancements.madv.tresure_map.title"
+        },
+        "description": {
+            "fallback": "找到一张藏宝图",
+            "translate": "advancements.madv.tresure_map.description"
+        }
+    },
+    "criteria": {
+        "filled_map":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:filled_map",
+                        "components": {
+                            "minecraft:item_name": "{\"translate\": \"filled_map.buried_treasure\"}"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:world/shipwreck"
+}

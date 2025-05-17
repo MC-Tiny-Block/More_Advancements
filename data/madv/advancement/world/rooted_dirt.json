@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:rooted_dirt"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "独树一帜",
+            "translate": "advancements.madv.rooted_dirt.title"
+        },
+        "description": {
+            "fallback": "找到一棵杜鹃花树并挖下一个缠根泥土（看看下面的根有多长）",
+            "translate": "advancements.madv.rooted_dirt.description"
+        }
+    },
+    "criteria": {
+        "rooted_dirt":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:rooted_dirt"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:world/start"
+}

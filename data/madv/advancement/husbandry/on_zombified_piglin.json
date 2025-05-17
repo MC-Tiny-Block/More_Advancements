@@ -1,0 +1,38 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:zombified_piglin_spawn_egg"
+        },
+        "frame": "challenge",
+        "title": {
+            "fallback": "当猪被雷劈的时候",
+            "translate": "advancements.madv.on_zombified_piglin.title"
+        },
+        "description": {
+            "fallback": "恭喜你获得了一次性限定坐骑！（愣着干啥，截图啊！）",
+            "translate": "advancements.madv.on_zombified_piglin.description"
+        }
+    },
+    "criteria": {
+        "on_zombified_piglin":{
+            "trigger": "minecraft:started_riding",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "vehicle": {
+                                "type": "minecraft:zombified_piglin"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:temp/root",
+    "rewards": {
+        "experience": 1000
+    }
+}

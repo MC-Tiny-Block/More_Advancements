@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:snow_block"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "因纽特人",
+            "translate": "village_snowy.title"
+        },
+        "description": {
+            "fallback": "找到一处雪原村庄",
+            "translate": "village_snowy.description"
+        }
+    },
+    "criteria": {
+        "village_snowy":{
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "minecraft:village_snowy"
+                    }
+                }
+            }
+        }
+    },
+    "parent": "madv:world/cold_place"
+}

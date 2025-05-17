@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:dead_bush"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "枯枝败叶",
+            "translate": "advancements.madv.dead_bush.title"
+        },
+        "description": {
+            "fallback": "获得枯萎的灌木",
+            "translate": "advancements.madv.dead_bush.descrtption"
+        }
+    },
+    "criteria": {
+        "dead_bush":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:dead_bush"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:world/desert"
+}

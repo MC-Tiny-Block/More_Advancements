@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:chest"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "宝藏猎人",
+            "translate": "advancements.madv.buried_treasure.title"
+        },
+        "description": {
+            "fallback": "打开一个藏宝箱",
+            "translate": "advancements.madv.buried_treasure.description"
+        }
+    },
+    "criteria": {
+        "buried_treasure":{
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "minecraft:chests/buried_treasure"
+            }
+        }
+    },
+    "parent": "madv:world/treasure_map"
+}

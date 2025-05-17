@@ -1,0 +1,38 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:birch_sapling"
+        },
+        "frame": "goal",
+        "title": {
+            "fallback": "防风固沙",
+            "translate": "advancements.madv.sapling_in_desert.title"
+        },
+        "description": {
+            "fallback": "在沙漠种下一颗树苗，尽管不会改变生物群系……",
+            "translate": "advancements.madv.sapling_in_desert.description"
+        }
+    },
+    "criteria": {
+        "saplings":{
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": "#minecraft:saplings"
+                        }
+                    },
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "biomes": "minecraft:desert"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:world/village_desert"
+}

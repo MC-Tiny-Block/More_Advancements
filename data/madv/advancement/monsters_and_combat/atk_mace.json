@@ -27,5 +27,5 @@
             }
         }
     },
-    "parent": "madv:monsters_and_combat/atk_smite_axe"
+    "parent": "madv:monsters_and_combat/heavy_core"
 }

@@ -1,0 +1,35 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:water_bucket"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "茫茫大海",
+            "translate": "advancements.madv.sea.title"
+        },
+        "description": {
+            "fallback": "潜入海洋中——一类占Minecraft世界至少25%%的生物群系",
+            "translate": "advancements.madv.sea.description"
+        }
+    },
+    "criteria": {
+        "ocean":{
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "biomes": "#minecraft:is_ocean",
+                            "block": {
+                                "blocks": "minecraft:water"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:world/start"
+}

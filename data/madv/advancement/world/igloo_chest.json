@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:potion",
+            "components": {
+                "minecraft:potion_contents": "minecraft:weakness"
+            }
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "废弃实验室？",
+            "translate": "igloo_chest.title"
+        },
+        "description": {
+            "fallback": "打开雪屋地下室的箱子，然后思考这里存在的意义……",
+            "translate": "igloo_chest.description"
+        },
+        "hidden": true
+    },
+    "criteria": {
+        "snowball": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "minecraft:chests/igloo_chest"
+            }
+        }
+    },
+    "parent": "madv:world/igloo"
+}

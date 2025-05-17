@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:heavy_core"
+        },
+        "frame": "goal",
+        "title": {
+            "fallback": "密度超高",
+            "translate": "heavy_core.title"
+        },
+        "description": {
+            "fallback": "获得沉重核心",
+            "translate": "heavy_core.description"
+        },
+        "hidden": true
+    },
+    "criteria": {
+        "heavy_core": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:heavy_core"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "minecraft:adventure/revaulting"
+}

@@ -1,0 +1,32 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:acacia_boat"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "骆绎不绝",
+            "translate": "advancements.madv.boat_with_camel.title"
+        },
+        "description": {
+            "fallback": "和骆驼同舟共济（提示：只有小骆驼能上船）",
+            "translate": "advancements.madv.boat_with_camel.description"
+        }
+    },
+    "criteria": {
+        "camel":{
+            "trigger": "minecraft:started_riding",
+            "conditions": {
+                 "player": {
+                    "vehicle": {
+                        "type": "#minecraft:boat",
+                        "passenger": {
+                            "type": "minecraft:camel"
+                        }
+                    }
+                 }
+            }
+        }
+    },
+    "parent": "madv:world/ride_camel"
+}

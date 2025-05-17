@@ -1,0 +1,39 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:snow_block"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "冰天雪地",
+            "translate": "cold_place.title"
+        },
+        "description": {
+            "fallback": "造访雪原和冻河",
+            "translate": "cold_place.description"
+        }
+    },
+    "criteria": {
+        "snowy_plains":{
+            "trigger": "minecraft:location",
+            "conditions": {
+               "player": {
+                    "location": {
+                        "biomes": "minecraft:snowy_plains"
+                    }
+               }
+            }
+        },
+        "frozen_river": {
+            "trigger": "minecraft:location",
+            "conditions": {
+               "player": {
+                    "location": {
+                        "biomes": "minecraft:frozen_river"
+                    }
+               }
+            }
+        }
+    },
+    "parent": "madv:world/start"
+}

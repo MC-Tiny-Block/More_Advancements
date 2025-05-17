@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:heart_of_the_sea"
+        },
+        "frame": "goal",
+        "title": {
+            "fallback": "海的力量我知道",
+            "translate": "advancements.madv.heart_of_the_sea.title"
+        },
+        "description": {
+            "fallback": "获取海洋之心",
+            "translate": "advancements.madv.heart_of_the_sea.description"
+        }
+    },
+    "criteria": {
+        "heart_of_the_sea":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:heart_of_the_sea"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:world/buried_treasure"
+}

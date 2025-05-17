@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:sand"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "温暖洋流",
+            "translate": "advancements.madv.warm_ocean.title"
+        },
+        "description": {
+            "fallback": "造访暖水海洋",
+            "translate": "advancements.madv.warm_ocean.description"
+        }
+    },
+    "criteria": {
+        "warm_ocean":{
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "minecraft:warm_ocean"
+                    }
+                }
+            }
+        }
+    },
+    "parent": "madv:world/seagrass"
+}

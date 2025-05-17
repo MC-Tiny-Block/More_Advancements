@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:sea_pickle"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "生态光源",
+            "translate": "advancements.madv.sea_pickle.title"
+        },
+        "description": {
+            "fallback": "采集一些海泡菜",
+            "translate": "advancements.madv.sea_pickle.description"
+        }
+    },
+    "criteria": {
+        "sea_pickle":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:sea_pickle"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:world/warm_ocean"
+}

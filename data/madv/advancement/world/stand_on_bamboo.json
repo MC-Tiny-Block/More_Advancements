@@ -1,0 +1,38 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:bamboo"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "武林高手",
+            "translate": "advancements.madv.stand_on_bamboo.title"
+        },
+        "description": {
+            "fallback": "站在一根成熟的竹子上",
+            "translate": "advancements.madv.stand_on_bamboo.description"
+        }
+    },
+    "criteria": {
+        "bamboo":{
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -1,
+                        "predicate": {
+                            "block": {
+                                "blocks": "minecraft:bamboo",
+                                "state": {
+                                    "stage": "1"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:world/bamboo_jungle"
+}

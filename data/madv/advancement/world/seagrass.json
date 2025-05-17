@@ -1,29 +1,29 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:stick"
+            "id":"minecraft:seagrass"
         },
         "frame": "task",
         "title": {
-            "fallback": "流落荒野",
-            "translate": "stick.title"
+            "fallback": "随波漂摇",
+            "translate": "advancements.madv.seagrass.title"
         },
         "description": {
-            "fallback": "以你意想不到的方式得到一根木棍",
-            "translate": "stick.description"
+            "fallback": "用剪刀剪一些海草",
+            "translate": "advancements.madv.seagrass.description"
         }
     },
     "criteria": {
-        "stick":{
+        "seagrass":{
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": "minecraft:stick"
+                        "items": "minecraft:seagrass"
                     }
                 ]
             }
         }
     },
-    "parent": "madv:world/root"
+    "parent": "madv:world/kelp"
 }

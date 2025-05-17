@@ -1,0 +1,34 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:glass_bottle"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "呼吸困难",
+            "translate": "advancements.madv.drown.title"
+        },
+        "description": {
+            "fallback": "耗尽氧气",
+            "translate": "advancements.madv.drown.description"
+        }
+    },
+    "criteria": {
+        "drown":{
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "tags": [
+                            {
+                                "id": "minecraft:is_drowning",
+                                "expected": true
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "parent": "madv:world/sea"
+}

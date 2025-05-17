@@ -271,10 +271,48 @@
         advancement grant @s only madv:world/village
         advancement grant @s only madv:world/village_savanna
         advancement grant @s only madv:world/village_taiga
+        advancement grant @s only madv:world/all_ocean
+        advancement grant @s only madv:world/bamboo_jungle
+        advancement grant @s only madv:world/bamboo
+        advancement grant @s only madv:world/beaches
+        advancement grant @s only madv:world/boat_with_camel
+        advancement grant @s only madv:world/buried_treasure
+        advancement grant @s only madv:world/cold_place
+        advancement grant @s only madv:world/corals
+        advancement grant @s only madv:world/dark_forest
+        advancement grant @s only madv:world/desert
+        advancement grant @s only madv:world/dead_bush
+        advancement grant @s only madv:world/drown
+        advancement grant @s only madv:world/feed_panda
+        advancement grant @s only madv:world/heart_of_the_sea
+        advancement grant @s only madv:world/hurt_by_cactus
+        advancement grant @s only madv:world/igloo_chest
+        advancement grant @s only madv:world/igloo
+        advancement grant @s only madv:world/kelp
+        advancement grant @s only madv:world/lush_caves
+        advancement grant @s only madv:world/ride_camel
+        advancement grant @s only madv:world/rooted_dirt
+        advancement grant @s only madv:world/sapling_in_desert
+        advancement grant @s only madv:world/sea_pickle
+        advancement grant @s only madv:world/sea
+        advancement grant @s only madv:world/seagrass
+        advancement grant @s only madv:world/shipwreck
+        advancement grant @s only madv:world/snowball
+        advancement grant @s only madv:world/stand_on_bamboo
+        advancement grant @s only madv:world/taunt_warden
+        advancement grant @s only madv:world/throw_snowball
+        advancement grant @s only madv:world/treasure_map
+        advancement grant @s only madv:world/village_desert
+        advancement grant @s only madv:world/village_snowy
+        advancement grant @s only madv:world/warm_ocean
+        advancement grant @s only madv:world/warm
 
         #怪物与战斗
         advancement grant @s only madv:monsters_and_combat/all_heads
         advancement grant @s only madv:monsters_and_combat/boom_creeper
+        advancement grant @s only madv:monsters_and_combat/heavy_core
+        advancement grant @s only madv:monsters_and_combat/trial_discs
+        advancement grant @s only madv:monsters_and_combat/trial_omen
         
         #冒险
         advancement grant @s only madv:adventure/all_discs
@@ -288,3 +326,4 @@
 
         #农牧业
         advancement grant @s only madv:husbandry/eat_cake
+        advancement grant @s only madv:husbandry/on_zombified_piglin

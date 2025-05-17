@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:ice"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "温馨小屋",
+            "translate": "igloo.title"
+        },
+        "description": {
+            "fallback": "找到一处雪屋",
+            "translate": "igloo.description"
+        }
+    },
+    "criteria": {
+        "igloo": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "minecraft:igloo"
+                    }
+                }
+            }
+        }
+    },
+    "parent": "madv:world/cold_place"
+}

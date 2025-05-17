@@ -1,0 +1,52 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:music_disc_precipice"
+        },
+        "frame": "challenge",
+        "title": {
+            "fallback": "试炼之声",
+            "translate": "trial_discs.title"
+        },
+        "description": {
+            "fallback": "收集Precipice、Creator和Creator（八音盒）三张唱片",
+            "translate": "trial_discs.description"
+        }
+    },
+    "criteria": {
+        "music_disc_precipice": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:music_disc_precipice"
+                    }
+                ]
+            }
+        },
+        "music_disc_creator": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:music_disc_creator"
+                    }
+                ]
+            }
+        },
+        "music_disc_creator_music_box": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:music_disc_creator_music_box"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "minecraft:adventure/revaulting",
+    "rewards": {
+        "experience": 100
+    }
+}

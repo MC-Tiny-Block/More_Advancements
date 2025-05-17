@@ -1,0 +1,40 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:leather_chestplate"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "论如何御寒",
+            "translate": "warm.title"
+        },
+        "description": {
+            "fallback": "穿上全套皮革衣服",
+            "translate": "warm.description"
+        }
+    },
+    "criteria": {
+        "leather_armor":{
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "equipment": {
+                        "head": {
+                            "items": "minecraft:leather_helmet"
+                        },
+                        "chest": {
+                            "items": "minecraft:leather_chestplate"
+                        },
+                        "legs": {
+                            "items": "minecraft:leather_leggings"
+                        },
+                        "feet": {
+                            "items": "minecraft:leather_boots"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "parent": "madv:world/cold_place"
+}

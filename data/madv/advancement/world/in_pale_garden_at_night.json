@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:pale_hanging_moss"
+            "id": "minecraft:pale_hanging_moss"
         },
         "frame": "task",
         "title": {
@@ -15,26 +15,17 @@
         "hidden": true
     },
     "criteria": {
-        "pale_garden":{
+        "pale_garden": {
             "trigger": "minecraft:tick",
             "conditions": {
                 "player": [
                     {
-                        "condition": "any_of",
-                        "terms": [
-                            {
-                                "condition": "time_check",
-                                "value": {
-                                    "min": 13800,
-                                    "max": 22200
-                                },
-                                "period": 24000
-                            },
-                            {
-                                "condition": "weather_check",
-                                "thundering": true
-                            }
-                        ]
+                        "condition": "time_check",
+                        "value": {
+                            "min": 12600,
+                            "max": 23400
+                        },
+                        "period": 24000
                     },
                     {
                         "condition": "location_check",
