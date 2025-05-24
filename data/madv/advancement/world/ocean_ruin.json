@@ -1,25 +1,25 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:spruce_boat"
+            "id":"minecraft:cracked_stone_bricks"
         },
         "frame": "task",
         "title": {
-            "fallback": "海盗遗迹",
-            "translate": "advancements.madv.shipwreck.title"
+            "fallback": "海底村庄？",
+            "translate": "advancements.madv.ocean_ruin.title"
         },
         "description": {
-            "fallback": "发现一处沉船",
-            "translate": "advancements.madv.shipwreck.description"
+            "fallback": "发现一处海底废墟",
+            "translate": "advancements.madv.ocean_ruin.description"
         }
     },
     "criteria": {
-        "shipwreck":{
+        "ocean_ruin":{
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {
                     "location": {
-                        "structures": "#minecraft:shipwreck"
+                        "structures": "#minecraft:ocean_ruin"
                     }
                 }
             }

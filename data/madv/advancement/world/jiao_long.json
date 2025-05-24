@@ -48,7 +48,7 @@
             }
         }
     },
-    "parent": "madv:temp/root",
+    "parent": "madv:world/drown",
         "rewards": {
             "experience": 300
         }

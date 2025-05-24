@@ -306,6 +306,19 @@
         advancement grant @s only madv:world/village_snowy
         advancement grant @s only madv:world/warm_ocean
         advancement grant @s only madv:world/warm
+        advancement grant @s only madv:world/attack_dolphin
+        advancement grant @s only madv:world/brush_desert_pyramid
+        advancement grant @s only madv:world/brush_ocean_ruin
+        advancement grant @s only madv:world/coast_template
+        advancement grant @s only madv:world/conduit
+        advancement grant @s only madv:world/desert_pyramid_chest
+        advancement grant @s only madv:world/desert_pyramid
+        advancement grant @s only madv:world/dolphins_grace
+        advancement grant @s only madv:world/dune_template
+        advancement grant @s only madv:world/feed_dolphin
+        advancement grant @s only madv:world/hurt_by_trident
+        advancement grant @s only madv:world/nautilus_shell
+        advancement grant @s only madv:world/ocean_ruin
 
         #怪物与战斗
         advancement grant @s only madv:monsters_and_combat/all_heads
@@ -316,6 +329,7 @@
         
         #冒险
         advancement grant @s only madv:adventure/all_discs
+        advancement grant @s only madv:adventure/cant_sleep
         
         #魔咒与工艺
         advancement grant @s only madv:enchantments_and_crafting/mojang_pattern

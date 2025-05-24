@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:dune_armor_trim_smithing_template"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "华丽木乃伊",
+            "translate": "advancements.madv.dune_template.title"
+        },
+        "description": {
+            "fallback": "获得沙丘盔甲纹饰锻造模板",
+            "translate": "advancements.madv.dune_template.description"
+        }
+    },
+    "criteria": {
+        "dune_armor_trim_smithing_template": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:dune_armor_trim_smithing_template"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:world/desert_pyramid_chest"
+}

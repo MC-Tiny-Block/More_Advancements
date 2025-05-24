@@ -1,0 +1,34 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:suspicious_sand"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "难溶物质",
+            "translate": "advancements.madv.brush_ocean_ruin.title"
+        },
+        "description": {
+            "fallback": "用刷子刷扫海底废墟的可疑方块",
+            "translate": "advancements.madv.brush_ocean_ruin.description"
+        }
+    },
+    "criteria": {
+        "ocean_ruin_cold": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "minecraft:archaeology/ocean_ruin_cold"
+            }
+        },
+        "ocean_ruin_warm": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "minecraft:archaeology/ocean_ruin_warm"
+            }
+        }
+    },
+    "parent": "madv:world/ocean_ruin",
+    "requirements": [
+        ["ocean_ruin_cold", "ocean_ruin_warm"]
+    ]
+}

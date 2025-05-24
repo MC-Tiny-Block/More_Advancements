@@ -9,7 +9,7 @@
             "translate": "lead_trader_llama.title"
         },
         "description": {
-            "fallback": "对着身处热带高原的行商羊驼使用拴绳",
+            "fallback": "对身处热带高原的行商羊驼使用拴绳",
             "translate": "lead_trader_llama.description"
         }
     },

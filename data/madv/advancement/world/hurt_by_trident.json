@@ -1,0 +1,35 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:trident"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "波塞冬？！",
+            "translate": "advancements.madv.hurt_by_trident.title"
+        },
+        "description": {
+            "fallback": "被溺尸用三叉戟刺中",
+            "translate": "advancements.madv.hurt_by_trident.description"
+        }
+    },
+    "criteria": {
+        "hurt_by_trident": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "direct_entity": {
+                            "type": "minecraft:trident"
+                        },
+                        "source_entity": {
+                            "type": "minecraft:drowned"
+                        },
+                        "is_direct": false
+                    }
+                }
+            }
+        }
+    },
+    "parent": "madv:world/drown"
+}

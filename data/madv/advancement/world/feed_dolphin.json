@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:cod"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "海洋交易",
+            "translate": "advancements.madv.feed_dolphin.title"
+        },
+        "description": {
+            "fallback": "给海豚喂鱼，然后跟着它",
+            "translate": "advancements.madv.feed_dolphin.description"
+        }
+    },
+    "criteria": {
+        "feed_dolphin":{
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:cod",
+                        "minecraft:salmon"
+                    ]
+                },
+                "entity": {
+                    "type": "minecraft:dolphin"
+                }
+            }
+        }
+    },
+    "parent": "madv:world/dolphins_grace"
+}

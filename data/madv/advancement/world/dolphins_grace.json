@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:dolphin_spawn_egg"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "人类的好伙伴",
+            "translate": "advancements.madv.dolphins_grace.title"
+        },
+        "description": {
+            "fallback": "接受海豚的祝福吧！",
+            "translate": "advancements.madv.dolphins_grace.descrtption"
+        }
+    },
+    "criteria": {
+        "dolphins_grace":{
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:dolphins_grace": {}
+                }
+            }
+        }
+    },
+    "parent": "madv:world/drown"
+}

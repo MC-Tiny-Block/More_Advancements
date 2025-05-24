@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:coast_armor_trim_smithing_template"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "海盗制服",
+            "translate": "advancements.madv.coast_template.title"
+        },
+        "description": {
+            "fallback": "获得海岸盔甲纹饰锻造模板",
+            "translate": "advancements.madv.coast_template.description"
+        }
+    },
+    "criteria": {
+        "coast_armor_trim_smithing_template": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:coast_armor_trim_smithing_template"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:world/shipwreck"
+}

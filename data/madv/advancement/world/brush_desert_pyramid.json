@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:brush"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "法老的遗物",
+            "translate": "advancements.madv.brush_desert_pyramid.title"
+        },
+        "description": {
+            "fallback": "用刷子刷扫沙漠神殿内的可疑的沙子",
+            "translate": "advanmcements.madv.brush_desert_pyramid.description"
+        }
+    },
+    "criteria": {
+        "desert_pyramid": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "minecraft:archaeology/desert_pyramid"
+            }
+        }
+    },
+    "parent": "madv:world/desert_pyramid"
+}

@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:conduit"
+        },
+        "frame": "goal",
+        "title": {
+            "fallback": "默斯肯漩涡",
+            "translate": "advancements.madv.conduit.title"
+        },
+        "description": {
+            "fallback": "制作一个潮涌核心",
+            "translate": "advancements.madv.conduit.description"
+        }
+    },
+    "criteria": {
+        "conduit": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:conduit"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:world/nautilus_shell"
+}

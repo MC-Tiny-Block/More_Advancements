@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:sandstone_wall"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "古人的智慧",
+            "translate": "advancements.madv.desert_pyramid.title"
+        },
+        "description": {
+            "fallback": "制作一个潮涌核心",
+            "translate": "advancements.madv.desert_pyramid.description"
+        }
+    },
+    "criteria": {
+        "desert_pyramid": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "minecraft:desert_pyramid"
+                    }
+                }
+            }
+        }
+    },
+    "parent": "madv:world/desert"
+}

@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:chest"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "法老的遗物",
+            "translate": "advancements.madv.desert_pyramid_chest.title"
+        },
+        "description": {
+            "fallback": "打开沙漠神殿地板下面的战利品箱",
+            "translate": "advancements.madv.desert_pyramid_chest.description"
+        },
+        "hidden": true
+    },
+    "criteria": {
+        "desert_pyramid": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "minecraft:chests/desert_pyramid"
+            }
+        }
+    },
+    "parent": "madv:world/brush_desert_pyramid"
+}

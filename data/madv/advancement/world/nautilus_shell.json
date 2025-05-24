@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:nautilus_shell"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "黄金螺旋",
+            "translate": "advancements.madv.nautilus_shell.title"
+        },
+        "description": {
+            "fallback": "从溺尸手里抢来一个鹦鹉螺壳",
+            "translate": "advancements.madv.nautilus_shell.description"
+        }
+    },
+    "criteria": {
+        "nautilus_shell": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:nautilus_shell"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:world/heart_of_the_sea"
+}

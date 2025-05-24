@@ -1,0 +1,40 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:green_bed"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "起来重睡",
+            "translate": "advancements.madv.cant_sleep.title"
+        },
+        "description": {
+            "fallback": "睡觉过程中被幻翼攻击",
+            "translate": "advancements.madv.cant_sleep.description"
+        }
+    },
+    "criteria": {
+        "cant_sleep": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity": {
+                        "type": "minecraft:phantom"
+                    }
+                },
+                "player": {
+                    "type_specific": {
+                        "type": "minecraft:player",
+                        "advancements": {
+                            "madv:tech/slept": true
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "parent": "minecraft:adventure/sleep_in_bed",
+    "rewards": {
+        "function": "madv:codition/cant_sleep/clear_adv"
+    }
+}
