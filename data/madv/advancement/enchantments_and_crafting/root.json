@@ -13,7 +13,7 @@
     },
     "display": {
       "announce_to_chat": false,
-      "background": "textures/block/polished_blackstone.png",
+      "background": "minecraft:block/polished_blackstone",
       "description": {
         "fallback": "锻造物品，然后给他们附上魔咒！",
         "translate": "enchantments_and_crafting_root.description"

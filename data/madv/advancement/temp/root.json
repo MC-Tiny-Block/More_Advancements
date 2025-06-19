@@ -6,7 +6,7 @@
     },
     "display": {
       "announce_to_chat": false,
-      "background": "textures/block/sculk_sensor_bottom.png",
+      "background": "minecraft:block/sculk_sensor_bottom",
       "description": "这里的进度作者还没有想好放在哪里！（正式版将删除此标签页）",
       "icon": {
         "count": 1,

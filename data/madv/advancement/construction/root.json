@@ -14,7 +14,7 @@
     },
     "display": {
       "announce_to_chat": false,
-      "background": "textures/block/oak_planks.png",
+      "background": "minecraft:block/oak_planks",
       "description": {
         "translate": "construction_root.description",
         "fallback": "发挥你的创造力！"

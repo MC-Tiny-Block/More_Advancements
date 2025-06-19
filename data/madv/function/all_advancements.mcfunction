@@ -348,3 +348,5 @@
         advancement grant @s only madv:husbandry/eat_cake
         advancement grant @s only madv:husbandry/on_zombified_piglin
         #2个
+
+        # 截至beta1.1.1总共新增271个进度

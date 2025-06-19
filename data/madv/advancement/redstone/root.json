@@ -13,7 +13,7 @@
     },
     "display": {
       "announce_to_chat": false,
-      "background": "textures/block/smooth_stone.png",
+      "background": "minecraft:block/smooth_stone",
       "description": {
         "fallback": "在工程师手里，红石是无限可能",
         "translate": "redstone_root.description"

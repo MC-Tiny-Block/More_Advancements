@@ -16,7 +16,7 @@
     },
     "display": {
         "announce_to_chat": false,
-        "background": "textures/block/stripped_birch_log.png",
+        "background": "minecraft:block/stripped_birch_log",
         "description": "游历这个世界！",
         "icon": {
             "count": 1,

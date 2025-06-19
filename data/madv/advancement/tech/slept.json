@@ -3,8 +3,5 @@
         "slept": {
             "trigger": "minecraft:slept_in_bed"
         }
-    },
-    "rewards": {
-        "function": "madv:codition/cant_sleep/is_sleeping"
     }
 }

@@ -12,7 +12,7 @@
             "fallback": "MC无极限，你也一样",
             "translate": "hardcore_root.description"
         },
-        "background": "minecraft:textures/block/bedrock.png",
+        "background": "minecraft:block/bedrock",
         "show_toast": false,
         "announce_to_chat": false
     },

@@ -12,7 +12,7 @@
             "fallback": "做个矿工",
             "translate": "mine_root.description"
         },
-        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+        "background": "minecraft:gui/advancements/backgrounds/stone",
         "show_toast": false,
         "announce_to_chat": false
     },

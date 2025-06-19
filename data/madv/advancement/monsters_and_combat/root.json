@@ -16,7 +16,7 @@
     },
     "display": {
         "announce_to_chat": false,
-        "background": "textures/block/mossy_stone_bricks.png",
+        "background": "minecraft:block/mossy_stone_bricks",
         "description": {
             "fallback": "了解并除掉你的敌人，与朋友并肩作战",
             "translate": "monsters_and_combat_root.description"
