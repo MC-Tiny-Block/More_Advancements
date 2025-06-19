@@ -17,7 +17,6 @@ Some even give you great rewards.
 Use this command: `/function madv:all_advancements`  
 then you can get all the advancements from this datapack.
 
-If you install this datapack with Fabric, when you finish some advancements, Minecraft may crash. So please backed up your saves.  
 You can download the Language Pack in the right version page.[Only add English(US)]
 
 # Other
