@@ -216,7 +216,7 @@
 
     #Beta 1.1 共新增11个
 
-    #Beta 1.2
+    #Beta 1.1.1 
 
         #采掘
         advancement grant @s only madv:mine/calcite
@@ -224,6 +224,7 @@
         advancement grant @s only madv:mine/light_bedrock
         advancement grant @s only madv:mine/break_wooden_pickaxe
         advancement grant @s only madv:mine/coal_smelt_coal
+        #5个
 
         #世界
         advancement grant @s only madv:world/start
@@ -319,6 +320,7 @@
         advancement grant @s only madv:world/hurt_by_trident
         advancement grant @s only madv:world/nautilus_shell
         advancement grant @s only madv:world/ocean_ruin
+        #93个
 
         #怪物与战斗
         advancement grant @s only madv:monsters_and_combat/all_heads
@@ -326,18 +328,23 @@
         advancement grant @s only madv:monsters_and_combat/heavy_core
         advancement grant @s only madv:monsters_and_combat/trial_discs
         advancement grant @s only madv:monsters_and_combat/trial_omen
+        #6个
         
         #冒险
         advancement grant @s only madv:adventure/all_discs
         advancement grant @s only madv:adventure/cant_sleep
+        #2个
         
         #魔咒与工艺
         advancement grant @s only madv:enchantments_and_crafting/mojang_pattern
         advancement grant @s only madv:enchantments_and_crafting/netherite_lite
+        #2个
 
         #下界
         advancement grant @s only madv:nether/top_of_nether
+        #1个
 
         #农牧业
         advancement grant @s only madv:husbandry/eat_cake
         advancement grant @s only madv:husbandry/on_zombified_piglin
+        #2个
