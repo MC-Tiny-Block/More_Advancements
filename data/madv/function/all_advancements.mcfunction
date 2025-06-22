@@ -185,13 +185,14 @@
         advancement grant @s only madv:monsters_and_combat/kill_breeze_with_wind_charge
         advancement grant @s only madv:monsters_and_combat/hurt_piglin
         advancement grant @s only madv:monsters_and_combat/kill_all_nether_monsters
-        #35个
+        advancement grant @s only madv:monsters_and_combat/harpoon
+        #36个
 
         #硬核挑战
         advancement grant @s only madv:hardcore/fly_to_90000b
         #1个
 
-    #Beta 1.0.1 共新增37个
+    #Beta 1.0.1 共新增38个
 
 
 
@@ -349,4 +350,11 @@
         advancement grant @s only madv:husbandry/on_zombified_piglin
         #2个
 
-        # 截至beta1.1.1总共新增271个进度
+        # 截至beta1.1.2总共新增272个进度
+
+
+
+        #Beta 1.2
+
+        #世界
+        advancement grant @s only madv:world/cactus_flower

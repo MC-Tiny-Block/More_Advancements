@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:cactus_flower"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "临旱独自开",
+            "translate": "advancements.madv.cactus_flower.title"
+        },
+        "description": {
+            "fallback": "采一朵仙人掌花",
+            "translate": "advancements.madv.cactus_flower.description"
+        }
+    },
+    "criteria": {
+        "cactus_flower":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:cactus_flower"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:world/hurt_by_cactus"
+}

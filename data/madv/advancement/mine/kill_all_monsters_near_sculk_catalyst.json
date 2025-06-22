@@ -280,6 +280,14 @@
                 }
             },
             "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+        },
+        "minecraft:creaking": {
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:creaking"
+                }
+            },
+            "trigger": "minecraft:kill_mob_near_sculk_catalyst"
         }
     },
     "display": {
