@@ -1,0 +1,55 @@
+{
+    "type": "minecraft:multi_action",
+    "title": {
+        "translate": "gui.dialog.setting.title",
+        "fallback": "更多进度设置…"
+    },
+    "pause": false,
+    "after_action": "none",
+    "body": [
+        {
+            "type": "minecraft:item",
+            "item": {
+                "id": "minecraft:diamond_boots",
+                "count": 1
+            },
+            "description": {
+                "contents": {
+                    "translate": "gui.dialog.setting.body",
+                    "fallback": "欢迎游玩 更多进度 数据包！这里是一些设置"
+                }
+            }
+        }
+    ],
+    "exit_action": {
+        "label": {
+            "translate": "gui.back"
+        },
+        "action": {
+            "type": "run_command",
+            "command": "trigger madv_trigger_close set 1"
+        }
+    },
+    "actions": [
+        {
+            "label": {
+                "translate": "gui.button.setting.introduction",
+                "fallback": "数据包简介"
+            },
+            "action": {
+                "type": "show_dialog",
+                "dialog": "madv:settings/introduction"
+            }
+        },
+        {
+            "label": {
+                "translate": "gui.button.setting.rewards",
+                "fallback": "奖励设置…"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "trigger madv_trigger_reward set 1"
+            }
+        }
+    ]
+}

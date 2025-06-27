@@ -9,6 +9,10 @@
         "madv:codition/block_ravager",
         "madv:codition/near_creaking",
         "madv:codition/hurt_creaking",
-        "madv:codition/cant_sleep/get_up"
+        "madv:codition/cant_sleep/get_up",
+        "madv:dialog_mcf/settings/reward/trigger_res",
+        "madv:dialog_mcf/settings/reward/trigger_tro",
+        "madv:dialog_mcf/settings/trigger_reward",
+        "madv:dialog_mcf/settings/trigger_close"
     ]
 }

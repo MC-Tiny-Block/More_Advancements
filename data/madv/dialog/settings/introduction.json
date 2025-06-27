@@ -1,0 +1,79 @@
+{
+    "type": "minecraft:notice",
+    "title": {
+        "translate": "gui.dialog.title.introduction",
+        "fallback": "更多进度 简介"
+    },
+    "body": [
+        {
+            "type": "minecraft:item",
+            "item": {
+                "id": "minecraft:diamond_boots"
+            },
+            "description": {
+                "contents": {
+                    "translate": "gui.dialog.message.version",
+                    "fallback": "更多进度 Beta 1.2 - 追忆旅迹",
+                    "color": "green"
+                }
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": {
+                "id": "minecraft:barrier"
+            },
+            "description": {
+                "contents": {
+                    "translate": "gui.dialog.message.test",
+                    "fallback": "测试版警告：本版本不是正式版，内容尚未完整且易出现问题",
+                    "color": "red"
+                },
+                "width": 400
+            }
+        },
+        {
+            "type": "minecraft:plain_message",
+            "contents": [
+                "",
+                {
+                   "translate": "gui.dialog.welcome",
+                   "fallback": "欢迎游玩更多进度！（本包默认支持简体中文）\n",
+                   "color": "light_purple"
+                },
+                {
+                    "translate": "gui.dialog.introduction",
+                    "fallback": "\n这个数据包为你的世界添加了数不胜数的进度，你可以通过进度界面来查看它们\n这些进度包罗万象，无所不有。有的记录你的足迹，有的则挑战你的极限，有一些进度甚至会给予你稀有的奖品！包括奖杯和资源\n游戏不会让你去强制完成它，进度只是记录你世界的发展历程\n希望这个数据包能给你带来更丰富的游戏体验！\n——本包作者 MC的小方块"
+                },
+                {
+                    "translate": "gui.dialog.auther",
+                    "fallback": "\n\n作者的B站空间：\n"
+                },
+                {
+                    "text": "https://space.bilibili.com/3537122319403020",
+                    "color": "gray",
+                    "underlined": true,
+                    "click_event": {
+                        "action": "open_url",
+                        "url": "https://space.bilibili.com/3537122319403020"
+                    }
+                },
+                {
+                    "translate": "gui.dialog.message.language",
+                    "fallback": "\n\n需要多语言支持？请戳下面链接！\nNeed multi-language support? Click the link below!\n",
+                    "color": "yellow"
+                },
+                {
+                    "text": "https://modrinth.com/datapack/more-advancements-datapack",
+                    "click_event": {
+                        "action": "open_url",
+                        "url": "https://modrinth.com/datapack/more-advancements-datapack"
+                    },
+                    "color": "gray",
+                    "underlined": true
+                }
+            ],
+            "width": 400
+        }
+    ]
+}

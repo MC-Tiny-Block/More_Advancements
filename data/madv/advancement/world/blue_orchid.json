@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:blue_orchid"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "坚贞高洁",
+            "translate": "advancements.madv.blue_orchid.title"
+        },
+        "description": {
+            "fallback": "采一朵兰花",
+            "translate": "advancements.madv.blue_orchid.description"
+        }
+    },
+    "criteria": {
+        "blue_orchid":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:blue_orchid"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:world/firefly_bush"
+}

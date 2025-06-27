@@ -1,6 +1,9 @@
 {
     "values": [
         "madv:load",
-        "madv:codition/in_deep_lava/create_timer"
+        "madv:codition/in_deep_lava/create_timer",
+        "madv:dialog_mcf/settings/default",
+        "madv:dialog_mcf/settings/reward/board",
+        "madv:dialog_mcf/settings/reward_board"
     ]
 }

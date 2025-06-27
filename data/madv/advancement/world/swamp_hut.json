@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:cauldron"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "药剂师和她的黑猫",
+            "translate": "advancements.madv.swamp_hut.title"
+        },
+        "description": {
+            "fallback": "在沼泽里发现一处沼泽小屋",
+            "translate": "advancements.madv.swamp_hut.description"
+        }
+    },
+    "criteria": {
+        "swamp_hut":{
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "minecraft:swamp_hut"
+                    }
+                }
+            }
+        }
+    },
+    "parent": "madv:world/swamp"
+}

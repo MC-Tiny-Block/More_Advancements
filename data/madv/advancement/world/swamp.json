@@ -1,0 +1,39 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:vine"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "泥泞之地",
+            "translate": "advancements.madv.swamp.title"
+        },
+        "description": {
+            "fallback": "发现一处沼泽和一处红树林沼泽",
+            "translate": "advancements.madv.swamp.description"
+        }
+    },
+    "criteria": {
+        "swamp": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "minecraft:swamp"
+                    }
+                }
+            }
+        },
+        "mangrove_swamp": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "minecraft:mangrove_swamp"
+                    }
+                }
+            }
+        }
+    },
+    "parent": "madv:world/start"
+}

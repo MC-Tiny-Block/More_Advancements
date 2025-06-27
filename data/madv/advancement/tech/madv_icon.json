@@ -1,0 +1,27 @@
+
+{
+    "criteria": {
+        "inpossible": {
+            "trigger": "minecraft:impossible",
+            "conditions": {}
+        }
+    },
+    "display": {
+        "icon": {
+            "id": "minecraft:stick",
+            "components": {
+                "minecraft:custom_model_data": {
+                    "floats": [
+                        1.0
+                    ]
+                }
+            }
+        },
+        "title": "更多进度图标",
+        "description": "？？？",
+        "announce_to_chat": false,
+        "background": "minecraft:block/white_concrete",
+        "hidden": true,
+        "frame": "challenge"
+    }
+}

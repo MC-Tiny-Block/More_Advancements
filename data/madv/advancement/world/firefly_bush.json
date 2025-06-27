@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:firefly_bush"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "萤萤光亮",
+            "translate": "advancements.madv.firefly_bush.title"
+        },
+        "description": {
+            "fallback": "找到一株萤火虫灌木丛",
+            "translate": "advancements.madv.firefly_bush.description"
+        }
+    },
+    "criteria": {
+        "firefly_bush":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:firefly_bush"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:world/swamp"
+}

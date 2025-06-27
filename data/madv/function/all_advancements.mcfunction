@@ -204,7 +204,6 @@
 
         #世界（暂时放在怪物与战斗）
         advancement grant @s only madv:world/creaking_heart
-        advancement grant @s only madv:world/enable_creaking_heart
         advancement grant @s only madv:world/hurt_creaking
         advancement grant @s only madv:world/in_pale_garden_at_night
         advancement grant @s only madv:world/kill_creaking
@@ -215,7 +214,7 @@
         #怪物与战斗
         advancement grant @s only madv:monsters_and_combat/watch_creaking_with_pumpkin
 
-    #Beta 1.1 共新增11个
+    #Beta 1.1 共新增10个
 
     #Beta 1.1.1 
 
@@ -350,7 +349,7 @@
         advancement grant @s only madv:husbandry/on_zombified_piglin
         #2个
 
-        # 截至beta1.1.2总共新增272个进度
+        # 截至beta1.1.2总共新增271个进度
 
 
 
@@ -358,3 +357,4 @@
 
         #世界
         advancement grant @s only madv:world/cactus_flower
+        advancement grant @s only madv:world/firefly_bush
