@@ -5,3 +5,11 @@ execute if data storage madv:gr {resource_rewards: 1b} run give @s enchanted_gol
 execute if data storage madv:gr {resource_rewards: 1b} run give @s spire_armor_trim_smithing_template 4
 
 execute if data storage madv:gr {resource_rewards: 1b} run give @s diamond 32
+
+execute if data storage madv:gr {reward_message: 1b} if data storage madv:gr {trophy_rewards: 1b} run tellraw @s [{translate: "messages.advancements.reward", fallback: "进度奖励："},{"text":"[",color:"light_purple"},{"translate": "item.kedbm.name",fallback:"新鲜龙首",color:"light_purple"},{"text":"]","color":"light_purple"}]
+
+execute if data storage madv:gr {reward_message: 1b} if data storage madv:gr {resource_rewards: 1b} run tellraw @s [{translate: "messages.advancements.reward", fallback: "进度奖励："},{"text":"[",color:"aqua"},{"translate": "item.minecraft.enchanted_golden_apple",color:"aqua"},{"text":"]","color":"aqua"},{text: " x 16"}]
+
+execute if data storage madv:gr {reward_message: 1b} if data storage madv:gr {resource_rewards: 1b} run tellraw @s [{translate: "messages.advancements.reward", fallback: "进度奖励："},{"text":"[",color:"aqua"},{"translate": "item.minecraft.spire_armor_trim_smithing_template",color:"aqua"},{"text":"]","color":"aqua"},{text: " x 4"}]
+
+execute if data storage madv:gr {reward_message: 1b} if data storage madv:gr {resource_rewards: 1b} run tellraw @s [{translate: "messages.advancements.reward", fallback: "进度奖励："},{"text":"["},{"translate": "item.minecraft.diamond"},{"text":"]"},{text: " x 32"}]
