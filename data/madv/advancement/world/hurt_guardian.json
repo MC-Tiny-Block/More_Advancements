@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:prismarine_shard"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "带刺的鱼？",
+            "translate": "advancements.madv.hurt_guardian.title"
+        },
+        "description": {
+            "fallback": "攻击一只守卫者",
+            "translate": "advancements.madv.hurt_guardian.description"
+        }
+    },
+    "criteria": {
+        "guardian": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": [
+                        "minecraft:guardian",
+                        "minecraft:elder_guardian"
+                    ]
+                }
+            }
+        }
+    },
+    "parent": "madv:world/monument"
+}

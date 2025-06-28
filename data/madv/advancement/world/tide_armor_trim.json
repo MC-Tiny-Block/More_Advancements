@@ -1,0 +1,37 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:tide_armor_trim_smithing_template"
+        },
+        "frame": "goal",
+        "title": {
+            "fallback": "潮涌护佑",
+            "translate": "advancements.madv.tide_armor_trim.title"
+        },
+        "description": {
+            "fallback": "击杀一只远古守卫者并获得潮汐盔甲纹饰锻造模板",
+            "translate": "advancements.madv.tide_armor_trim.description"
+        }
+    },
+    "criteria": {
+        "kill_elder_guardian":{
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:elder_guardian"
+                }
+            }
+        },
+        "tide_armor_trim":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:tide_armor_trim_smithing_template"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:world/hurt_elder_guardian"
+}

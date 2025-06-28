@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:wet_sponge"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "沧浪拾遗",
+            "translate": "advancements.wet_sponge.title"
+        },
+        "description": {
+            "fallback": "在海底神殿里找到一块湿海绵",
+            "translate": "advancements.wet_sponge.description"
+        }
+    },
+    "criteria": {
+        "wet_sponge":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:wet_sponge"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:world/tide_armor_trim"
+}

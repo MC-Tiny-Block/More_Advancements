@@ -364,3 +364,8 @@
         advancement grant @s only madv:world/fall_flying
         advancement grant @s only madv:world/mushroom_fields
         advancement grant @s only madv:world/turtle_scute
+        advancement grant @s only madv:world/hurt_elder_guardian
+        advancement grant @s only madv:world/hurt_guardian
+        advancement grant @s only madv:world/monument
+        advancement grant @s only madv:world/tide_armor_trim
+        advancement grant @s only madv:world/wet_sponge
