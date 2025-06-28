@@ -50,6 +50,16 @@
                 "type": "run_command",
                 "command": "trigger madv_trigger_reward set 1"
             }
+        },
+        {
+            "label": {
+                "translate": "gui.button.setting.messages",
+                "fallback": "消息设置…"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "trigger madv_trigger_message_open set 1"
+            }
         }
     ]
 }

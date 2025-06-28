@@ -4,6 +4,7 @@
         "madv:codition/in_deep_lava/create_timer",
         "madv:dialog_mcf/settings/default",
         "madv:dialog_mcf/settings/reward/board",
-        "madv:dialog_mcf/settings/reward_board"
+        "madv:dialog_mcf/settings/reward_board",
+        "madv:dialog_mcf/settings/messages/message_board"
     ]
 }

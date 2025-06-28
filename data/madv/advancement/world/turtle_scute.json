@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:turtle_scute"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "这不也是鳞甲么",
+            "translate": "advancements.madv.turtle_scute.title"
+        },
+        "description": {
+            "fallback": "制作一把剪刀来剪些什么",
+            "translate": "advancements.madv.turtle_scute.description"
+        }
+    },
+    "criteria": {
+        "turtle_scute": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:turtle_scute"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:world/drown"
+}

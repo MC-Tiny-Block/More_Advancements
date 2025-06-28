@@ -358,3 +358,9 @@
         #世界
         advancement grant @s only madv:world/cactus_flower
         advancement grant @s only madv:world/firefly_bush
+        advancement grant @s only madv:world/swamp
+        advancement grant @s only madv:world/blue_orchid
+        advancement grant @s only madv:world/swamp_hut
+        advancement grant @s only madv:world/fall_flying
+        advancement grant @s only madv:world/mushroom_fields
+        advancement grant @s only madv:world/turtle_scute

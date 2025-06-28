@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:red_mushroom_block"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "神秘岛",
+            "translate": "advancements.madv.mushroom_fields.title"
+        },
+        "description": {
+            "fallback": "造访蘑菇岛",
+            "translate": "advancements.madv.mushroom_fields.description"
+        },
+        "hidden": true
+    },
+    "criteria": {
+        "mushroom_fields":{
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "minecraft:mushroom_fields"
+                    }
+                }
+            }
+        }
+    },
+    "parent": "madv:world/all_ocean"
+}

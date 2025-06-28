@@ -48,7 +48,7 @@
             }
         }
     },
-    "parent": "madv:world/drown",
+    "parent": "madv:world/turtle_scute",
         "rewards": {
             "experience": 300
         }

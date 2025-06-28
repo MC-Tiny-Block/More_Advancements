@@ -13,6 +13,8 @@
         "madv:dialog_mcf/settings/reward/trigger_res",
         "madv:dialog_mcf/settings/reward/trigger_tro",
         "madv:dialog_mcf/settings/trigger_reward",
-        "madv:dialog_mcf/settings/trigger_close"
+        "madv:dialog_mcf/settings/trigger_close",
+        "madv:dialog_mcf/settings/messages/trigger_message",
+        "madv:dialog_mcf/settings/messages/trigger_reset"
     ]
 }

@@ -35,5 +35,5 @@
             }
         }
     },
-    "parent": "madv:world/start"
+    "parent": "madv:world/flower_forest"
 }

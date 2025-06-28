@@ -1,0 +1,38 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:elytra"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "滑翔翼",
+            "translate": "advancements.madv.fall_flying.title"
+        },
+        "description": {
+            "fallback": "穿着鞘翅滑翔",
+            "translate": "advancements.madv.fall_flying.description"
+        }
+    },
+    "criteria": {
+        "elytra":{
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "chest": {
+                                    "items": "minecraft:elytra"
+                                }
+                            },
+                            "nbt": "{FallFlying:1b}"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:world/start"
+}

@@ -1,15 +1,13 @@
 {
   "criteria": {
-    "place_block": {
-      "conditions": {
-        "location": []
-      },
-      "trigger": "minecraft:placed_block"
+    "crafting_table": {
+      "conditions": {},
+      "trigger": "minecraft:tick"
     }
   },
   "display": {
     "announce_to_chat": false,
-    "background": "minecraft:block/grass_block_side",
+    "background": "minecraft:gui/advancements/backgrounds/stone",
     "description": {
       "translate": "advancements.story.root.description"
     },
@@ -21,5 +19,11 @@
     "title": {
       "translate": "advancements.story.root.title"
     }
-  }
+  },
+  "requirements": [
+    [
+      "crafting_table"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

@@ -1,1 +1,3 @@
 execute if data storage madv:gr {trophy_rewards: 1b} run give @s minecraft:diamond_pickaxe[enchantments={silk_touch:10},unbreakable={},lore=[{"fallback":"热爱矿石标本！","translate": "item.all_ores.lore1","color": "dark_aqua","italic": false},{"fallback": "——开山之作 达成！","translate": "item.all_ores.lore2","color": "dark_aqua","italic": false}],custom_name={"fallback":"矿石破坏者？","translate": "item.all_ores.name","bold": true,"color": "aqua","italic": false}]
+
+execute if data storage madv:gr {reward_message: 1b} if data storage madv:gr {trophy_rewards: 1b} run tellraw @s [{translate: "messages.advancements.reward", fallback: "进度奖励："},{"text":"[",color:"aqua"},{"translate": "item.all_ores.name",fallback:"矿石破坏者",color:"aqua"},{"text":"]","color":"aqua"}]
