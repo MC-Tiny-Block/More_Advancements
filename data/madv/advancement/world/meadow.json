@@ -1,0 +1,34 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:dirt_path"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "花卉盈野",
+            "translate": "advancements.madv.meadow.title"
+        },
+        "description": {
+            "fallback": "造访草甸并采一些野花",
+            "translate": "advancements.madv.meadow.description"
+        }
+    },
+    "criteria": {
+        "meadow": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:wildflowers"
+                    }
+                ],
+                "player": {
+                    "location": {
+                        "biomes": "minecraft:meadow"
+                    }
+                }
+            }
+        }
+    },
+    "parent": "madv:world/high_place"
+}

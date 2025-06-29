@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:brown_mushroom_block"
+        },
+        "frame": "challenge",
+        "title": {
+            "fallback": "神秘转化",
+            "translate": "advancements.madv.strike_mooshroom.title"
+        },
+        "description": {
+            "fallback": "雷击一只哞菇（其实再劈一次能变回来）",
+            "translate": "advancements.madv.strike_mooshroom.description"
+        },
+        "hidden": true
+    },
+    "criteria": {
+        "mooshroom":{
+            "trigger": "minecraft:channeled_lightning",
+            "conditions": {
+                "victims": [
+                    {
+                        "type": "minecraft:mooshroom"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:world/mooshroom_stew",
+    "rewards": {
+        "experience": 100
+    }
+}

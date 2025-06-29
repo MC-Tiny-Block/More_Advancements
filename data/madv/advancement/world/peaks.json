@@ -1,0 +1,39 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:packed_ice"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "雪山之巅",
+            "translate": "advancements.madv.peaks.title"
+        },
+        "description": {
+            "fallback": "造访尖峭山峰和冰封山峰",
+            "translate": "advancements.madv.peaks.description"
+        }
+    },
+    "criteria": {
+        "jagged_peaks": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "minecraft:jagged_peaks"
+                    }
+                }
+            }
+        },
+        "frozen_peaks": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "minecraft:frozen_peaks"
+                    }
+                }
+            }
+        }
+    },
+    "parent": "madv:world/high_place"
+}

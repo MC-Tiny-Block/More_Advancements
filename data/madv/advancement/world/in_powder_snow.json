@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:powder_snow_bucket"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "进退两难",
+            "translate": "advancements.madv.in_powder_snow.title"
+        },
+        "description": {
+            "fallback": "陷入细雪中",
+            "translate": "advancements.madv.in_powder_snow.description"
+        },
+        "hidden": true
+    },
+    "criteria": {
+        "in_powder_snow":{
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "minecraft:powder_snow"
+            }
+        }
+    },
+    "parent": "madv:world/snowy_mountains"
+}

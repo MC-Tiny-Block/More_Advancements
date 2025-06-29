@@ -1,0 +1,39 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:flow_armor_trim_smithing_template"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "战甲纹饰",
+            "translate": "advancements.madv.trial_template.title"
+        },
+        "description": {
+            "fallback": "在试炼密室里收集旋风和镶铆纹饰锻造模板",
+            "translate": "advancements.madv.trial_template.description"
+        }
+    },
+    "criteria": {
+        "flow_armor_trim_smithing_template": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:flow_armor_trim_smithing_template"
+                    }
+                ]
+            }
+        },
+        "bolt_armor_trim_smithing_template": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:bolt_armor_trim_smithing_template"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "minecraft:adventure/revaulting"
+}

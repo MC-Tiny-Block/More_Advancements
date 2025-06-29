@@ -1,0 +1,52 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:gravel"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "萧寒凄清",
+            "translate": "advancements.madv.windswept.title"
+        },
+        "description": {
+            "fallback": "造访风袭丘陵、风袭森林或风袭沙砾丘陵",
+            "translate": "advancements.madv.windswept.description"
+        }
+    },
+    "criteria": {
+        "windswept_hills":{
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "minecraft:windswept_hills"
+                    }
+                }
+            }
+        },
+        "windswept_forest":{
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "minecraft:windswept_forest"
+                    }
+                }
+            }
+        },
+        "windswept_gravelly_hills":{
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "minecraft:windswept_gravelly_hills"
+                    }
+                }
+            }
+        }
+    },
+    "parent": "madv:world/high_place",
+    "requirements": [
+        ["windswept_forest", "windswept_gravelly_hills", "windswept_hills"]
+    ]
+}

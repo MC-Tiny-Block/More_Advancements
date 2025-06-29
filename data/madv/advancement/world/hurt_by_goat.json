@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:goat_spawn_egg"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "起飞！",
+            "translate": "advancements.madv.hurt_by_goat.title"
+        },
+        "description": {
+            "fallback": "被山羊撞飞",
+            "translate": "advancements.madv.hurt_by_goat.description"
+        }
+    },
+    "criteria": {
+        "goat":{
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity": {
+                        "type": "minecraft:goat"
+                    }
+                }
+            }
+        }
+    },
+    "parent": "madv:world/peaks"
+}

@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:powder_snow_bucket"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "堆个雪堡",
+            "translate": "advancements.madv.collect_powder_snow.title"
+        },
+        "description": {
+            "fallback": "用桶装一些细雪",
+            "translate": "advancements.madv.collect_powder_snow.description"
+        }
+    },
+    "criteria": {
+        "powder_snow_bucket": {
+            "trigger": "minecraft:filled_bucket",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:powder_snow_bucket"
+                }
+            }
+        }
+    },
+    "parent": "madv:world/in_powder_snow"
+}

@@ -1,0 +1,39 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:snow"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "雪层深厚",
+            "translate": "advancements.madv.snowy_mountains.title"
+        },
+        "description": {
+            "fallback": "造访雪林和积雪山坡（走路小心点）",
+            "translate": "advancements.madv.snowy_mountains.description"
+        }
+    },
+    "criteria": {
+        "grove":{
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "minecraft:grove"
+                    }
+                }
+            }
+        },
+        "snowy_slopes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "minecraft:snowy_slopes"
+                    }
+                }
+            }
+        }
+    },
+    "parent": "madv:world/peaks"
+}

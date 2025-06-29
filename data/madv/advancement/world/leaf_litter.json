@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:leaf_litter"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "落叶归根",
+            "translate": "advancements.madv.leaf_litter.title"
+        },
+        "description": {
+            "fallback": "捡起一些树下的枯叶",
+            "translate": "advancements.madv.leaf_litter.description"
+        }
+    },
+    "criteria": {
+        "leaf_litter": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:leaf_litter"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:world/forests"
+}

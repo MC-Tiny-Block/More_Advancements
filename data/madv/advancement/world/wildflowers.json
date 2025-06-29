@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:wildflowers"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "花团锦簇",
+            "translate": "advancements.madv.wildflowers.title"
+        },
+        "description": {
+            "fallback": "采摘一些野花簇",
+            "translate": "advancements.madv.wildflowers.description"
+        }
+    },
+    "criteria": {
+        "wildflowers":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:wildflowers"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:world/leaf_litter"
+}

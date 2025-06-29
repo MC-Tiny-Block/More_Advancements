@@ -1,0 +1,122 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:calcite"
+        },
+        "frame": "challenge",
+        "title": {
+            "fallback": "踏遍山河",
+            "translate": "advancements.madv.all_mountains.title"
+        },
+        "description": {
+            "fallback": "造访所有山地和丘陵类生物群系",
+            "translate": "advancements.madv.all_mountains.description"
+        }
+    },
+    "criteria": {
+        "meadow": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "minecraft:meadow"
+                    }
+                }
+            }
+        },
+        "cherry_grove": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "minecraft:cherry_grove"
+                    }
+                }
+            }
+        },
+        "grove": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "minecraft:grove"
+                    }
+                }
+            }
+        },
+        "snowy_slopes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "minecraft:snowy_slopes"
+                    }
+                }
+            }
+        },
+        "jagged_peaks": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "minecraft:jagged_peaks"
+                    }
+                }
+            }
+        },
+        "frozen_peaks": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "minecraft:frozen_peaks"
+                    }
+                }
+            }
+        },
+        "stony_peaks": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "minecraft:stony_peaks"
+                    }
+                }
+            }
+        },
+        "windswept_forest": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "minecraft:windswept_forest"
+                    }
+                }
+            }
+        },
+        "windswept_gravelly_hills": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "minecraft:windswept_gravelly_hills"
+                    }
+                }
+            }
+        },
+        "windswept_hills": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "minecraft:windswept_hills"
+                    }
+                }
+            }
+        }
+    },
+    "parent": "madv:world/windswept",
+    "rewards": {
+        "experience": 200
+    }
+}

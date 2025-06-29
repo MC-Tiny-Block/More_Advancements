@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:cooked_cod"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "炸小鱼干",
+            "translate": "advancements.madv.kill_guardian_by_tnt.title"
+        },
+        "description": {
+            "fallback": "用TNT炸死一只守卫者",
+            "translate": "advancements.madv.kill_guardian_by_tnt.description"
+        }
+    },
+    "criteria": {
+        "kill_guardian_by_tnt":{
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:guardian"
+                },
+                "killing_blow": {
+                    "direct_entity": {
+                        "type": "minecraft:tnt"
+                    },
+                    "is_direct": false
+                }
+            }
+        }
+    },
+    "parent": "madv:world/hurt_guardian"
+}

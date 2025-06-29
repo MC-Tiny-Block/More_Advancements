@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:mushroom_stew"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "蘑菇爱好者的天堂",
+            "translate": "advancements.madv.world.mooshroom_stew.title"
+        },
+        "description": {
+            "fallback": "从哞菇那里取得蘑菇煲",
+            "translate": "advancements.madv.world.mooshroom_stew.description"
+        }
+    },
+    "criteria": {
+        "mushroom_stew":{
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:mooshroom"
+                },
+                "item": {
+                    "items": "minecraft:bowl"
+                }
+            }
+        }
+    },
+    "parent": "madv:world/mushroom_fields"
+}

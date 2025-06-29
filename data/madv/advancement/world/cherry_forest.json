@@ -1,0 +1,34 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:cherry_leaves"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "樱花源记",
+            "translate": "advancements.madv.cherry_grove.title"
+        },
+        "description": {
+            "fallback": "造访樱花树林并采一些粉红色花簇",
+            "translate": "advancements.madv.cherry_grove.description"
+        }
+    },
+    "criteria": {
+        "cherry_grove": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:pink_petals"
+                    }
+                ],
+                "player": {
+                    "location": {
+                        "biomes": "minecraft:cherry_grove"
+                    }
+                }
+            }
+        }
+    },
+    "parent": "madv:world/high_place"
+}

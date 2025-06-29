@@ -369,3 +369,21 @@
         advancement grant @s only madv:world/monument
         advancement grant @s only madv:world/tide_armor_trim
         advancement grant @s only madv:world/wet_sponge
+        advancement grant @s only madv:world/all_moutains
+        advancement grant @s only madv:world/cherry_forest
+        advancement grant @s only madv:world/collect_powder_snow
+        advancement grant @s only madv:world/high_place
+        advancement grant @s only madv:world/hurt_by_goat
+        advancement grant @s only madv:world/in_powder_snow
+        advancement grant @s only madv:world/kill_guardian_by_tnt
+        advancement grant @s only madv:world/leaf_litter
+        advancement grant @s only madv:world/meadow
+        advancement grant @s only madv:world/mooshroom_stew
+        advancement grant @s only madv:world/peaks
+        advancement grant @s only madv:world/snowy_mountains
+        advancement grant @s only madv:world/strike_mooshroom
+        advancement grant @s only madv:world/wildflowers
+        advancement grant @s only madv:world/windswept
+
+        # 怪物与战斗
+        advancement grant @s only madv:monsters_and_combat/trial_template
