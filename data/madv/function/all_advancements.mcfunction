@@ -384,6 +384,14 @@
         advancement grant @s only madv:world/strike_mooshroom
         advancement grant @s only madv:world/wildflowers
         advancement grant @s only madv:world/windswept
+        advancement grant @s only madv:world/badlands
+        advancement grant @s only madv:world/drink_in_badlands
+        advancement grant @s only madv:world/ice_boat
+        advancement grant @s only madv:world/ice_spikes
+        advancement grant @s only madv:world/jungle_pyramid
+        advancement grant @s only madv:world/lead_camel
+        advancement grant @s only madv:world/mangrove_swamp
+        advancement grant @s only madv:world/wild_armor_trim
 
         # 怪物与战斗
         advancement grant @s only madv:monsters_and_combat/trial_template

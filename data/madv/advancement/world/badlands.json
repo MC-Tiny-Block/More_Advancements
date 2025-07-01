@@ -1,49 +1,49 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:sand"
+            "id":"minecraft:terracotta"
         },
         "frame": "task",
         "title": {
-            "fallback": "潮汐之声",
-            "translate": "advancements.madv.beaches.title"
+            "fallback": "丹霞地貌",
+            "translate": "advancements.madv.badlands.title"
         },
         "description": {
-            "fallback": "造访沙滩、积雪沙滩和石岸",
-            "translate": "advancements.madv.beaches.description"
+            "fallback": "造访恶地、疏林恶地和风蚀恶地",
+            "translate": "advancements.madv.badlands.description"
         }
     },
     "criteria": {
-        "beach": {
+        "badlands": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {
                     "location": {
-                        "biomes": "minecraft:beach"
+                        "biomes": "minecraft:badlands"
                     }
                 }
             }
         },
-        "snowy_beach": {
+        "wooded_badlands": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {
                     "location": {
-                        "biomes": "minecraft:snowy_beach"
+                        "biomes": "minecraft:wooded_badlands"
                     }
                 }
             }
         },
-        "stony_shore": {
+        "eroded_badlands": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {
                     "location": {
-                        "biomes": "minecraft:stony_shore"
+                        "biomes": "minecraft:eroded_badlands"
                     }
                 }
             }
         }
     },
-    "parent": "madv:world/sea"
+    "parent": "madv:world/savanna"
 }

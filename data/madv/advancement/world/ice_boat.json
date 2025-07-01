@@ -1,0 +1,40 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:spruce_boat"
+        },
+        "frame": "goal",
+        "title": {
+            "fallback": "冰面飞船",
+            "translate": "advancements.madv.ice_boat.title"
+        },
+        "description": {
+            "fallback": "把船放在冰上，坐上去，然后狂飙",
+            "translate": "advancements.madv.ice_boat.description"
+        }
+    },
+    "criteria": {
+        "ice_boat": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "vehicle": {
+                                "type": "#minecraft:boat",
+                                "stepping_on": {
+                                    "block": {
+                                        "blocks": "#minecraft:ice"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:world/cold_place"
+}

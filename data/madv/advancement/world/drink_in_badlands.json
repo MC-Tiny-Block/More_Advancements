@@ -1,0 +1,42 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:potion",
+            "components": {
+                "minecraft:potion_contents": {
+                    "potion": "minecraft:water"
+                }
+            }
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "极恶世界",
+            "translate": "advancements.madv.drink_in_badlands.title"
+        },
+        "description": {
+            "fallback": "在炎热的恶地喝一瓶水，尽管这没有任何意义",
+            "translate": "advancements.madv.drink_in_badlands.description"
+        }
+    },
+    "criteria": {
+        "drink_in_badlands": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:potion",
+                    "components": {
+                        "minecraft:potion_contents": {
+                            "potion": "minecraft:water"
+                        }
+                    }
+                },
+                "player": {
+                    "location": {
+                        "biomes": "#minecraft:is_badlands"
+                    }
+                }
+            }
+        }
+    },
+    "parent": "madv:world/badlands"
+}

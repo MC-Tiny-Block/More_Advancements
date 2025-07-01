@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:blue_ice"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "冰塔林？",
+            "translate": "advancements.madv.ice_spikes.title"
+        },
+        "description": {
+            "fallback": "造访冰刺之地",
+            "translate": "advancements.madv.ice_spikes.description"
+        }
+    },
+    "criteria": {
+        "ice_spikes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "minecraft:ice_spikes"
+                    }
+                }
+            }
+        }
+    },
+    "parent": "madv:world/cold_place"
+}

@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:mossy_cobblestone"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "玛雅遗迹",
+            "translate": "advancements.madv.jungle_pyramid.title"
+        },
+        "description": {
+            "fallback": "造访丛林神庙",
+            "translate": "advancements.madv.jungle_pyramid.description"
+        }
+    },
+    "criteria": {
+        "jungle_pyramid": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "minecraft:jungle_pyramid"
+                    }
+                }
+            }
+        }
+    },
+    "parent": "madv:world/jungle"
+}

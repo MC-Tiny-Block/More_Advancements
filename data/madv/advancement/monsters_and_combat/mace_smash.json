@@ -18,21 +18,21 @@
             "trigger": "minecraft:player_hurt_entity",
             "conditions": {
                 "damage": {
-                    "source_entity": {
-                        "type": "player",
-                        "equipment": {
-                            "mainhand": {
-                                "items": "mace"
-                            }
-                        }
-                    },
                     "type": {
                         "tags": [
                             {
-                                "id": "is_player_attack",
+                                "id": "minecraft:mace_smash",
                                 "expected": true
                             }
-                        ]
+                        ],
+                        "direct_entity": {
+                            "type": "minecraft:player",
+                            "equipment": {
+                                "mainhand": {
+                                    "items": "minecraft:mace"
+                                }
+                            }
+                        }
                     },
                     "dealt": {
                         "min": 20

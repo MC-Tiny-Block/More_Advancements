@@ -14,7 +14,7 @@
         }
     },
     "criteria": {
-        "wildflowers":{
+        "wildflowers": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

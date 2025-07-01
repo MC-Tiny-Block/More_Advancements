@@ -1,0 +1,31 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:lead"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "丝绸之路",
+            "translate": "advancements.madv.lead_camel.title"
+        },
+        "description": {
+            "fallback": "给骆驼系上拴绳",
+            "translate": "advancements.madv.lead_camel.description"
+        }
+    },
+    "criteria": {
+        "lead_camel": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:lead"
+                },
+                "entity": {
+                    "type": "minecraft:camel",
+                    "nbt": "{leash: {}}"
+                }
+            }
+        }
+    },
+    "parent": "madv:world/boat_with_camel"
+}
