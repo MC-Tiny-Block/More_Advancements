@@ -1,4 +1,4 @@
-![](https://cdn.modrinth.com/data/cached_images/c2e5b4269daa5b1c4e9848d2a63d46051fc193d6.png)
+![Title](https://cdn.modrinth.com/data/cached_images/a3acef5db99de48c158485a23a7af3fe8b69f7c2.png)
 
 <div align="center">
   <h1>More Advancements</h1>
