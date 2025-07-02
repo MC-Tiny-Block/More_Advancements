@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:sentry_armor_trim_smithing_template"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "军衔标识",
+            "translate": "advancements.madv.sentry_armor_trim.title"
+        },
+        "description": {
+            "fallback": "在掠夺者前哨站里找到哨兵盔甲纹饰锻造模板",
+            "translate": "advancements.madv.sentry_armor_trim.description"
+        }
+    },
+    "criteria": {
+        "sentry_armor_trim_smithing_template": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:sentry_armor_trim_smithing_template"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:world/pillager_outpost"
+}

@@ -1,0 +1,259 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:golden_boots"
+        },
+        "frame": "challenge",
+        "title": {
+            "fallback": "遗迹猎人",
+            "translate": "advancements.madv.all_structures.title"
+        },
+        "description": {
+            "fallback": "发现所有的结构",
+            "translate": "advancements.madv.all_structures.description"
+        }
+    },
+    "criteria": {
+        "ruined_portal": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "minecraft:ruined_portal"
+                    }
+                }
+            }
+        },
+        "ancient_city": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "minecraft:ancient_city"
+                    }
+                }
+            }
+        },
+        "mineshaft": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "minecraft:mineshaft"
+                    }
+                }
+            }
+        },
+        "stronghold": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "minecraft:stronghold"
+                    }
+                }
+            }
+        },
+        "trail_ruins": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "minecraft:trail_ruins"
+                    }
+                }
+            }
+        },
+        "trial_chambers": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "minecraft:trial_chambers"
+                    }
+                }
+            }
+        },
+        "desert_pyramid": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "minecraft:desert_pyramid"
+                    }
+                }
+            }
+        },
+        "igloo": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "minecraft:igloo"
+                    }
+                }
+            }
+        },
+        "jungle_pyramid": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "minecraft:jungle_pyramid"
+                    }
+                }
+            }
+        },
+        "pillager_outpost": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "minecraft:pillager_outpost"
+                    }
+                }
+            }
+        },
+        "swamp_hut": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "minecraft:swamp_hut"
+                    }
+                }
+            }
+        },
+        "village_desert": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "minecraft:village_desert"
+                    }
+                }
+            }
+        },
+        "village_plains": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "minecraft:village_plains"
+                    }
+                }
+            }
+        },
+        "village_savanna": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "minecraft:village_savanna"
+                    }
+                }
+            }
+        },
+        "village_snowy": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "minecraft:village_snowy"
+                    }
+                }
+            }
+        },
+        "village_taiga": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "minecraft:village_taiga"
+                    }
+                }
+            }
+        },
+        "mansion": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "minecraft:mansion"
+                    }
+                }
+            }
+        },
+        "monument": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "minecraft:monument"
+                    }
+                }
+            }
+        },
+        "ocean_ruin_warm": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "minecraft:ocean_ruin_warm"
+                    }
+                }
+            }
+        },
+        "ocean_ruin_cold": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "minecraft:ocean_ruin_cold"
+                    }
+                }
+            }
+        },
+        "shipwreck": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "#minecraft:shipwreck"
+                    }
+                }
+            }
+        },
+        "bastion_remnant": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "minecraft:bastion_remnant"
+                    }
+                }
+            }
+        },
+        "fortress": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "minecraft:fortress"
+                    }
+                }
+            }
+        },
+        "end_city": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "minecraft:end_city"
+                    }
+                }
+            }
+        }
+    },
+    "parent": "madv:world/root"
+}

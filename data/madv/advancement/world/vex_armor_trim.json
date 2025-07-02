@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:vex_armor_trim_smithing_template"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "魔法袍纹",
+            "translate": "advancements.madv.vex_armor_trim_smithing_template.title"
+        },
+        "description": {
+            "fallback": "在林地府邸里找到恼鬼盔甲纹饰锻造模板",
+            "translate": "advancements.madv.vex_armor_trim_smithing_template.description"
+        }
+    },
+    "criteria": {
+        "vex_armor_trim_smithing_template": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:vex_armor_trim_smithing_template"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:world/mansion_chest"
+}

@@ -15,6 +15,7 @@
         "madv:dialog_mcf/settings/trigger_reward",
         "madv:dialog_mcf/settings/trigger_close",
         "madv:dialog_mcf/settings/messages/trigger_message",
-        "madv:dialog_mcf/settings/messages/trigger_reset"
+        "madv:dialog_mcf/settings/messages/trigger_reset",
+        "madv:codition/boat_on_happy_ghast/is_leashed"
     ]
 }

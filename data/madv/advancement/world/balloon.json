@@ -1,0 +1,31 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:lead"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "气球小贩",
+            "translate": "advancements.madv.balloon.title"
+        },
+        "description": {
+            "fallback": "用拴绳拴住快乐恶魂",
+            "translate": "advancements.madv.balloon.description"
+        }
+    },
+    "criteria": {
+        "lead_happy_ghast": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:lead"
+                },
+                "entity": {
+                    "type": "minecraft:happy_ghast",
+                    "nbt": "{leash: {}}"
+                }
+            }
+        }
+    },
+    "parent": "madv:world/feed_ghastling"
+}

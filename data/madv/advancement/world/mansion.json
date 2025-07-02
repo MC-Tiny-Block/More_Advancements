@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:dark_oak_planks"
+        },
+        "frame": "goal",
+        "title": {
+            "fallback": "军事指挥所",
+            "translate": "advancements.madv.mansion.title"
+        },
+        "description": {
+            "fallback": "进入林地府邸",
+            "translate": "advancements.madv.mansion.description"
+        }
+    },
+    "criteria": {
+        "mansion": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "minecraft:mansion"
+                    }
+                }
+            }
+        }
+    },
+    "parent": "madv:world/dark_forest"
+}

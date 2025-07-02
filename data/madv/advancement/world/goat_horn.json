@@ -1,0 +1,37 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:goat_horn"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "天然乐器",
+            "translate": "advancements.madv.goat_horn.title"
+        },
+        "description": {
+            "fallback": "躲过山羊的冲撞，捡起并吹响它们掉的角",
+            "translate": "advancements.madv.goat_horn.description"
+        }
+    },
+    "criteria": {
+        "goat_horn": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:goat_horn"
+                    }
+                ]
+            }
+        },
+        "play_the_goat_horn": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:goat_horn"
+                }
+            }
+        }
+    },
+    "parent": "madv:world/hurt_by_goat"
+}

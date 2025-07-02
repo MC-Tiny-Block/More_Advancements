@@ -21,7 +21,8 @@
                     "type": "minecraft:trader_llama",
                     "location": {
                         "biomes": "minecraft:savanna_plateau"
-                    }
+                    },
+                    "nbt": "{leash: {}}"
                 },
                 "item": {
                     "items": "minecraft:lead"

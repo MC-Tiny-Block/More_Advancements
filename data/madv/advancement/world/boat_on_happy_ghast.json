@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:oak_boat"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "热气球",
+            "translate": "advancements.madv.boat_on_happy_ghast.title"
+        },
+        "description": {
+            "fallback": "用拴绳把船系在快乐恶魂身上",
+            "translate": "advancements.madv.boat_on_happy_ghast.description"
+        }
+    },
+    "criteria": {
+        "boat_on_happy_ghast": {
+            "trigger": "minecraft:impossible",
+            "conditions": {}
+        }
+    },
+    "parent": "madv:world/harness"
+}

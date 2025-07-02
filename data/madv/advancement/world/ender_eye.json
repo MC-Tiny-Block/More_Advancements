@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:ender_eye"
+        },
+        "frame": "goal",
+        "title": {
+            "fallback": "神秘之眼",
+            "translate": "advancements.madv.ender_eye.title"
+        },
+        "description": {
+            "fallback": "用烈焰粉和末影珍珠合成一些末影之眼",
+            "translate": "advancements.madv.nder_eye.description"
+        },
+        "hidden": true
+    },
+    "criteria": {
+        "ender_eye": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:ender_eye"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:world/start"
+}

@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:crossbow"
+        },
+        "frame": "goal",
+        "title": {
+            "fallback": "敌方根据地",
+            "translate": "advancements.madv.pillager_outpost.title"
+        },
+        "description": {
+            "fallback": "找到一处掠夺者前哨站",
+            "translate": "advancements.madv.pillager_outpost.description"
+        }
+    },
+    "criteria": {
+        "pillager_outpost": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "minecraft:pillager_outpost"
+                    }
+                }
+            }
+        }
+    },
+    "parent": "madv:world/all_moutains"
+}

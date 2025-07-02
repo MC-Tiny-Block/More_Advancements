@@ -1,0 +1,58 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:white_harness"
+        },
+        "frame": "goal",
+        "title": {
+            "fallback": "追逐天空",
+            "translate": "advancements.madv.harness.title"
+        },
+        "description": {
+            "fallback": "制作一套挽具并给快乐恶魂安上，然后骑上快乐恶魂翱翔天际",
+            "translate": "advancements.madv.harness.description"
+        }
+    },
+    "criteria": {
+        "harness": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "#minecraft:harnesses"
+                    }
+                ]
+            }
+        },
+        "put_on_harness": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:happy_ghast",
+                    "flags": {
+                        "is_baby": false
+                    },
+                    "equipment": {
+                        "body": {
+                            "items": "#minecraft:harnesses"
+                        }
+                    }
+                },
+                "item": {
+                    "items": "#minecraft:harnesses"
+                }
+            }
+        },
+        "ride_happy_ghast": {
+            "trigger": "minecraft:started_riding",
+            "conditions": {
+                "player": {
+                    "vehicle": {
+                        "type": "minecraft:happy_ghast"
+                    }
+                }
+            }
+        }
+    },
+    "parent": "madv:world/feed_ghastling"
+}

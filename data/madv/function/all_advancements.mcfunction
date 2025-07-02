@@ -202,7 +202,7 @@
         advancement grant @s only madv:mine/destory_netherite_pickaxe
         advancement grant @s only madv:mine/in_deep_lava
 
-        #世界（暂时放在怪物与战斗）
+        #世界
         advancement grant @s only madv:world/creaking_heart
         advancement grant @s only madv:world/hurt_creaking
         advancement grant @s only madv:world/in_pale_garden_at_night
@@ -290,9 +290,7 @@
         advancement grant @s only madv:world/igloo_chest
         advancement grant @s only madv:world/igloo
         advancement grant @s only madv:world/kelp
-        advancement grant @s only madv:world/lush_caves
         advancement grant @s only madv:world/ride_camel
-        advancement grant @s only madv:world/rooted_dirt
         advancement grant @s only madv:world/sapling_in_desert
         advancement grant @s only madv:world/sea_pickle
         advancement grant @s only madv:world/sea
@@ -320,7 +318,7 @@
         advancement grant @s only madv:world/hurt_by_trident
         advancement grant @s only madv:world/nautilus_shell
         advancement grant @s only madv:world/ocean_ruin
-        #93个
+        #91个
 
         #怪物与战斗
         advancement grant @s only madv:monsters_and_combat/all_heads
@@ -349,7 +347,7 @@
         advancement grant @s only madv:husbandry/on_zombified_piglin
         #2个
 
-        # 截至beta1.1.2总共新增271个进度
+        # 截至beta1.1.2 总共269个进度
 
 
 
@@ -392,6 +390,28 @@
         advancement grant @s only madv:world/lead_camel
         advancement grant @s only madv:world/mangrove_swamp
         advancement grant @s only madv:world/wild_armor_trim
+        advancement grant @s only madv:world/all_moutains
+        advancement grant @s only madv:world/all_structures
+        advancement grant @s only madv:world/balloon
+        advancement grant @s only madv:world/be_invisibility_in_mansion
+        advancement grant @s only madv:world/boat_on_happy_ghast
+        advancement grant @s only madv:world/ender_eye
+        advancement grant @s only madv:world/eye_armor_trim
+        advancement grant @s only madv:world/feed_ghastling
+        advancement grant @s only madv:world/ghast_kill_happy_ghast
+        advancement grant @s only madv:world/goat_horn
+        advancement grant @s only madv:world/harness
+        advancement grant @s only madv:world/mansion_chest
+        advancement grant @s only madv:world/mansion
+        advancement grant @s only madv:world/pillager_outpost
+        advancement grant @s only madv:world/ruined_portal
+        advancement grant @s only madv:world/sentry_armor_trim
+        advancement grant @s only madv:world/vex_armor_trim
+        advancement grant @s only madv:world/warden_in_mansion
+
 
         # 怪物与战斗
         advancement grant @s only madv:monsters_and_combat/trial_template
+
+        #beta 1.2 共新增55个进度
+        #截至beta 1.2 共324个进度

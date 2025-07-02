@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:chest"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "翻箱倒柜",
+            "translate": "advancements.madv.mansion_chest.title"
+        },
+        "description": {
+            "fallback": "打开林地府邸的战利品箱",
+            "translate": "advancements.madv.mansion_chest.description"
+        }
+    },
+    "criteria": {
+        "mansion": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "minecraft:chests/woodland_mansion"
+            }
+        }
+    },
+    "parent": "madv:world/mansion"
+}

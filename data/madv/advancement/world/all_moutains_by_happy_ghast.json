@@ -1,0 +1,152 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:feather"
+        },
+        "frame": "challenge",
+        "title": {
+            "fallback": "欲与天公试比高",
+            "translate": "advancements.madv.all_mountains_by_happy_ghast.title"
+        },
+        "description": {
+            "fallback": "骑着快乐恶魂飞越所有山地和丘陵类生物群系",
+            "translate": "advancements.madv.all_mountains_by_happy_ghast.description"
+        }
+    },
+    "criteria": {
+        "meadow": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "minecraft:meadow"
+                    },
+                    "vehicle": {
+                        "type": "minecraft:happy_ghast"
+                    }
+                }
+            }
+        },
+        "cherry_grove": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "minecraft:cherry_grove"
+                    },
+                    "vehicle": {
+                        "type": "minecraft:happy_ghast"
+                    }
+                }
+            }
+        },
+        "grove": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "minecraft:grove"
+                    },
+                    "vehicle": {
+                        "type": "minecraft:happy_ghast"
+                    }
+                }
+            }
+        },
+        "snowy_slopes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "minecraft:snowy_slopes"
+                    },
+                    "vehicle": {
+                        "type": "minecraft:happy_ghast"
+                    }
+                }
+            }
+        },
+        "jagged_peaks": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "minecraft:jagged_peaks"
+                    },
+                    "vehicle": {
+                        "type": "minecraft:happy_ghast"
+                    }
+                }
+            }
+        },
+        "frozen_peaks": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "minecraft:frozen_peaks"
+                    },
+                    "vehicle": {
+                        "type": "minecraft:happy_ghast"
+                    }
+                }
+            }
+        },
+        "stony_peaks": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "minecraft:stony_peaks"
+                    },
+                    "vehicle": {
+                        "type": "minecraft:happy_ghast"
+                    }
+                }
+            }
+        },
+        "windswept_forest": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "minecraft:windswept_forest"
+                    },
+                    "vehicle": {
+                        "type": "minecraft:happy_ghast"
+                    }
+                }
+            }
+        },
+        "windswept_gravelly_hills": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "minecraft:windswept_gravelly_hills"
+                    },
+                    "vehicle": {
+                        "type": "minecraft:happy_ghast"
+                    }
+                }
+            }
+        },
+        "windswept_hills": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "minecraft:windswept_hills"
+                    },
+                    "vehicle": {
+                        "type": "minecraft:happy_ghast"
+                    }
+                }
+            }
+        }
+    },
+    "parent": "madv:world/harness",
+    "rewards": {
+        "experience": 250
+    }
+}

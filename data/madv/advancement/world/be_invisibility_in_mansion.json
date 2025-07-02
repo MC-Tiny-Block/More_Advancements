@@ -1,0 +1,51 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:potion",
+            "components": {
+                "minecraft:potion_contents": {
+                    "potion": "minecraft:invisibility"
+                }
+            }
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "秘密潜入",
+            "translate": "advancements.madv.be_invisibility_in_mansion.title"
+        },
+        "description": {
+            "fallback": "脱掉所有盔甲，喝下隐身药水，并偷偷潜入林地府邸",
+            "translate": "advancements.madv.be_invisibility_in_mansion.description"
+        }
+    },
+    "criteria": {
+        "be_invisibility_in_mansion": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "equipment": {
+                        "head": {
+                            "items": "minecraft:air"
+                        },
+                        "chest": {
+                            "items": "minecraft:air"
+                        },
+                        "legs": {
+                            "items": "minecraft:air"
+                        },
+                        "feet": {
+                            "items": "minecraft:air"
+                        }
+                    },
+                    "effects": {
+                        "minecraft:invisibility": {}
+                    },
+                    "location": {
+                        "structures": "minecraft:mansion"
+                    }
+                }
+            }
+        }
+    },
+    "parent": "madv:world/mansion"
+}

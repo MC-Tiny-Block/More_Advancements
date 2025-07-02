@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:obsidian"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "残垣断壁",
+            "translate": "advancements.madv.ruined_portal.title"
+        },
+        "description": {
+            "fallback": "打开一个废弃传送门的战利品箱",
+            "translate": "advancements.madv.ruined_portal.description"
+        }
+    },
+    "criteria": {
+        "ruined_portal": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "minecraft:chests/ruined_portal"
+            }
+        }
+    },
+    "parent": "madv:world/start"
+}

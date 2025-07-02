@@ -1,0 +1,38 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:echo_shard"
+        },
+        "frame": "challenge",
+        "title": {
+            "fallback": "借刀杀人",
+            "translate": "advancements.madv.warden_in_mansion.title"
+        },
+        "description": {
+            "fallback": "把一个监守者引到林地府邸中，注视着它，并坐享其成",
+            "translate": "advancements.madv.warden_in_mansion.description"
+        }
+    },
+    "criteria": {
+        "warden_in_mansion": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "minecraft:player",
+                        "looking_at": {
+                            "type": "minecraft:warden",
+                            "location": {
+                                "structures": "minecraft:mansion"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "parent": "madv:world/mansion_chest",
+    "rewards": {
+        "experience": 200
+    }
+}
