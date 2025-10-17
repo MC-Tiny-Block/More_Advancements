@@ -11,7 +11,24 @@
             "type": "minecraft:item",
             "item": {
                 "id": "minecraft:diamond_boots",
-                "count": 1
+                "count": 1,
+                "components": {
+                    "minecraft:attribute_modifiers": [
+                        {
+                            "type": "minecraft:luck",
+                            "amount": 2147483647,
+                            "id": "minecraft:luck",
+                            "operation": "add_value",
+                            "display": {
+                                "type": "override",
+                                "value": {
+                                    "text": "+∞ 幸运值喵~",
+                                    "color": "light_purple"
+                                }
+                            }
+                        }
+                    ]
+                }
             },
             "description": {
                 "contents": {

@@ -5,5 +5,10 @@ execute if data storage madv:gr {reward_message:0b} run data modify storage madv
 execute if data storage madv:gr {reward_message:1b} run data modify storage madv:message_button_text reward_tip_color set value "green"
 execute if data storage madv:gr {reward_message:0b} run data modify storage madv:message_button_text reward_tip_color set value "red"
 
+execute if data storage madv:gr {load_message:1b} run data modify storage madv:message_button_text load_tip set value "√"
+execute if data storage madv:gr {load_message:0b} run data modify storage madv:message_button_text load_tip set value "×"
+execute if data storage madv:gr {load_message:1b} run data modify storage madv:message_button_text load_tip_color set value "green"
+execute if data storage madv:gr {load_message:0b} run data modify storage madv:message_button_text load_tip_color set value "red"
+
 
 function madv:dialog_mcf/settings/messages/messages_setting with storage madv:message_button_text

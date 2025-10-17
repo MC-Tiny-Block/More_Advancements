@@ -24,7 +24,7 @@
                 }
             }
         },
-        "s": {
+        "savanna_plateau": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {

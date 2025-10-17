@@ -9,6 +9,16 @@ $dialog show @s { \
     "actions": [ \
         { \
         "label": [ \
+            {"translate": "","fallback": "数据包加载提示："}, {"text": "$(load_tip)", "color": $(load_tip_color)} \
+        ], \
+        "tooltip": {"translate": "gui.tooltip.reward_messages", "fallback": "开启后，玩家在重载数据包时收到提示"}, \
+        "action": { \
+            "type": "run_command", \
+            "command": "trigger madv_trigger_message_load set 1" \
+        } \
+        }, \
+        { \
+        "label": [ \
             {"translate": "gui.button.reward_messages","fallback": "物品奖励提示："}, {"text": "$(reward_tip)", "color": $(reward_tip_color)} \
         ], \
         "tooltip": {"translate": "gui.tooltip.reward_messages", "fallback": "开启后，玩家在获得物品奖励时收到提示"}, \

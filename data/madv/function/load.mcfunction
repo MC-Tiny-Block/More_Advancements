@@ -1,3 +1,3 @@
-tellraw @a [{"text": "[MAdv] "},{"fallback": "§a更多进度数据包Beta1.2加载完成！","translate": "load","shadow_color": 1095428874}]
+execute if data storage madv:gr {load_message: 1b} run tellraw @a [{"text": "[MAdv] "},{"fallback": "§a更多进度数据包Beta1.2.1加载完成！","translate": "messages.madv.load","shadow_color": 1095428874}]
 
 scoreboard objectives add madv_health_max4 dummy

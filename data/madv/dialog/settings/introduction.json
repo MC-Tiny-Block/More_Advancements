@@ -64,13 +64,16 @@
                     "color": "yellow"
                 },
                 {
-                    "text": "https://modrinth.com/datapack/more-advancements-datapack",
+                    "text": "https://modrinth.com/datapack/more-advancements",
                     "click_event": {
                         "action": "open_url",
-                        "url": "https://modrinth.com/datapack/more-advancements-datapack"
+                        "url": "https://modrinth.com/datapack/more-advancements"
                     },
                     "color": "gray",
                     "underlined": true
+                },
+                {
+                    "text": "\n\nInfinity Advancements!"
                 }
             ],
             "width": 400

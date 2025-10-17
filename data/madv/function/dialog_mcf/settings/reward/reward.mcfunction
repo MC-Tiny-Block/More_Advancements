@@ -18,7 +18,7 @@ $dialog show @s { \
         }, \
         { \
         "label": [ \
-            {"translate": "gui.button.trophy_reward"}, {"text": "$(tro)", "color": $(tro_color)} \
+            {"translate": "gui.button.trophy_reward", "fallback": "进度给予奖杯类奖励："}, {"text": "$(tro)", "color": $(tro_color)} \
         ], \
         "tooltip": {"translate": "gui.tooltip.trophy_reward" ,"fallback": "开启后，玩家在取得某些进度时获得奖杯类奖励"}, \
         "action": { \

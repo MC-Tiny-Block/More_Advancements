@@ -351,7 +351,7 @@
 
 
 
-        #Beta 1.2
+    #Beta 1.2
 
         #世界
         advancement grant @s only madv:world/cactus_flower
@@ -413,5 +413,8 @@
         # 怪物与战斗
         advancement grant @s only madv:monsters_and_combat/trial_template
 
-        #beta 1.2 共新增55个进度
-        #截至beta 1.2 共324个进度
+        # beta 1.2 共新增55个进度
+        # 截至beta 1.2 共324个进度
+
+    # beta 1.3
+        

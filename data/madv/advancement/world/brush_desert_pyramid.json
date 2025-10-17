@@ -10,7 +10,7 @@
         },
         "description": {
             "fallback": "用刷子刷扫沙漠神殿内的可疑的沙子",
-            "translate": "advanmcements.madv.brush_desert_pyramid.description"
+            "translate": "advancements.madv.brush_desert_pyramid.description"
         }
     },
     "criteria": {

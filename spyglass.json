@@ -1,9 +1,9 @@
 {
 	"env": {
 		"dependencies": [
-			"file:///D:/mc/.minecraft/versions/1.21.4数据包制作/saves/[MAdv]More Advancements 更多进度/datapacks/MAdv源代码/",
-            "file:///D:/mc/.minecraft/versions/1.21.4数据包制作/resourcepacks/[MAdv] Language Pack/",
-			"file:///D:/mc/.minecraft/versions/1.21.4数据包制作/saves/[MAdv]More Advancements 更多进度/datapacks/MAdv生草进度附属/",
+			"file:///F:/mc_ver_two/versions/1.21.10更多进度/saves/MAdv/datapacks/MAdv源代码",
+            "file:///F:/mc_ver_two/versions/1.21.10更多进度/resourcepacks/LanguagePack",
+			"file:///F:/mc_ver_two/versions/1.21.10更多进度/saves/MAdv/datapacks/MAdv生草进度附属",
 			"@vanilla-datapack",
 			"@vanilla-resourcepack",
 			"@vanilla-mcdoc"
