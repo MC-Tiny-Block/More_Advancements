@@ -415,7 +415,7 @@
 
         # beta 1.2 共新增55个进度
 
-    # beta 1.2.1
+    # beta 1.2.2
 
         # 采掘
 
@@ -425,5 +425,5 @@
         advancement grant @s only madv:mine/summon_copper_golem
 
 
-    # 截至beta 1.2.1 共328个进度
+    # 截至beta 1.2.2 共328个进度
         
