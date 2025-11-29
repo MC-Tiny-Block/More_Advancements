@@ -19,7 +19,8 @@
     "title": {
       "translate": "advancements.story.enter_the_nether.title"
     },
-    "frame": "goal"
+    "frame": "goal",
+    "hidden": true
   },
   "requirements": [
     [

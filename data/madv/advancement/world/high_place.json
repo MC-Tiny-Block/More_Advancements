@@ -9,7 +9,7 @@
             "translate": "advancements.madv.high_place.title"
         },
         "description": {
-            "fallback": "登上主世界y=128处",
+            "fallback": "站在主世界y=128的方块上",
             "translate": "advancements.madv.high_place.description"
         }
     },
@@ -25,6 +25,9 @@
                             }
                         },
                         "dimension": "minecraft:overworld"
+                    },
+                    "flags": {
+                        "is_on_ground": true
                     }
                 }
             }

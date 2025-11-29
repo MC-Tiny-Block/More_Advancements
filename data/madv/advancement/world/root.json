@@ -17,12 +17,18 @@
     "display": {
         "announce_to_chat": false,
         "background": "minecraft:block/stripped_birch_log",
-        "description": "游历这个世界！",
+        "description": {
+            "fallback": "游历这个世界！",
+            "translate": "advancements.madv.the_world.description"
+        },
         "icon": {
             "count": 1,
             "id": "minecraft:oak_sapling"
         },
         "show_toast": false,
-        "title": "世界"
+        "title": {
+            "fallback": "世界",
+            "translate": "advancements.madv.the_world.title"
+        }
     }
 }

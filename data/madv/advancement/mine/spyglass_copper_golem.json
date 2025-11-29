@@ -1,0 +1,38 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:spyglass"
+        },
+        "title": {
+            "fallback": "物流分拣",
+            "translate": "advancements.madv.spyglass_copper_golem.title"
+        },
+        "description": {
+            "fallback": "用望远镜观察正在分拣物品的铜傀儡",
+            "translate": "advancements.madv.spyglass_copper_golem.description"
+        },
+        "frame": "task"
+    },
+    "criteria": {
+        "look_at_copper_golem_with_items": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:spyglass"
+                },
+                "player": {
+                    "type_specific": {
+                        "type": "minecraft:player",
+                        "looking_at": {
+                            "type": "minecraft:copper_golem",
+                            "equipment": {
+                                "mainhand": {}
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "parent": "madv:mine/summon_copper_golem"
+}

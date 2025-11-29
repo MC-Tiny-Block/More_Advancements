@@ -15,11 +15,20 @@
     },
     "criteria": {
         "darkness":{
-            "trigger": "minecraft:effects_changed",
+            "trigger": "minecraft:tick",
             "conditions": {
-                "effects": {
-                    "darkness": {}
-                }
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{warden_spawn_tracker: {warning_level: 0}}"
+                            }
+                        }
+                    }
+                ]
             }
         }
     },

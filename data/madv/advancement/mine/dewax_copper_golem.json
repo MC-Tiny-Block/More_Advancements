@@ -1,0 +1,59 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:copper_axe"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "除锈迎新",
+            "translate": "advancements.madv.dewax_copper_golem.title"
+        },
+        "description": {
+            "fallback": "记得保养好你的铜傀儡，别让他傻掉了！",
+            "translate": "advancements.madv.dewax_copper_golem.description"
+        }
+    },
+    "criteria": {
+        "dewax_copper_golem": {
+            "trigger": "minecraft:any_block_use",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:any_of",
+                        "terms": [
+                            {
+                                "condition": "minecraft:block_state_property",
+                                "block": "minecraft:copper_golem_statue"
+                            },
+                            {
+                                "condition": "minecraft:block_state_property",
+                                "block": "minecraft:exposed_copper_golem_statue"
+                            },
+                            {
+                                "condition": "minecraft:block_state_property",
+                                "block": "minecraft:weathered_copper_golem_statue"
+                            }
+                        ]
+                    }
+                ],
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "mainhand": {
+                                    "items": "#minecraft:axes"
+                                }
+                            },
+                            "flags": {
+                                "is_sneaking": false
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:mine/spyglass_copper_golem"
+}

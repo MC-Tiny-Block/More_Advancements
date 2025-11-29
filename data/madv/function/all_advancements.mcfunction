@@ -414,7 +414,16 @@
         advancement grant @s only madv:monsters_and_combat/trial_template
 
         # beta 1.2 共新增55个进度
-        # 截至beta 1.2 共324个进度
 
-    # beta 1.3
+    # beta 1.2.1
+
+        # 采掘
+
+        advancement grant @s only madv:mine/copper_golem_on_minecart
+        advancement grant @s only madv:mine/dewax_copper_golem
+        advancement grant @s only madv:mine/spyglass_copper_golem
+        advancement grant @s only madv:mine/summon_copper_golem
+
+
+    # 截至beta 1.2.1 共328个进度
         

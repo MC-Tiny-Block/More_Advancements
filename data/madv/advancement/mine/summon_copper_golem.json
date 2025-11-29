@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:copper_golem_spawn_egg"
+        },
+        "title": {
+            "fallback": "聘请员工",
+            "translate": "advancements.madv.summon_copper_golem.title"
+        },
+        "description": {
+            "fallback": "召唤一只铜傀儡来帮忙整理你的箱子",
+            "translate": "advancements.madv.summon_copper_golem.description"
+        },
+        "frame": "task"
+    },
+    "criteria": {
+        "copper_golem": {
+            "trigger": "minecraft:summoned_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:copper_golem"
+                }
+            }
+        }
+    },
+    "parent": "madv:mine/copper_block"
+}
