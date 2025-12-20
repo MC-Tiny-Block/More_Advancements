@@ -424,6 +424,22 @@
         advancement grant @s only madv:mine/spyglass_copper_golem
         advancement grant @s only madv:mine/summon_copper_golem
 
+    # beta 1.2.3
 
-    # 截至beta 1.2.2 共328个进度
+        # 采掘
+
+        advancement grant @s only madv:mine/copper_pickaxe
+
+        # 怪物与战斗
+        advancement grant @s only madv:monsters_and_combat/jab_a_mob
+        advancement grant @s only madv:monsters_and_combat/kill_a_mob_on_camel
+        advancement grant @s only madv:monsters_and_combat/kill_all_jockeys
+        advancement grant @s only madv:monsters_and_combat/kill_all_skeleton
+        advancement grant @s only madv:monsters_and_combat/spear_mob_strongly
+        advancement grant @s only madv:monsters_and_combat/spear_on_mounts
+        advancement grant @s only madv:monsters_and_combat/spears
+        advancement grant @s only madv:monsters_and_combat/super_spear
+
+
+    # 截至beta 1.2.3 共387个进度
         
