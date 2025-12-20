@@ -14,7 +14,7 @@ $dialog show @s { \
         "tooltip": {"translate": "gui.tooltip.load_messages", "fallback": "开启后，玩家在重载数据包时收到提示"}, \
         "action": { \
             "type": "run_command", \
-            "command": "trigger madv_trigger_message_load set 1" \
+            "command": "function madv:dialog_mcf/settings/messages/load/reflush_dialog" \
         } \
         }, \
         { \
@@ -24,7 +24,7 @@ $dialog show @s { \
         "tooltip": {"translate": "gui.tooltip.reward_messages", "fallback": "开启后，玩家在获得物品奖励时收到提示"}, \
         "action": { \
             "type": "run_command", \
-            "command": "trigger madv_trigger_message set 1" \
+            "command": "function madv:dialog_mcf/settings/messages/reward/reflush_dialog" \
         } \
         }, \
     ], \

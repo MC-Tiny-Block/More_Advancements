@@ -45,6 +45,14 @@
                     "type": "minecraft:bogged"
                 }
             }
+        },
+        "parched":{
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:parched"
+                }
+            }
         }
     },
     "parent": "madv:monsters_and_combat/kill_skeleton"

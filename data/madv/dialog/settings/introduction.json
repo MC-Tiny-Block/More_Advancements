@@ -13,9 +13,10 @@
             "description": {
                 "contents": {
                     "translate": "gui.dialog.message.version",
-                    "fallback": "更多进度 Beta 1.2 - 追忆旅迹",
+                    "fallback": "更多进度 Beta 1.2 - 群骑纷争",
                     "color": "green"
-                }
+                },
+                "width": 150
             }
         },
         {
@@ -29,7 +30,7 @@
                     "fallback": "测试版警告：本版本不是正式版，内容尚未完整且易出现问题",
                     "color": "red"
                 },
-                "width": 400
+                "width": 260
             }
         },
         {

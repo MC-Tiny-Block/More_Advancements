@@ -1,4 +1,0 @@
-
-scoreboard objectives add madv_trigger_message trigger
-scoreboard objectives add madv_trigger_message_open trigger
-scoreboard objectives add madv_trigger_message_load trigger

@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:wooden_spear"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "戳刺时间到！",
+            "translate": "advancements.madv.spears.title"
+        },
+        "description": {
+            "fallback": "把锹的配方摆歪一点，然后合成出一根棒子？",
+            "translate": "advancements.madv.spears.description"
+        }
+    },
+    "criteria": {
+        "spears":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "#minecraft:spears"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:monsters_and_combat/root"
+}

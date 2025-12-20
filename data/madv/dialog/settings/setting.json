@@ -43,8 +43,8 @@
             "translate": "gui.back"
         },
         "action": {
-            "type": "run_command",
-            "command": "trigger madv_trigger_close set 1"
+            "type": "minecraft:run_command",
+            "command": "trigger madv_trigger_close"
         }
     },
     "actions": [
@@ -65,7 +65,7 @@
             },
             "action": {
                 "type": "run_command",
-                "command": "trigger madv_trigger_reward set 1"
+                "command": "function madv:dialog_mcf/settings/reward/reset"
             }
         },
         {
@@ -75,7 +75,7 @@
             },
             "action": {
                 "type": "run_command",
-                "command": "trigger madv_trigger_message_open set 1"
+                "command": "function madv:dialog_mcf/settings/messages/reset"
             }
         }
     ]

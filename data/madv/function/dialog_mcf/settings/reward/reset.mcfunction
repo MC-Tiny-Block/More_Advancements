@@ -1,4 +1,3 @@
-scoreboard players set @s madv_trigger_reward 0
 
 execute if data storage madv:gr {resource_rewards: 1b} run data modify storage madv:reward_button_text res set value "√"
 

@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:copper_pickaxe"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "铜器时代",
+            "translate": "advancements.madv.copper_pickaxe.title"
+        },
+        "description": {
+            "fallback": "制作一把铜镐",
+            "translate": "advancements.madv.copper_pickaxe.description"
+        }
+    },
+    "criteria": {
+        "copper_pickaxe":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:copper_pickaxe"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:mine/copper_ingot"
+}

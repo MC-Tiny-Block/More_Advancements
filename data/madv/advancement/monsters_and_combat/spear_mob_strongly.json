@@ -1,0 +1,40 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:diamond_spear"
+        },
+        "frame": "challenge",
+        "title": {
+            "fallback": "动能武器",
+            "translate": "advancements.madv.spear_mob_strongly.title"
+        },
+        "description": {
+            "fallback": "用矛一击对生物造成至少40点伤害！",
+            "translate": "advancements.madv.spear_mob_strongly.description"
+        }
+    },
+    "criteria": {
+        "spear_mob_strongly":{
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "tags": [
+                            {
+                                "id": "madv:is_spear",
+                                "expected": true
+                            }
+                        ]
+                    },
+                    "dealt": {
+                        "min": 40
+                    }
+                }
+            }
+        }
+    },
+    "parent": "madv:monsters_and_combat/spear_on_mounts",
+    "rewards": {
+        "experience": 200
+    }
+}

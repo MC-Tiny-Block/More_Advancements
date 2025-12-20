@@ -288,6 +288,38 @@
                 }
             },
             "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+        },
+        "minecraft:zombie_nautilus": {
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:zombie_nautilus"
+                }
+            },
+            "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+        },
+        "minecraft:zombie_horse": {
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:zombie_horse"
+                }
+            },
+            "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+        },
+        "minecraft:parched": {
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:parched"
+                }
+            },
+            "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+        },   
+        "minecraft:camel_husk": {
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:camel_husk"
+                }
+            },
+            "trigger": "minecraft:kill_mob_near_sculk_catalyst"
         }
     },
     "display": {

@@ -13,7 +13,7 @@ $dialog show @s { \
         "tooltip": {"translate": "gui.tooltip.resource_reward", "fallback": "开启后，玩家在取得某些进度时获得资源类奖励"}, \
         "action": { \
             "type": "run_command", \
-            "command": "trigger madv_trigger_res set 1" \
+            "command": "function madv:dialog_mcf/settings/reward/turn" \
         } \
         }, \
         { \
@@ -23,7 +23,7 @@ $dialog show @s { \
         "tooltip": {"translate": "gui.tooltip.trophy_reward" ,"fallback": "开启后，玩家在取得某些进度时获得奖杯类奖励"}, \
         "action": { \
             "type": "run_command", \
-            "command": "trigger madv_trigger_tro set 1" \
+            "command": "function madv:dialog_mcf/settings/reward/turn_tro" \
         } \
     } \
     ], \

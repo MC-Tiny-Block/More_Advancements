@@ -1,0 +1,37 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:saddle"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "锋至踏来",
+            "translate": "advancements.madv.spear_on_mounts.title"
+        },
+        "description": {
+            "fallback": "在你的坐骑上勇猛地戳穿敌人吧！",
+            "translate": "advancements.madv.spear_on_mounts.description"
+        }
+    },
+    "criteria": {
+        "spear_on_mounts":{
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "player": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": "#minecraft:spears"
+                        }
+                    },
+                    "vehicle": {
+                        "type": "#minecraft:can_equip_saddle"
+                    }
+                },
+                "killing_blow": {
+                    "is_direct": true
+                }
+            }
+        }
+    },
+    "parent": "minecraft:adventure/spear_many_mobs"
+}

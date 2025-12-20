@@ -1,4 +1,3 @@
-scoreboard players set @s madv_trigger_res 0
 
 execute unless data storage madv:gr resource_rewards run data modify storage madv:gr resource_rewards set value 1b
 execute if data storage madv:gr {resource_rewards: 1b} run return run function madv:dialog_mcf/settings/reward/keep_2

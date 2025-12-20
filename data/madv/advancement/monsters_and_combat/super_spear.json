@@ -1,0 +1,44 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:netherite_spear"
+        },
+        "frame": "challenge",
+        "title": {
+            "fallback": "精确制导",
+            "translate": "advancements.madv.super_spear.title"
+        },
+        "description": {
+            "fallback": "用矛一击对末影螨造成至少100点伤害！",
+            "translate": "advancements.madv.super_spear.description"
+        },
+        "hidden": true
+    },
+    "criteria": {
+        "super_spear": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "dealt": {
+                        "min": 100
+                    },
+                    "type": {
+                        "tags": [
+                            {
+                                "id": "madv:is_spear",
+                                "expected": true
+                            }
+                        ]
+                    }
+                },
+                 "entity": {
+                    "type": "minecraft:endermite"
+                }
+            }
+        }
+    },
+    "parent": "madv:monsters_and_combat/spear_mob_strongly",
+    "rewards": {
+        "experience": 800
+    }
+}

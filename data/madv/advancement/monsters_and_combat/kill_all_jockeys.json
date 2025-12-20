@@ -1,0 +1,280 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:saddle"
+        },
+        "frame": "challenge",
+        "title": {
+            "fallback": "群骑纷争",
+            "translate": "advancements.madv.kill_all_jockeys.title"
+        },
+        "description": {
+            "fallback": "击杀所有种类的骑士！（击杀坐骑或骑手均可，但如果骑手和坐骑分离则不计入）",
+            "translate": "advancements.madv.kill_all_jockeys.description"
+        }
+    },
+    "criteria": {
+        "spider_jockey": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:any_of",
+                        "terms": [
+                            {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "vehicle": {
+                                        "type": "minecraft:spider"
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "type": "minecraft:spider",
+                                    "passenger": {}
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "skeleton_jockey": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:any_of",
+                        "terms": [
+                            {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "vehicle": {
+                                        "type": "minecraft:skeleton_horse"
+                                    },
+                                    "type": "minecraft:skeleton"
+                                }
+                            },
+                            {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "type": "minecraft:skeleton_horse",
+                                    "passenger": {
+                                        "type": "minecraft:skeleton"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "ravager_jockey": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:any_of",
+                        "terms": [
+                            {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "vehicle": {
+                                        "type": "minecraft:ravager"
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "type": "minecraft:ravager",
+                                    "passenger": {
+                                        "type": []
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "zombie_horse_jockey": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:any_of",
+                        "terms": [
+                            {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "vehicle": {
+                                        "type": "minecraft:zombie_horse"
+                                    },
+                                    "type": "minecraft:zombie"
+                                }
+                            },
+                            {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "type": "minecraft:zombie_horse",
+                                    "passenger": {
+                                        "type": "minecraft:zombie"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "zombie_nautilus_jockey": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:any_of",
+                        "terms": [
+                            {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "vehicle": {
+                                        "type": "minecraft:zombie_nautilus"
+                                    },
+                                    "type": "minecraft:drowned"
+                                }
+                            },
+                            {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "type": "minecraft:spider",
+                                    "passenger": {
+                                        "type": "minecraft:drowned"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "camel_husk_jockey": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:any_of",
+                        "terms": [
+                            {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "vehicle": {
+                                        "type": "minecraft:camel_husk"
+                                    },
+                                    "type": [
+                                        "minecraft:husk",
+                                        "minecraft:parched"
+                                    ]
+                                }
+                            },
+                            {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "type": "minecraft:camel_husk",
+                                    "passenger": {
+                                        "type": [
+                                            "minecraft:husk",
+                                            "minecraft:parched"
+                                        ]
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "strider_jockey": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:any_of",
+                        "terms": [
+                            {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "vehicle": {
+                                        "type": "minecraft:strider"
+                                    },
+                                    "type": "minecraft:zombified_piglin"
+                                }
+                            },
+                            {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "type": "minecraft:strider",
+                                    "passenger": {
+                                        "type": "minecraft:zombified_piglin"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "hoglin_jockey": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:any_of",
+                        "terms": [
+                            {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "vehicle": {
+                                        "type": "minecraft:hoglin"
+                                    },
+                                    "type": "minecraft:piglin"
+                                }
+                            },
+                            {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "type": "minecraft:hoglin",
+                                    "passenger": {
+                                        "type": "minecraft:piglin"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "minecraft:adventure/kill_a_mob",
+    "rewards": {
+        "experience": 300
+    }
+}
