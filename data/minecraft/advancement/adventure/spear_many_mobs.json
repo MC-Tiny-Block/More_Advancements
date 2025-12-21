@@ -1,5 +1,5 @@
 {
-  "parent": "madv:monsters_and_combat/jab_a_mob",
+  "parent": "madv:monsters_and_combat/spear_on_mounts",
   "criteria": {
     "spear_many_mobs": {
       "conditions": {

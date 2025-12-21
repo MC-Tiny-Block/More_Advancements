@@ -424,7 +424,7 @@
         advancement grant @s only madv:mine/spyglass_copper_golem
         advancement grant @s only madv:mine/summon_copper_golem
 
-    # beta 1.2.3
+    # beta 1.2.3/4
 
         # 采掘
 
@@ -441,5 +441,5 @@
         advancement grant @s only madv:monsters_and_combat/super_spear
 
 
-    # 截至beta 1.2.3 共387个进度
+    # 截至beta 1.2.4 共387个进度
         

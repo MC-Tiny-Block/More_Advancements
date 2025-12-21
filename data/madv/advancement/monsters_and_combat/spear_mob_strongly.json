@@ -33,7 +33,7 @@
             }
         }
     },
-    "parent": "madv:monsters_and_combat/spear_on_mounts",
+    "parent": "minecraft:adventure/spear_many_mobs",
     "rewards": {
         "experience": 200
     }

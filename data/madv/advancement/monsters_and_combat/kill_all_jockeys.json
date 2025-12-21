@@ -240,7 +240,7 @@
                 ]
             }
         },
-        "hoglin_jockey": {
+        "chicken_jockey": {
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": [
@@ -252,19 +252,15 @@
                                 "entity": "this",
                                 "predicate": {
                                     "vehicle": {
-                                        "type": "minecraft:hoglin"
-                                    },
-                                    "type": "minecraft:piglin"
+                                        "type": "minecraft:chicken"
+                                    }
                                 }
                             },
                             {
                                 "condition": "minecraft:entity_properties",
                                 "entity": "this",
                                 "predicate": {
-                                    "type": "minecraft:hoglin",
-                                    "passenger": {
-                                        "type": "minecraft:piglin"
-                                    }
+                                    "type": "minecraft:chicken"
                                 }
                             }
                         ]
