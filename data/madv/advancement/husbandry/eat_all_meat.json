@@ -1,0 +1,83 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:cooked_beef"
+        },
+        "frame": "goal",
+        "title": {
+            "fallback": "肉食主义",
+            "translate": "advancements.madv.eat_all_meat.title"
+        },
+        "description": {
+            "fallback": "吃遍所有做熟的肉食",
+            "translate": "advancements.madv.eat_all_meat.description"
+        }
+    },
+    "criteria": {
+        "cooked_beef": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:cooked_beef"
+                }
+            }
+        },
+        "cooked_porkchop": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:cooked_porkchop"
+                }
+            }
+        },
+        "cooked_chicken": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:cooked_chicken"
+                }
+            }
+        },
+        "cooked_mutton": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:cooked_mutton"
+                }
+            }
+        },
+        "cooked_rabbit": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:cooked_rabbit"
+                }
+            }
+        },
+        "cooked_cod": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:cooked_cod"
+                }
+            }
+        },
+        "cooked_salmon": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:cooked_salmon"
+                }
+            }
+        },
+        "rabbit_stew": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:rabbit_stew"
+                }
+            }
+        }
+    },
+    "parent": "madv:husbandry/eat_raw_meat"
+}

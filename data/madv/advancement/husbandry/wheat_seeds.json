@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:wheat_seeds"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "起源",
+            "translate": "advancements.madv.wheat_seeds.title"
+        },
+        "description": {
+            "fallback": "得到一些小麦种子",
+            "translate": "advancements.madv.wheat_seeds.description"
+        }
+    },
+    "criteria": {
+        "wheat_seeds": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:wheat_seeds"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "minecraft:husbandry/root"
+}

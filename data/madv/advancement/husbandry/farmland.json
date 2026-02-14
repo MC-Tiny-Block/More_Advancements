@@ -1,0 +1,36 @@
+{
+    "display": {
+        "icon": {
+            "id":"minecraft:farmland"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "疏松土壤",
+            "translate": "advancements.madv.farmland.title"
+        },
+        "description": {
+            "fallback": "用锄头耕地",
+            "translate": "advancements.madv.farmland.description"
+        }
+    },
+    "criteria": {
+        "farmland":{
+            "trigger": "minecraft:any_block_use",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:block_state_property",
+                        "block": "minecraft:farmland"
+                    },
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": "#minecraft:hoes"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "madv:husbandry/wheat_seeds"
+}

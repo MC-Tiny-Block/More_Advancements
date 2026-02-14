@@ -1,0 +1,75 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:beef"
+        },
+        "frame": "task",
+        "title": {
+            "fallback": "茹毛饮血",
+            "translate": "advancements.madv.eat_raw_meat.title"
+        },
+        "description": {
+            "fallback": "吃遍所有生肉",
+            "translate": "advancements.madv.eat_raw_meat.description"
+        }
+    },
+    "criteria": {
+        "beef": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:beef"
+                }
+            }
+        },
+        "porkchop": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:porkchop"
+                }
+            }
+        },
+        "chicken": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:chicken"
+                }
+            }
+        },
+        "mutton": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:mutton"
+                }
+            }
+        },
+        "rabbit": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:rabbit"
+                }
+            }
+        },
+        "cod": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:cod"
+                }
+            }
+        },
+        "salmon": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:salmon"
+                }
+            }
+        }
+    },
+    "parent": "minecraft:husbandry/root"
+}
