@@ -15,7 +15,7 @@
     },
     "criteria": {
         "silverfish":{
-            "trigger": "minecraft:kill_mob_near_sculk_catalyst",
+            "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": {
                     "type": "silverfish"

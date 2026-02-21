@@ -13,7 +13,7 @@
             "description": {
                 "contents": {
                     "translate": "gui.dialog.message.version",
-                    "fallback": "更多进度 Beta 1.2.4 - 群骑纷争",
+                    "fallback": "更多进度 Beta 1.2.5 - 群骑纷争",
                     "color": "green"
                 },
                 "width": 150

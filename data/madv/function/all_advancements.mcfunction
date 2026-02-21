@@ -440,12 +440,13 @@
         advancement grant @s only madv:monsters_and_combat/spears
         advancement grant @s only madv:monsters_and_combat/super_spear
 
-
-    # 截至beta 1.2.4 共387个进度
-
+    # beta 1.2.5
+        
+        # 农牧业
         advancement grant @s only madv:husbandry/eat_all_meat
         advancement grant @s only madv:husbandry/eat_all_plant_food
         advancement grant @s only madv:husbandry/eat_raw_meat
         advancement grant @s only madv:husbandry/farmland
         advancement grant @s only madv:husbandry/wheat_seeds
-        
+
+    # 截至beta 1.2.5 共387个进度

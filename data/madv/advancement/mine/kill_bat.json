@@ -15,7 +15,7 @@
     },
     "criteria": {
         "bat":{
-            "trigger": "minecraft:kill_mob_near_sculk_catalyst",
+            "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": {
                     "type": "minecraft:bat"
