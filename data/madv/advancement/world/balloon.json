@@ -21,7 +21,7 @@
                     "items": "minecraft:lead"
                 },
                 "entity": {
-                    "type": "minecraft:happy_ghast",
+                    "entity_type": "minecraft:happy_ghast",
                     "nbt": "{leash: {}}"
                 }
             }

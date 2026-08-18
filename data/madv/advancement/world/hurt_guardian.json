@@ -18,7 +18,7 @@
             "trigger": "minecraft:player_hurt_entity",
             "conditions": {
                 "entity": {
-                    "type": [
+                    "entity_type": [
                         "minecraft:guardian",
                         "minecraft:elder_guardian"
                     ]

@@ -19,7 +19,7 @@
             "trigger": "minecraft:player_interacted_with_entity",
             "conditions": {
                 "entity": {
-                    "type": "minecraft:panda"
+                    "entity_type": "minecraft:panda"
                 },
                 "item": {
                     "items": "minecraft:bamboo"

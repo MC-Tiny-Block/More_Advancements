@@ -21,10 +21,9 @@
                     "items": "minecraft:spyglass"
                 },
                 "player": {
-                    "type_specific": {
-                        "type": "minecraft:player",
+                    "type_specific/player": {
                         "looking_at": {
-                            "type": "minecraft:copper_golem",
+                            "entity_type": "minecraft:copper_golem",
                             "equipment": {
                                 "mainhand": {}
                             }

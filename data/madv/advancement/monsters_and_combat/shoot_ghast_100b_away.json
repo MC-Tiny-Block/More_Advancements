@@ -26,11 +26,11 @@
                             "min": 100
                         }
                     },
-                    "type": "ghast"
+                    "entity_type": "ghast"
                 },
                 "killing_blow": {
                     "direct_entity": {
-                        "type": "arrow"
+                        "entity_type": "arrow"
                     }
                 }
             }

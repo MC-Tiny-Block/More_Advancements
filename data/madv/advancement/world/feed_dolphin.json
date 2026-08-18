@@ -24,7 +24,7 @@
                     ]
                 },
                 "entity": {
-                    "type": "minecraft:dolphin"
+                    "entity_type": "minecraft:dolphin"
                 }
             }
         }

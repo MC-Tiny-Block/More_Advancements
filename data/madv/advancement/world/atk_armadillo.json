@@ -18,7 +18,7 @@
             "trigger": "minecraft:player_hurt_entity",
             "conditions": {
                 "entity": {
-                    "type": "minecraft:armadillo",
+                    "entity_type": "minecraft:armadillo",
                     "nbt": "{state: 'scared'}"
                 }
             }

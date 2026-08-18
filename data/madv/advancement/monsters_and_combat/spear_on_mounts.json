@@ -24,7 +24,7 @@
                         }
                     },
                     "vehicle": {
-                        "type": "#minecraft:can_equip_saddle"
+                        "entity_type": "#minecraft:can_equip_saddle"
                     }
                 },
                 "killing_blow": {

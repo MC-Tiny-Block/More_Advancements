@@ -19,11 +19,11 @@
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": {
-                    "type": "minecraft:happy_ghast"
+                    "entity_type": "minecraft:happy_ghast"
                 },
                 "killing_blow": {
                     "direct_entity": {
-                        "type": "minecraft:fireball"
+                        "entity_type": "minecraft:fireball"
                     },
                     "tags": [
                         {

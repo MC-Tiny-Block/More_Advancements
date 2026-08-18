@@ -19,7 +19,7 @@
             "conditions": {
                 "player": {
                     "vehicle": {
-                        "type": "minecraft:camel"
+                        "entity_type": "minecraft:camel"
                     }
                 }
             }

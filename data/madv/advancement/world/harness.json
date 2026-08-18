@@ -28,7 +28,7 @@
             "trigger": "minecraft:player_interacted_with_entity",
             "conditions": {
                 "entity": {
-                    "type": "minecraft:happy_ghast",
+                    "entity_type": "minecraft:happy_ghast",
                     "flags": {
                         "is_baby": false
                     },
@@ -48,7 +48,7 @@
             "conditions": {
                 "player": {
                     "vehicle": {
-                        "type": "minecraft:happy_ghast"
+                        "entity_type": "minecraft:happy_ghast"
                     }
                 }
             }

@@ -21,7 +21,7 @@
                     "items": "minecraft:lead"
                 },
                 "entity": {
-                    "type": "minecraft:camel",
+                    "entity_type": "minecraft:camel",
                     "nbt": "{leash: {}}"
                 }
             }

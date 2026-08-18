@@ -18,7 +18,7 @@
             "trigger": "minecraft:player_interacted_with_entity",
             "conditions": {
                 "entity": {
-                    "type": "minecraft:fox"
+                    "entity_type": "minecraft:fox"
                 },
                 "item": {
                     "items": "minecraft:sweet_berries"

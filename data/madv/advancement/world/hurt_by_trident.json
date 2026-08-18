@@ -20,10 +20,10 @@
                 "damage": {
                     "type": {
                         "direct_entity": {
-                            "type": "minecraft:trident"
+                            "entity_type": "minecraft:trident"
                         },
                         "source_entity": {
-                            "type": "minecraft:drowned"
+                            "entity_type": "minecraft:drowned"
                         },
                         "is_direct": false
                     }

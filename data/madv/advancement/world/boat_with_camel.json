@@ -19,9 +19,9 @@
             "conditions": {
                  "player": {
                     "vehicle": {
-                        "type": "#minecraft:boat",
+                        "entity_type": "#minecraft:boat",
                         "passenger": {
-                            "type": "minecraft:camel"
+                            "entity_type": "minecraft:camel"
                         }
                     }
                  }

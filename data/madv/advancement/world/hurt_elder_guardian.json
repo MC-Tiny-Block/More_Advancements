@@ -35,7 +35,7 @@
                     }
                 },
                 "entity": {
-                    "type": "minecraft:elder_guardian"
+                    "entity_type": "minecraft:elder_guardian"
                 }
             }
         },
@@ -43,12 +43,12 @@
             "trigger": "minecraft:player_hurt_entity",
             "conditions": {
                 "entity": {
-                    "type": "minecraft:elder_guardian"
+                    "entity_type": "minecraft:elder_guardian"
                 },
                 "damage": {
                     "type": {
                         "direct_entity": {
-                            "type": "minecraft:trident",
+                            "entity_type": "minecraft:trident",
                             "predicates": {
                                 "minecraft:enchantments": [
                                     {

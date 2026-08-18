@@ -18,11 +18,11 @@
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": {
-                    "type": "minecraft:guardian"
+                    "entity_type": "minecraft:guardian"
                 },
                 "killing_blow": {
                     "direct_entity": {
-                        "type": "minecraft:tnt"
+                        "entity_type": "minecraft:tnt"
                     },
                     "is_direct": false
                 }

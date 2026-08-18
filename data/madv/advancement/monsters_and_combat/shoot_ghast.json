@@ -19,7 +19,7 @@
             "conditions": {
                 "victims": [
                     {
-                        "type": "ghast"
+                        "entity_type": "ghast"
                     }
                 ]
             }

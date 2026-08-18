@@ -27,7 +27,8 @@
                                 "min": 12600,
                                 "max": 23400
                             },
-                            "period": 24000
+                            "period": 24000,
+                            "clock": "minecraft:overworld"
                         }
                     },
                     {

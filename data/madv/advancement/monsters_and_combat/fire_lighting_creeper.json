@@ -19,7 +19,7 @@
             "trigger": "minecraft:player_interacted_with_entity",
             "conditions": {
                 "entity": {
-                    "type": "creeper",
+                    "entity_type": "minecraft:creeper",
                     "nbt": "{'powered': true}"
                 },
                 "item": {

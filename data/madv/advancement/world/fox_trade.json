@@ -18,7 +18,7 @@
             "trigger": "minecraft:thrown_item_picked_up_by_entity",
             "conditions": {
                 "entity": {
-                    "type": "minecraft:fox"
+                    "entity_type": "minecraft:fox"
                 },
                 "item": {
                     "items": "minecraft:sweet_berries"

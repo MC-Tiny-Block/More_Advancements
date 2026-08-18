@@ -18,9 +18,8 @@
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": {
-                    "type": "slime",
-                    "type_specific": {
-                        "type": "slime",
+                    "entity_type": "slime",
+                    "type_specific/cube_mob": {
                         "size": 4
                     }
                 }
@@ -30,9 +29,8 @@
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": {
-                    "type": "slime",
-                    "type_specific": {
-                        "type": "slime",
+                    "entity_type": "slime",
+                    "type_specific/cube_mob": {
                         "size": 2
                     }
                 }

@@ -27,7 +27,8 @@
                                     "min": 13800,
                                     "max": 22200
                                 },
-                                "period": 24000
+                                "period": 24000,
+                                "clock": "minecraft:overworld"
                             },
                             {
                                 "condition": "weather_check",

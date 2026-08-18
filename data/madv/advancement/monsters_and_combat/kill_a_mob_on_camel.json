@@ -19,7 +19,7 @@
             "conditions": {
                 "entity": {
                     "vehicle": {
-                        "type": "minecraft:camel_husk"
+                        "entity_type": "minecraft:camel_husk"
                     }
                 }
             }

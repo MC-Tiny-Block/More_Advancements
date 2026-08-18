@@ -18,10 +18,9 @@
             "trigger": "minecraft:tick",
             "conditions": {
                 "player": {
-                    "type_specific": {
-                        "type": "minecraft:player",
+                    "type_specific/player": {
                         "looking_at": {
-                            "type": "minecraft:warden",
+                            "entity_type": "minecraft:warden",
                             "location": {
                                 "structures": "minecraft:mansion"
                             }

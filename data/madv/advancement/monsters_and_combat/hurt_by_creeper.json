@@ -27,8 +27,7 @@
                     }
                 },
                 "player": {
-                    "type_specific": {
-                        "type": "player",
+                    "type_specific/player": {
                         "advancements": {
                             "madv:tech/is_dead_by_mob": false
                         }

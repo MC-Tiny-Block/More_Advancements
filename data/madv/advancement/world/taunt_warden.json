@@ -20,12 +20,12 @@
                 "damage": {
                     "type": {
                         "direct_entity": {
-                            "type": "minecraft:snowball"
+                            "entity_type": "minecraft:snowball"
                         }
                     }
                 },
                 "entity": {
-                    "type": "minecraft:warden"
+                    "entity_type": "minecraft:warden"
                 }
             }
         }

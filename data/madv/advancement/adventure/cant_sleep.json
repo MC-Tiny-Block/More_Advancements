@@ -19,12 +19,11 @@
             "conditions": {
                 "damage": {
                     "source_entity": {
-                        "type": "minecraft:phantom"
+                        "minecraft:entity_type": "minecraft:phantom"
                     }
                 },
                 "player": {
-                    "type_specific": {
-                        "type": "minecraft:player",
+                    "minecraft:type_specific/player": {
                         "advancements": {
                             "madv:tech/slept": true
                         }

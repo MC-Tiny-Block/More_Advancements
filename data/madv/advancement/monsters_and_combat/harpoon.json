@@ -32,7 +32,7 @@
                     }
                 },
                 "entity": {
-                    "type": "#aquatic"
+                    "entity_type": "#aquatic"
                 }
             }
         }

@@ -19,7 +19,7 @@
             "conditions": {
                 "victims": [
                     {
-                        "type": "creeper"
+                        "entity_type": "creeper"
                     }
                 ]
             }

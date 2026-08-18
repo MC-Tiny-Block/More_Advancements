@@ -18,7 +18,7 @@
             "trigger": "minecraft:player_hurt_entity",
             "conditions": {
                 "entity": {
-                    "type": "zombified_piglin"
+                    "entity_type": "zombified_piglin"
                 }
             }
         }

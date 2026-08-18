@@ -18,10 +18,9 @@
             "trigger": "minecraft:tick",
             "conditions": {
                 "player": {
-                    "type_specific": {
-                        "type": "player",
+                    "type_specific/player": {
                         "looking_at": {
-                            "type": "creaking"
+                            "entity_type": "creaking"
                         }
                     },
                     "slots": {

@@ -18,7 +18,7 @@
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": {
-                    "type": "minecraft:ghast"
+                    "entity_type": "minecraft:ghast"
                 }
             }
         },
@@ -26,7 +26,7 @@
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": {
-                    "type": "minecraft:magma_cube"
+                    "entity_type": "minecraft:magma_cube"
                 }
             }
         },
@@ -34,7 +34,7 @@
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": {
-                    "type": "minecraft:wither_skeleton"
+                    "entity_type": "minecraft:wither_skeleton"
                 }
             }
         },
@@ -42,7 +42,7 @@
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": {
-                    "type": "minecraft:blaze"
+                    "entity_type": "minecraft:blaze"
                 }
             }
         },
@@ -50,7 +50,7 @@
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": {
-                    "type": "minecraft:enderman"
+                    "entity_type": "minecraft:enderman"
                 }
             }
         },
@@ -58,7 +58,7 @@
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": {
-                    "type": "minecraft:hoglin"
+                    "entity_type": "minecraft:hoglin"
                 }
             }
         },
@@ -66,7 +66,7 @@
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": {
-                    "type": "minecraft:piglin"
+                    "entity_type": "minecraft:piglin"
                 }
             }
         },
@@ -74,7 +74,7 @@
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": {
-                    "type": "minecraft:piglin_brute"
+                    "entity_type": "minecraft:piglin_brute"
                 }
             }
         }

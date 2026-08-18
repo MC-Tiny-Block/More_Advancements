@@ -20,7 +20,7 @@
                 "damage": {
                     "blocked": true,
                     "source_entity": {
-                        "type": "minecraft:creeper"
+                        "entity_type": "minecraft:creeper"
                     }
                 }
             }

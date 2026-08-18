@@ -19,7 +19,7 @@
             "conditions": {
                 "player": {
                     "vehicle": {
-                        "type": "minecraft:llama"
+                        "entity_type": "minecraft:llama"
                     }
                 }
             }

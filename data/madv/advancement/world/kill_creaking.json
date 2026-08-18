@@ -19,7 +19,7 @@
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": {
-                    "type": "creaking"
+                    "entity_type": "creaking"
                 }
             }
         }

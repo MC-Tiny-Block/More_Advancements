@@ -19,14 +19,14 @@
             "conditions": {
                 "damage": {
                     "source_entity": {
-                        "type": "player",
+                        "entity_type": "player",
                         "equipment": {
                             "mainhand": {
                                 "items": "mace"
                             }
                         }
                     },
-                    "type": {
+                    "entity_type": {
                         "tags": [
                             {
                                 "id": "is_player_attack",
@@ -39,7 +39,7 @@
                     }
                 },
                 "entity": {
-                    "type": "ender_dragon"
+                    "entity_type": "ender_dragon"
                 }
             }
         }

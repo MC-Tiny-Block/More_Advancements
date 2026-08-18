@@ -18,7 +18,7 @@
             "trigger": "minecraft:player_interacted_with_entity",
             "conditions": {
                 "entity": {
-                    "type": "minecraft:trader_llama",
+                    "entity_type": "minecraft:trader_llama",
                     "location": {
                         "biomes": "minecraft:savanna_plateau"
                     },

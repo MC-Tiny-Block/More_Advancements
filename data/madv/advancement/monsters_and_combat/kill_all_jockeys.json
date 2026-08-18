@@ -26,7 +26,7 @@
                                 "entity": "this",
                                 "predicate": {
                                     "vehicle": {
-                                        "type": "minecraft:spider"
+                                        "entity_type": "minecraft:spider"
                                     }
                                 }
                             },
@@ -34,7 +34,7 @@
                                 "condition": "minecraft:entity_properties",
                                 "entity": "this",
                                 "predicate": {
-                                    "type": "minecraft:spider",
+                                    "entity_type": "minecraft:spider",
                                     "passenger": {}
                                 }
                             }
@@ -55,18 +55,18 @@
                                 "entity": "this",
                                 "predicate": {
                                     "vehicle": {
-                                        "type": "minecraft:skeleton_horse"
+                                        "entity_type": "minecraft:skeleton_horse"
                                     },
-                                    "type": "minecraft:skeleton"
+                                    "entity_type": "minecraft:skeleton"
                                 }
                             },
                             {
                                 "condition": "minecraft:entity_properties",
                                 "entity": "this",
                                 "predicate": {
-                                    "type": "minecraft:skeleton_horse",
+                                    "entity_type": "minecraft:skeleton_horse",
                                     "passenger": {
-                                        "type": "minecraft:skeleton"
+                                        "entity_type": "minecraft:skeleton"
                                     }
                                 }
                             }
@@ -87,7 +87,7 @@
                                 "entity": "this",
                                 "predicate": {
                                     "vehicle": {
-                                        "type": "minecraft:ravager"
+                                        "entity_type": "minecraft:ravager"
                                     }
                                 }
                             },
@@ -95,9 +95,9 @@
                                 "condition": "minecraft:entity_properties",
                                 "entity": "this",
                                 "predicate": {
-                                    "type": "minecraft:ravager",
+                                    "entity_type": "minecraft:ravager",
                                     "passenger": {
-                                        "type": []
+                                        "entity_type": []
                                     }
                                 }
                             }
@@ -118,18 +118,18 @@
                                 "entity": "this",
                                 "predicate": {
                                     "vehicle": {
-                                        "type": "minecraft:zombie_horse"
+                                        "entity_type": "minecraft:zombie_horse"
                                     },
-                                    "type": "minecraft:zombie"
+                                    "entity_type": "minecraft:zombie"
                                 }
                             },
                             {
                                 "condition": "minecraft:entity_properties",
                                 "entity": "this",
                                 "predicate": {
-                                    "type": "minecraft:zombie_horse",
+                                    "entity_type": "minecraft:zombie_horse",
                                     "passenger": {
-                                        "type": "minecraft:zombie"
+                                        "entity_type": "minecraft:zombie"
                                     }
                                 }
                             }
@@ -150,18 +150,18 @@
                                 "entity": "this",
                                 "predicate": {
                                     "vehicle": {
-                                        "type": "minecraft:zombie_nautilus"
+                                        "entity_type": "minecraft:zombie_nautilus"
                                     },
-                                    "type": "minecraft:drowned"
+                                    "entity_type": "minecraft:drowned"
                                 }
                             },
                             {
                                 "condition": "minecraft:entity_properties",
                                 "entity": "this",
                                 "predicate": {
-                                    "type": "minecraft:spider",
+                                    "entity_type": "minecraft:spider",
                                     "passenger": {
-                                        "type": "minecraft:drowned"
+                                        "entity_type": "minecraft:drowned"
                                     }
                                 }
                             }
@@ -182,9 +182,9 @@
                                 "entity": "this",
                                 "predicate": {
                                     "vehicle": {
-                                        "type": "minecraft:camel_husk"
+                                        "entity_type": "minecraft:camel_husk"
                                     },
-                                    "type": [
+                                    "entity_type": [
                                         "minecraft:husk",
                                         "minecraft:parched"
                                     ]
@@ -194,9 +194,9 @@
                                 "condition": "minecraft:entity_properties",
                                 "entity": "this",
                                 "predicate": {
-                                    "type": "minecraft:camel_husk",
+                                    "entity_type": "minecraft:camel_husk",
                                     "passenger": {
-                                        "type": [
+                                        "entity_type": [
                                             "minecraft:husk",
                                             "minecraft:parched"
                                         ]
@@ -220,18 +220,18 @@
                                 "entity": "this",
                                 "predicate": {
                                     "vehicle": {
-                                        "type": "minecraft:strider"
+                                        "entity_type": "minecraft:strider"
                                     },
-                                    "type": "minecraft:zombified_piglin"
+                                    "entity_type": "minecraft:zombified_piglin"
                                 }
                             },
                             {
                                 "condition": "minecraft:entity_properties",
                                 "entity": "this",
                                 "predicate": {
-                                    "type": "minecraft:strider",
+                                    "entity_type": "minecraft:strider",
                                     "passenger": {
-                                        "type": "minecraft:zombified_piglin"
+                                        "entity_type": "minecraft:zombified_piglin"
                                     }
                                 }
                             }
@@ -252,7 +252,7 @@
                                 "entity": "this",
                                 "predicate": {
                                     "vehicle": {
-                                        "type": "minecraft:chicken"
+                                        "entity_type": "minecraft:chicken"
                                     }
                                 }
                             },
@@ -260,7 +260,7 @@
                                 "condition": "minecraft:entity_properties",
                                 "entity": "this",
                                 "predicate": {
-                                    "type": "minecraft:chicken"
+                                    "entity_type": "minecraft:chicken"
                                 }
                             }
                         ]

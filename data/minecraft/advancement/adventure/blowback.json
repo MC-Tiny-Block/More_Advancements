@@ -8,13 +8,13 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "type": "minecraft:breeze"
+              "minecraft:entity_type": "minecraft:breeze"
             }
           }
         ],
         "killing_blow": {
           "direct_entity": {
-            "type": "minecraft:breeze_wind_charge"
+            "minecraft:entity_type": "minecraft:breeze_wind_charge"
           },
           "tags": [
             {
@@ -33,7 +33,6 @@
     },
     "frame": "challenge",
     "icon": {
-      "count": 1,
       "id": "minecraft:wind_charge"
     },
     "title": {

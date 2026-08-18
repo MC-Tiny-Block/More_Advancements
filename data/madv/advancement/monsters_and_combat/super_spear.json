@@ -32,7 +32,7 @@
                     }
                 },
                  "entity": {
-                    "type": "minecraft:endermite"
+                    "entity_type": "minecraft:endermite"
                 }
             }
         }

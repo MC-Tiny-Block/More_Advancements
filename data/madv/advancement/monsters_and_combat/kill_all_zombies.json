@@ -18,7 +18,7 @@
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": {
-                    "type": "minecraft:zombie"
+                    "entity_type": "minecraft:zombie"
                 }
             }
         },
@@ -26,7 +26,7 @@
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": {
-                    "type": "minecraft:husk"
+                    "entity_type": "minecraft:husk"
                 }
             }
         },
@@ -34,7 +34,7 @@
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": {
-                    "type": "minecraft:zombie_villager"
+                    "entity_type": "minecraft:zombie_villager"
                 }
             }
         },
@@ -42,7 +42,7 @@
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": {
-                    "type": "minecraft:drowned"
+                    "entity_type": "minecraft:drowned"
                 }
             }
         }

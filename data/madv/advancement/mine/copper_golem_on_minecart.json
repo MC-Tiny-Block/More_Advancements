@@ -6,11 +6,11 @@
         "frame": "goal",
         "title": {
             "fallback": "循轨蹈矩",
-            "translate": ""
+            "translate": "advancements.madv.copper_golem_on_minecart.title"
         },
         "description": {
             "fallback":"让铜傀儡坐在矿车上，然后让它去分拣你的巨大仓库吧！",
-            "translate": ""
+            "translate": "advancements.madv.copper_golem_on_minecart.description"
         },
         "hidden": true
     },
@@ -26,12 +26,11 @@
                                 "condition": "minecraft:entity_properties",
                                 "entity": "this",
                                 "predicate": {
-                                    "type_specific": {
-                                        "type": "minecraft:player",
+                                    "type_specific/player": {
                                         "looking_at": {
-                                            "type": "minecraft:copper_golem",
+                                            "entity_type": "minecraft:copper_golem",
                                             "vehicle": {
-                                                "type": "minecraft:minecart"
+                                                "entity_type": "minecraft:minecart"
                                             }
                                         }
                                     }
@@ -41,12 +40,11 @@
                                 "condition": "minecraft:entity_properties",
                                 "entity": "this",
                                 "predicate": {
-                                    "type_specific": {
-                                        "type": "minecraft:player",
+                                    "type_specific/player": {
                                         "looking_at": {
-                                            "type": "minecraft:minecart",
+                                            "entity_type": "minecraft:minecart",
                                             "passenger": {
-                                                "type": "minecraft:copper_golem"
+                                                "entity_type": "minecraft:copper_golem"
                                             }
                                         }
                                     }

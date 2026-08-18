@@ -3,8 +3,7 @@
         "wooden_sword": {
             "conditions": {
                 "player": {
-                    "type_specific": {
-                        "type": "player",
+                    "type_specific/player": {
                         "advancements": {
                             "madv:story/get_wooden_sword": true
                         }
