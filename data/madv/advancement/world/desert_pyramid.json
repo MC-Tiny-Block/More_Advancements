@@ -9,7 +9,7 @@
             "translate": "advancements.madv.desert_pyramid.title"
         },
         "description": {
-            "fallback": "制作一个潮涌核心",
+            "fallback": "进入沙漠神殿",
             "translate": "advancements.madv.desert_pyramid.description"
         }
     },

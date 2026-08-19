@@ -22,7 +22,7 @@
                         "biomes": "minecraft:meadow"
                     },
                     "vehicle": {
-                        "type": "minecraft:happy_ghast"
+                        "minecraft:entity_type": "minecraft:happy_ghast"
                     }
                 }
             }
@@ -35,7 +35,7 @@
                         "biomes": "minecraft:cherry_grove"
                     },
                     "vehicle": {
-                        "type": "minecraft:happy_ghast"
+                        "minecraft:entity_type": "minecraft:happy_ghast"
                     }
                 }
             }
@@ -48,7 +48,7 @@
                         "biomes": "minecraft:grove"
                     },
                     "vehicle": {
-                        "type": "minecraft:happy_ghast"
+                        "minecraft:entity_type": "minecraft:happy_ghast"
                     }
                 }
             }
@@ -61,7 +61,7 @@
                         "biomes": "minecraft:snowy_slopes"
                     },
                     "vehicle": {
-                        "type": "minecraft:happy_ghast"
+                        "minecraft:entity_type": "minecraft:happy_ghast"
                     }
                 }
             }
@@ -74,7 +74,7 @@
                         "biomes": "minecraft:jagged_peaks"
                     },
                     "vehicle": {
-                        "type": "minecraft:happy_ghast"
+                        "minecraft:entity_type": "minecraft:happy_ghast"
                     }
                 }
             }
@@ -87,7 +87,7 @@
                         "biomes": "minecraft:frozen_peaks"
                     },
                     "vehicle": {
-                        "type": "minecraft:happy_ghast"
+                        "minecraft:entity_type": "minecraft:happy_ghast"
                     }
                 }
             }
@@ -100,7 +100,7 @@
                         "biomes": "minecraft:stony_peaks"
                     },
                     "vehicle": {
-                        "type": "minecraft:happy_ghast"
+                        "minecraft:entity_type": "minecraft:happy_ghast"
                     }
                 }
             }
@@ -113,7 +113,7 @@
                         "biomes": "minecraft:windswept_forest"
                     },
                     "vehicle": {
-                        "type": "minecraft:happy_ghast"
+                        "minecraft:entity_type": "minecraft:happy_ghast"
                     }
                 }
             }
@@ -126,7 +126,7 @@
                         "biomes": "minecraft:windswept_gravelly_hills"
                     },
                     "vehicle": {
-                        "type": "minecraft:happy_ghast"
+                        "minecraft:entity_type": "minecraft:happy_ghast"
                     }
                 }
             }
@@ -139,7 +139,7 @@
                         "biomes": "minecraft:windswept_hills"
                     },
                     "vehicle": {
-                        "type": "minecraft:happy_ghast"
+                        "minecraft:entity_type": "minecraft:happy_ghast"
                     }
                 }
             }
