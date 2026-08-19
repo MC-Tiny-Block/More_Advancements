@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:raw_iron"
+            "id": "minecraft:raw_iron"
         },
         "frame": "task",
         "title": {
             "fallback": "待加工矿石",
-            "translate": "raw_iron.title"
+            "translate": "advancements.madv.raw_iron.title"
         },
         "description": {
             "fallback": "挖到一块粗铁",
-            "translate": "raw_iron.description"
+            "translate": "advancements.madv.raw_iron.description"
         }
     },
     "criteria": {
-        "raw_iron":{
+        "raw_iron": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

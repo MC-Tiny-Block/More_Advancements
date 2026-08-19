@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:book"
+            "id": "minecraft:book"
         },
         "frame": "task",
         "title": {
             "fallback": "精神食粮",
-            "translate": "book.title"
+            "translate": "advancements.madv.book.title"
         },
         "description": {
             "fallback": "制作一本书",
-            "translate": "book.description"
-    }
+            "translate": "advancements.madv.book.description"
+        }
     },
     "criteria": {
-        "book":{
+        "book": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

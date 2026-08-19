@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:llama_spawn_egg"
+            "id": "minecraft:llama_spawn_egg"
         },
         "frame": "task",
         "title": {
             "fallback": "羊驼还是骆马",
-            "translate": "ride_llama.title"
+            "translate": "advancements.madv.ride_llama.title"
         },
         "description": {
             "fallback": "骑上一只羊驼",
-            "translate": "ride_llama.description"
+            "translate": "advancements.madv.ride_llama.description"
         }
     },
     "criteria": {
-        "llama":{
+        "llama": {
             "trigger": "minecraft:started_riding",
             "conditions": {
                 "player": {

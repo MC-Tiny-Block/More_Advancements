@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:water_bucket"
+            "id": "minecraft:water_bucket"
         },
         "frame": "task",
         "title": {
@@ -14,7 +14,7 @@
         }
     },
     "criteria": {
-        "ocean":{
+        "ocean": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": [

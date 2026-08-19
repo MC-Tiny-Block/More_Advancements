@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:diamond_sword"
+            "id": "minecraft:diamond_sword"
         },
         "frame": "challenge",
         "title": {
             "fallback": "赶尽杀绝",
-            "translate": "overkill.title"
+            "translate": "advancements.madv.overkill.title"
         },
         "description": {
             "fallback": "在一击内造成9颗心的伤害",
-            "translate": "overkill.description"
+            "translate": "advancements.madv.overkill.description"
         }
     },
     "criteria": {
-        "18_damage":{
+        "18_damage": {
             "trigger": "minecraft:player_hurt_entity",
             "conditions": {
                 "damage": {

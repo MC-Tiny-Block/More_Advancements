@@ -1,35 +1,35 @@
 {
-  "display": {
-    "description": {
-      "fallback": "Minecraft的主线已完成，但你的故事仍将继续……",
-      "color": "yellow",
-      "translate": "story_finish.description"
-    },
-    "title": {
-      "color": "light_purple",
-      "fallback": "结束了……",
-      "translate": "story_finish.title"
-    },
-    "icon": {
-      "id": "minecraft:grass_block"
-    },
-    "frame": "goal"
-  },
-  "criteria": {
-    "killed_dragon": {
-      "conditions": {
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "type": "minecraft:ender_dragon"
-            }
-          }
-        ]
-      },
-      "trigger": "minecraft:player_killed_entity"
-    }
-  },
-  "parent": "minecraft:story/enter_the_end"
+	"display": {
+		"description": {
+			"fallback": "Minecraft的主线已完成，但你的故事仍将继续……",
+			"color": "yellow",
+			"translate": "advancements.madv.story_finish.description"
+		},
+		"title": {
+			"color": "light_purple",
+			"fallback": "结束了……",
+			"translate": "advancements.madv.story_finish.title"
+		},
+		"icon": {
+			"id": "minecraft:grass_block"
+		},
+		"frame": "goal"
+	},
+	"criteria": {
+		"killed_dragon": {
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"minecraft:entity_type": "minecraft:ender_dragon"
+						}
+					}
+				]
+			},
+			"trigger": "minecraft:player_killed_entity"
+		}
+	},
+	"parent": "minecraft:story/enter_the_end"
 }

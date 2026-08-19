@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:goat_horn"
+            "id": "minecraft:goat_horn"
         },
         "frame": "task",
         "title": {

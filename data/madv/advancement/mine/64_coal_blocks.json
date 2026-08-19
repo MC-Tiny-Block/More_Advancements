@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:coal_block",
+            "id": "minecraft:coal_block",
             "components": {
                 "minecraft:enchantment_glint_override": true
             }
@@ -9,15 +9,15 @@
         "frame": "challenge",
         "title": {
             "fallback": "山西煤老板",
-            "translate": "64_coal_blocks.title"
+            "translate": "advancements.madv.64_coal_blocks.title"
         },
         "description": {
             "fallback": "获取64个煤炭块",
-            "translate": "64_coal_blocks.description"
+            "translate": "advancements.madv.64_coal_blocks.description"
         }
     },
     "criteria": {
-        "coal_block":{
+        "coal_block": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

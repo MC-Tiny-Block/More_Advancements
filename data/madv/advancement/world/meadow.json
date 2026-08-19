@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:dirt_path"
+            "id": "minecraft:dirt_path"
         },
         "frame": "task",
         "title": {

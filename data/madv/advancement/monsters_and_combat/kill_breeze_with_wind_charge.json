@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:wind_charge"
+            "id": "minecraft:wind_charge"
         },
         "frame": "task",
         "title": {
             "fallback": "现在谁才是旋风人？",
-            "translate": "kill_breeze_with_wind_charge.title"
-    },
+            "translate": "advancements.madv.kill_breeze_with_wind_charge.title"
+        },
         "description": {
             "fallback": "用风弹击杀一只旋风人",
-            "translate": "kill_breeze_with_wind_charge.description"
+            "translate": "advancements.madv.kill_breeze_with_wind_charge.description"
         }
     },
     "criteria": {
-        "breeze":{
+        "breeze": {
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": {

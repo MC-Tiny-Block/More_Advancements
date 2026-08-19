@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:echo_shard"
+            "id": "minecraft:echo_shard"
         },
         "frame": "challenge",
         "title": {

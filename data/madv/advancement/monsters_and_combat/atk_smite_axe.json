@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:diamond_axe",
+            "id": "minecraft:diamond_axe",
             "components": {
                 "minecraft:enchantment_glint_override": true
             }
@@ -9,15 +9,15 @@
         "frame": "task",
         "title": {
             "fallback": "亡灵猎人",
-            "translate": "atk_smite_axe.title"
+            "translate": "advancements.madv.atk_smite_axe.title"
         },
         "description": {
             "fallback": "使用带有亡灵杀手V魔咒的斧攻击敌人",
-            "translate": "atk_smite_axe.description"
+            "translate": "advancements.madv.atk_smite_axe.description"
         }
     },
     "criteria": {
-        "smite_axe_attack":{
+        "smite_axe_attack": {
             "trigger": "minecraft:player_hurt_entity",
             "conditions": {
                 "player": {

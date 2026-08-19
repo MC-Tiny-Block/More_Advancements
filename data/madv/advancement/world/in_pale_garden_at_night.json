@@ -6,11 +6,11 @@
         "frame": "task",
         "title": {
             "fallback": "躁动之园……",
-            "translate": "in_pale_garden_at_night.title"
+            "translate": "advancements.madv.in_pale_garden_at_night.title"
         },
         "description": {
             "fallback": "待在苍白之园内并等到晚上",
-            "translate": "in_pale_garden_at_night.description"
+            "translate": "advancements.madv.in_pale_garden_at_night.description"
         },
         "hidden": true
     },

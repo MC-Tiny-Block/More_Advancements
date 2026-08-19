@@ -15,7 +15,7 @@
 		"announce_to_chat": false,
 		"background": "minecraft:block/oak_planks",
 		"description": {
-			"translate": "construction_root.description",
+			"translate": "advancements.madv.construction_root.description",
 			"fallback": "发挥你的创造力！"
 		},
 		"icon": {
@@ -24,7 +24,7 @@
 		},
 		"show_toast": false,
 		"title": {
-			"translate": "construction_root.title",
+			"translate": "advancements.madv.construction_root.title",
 			"fallback": "建筑"
 		}
 	}

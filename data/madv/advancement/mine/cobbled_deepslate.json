@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:cobbled_deepslate"
+            "id": "minecraft:cobbled_deepslate"
         },
         "frame": "task",
         "title": {
             "fallback": "新岩层",
-            "translate": "cobbled_deepslate.title"
+            "translate": "advancements.madv.cobbled_deepslate.title"
         },
         "description": {
             "fallback": "挖取一块深板岩圆石",
-            "translate": "cobbled_deepslate.description"
+            "translate": "advancements.madv.cobbled_deepslate.description"
         }
     },
     "criteria": {
-        "cobbled_deepslate":{
+        "cobbled_deepslate": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

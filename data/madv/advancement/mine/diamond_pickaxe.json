@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:diamond_pickaxe"
+            "id": "minecraft:diamond_pickaxe"
         },
         "frame": "task",
         "title": {
             "fallback": "金刚钻",
-            "translate": "diamond_pickaxe.title"
+            "translate": "advancements.madv.diamond_pickaxe.title"
         },
         "description": {
             "fallback": "制作一把钻石镐",
-            "translate": "diamond_pickaxe.description"
+            "translate": "advancements.madv.diamond_pickaxe.description"
         }
     },
     "criteria": {
-        "diamond_pickaxe":{
+        "diamond_pickaxe": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

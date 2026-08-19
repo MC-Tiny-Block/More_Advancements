@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:dead_bush"
+            "id": "minecraft:dead_bush"
         },
         "frame": "task",
         "title": {
@@ -14,7 +14,7 @@
         }
     },
     "criteria": {
-        "dead_bush":{
+        "dead_bush": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:glow_lichen"
+            "id": "minecraft:glow_lichen"
         },
         "frame": "task",
         "title": {
             "fallback": "钻石？",
-            "translate": "glow_lichen.title"
+            "translate": "advancements.madv.glow_lichen.title"
         },
         "description": {
             "fallback": "那只是个发光地衣",
-            "translate": "glow_lichen.description"
+            "translate": "advancements.madv.glow_lichen.description"
         }
     },
     "criteria": {
-        "glow_lichen":{
+        "glow_lichen": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

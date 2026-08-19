@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:birch_sapling"
+            "id": "minecraft:birch_sapling"
         },
         "frame": "goal",
         "title": {
@@ -14,7 +14,7 @@
         }
     },
     "criteria": {
-        "saplings":{
+        "saplings": {
             "trigger": "minecraft:placed_block",
             "conditions": {
                 "location": [

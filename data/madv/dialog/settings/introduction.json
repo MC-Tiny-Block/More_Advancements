@@ -13,7 +13,7 @@
             "description": {
                 "contents": {
                     "translate": "gui.dialog.message.version",
-                    "fallback": "更多进度 Beta 1.2.6",
+                    "fallback": "更多进度 Beta 1.2.7",
                     "color": "green"
                 },
                 "width": 150
@@ -38,9 +38,9 @@
             "contents": [
                 "",
                 {
-                   "translate": "gui.dialog.welcome",
-                   "fallback": "欢迎游玩更多进度！（本包默认支持简体中文）\n",
-                   "color": "light_purple"
+                    "translate": "gui.dialog.welcome",
+                    "fallback": "欢迎游玩更多进度！（本包默认支持简体中文）\n",
+                    "color": "light_purple"
                 },
                 {
                     "translate": "gui.dialog.introduction",

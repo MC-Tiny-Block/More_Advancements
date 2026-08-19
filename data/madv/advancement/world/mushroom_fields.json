@@ -15,7 +15,7 @@
         "hidden": true
     },
     "criteria": {
-        "mushroom_fields":{
+        "mushroom_fields": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {

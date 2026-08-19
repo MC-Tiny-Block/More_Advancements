@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:lily_of_the_valley"
+            "id": "minecraft:lily_of_the_valley"
         },
         "frame": "task",
         "title": {
             "fallback": "可闻而不可食",
-            "translate": "lily_of_the_valley.title"
+            "translate": "advancements.madv.lily_of_the_valley.title"
         },
         "description": {
             "fallback": "采集一些铃兰，最好别加在你的炖菜里",
-            "translate": "lily_of_the_valley.description"
+            "translate": "advancements.madv.lily_of_the_valley.description"
         }
     },
     "criteria": {
-        "lily_of_the_valley":{
+        "lily_of_the_valley": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

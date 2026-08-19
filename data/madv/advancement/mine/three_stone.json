@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:granite"
+            "id": "minecraft:granite"
         },
         "frame": "task",
         "title": {
             "fallback": "三色杯",
-            "translate": "three_stone.title"
+            "translate": "advancements.madv.three_stone.title"
         },
         "description": {
             "fallback": "获得花岗岩、闪长岩和安山岩",
-            "translate": "three_stone.description"
+            "translate": "advancements.madv.three_stone.description"
         }
     },
     "criteria": {
-        "granite":{
+        "granite": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -24,7 +24,7 @@
                 ]
             }
         },
-        "diorite":{
+        "diorite": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -34,7 +34,7 @@
                 ]
             }
         },
-        "andesite":{
+        "andesite": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

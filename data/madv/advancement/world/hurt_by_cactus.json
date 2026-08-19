@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:cactus"
+            "id": "minecraft:cactus"
         },
         "frame": "task",
         "title": {
@@ -14,7 +14,7 @@
         }
     },
     "criteria": {
-        "rooted_dirt":{
+        "rooted_dirt": {
             "trigger": "minecraft:entity_hurt_player",
             "conditions": {
                 "damage": {

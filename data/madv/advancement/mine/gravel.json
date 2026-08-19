@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:gravel"
+            "id": "minecraft:gravel"
         },
         "frame": "task",
         "title": {
@@ -10,11 +10,11 @@
         },
         "description": {
             "fallback": "挖到一块沙砾",
-            "translate": "gravel.description"
+            "translate": "advancements.madv.gravel.description"
         }
     },
     "criteria": {
-        "gravel":{
+        "gravel": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

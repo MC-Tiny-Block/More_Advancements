@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:heart_of_the_sea"
+            "id": "minecraft:heart_of_the_sea"
         },
         "frame": "goal",
         "title": {
@@ -14,7 +14,7 @@
         }
     },
     "criteria": {
-        "heart_of_the_sea":{
+        "heart_of_the_sea": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

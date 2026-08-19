@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:golden_boots"
+            "id": "minecraft:golden_boots"
         },
         "frame": "challenge",
         "title": {
             "fallback": "信仰之跃！",
-            "translate": "jump_off_50b.title"
+            "translate": "advancements.madv.jump_off_50b.title"
         },
         "description": {
             "fallback": "从50格高的地方跳下来",
-            "translate": "jump_off_50b.description"
+            "translate": "advancements.madv.jump_off_50b.description"
         }
     },
     "criteria": {
-        "jump_off_50b":{
+        "jump_off_50b": {
             "trigger": "minecraft:fall_from_height",
             "conditions": {
                 "distance": {

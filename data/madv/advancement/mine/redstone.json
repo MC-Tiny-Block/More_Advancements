@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:redstone"
+            "id": "minecraft:redstone"
         },
         "frame": "task",
         "title": {
             "fallback": "红石能量",
-            "translate": "redstone.title"
+            "translate": "advancements.madv.redstone.title"
         },
         "description": {
             "fallback": "挖到红石粉",
-            "translate": "redstone.description"
+            "translate": "advancements.madv.redstone.description"
         }
     },
     "criteria": {
-        "redstone":{
+        "redstone": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

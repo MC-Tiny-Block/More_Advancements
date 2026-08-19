@@ -5,16 +5,16 @@
         },
         "title": {
             "fallback": "气球射击",
-            "translate": "shoot_ghast.title"
+            "translate": "advancements.madv.shoot_ghast.title"
         },
         "description": {
             "fallback": "用箭射击恶魂",
-            "translate": "shoot_ghast.description"
+            "translate": "advancements.madv.shoot_ghast.description"
         },
         "frame": "task"
     },
     "criteria": {
-        "ghast":{
+        "ghast": {
             "trigger": "killed_by_arrow",
             "conditions": {
                 "victims": [

@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:netherrack"
+            "id": "minecraft:netherrack"
         },
         "frame": "goal",
         "title": {
             "fallback": "下界矿工",
-            "translate": "into_deep_nether.title"
+            "translate": "advancements.madv.into_deep_nether.title"
         },
         "description": {
             "fallback": "挖掘至下界y小于等于15的高度",
-            "translate": "into_deep_nether.description"
+            "translate": "advancements.madv.into_deep_nether.description"
         }
     },
     "criteria": {
-        "deep_nether":{
+        "deep_nether": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {

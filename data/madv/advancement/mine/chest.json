@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:chest"
+            "id": "minecraft:chest"
         },
         "frame": "task",
         "title": {
             "fallback": "物品存储",
-            "translate": "chest.title"
+            "translate": "advancements.madv.chest.title"
         },
         "description": {
             "fallback": "制作一个箱子",
-            "translate": "chest.description"
+            "translate": "advancements.madv.chest.description"
         }
     },
     "criteria": {
-        "chest":{
+        "chest": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

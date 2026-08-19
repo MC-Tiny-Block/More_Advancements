@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:tuff"
+            "id": "minecraft:tuff"
         },
         "frame": "task",
         "title": {
             "fallback": "固实压缩",
-            "translate": "tuff.title"
+            "translate": "advancements.madv.tuff.title"
         },
         "description": {
             "fallback": "挖取一块凝灰岩",
-            "translate": "tuff.description"
+            "translate": "advancements.madv.tuff.description"
         }
     },
     "criteria": {
-        "gold_ingot":{
+        "gold_ingot": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

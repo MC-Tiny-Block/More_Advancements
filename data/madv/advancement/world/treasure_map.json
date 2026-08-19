@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:filled_map"
+            "id": "minecraft:filled_map"
         },
         "frame": "task",
         "title": {
@@ -14,7 +14,7 @@
         }
     },
     "criteria": {
-        "filled_map":{
+        "filled_map": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

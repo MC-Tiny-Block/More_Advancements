@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:white_harness"
+            "id": "minecraft:white_harness"
         },
         "frame": "goal",
         "title": {

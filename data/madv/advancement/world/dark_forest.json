@@ -1,16 +1,16 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:dark_oak_log"
+            "id": "minecraft:dark_oak_log"
         },
         "frame": "task",
         "title": {
             "fallback": "黑暗森林",
-            "translate": "dark_forest.title"
+            "translate": "advancements.madv.dark_forest.title"
         },
         "description": {
             "fallback": "在晚上造访黑森林或许不是个好主意……",
-            "translate": "dark_forest.description"
+            "translate": "advancements.madv.dark_forest.description"
         }
     },
     "criteria": {

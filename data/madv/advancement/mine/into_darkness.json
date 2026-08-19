@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:black_concrete"
+            "id": "minecraft:black_concrete"
         },
         "frame": "task",
         "title": {
             "fallback": "堕入黑暗",
-            "translate": "into_darkness.title"
+            "translate": "advancements.madv.into_darkness.title"
         },
         "description": {
             "fallback": "伸手不见五指",
-            "translate": "into_darkness.description"
+            "translate": "advancements.madv.into_darkness.description"
         }
     },
     "criteria": {
-        "into_darkness":{
+        "into_darkness": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {

@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:stone"
+            "id": "minecraft:stone"
         },
         "frame": "goal",
         "title": {
             "fallback": "洞穴历险",
-            "translate": "into_cave.title"
+            "translate": "advancements.madv.into_cave.title"
         },
         "description": {
             "fallback": "进入任意洞穴生物群系",
-            "translate": "into_cave.description"
+            "translate": "advancements.madv.into_cave.description"
         }
     },
     "criteria": {
-        "lush_caves":{
+        "lush_caves": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {
@@ -24,7 +24,7 @@
                 }
             }
         },
-        "deep_dark":{
+        "deep_dark": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {
@@ -34,7 +34,7 @@
                 }
             }
         },
-        "dripstone_caves":{
+        "dripstone_caves": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {
@@ -47,6 +47,10 @@
     },
     "parent": "minecraft:story/iron_tools",
     "requirements": [
-        ["deep_dark","dripstone_caves","lush_caves"]
+        [
+            "deep_dark",
+            "dripstone_caves",
+            "lush_caves"
+        ]
     ]
 }

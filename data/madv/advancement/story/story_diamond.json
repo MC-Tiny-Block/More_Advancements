@@ -1,22 +1,22 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:diamond"
+            "id": "minecraft:diamond"
         },
         "frame": "goal",
         "title": {
             "fallback": "钻石",
-            "translate": "story_diamond.title"
+            "translate": "advancements.madv.story_diamond.title"
         },
         "description": {
             "fallback": "获得钻石",
-            "translate": "story_diamond.description"
+            "translate": "advancements.madv.story_diamond.description"
         },
         "show_toast": false,
         "announce_to_chat": false
     },
     "criteria": {
-        "diamond":{
+        "diamond": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

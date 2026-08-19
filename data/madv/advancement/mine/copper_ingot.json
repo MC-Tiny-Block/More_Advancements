@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:copper_ingot"
+            "id": "minecraft:copper_ingot"
         },
         "frame": "task",
         "title": {
             "fallback": "优质导体",
-            "translate": "copper_ingot.title"
+            "translate": "advancements.madv.copper_ingot.title"
         },
         "description": {
             "fallback": "冶炼出一块铜锭",
-            "translate": "copper_ingot.description"
+            "translate": "advancements.madv.copper_ingot.description"
         }
     },
     "criteria": {
-        "copper_ingot":{
+        "copper_ingot": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

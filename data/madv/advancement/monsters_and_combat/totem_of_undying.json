@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:totem_of_undying"
+            "id": "minecraft:totem_of_undying"
         },
         "frame": "goal",
         "title": {
             "fallback": "免死金牌",
-            "translate": "madv_totem_of_undying.title"
+            "translate": "advancements.madv.madv_totem_of_undying.title"
         },
         "description": {
             "fallback": "获得不死图腾",
-            "translate": "madv_totem_of_undying.description"
+            "translate": "advancements.madv.madv_totem_of_undying.description"
         }
     },
     "criteria": {
-        "skeleton":{
+        "skeleton": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

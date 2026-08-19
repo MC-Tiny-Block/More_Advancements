@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:bookshelf"
+            "id": "minecraft:bookshelf"
         },
         "frame": "task",
         "title": {
             "fallback": "图书管理员",
-            "translate": "bookshelf.title"
+            "translate": "advancements.madv.bookshelf.title"
         },
         "description": {
             "fallback": "制作书架以增强附魔台能力",
-            "translate": "bookshelf.description"
+            "translate": "advancements.madv.bookshelf.description"
         }
     },
     "criteria": {
-        "bookshelf":{
+        "bookshelf": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

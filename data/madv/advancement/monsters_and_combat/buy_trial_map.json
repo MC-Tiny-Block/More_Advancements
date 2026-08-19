@@ -1,23 +1,23 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:filled_map",
+            "id": "minecraft:filled_map",
             "components": {
-                        "minecraft:map_color": 12741452
-                    }
+                "minecraft:map_color": 12741452
+            }
         },
         "frame": "task",
         "title": {
             "fallback": "远征之路",
-            "translate": "buy_trial_map.title"
+            "translate": "advancements.madv.buy_trial_map.title"
         },
         "description": {
             "fallback": "在制图师那里交易到试炼探险家地图",
-            "translate": "buy_trial_map.description"
+            "translate": "advancements.madv.buy_trial_map.description"
         }
     },
     "criteria": {
-        "creeper":{
+        "creeper": {
             "trigger": "minecraft:villager_trade",
             "conditions": {
                 "item": {

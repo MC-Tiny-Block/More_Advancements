@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:iron_nugget"
+            "id": "minecraft:iron_nugget"
         },
         "frame": "task",
         "title": {
             "fallback": "九等分的铁",
-            "translate": "iron_nugget.title"
+            "translate": "advancements.madv.iron_nugget.title"
         },
         "description": {
             "fallback": "制作一些铁粒",
-            "translate": "iron_nugget.description"
+            "translate": "advancements.madv.iron_nugget.description"
         }
     },
     "criteria": {
-        "iron_nugget":{
+        "iron_nugget": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

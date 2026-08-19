@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:furnace"
+            "id": "minecraft:furnace"
         },
         "frame": "task",
         "title": {
             "fallback": "“热”门话题",
-            "translate": "furnace.title"
+            "translate": "advancements.madv.furnace.title"
         },
         "description": {
             "fallback": "制作一个熔炉",
-            "translate": "furnace.description"
+            "translate": "advancements.madv.furnace.description"
         }
     },
     "criteria": {
-        "furnace":{
+        "furnace": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:deepslate"
+            "id": "minecraft:deepslate"
         },
         "frame": "goal",
         "title": {
             "fallback": "更下一层楼",
-            "translate": "into_deep_place.title"
+            "translate": "advancements.madv.into_deep_place.title"
         },
         "description": {
             "fallback": "进入深层区域",
-            "translate": "into_deep_place.description"
+            "translate": "advancements.madv.into_deep_place.description"
         }
     },
     "criteria": {
-        "into_deep_place":{
+        "into_deep_place": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {

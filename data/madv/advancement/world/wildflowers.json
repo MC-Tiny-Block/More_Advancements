@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:wildflowers"
+            "id": "minecraft:wildflowers"
         },
         "frame": "task",
         "title": {

@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:crafting_table"
+            "id": "minecraft:crafting_table"
         },
         "frame": "task",
         "title": {
             "fallback": "这是？工作台！",
-            "translate": "get_crafting_table.title"
+            "translate": "advancements.madv.get_crafting_table.title"
         },
         "description": {
             "fallback": "用4个木板来制作一个工作台",
-            "translate": "get_crafting_table.description"
+            "translate": "advancements.madv.get_crafting_table.description"
         }
     },
     "criteria": {
-        "crafting_table":{
+        "crafting_table": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

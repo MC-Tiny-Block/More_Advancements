@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:quartz"
+            "id": "minecraft:quartz"
         },
         "frame": "task",
         "title": {
             "fallback": "逻辑晶体",
-            "translate": "quartz.title"
+            "translate": "advancements.madv.quartz.title"
         },
         "description": {
             "fallback": "挖到下界石英",
-            "translate": "quartz.description"
+            "translate": "advancements.madv.quartz.description"
         }
     },
     "criteria": {
-        "quartz":{
+        "quartz": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

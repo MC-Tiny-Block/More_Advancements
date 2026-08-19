@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:evoker_spawn_egg"
+            "id": "minecraft:evoker_spawn_egg"
         },
         "frame": "goal",
         "title": {
             "fallback": "真正的魔法师",
-            "translate": "kill_evoker.title"
+            "translate": "advancements.madv.kill_evoker.title"
         },
         "description": {
             "fallback": "击杀一个唤魔者",
-            "translate": "kill_evoker.description"
+            "translate": "advancements.madv.kill_evoker.description"
         }
     },
     "criteria": {
-        "evoker":{
+        "evoker": {
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": {

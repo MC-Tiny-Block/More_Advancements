@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:shears"
+            "id": "minecraft:shears"
         },
         "frame": "task",
         "title": {
             "fallback": "裁剪万物",
-            "translate": "shears.title"
+            "translate": "advancements.madv.shears.title"
         },
         "description": {
             "fallback": "制作一把剪刀来剪些什么",
-            "translate": "shears.description"
+            "translate": "advancements.madv.shears.description"
         }
     },
     "criteria": {
-        "shears":{
+        "shears": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

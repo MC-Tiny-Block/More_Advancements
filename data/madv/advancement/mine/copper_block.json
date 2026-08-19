@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:copper_block"
+            "id": "minecraft:copper_block"
         },
         "frame": "task",
         "title": {
             "fallback": "梆！",
-            "translate": "copper_block.title"
+            "translate": "advancements.madv.copper_block.title"
         },
         "description": {
             "fallback": "放置一个铜块",
-            "translate": "copper_block.description"
+            "translate": "advancements.madv.copper_block.description"
         }
     },
     "criteria": {
-        "copper_block":{
+        "copper_block": {
             "trigger": "minecraft:placed_block",
             "conditions": {
                 "location": [

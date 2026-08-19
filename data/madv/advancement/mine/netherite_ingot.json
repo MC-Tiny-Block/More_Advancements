@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:netherite_ingot"
+            "id": "minecraft:netherite_ingot"
         },
         "frame": "goal",
         "title": {
             "fallback": "高级合金",
-            "translate": "netherite_ingot.title"
+            "translate": "advancements.madv.netherite_ingot.title"
         },
         "description": {
             "fallback": "获得下界合金锭",
-            "translate": "netherite_ingot.description"
+            "translate": "advancements.madv.netherite_ingot.description"
         }
     },
     "criteria": {
-        "netherite_ingot":{
+        "netherite_ingot": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

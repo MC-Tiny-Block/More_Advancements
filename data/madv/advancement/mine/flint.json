@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:flint"
+            "id": "minecraft:flint"
         },
         "frame": "task",
         "title": {
             "fallback": "小心割伤！",
-            "translate": "flint.title"
+            "translate": "advancements.madv.flint.title"
         },
         "description": {
             "fallback": "找到燧石",
-            "translate": "flint.description"
+            "translate": "advancements.madv.flint.description"
         }
     },
     "criteria": {
-        "flint":{
+        "flint": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

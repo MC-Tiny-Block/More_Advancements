@@ -6,11 +6,11 @@
         "frame": "challenge",
         "title": {
             "fallback": "试炼之声",
-            "translate": "trial_discs.title"
+            "translate": "advancements.madv.trial_discs.title"
         },
         "description": {
             "fallback": "收集Precipice、Creator和Creator（八音盒）三张唱片",
-            "translate": "trial_discs.description"
+            "translate": "advancements.madv.trial_discs.description"
         }
     },
     "criteria": {

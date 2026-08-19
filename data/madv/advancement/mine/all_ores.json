@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:deepslate_emerald_ore"
+            "id": "minecraft:deepslate_emerald_ore"
         },
         "frame": "challenge",
         "title": {
             "fallback": "开山之作",
-            "translate": "all_ores.title"
+            "translate": "advancements.madv.all_ores.title"
         },
         "description": {
             "fallback": "获得所有矿石",
-            "translate": "all_ores.description"
+            "translate": "advancements.madv.all_ores.description"
         }
     },
     "criteria": {
-        "coal_ore":{
+        "coal_ore": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -24,7 +24,7 @@
                 ]
             }
         },
-        "iron_ore":{
+        "iron_ore": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -34,7 +34,7 @@
                 ]
             }
         },
-        "copper_ore":{
+        "copper_ore": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -44,7 +44,7 @@
                 ]
             }
         },
-        "gold_ore":{
+        "gold_ore": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -54,7 +54,7 @@
                 ]
             }
         },
-        "diamond_ore":{
+        "diamond_ore": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -64,7 +64,7 @@
                 ]
             }
         },
-        "redstone_ore":{
+        "redstone_ore": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -74,7 +74,7 @@
                 ]
             }
         },
-        "lapis_ore":{
+        "lapis_ore": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -84,7 +84,7 @@
                 ]
             }
         },
-        "emerald_ore":{
+        "emerald_ore": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -94,7 +94,7 @@
                 ]
             }
         },
-        "deepslate_coal_ore":{
+        "deepslate_coal_ore": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -104,7 +104,7 @@
                 ]
             }
         },
-        "deepslate_iron_ore":{
+        "deepslate_iron_ore": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -114,7 +114,7 @@
                 ]
             }
         },
-        "deepslate_copper_ore":{
+        "deepslate_copper_ore": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -124,7 +124,7 @@
                 ]
             }
         },
-        "deepslate_gold_ore":{
+        "deepslate_gold_ore": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -134,7 +134,7 @@
                 ]
             }
         },
-        "deepslate_diamond_ore":{
+        "deepslate_diamond_ore": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -144,7 +144,7 @@
                 ]
             }
         },
-        "deepslate_redstone_ore":{
+        "deepslate_redstone_ore": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -154,7 +154,7 @@
                 ]
             }
         },
-        "deepslate_lapis_ore":{
+        "deepslate_lapis_ore": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -164,7 +164,7 @@
                 ]
             }
         },
-        "deepslate_emerald_ore":{
+        "deepslate_emerald_ore": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -174,7 +174,7 @@
                 ]
             }
         },
-        "nether_quartz_ore":{
+        "nether_quartz_ore": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -184,7 +184,7 @@
                 ]
             }
         },
-        "nether_gold_ore":{
+        "nether_gold_ore": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -194,7 +194,7 @@
                 ]
             }
         },
-        "ancient_debris":{
+        "ancient_debris": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

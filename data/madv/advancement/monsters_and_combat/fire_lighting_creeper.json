@@ -1,21 +1,21 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:tnt"
+            "id": "minecraft:tnt"
         },
         "frame": "task",
         "title": {
             "fallback": "快——逃——",
-            "translate": "fire_lighting_creeper.title"
+            "translate": "advancements.madv.fire_lighting_creeper.title"
         },
         "description": {
             "fallback": "引燃一只闪电苦力怕",
-            "translate": "fire_lighting_creeper.description"
+            "translate": "advancements.madv.fire_lighting_creeper.description"
         },
         "hidden": true
     },
     "criteria": {
-        "lightning_creeper":{
+        "lightning_creeper": {
             "trigger": "minecraft:player_interacted_with_entity",
             "conditions": {
                 "entity": {

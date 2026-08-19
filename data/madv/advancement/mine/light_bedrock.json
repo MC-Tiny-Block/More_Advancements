@@ -1,16 +1,16 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:bedrock"
+            "id": "minecraft:bedrock"
         },
         "frame": "task",
         "title": {
             "fallback": "没有基岩粉！",
-            "translate": "light_bedrock.title"
+            "translate": "advancements.madv.light_bedrock.title"
         },
         "description": {
             "fallback": "你没装Ender IO！",
-            "translate": "light_bedrock.description"
+            "translate": "advancements.madv.light_bedrock.description"
         },
         "hidden": true
     },

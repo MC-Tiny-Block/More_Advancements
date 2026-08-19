@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:rotten_flesh"
+            "id": "minecraft:rotten_flesh"
         },
         "frame": "task",
         "title": {
             "fallback": "强大的胃",
-            "translate": "eat_rotten_flesh.title"
+            "translate": "advancements.madv.eat_rotten_flesh.title"
         },
         "description": {
             "fallback": "吃腐肉充饥",
-            "translate": "eat_rotten_flesh.description"
+            "translate": "advancements.madv.eat_rotten_flesh.description"
         }
     },
     "criteria": {
-        "rotten_flesh":{
+        "rotten_flesh": {
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {

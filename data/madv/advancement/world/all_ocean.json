@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:cherry_chest_boat"
+            "id": "minecraft:cherry_chest_boat"
         },
         "frame": "challenge",
         "title": {
@@ -14,7 +14,7 @@
         }
     },
     "criteria": {
-        "ocean":{
+        "ocean": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {
@@ -24,7 +24,7 @@
                 }
             }
         },
-        "deep_ocean":{
+        "deep_ocean": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {
@@ -34,7 +34,7 @@
                 }
             }
         },
-        "frozen_ocean":{
+        "frozen_ocean": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {
@@ -44,7 +44,7 @@
                 }
             }
         },
-        "deep_frozen_ocean":{
+        "deep_frozen_ocean": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {
@@ -54,7 +54,7 @@
                 }
             }
         },
-        "cold_ocean":{
+        "cold_ocean": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {
@@ -64,7 +64,7 @@
                 }
             }
         },
-        "deep_cold_ocean": { 
+        "deep_cold_ocean": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {
@@ -74,7 +74,7 @@
                 }
             }
         },
-        "lukewarm_ocean":{
+        "lukewarm_ocean": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {

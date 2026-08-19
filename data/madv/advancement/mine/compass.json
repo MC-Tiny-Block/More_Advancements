@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:compass"
+            "id": "minecraft:compass"
         },
         "frame": "task",
         "title": {
             "fallback": "家的方向",
-            "translate": "compass.title"
+            "translate": "advancements.madv.compass.title"
         },
         "description": {
             "fallback": "制作一个指南针来定位世界出生点",
-            "translate": "compass.description"
-            }
+            "translate": "advancements.madv.compass.description"
+        }
     },
     "criteria": {
-        "compass":{
+        "compass": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

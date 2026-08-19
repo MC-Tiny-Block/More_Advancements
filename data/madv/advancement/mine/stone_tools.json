@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:stone_shovel"
+            "id": "minecraft:stone_shovel"
         },
         "frame": "task",
         "title": {
             "fallback": "石质工具包",
-            "translate": "stone_tool.title"
+            "translate": "advancements.madv.stone_tool.title"
         },
         "description": {
             "fallback": "制作石镐、石斧、石锹和石锄",
-            "translate": "stone_tool.description"
+            "translate": "advancements.madv.stone_tool.description"
         }
     },
     "criteria": {
-        "stone_pickaxe":{
+        "stone_pickaxe": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -24,7 +24,7 @@
                 ]
             }
         },
-        "stone_axe":{
+        "stone_axe": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -34,7 +34,7 @@
                 ]
             }
         },
-        "stone_shovel":{
+        "stone_shovel": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -44,7 +44,7 @@
                 ]
             }
         },
-        "stone_hoe":{
+        "stone_hoe": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:brown_mushroom_block"
+            "id": "minecraft:brown_mushroom_block"
         },
         "frame": "challenge",
         "title": {
@@ -15,7 +15,7 @@
         "hidden": true
     },
     "criteria": {
-        "mooshroom":{
+        "mooshroom": {
             "trigger": "minecraft:channeled_lightning",
             "conditions": {
                 "victims": [

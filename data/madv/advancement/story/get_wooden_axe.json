@@ -1,19 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:wooden_axe"
+            "id": "minecraft:wooden_axe"
         },
         "frame": "task",
         "title": {
             "fallback": "砍树时间到！",
-            "translate": "get_wooden_axe.title"
+            "translate": "advancements.madv.get_wooden_axe.title"
         },
         "description": {
             "fallback": "制作一把木斧",
-            "translate": "get_wooden_axe.description"}
+            "translate": "advancements.madv.get_wooden_axe.description"
+        }
     },
     "criteria": {
-        "wooden_axe":{
+        "wooden_axe": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

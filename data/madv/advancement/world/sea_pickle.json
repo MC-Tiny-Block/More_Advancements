@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:sea_pickle"
+            "id": "minecraft:sea_pickle"
         },
         "frame": "task",
         "title": {
@@ -14,7 +14,7 @@
         }
     },
     "criteria": {
-        "sea_pickle":{
+        "sea_pickle": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

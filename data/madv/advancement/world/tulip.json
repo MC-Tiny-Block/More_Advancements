@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:red_tulip"
+            "id": "minecraft:red_tulip"
         },
         "frame": "task",
         "title": {
             "fallback": "四色花",
-            "translate": "tulip.title"
+            "translate": "advancements.madv.tulip.title"
         },
         "description": {
             "fallback": "采集四种郁金香",
-            "translate": "tulip.description"
+            "translate": "advancements.madv.tulip.description"
         }
     },
     "criteria": {
-        "red_tulip":{
+        "red_tulip": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -24,7 +24,7 @@
                 ]
             }
         },
-        "pink_tulip":{
+        "pink_tulip": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -34,7 +34,7 @@
                 ]
             }
         },
-        "white_tulip":{
+        "white_tulip": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -44,7 +44,7 @@
                 ]
             }
         },
-        "orange_tulip":{
+        "orange_tulip": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

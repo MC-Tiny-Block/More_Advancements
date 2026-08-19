@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:oak_planks"
+            "id": "minecraft:oak_planks"
         },
         "frame": "task",
         "title": {
             "fallback": "屋舍俨然",
-            "translate": "village.title"
+            "translate": "advancements.madv.village.title"
         },
         "description": {
             "fallback": "找到一处平原村庄",
-            "translate": "village.description"
+            "translate": "advancements.madv.village.description"
         }
     },
     "criteria": {
-        "village":{
+        "village": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {

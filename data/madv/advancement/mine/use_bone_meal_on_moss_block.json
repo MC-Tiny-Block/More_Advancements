@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:moss_block"
+            "id": "minecraft:moss_block"
         },
         "frame": "task",
         "title": {
             "fallback": "苔痕上阶绿",
-            "translate": "use_bone_meal_on_moss_block.title"
+            "translate": "advancements.madv.use_bone_meal_on_moss_block.title"
         },
         "description": {
             "fallback": "对苔藓块使用骨粉使其蔓延",
-            "translate": "use_bone_meal_on_moss_block.description"
+            "translate": "advancements.madv.use_bone_meal_on_moss_block.description"
         }
     },
     "criteria": {
-        "moss_block":{
+        "moss_block": {
             "trigger": "minecraft:item_used_on_block",
             "conditions": {
                 "location": [

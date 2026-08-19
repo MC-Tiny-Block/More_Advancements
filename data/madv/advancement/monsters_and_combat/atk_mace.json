@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:mace"
+            "id": "minecraft:mace"
         },
         "frame": "task",
         "title": {
             "fallback": "这我玩个锤子啊！",
-            "translate": "atk_mace.title"
+            "translate": "advancements.madv.atk_mace.title"
         },
         "description": {
             "fallback": "使用重锤攻击你的敌人",
-            "translate": "atk_mace.description"
+            "translate": "advancements.madv.atk_mace.description"
         }
     },
     "criteria": {
-        "mace":{
+        "mace": {
             "trigger": "minecraft:player_hurt_entity",
             "conditions": {
                 "player": {

@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:stone_pickaxe"
+            "id": "minecraft:stone_pickaxe"
         },
         "frame": "task",
         "title": {
             "fallback": "镐击！",
-            "translate": "atk_pickaxe.title"
+            "translate": "advancements.madv.atk_pickaxe.title"
         },
         "description": {
             "fallback": "也不是不能用，虽然伤害有点低……",
-            "translate": "atk_pickaxe.description"
+            "translate": "advancements.madv.atk_pickaxe.description"
         }
     },
     "criteria": {
-        "pickaxe_attack":{
+        "pickaxe_attack": {
             "trigger": "minecraft:player_hurt_entity",
             "conditions": {
                 "player": {

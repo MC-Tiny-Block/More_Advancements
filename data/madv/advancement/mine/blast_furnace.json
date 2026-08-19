@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:blast_furnace"
+            "id": "minecraft:blast_furnace"
         },
         "frame": "goal",
         "title": {
             "fallback": "专一优化",
-            "translate": "blast_furnace.title"
+            "translate": "advancements.madv.blast_furnace.title"
         },
         "description": {
             "fallback": "制作一个高炉",
-            "translate": "blast_furnace.description"
+            "translate": "advancements.madv.blast_furnace.description"
         }
     },
     "criteria": {
-        "blast_furnace":{
+        "blast_furnace": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

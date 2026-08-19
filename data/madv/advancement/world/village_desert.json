@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:sandstone"
+            "id": "minecraft:sandstone"
         },
         "frame": "task",
         "title": {
             "fallback": "绿洲农业",
-            "translate": "village_desert.title"
+            "translate": "advancements.madv.village_desert.title"
         },
         "description": {
             "fallback": "找到一处沙漠村庄",
-            "translate": "village_desert.description"
+            "translate": "advancements.madv.village_desert.description"
         }
     },
     "criteria": {
-        "village_desert":{
+        "village_desert": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {

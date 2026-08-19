@@ -1,31 +1,31 @@
 {
-    "criteria": {
-      "redstone": {
-        "conditions": {
-          "items": [
-            {
-                "items": "minecraft:redstone"
-            }
-          ]
-        },
-        "trigger": "minecraft:inventory_changed"
-      }
-    },
-    "display": {
-      "announce_to_chat": false,
-      "background": "minecraft:block/smooth_stone",
-      "description": {
-        "fallback": "在工程师手里，红石是无限可能",
-        "translate": "redstone_root.description"
-      },
-      "icon": {
-        "count": 1,
-        "id": "minecraft:redstone"
-      },
-      "show_toast": false,
-      "title": {
-        "fallback": "红石",
-        "translate": "redstone_root.title"
-      }
-    }
+	"criteria": {
+		"redstone": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:redstone"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"display": {
+		"announce_to_chat": false,
+		"background": "minecraft:block/smooth_stone",
+		"description": {
+			"fallback": "在工程师手里，红石是无限可能",
+			"translate": "advancements.madv.redstone_root.description"
+		},
+		"icon": {
+			"count": 1,
+			"id": "minecraft:redstone"
+		},
+		"show_toast": false,
+		"title": {
+			"fallback": "红石",
+			"translate": "advancements.madv.redstone_root.title"
+		}
+	}
 }

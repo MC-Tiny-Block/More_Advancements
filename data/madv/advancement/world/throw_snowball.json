@@ -1,16 +1,16 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:snowball"
+            "id": "minecraft:snowball"
         },
         "frame": "task",
         "title": {
             "fallback": "打雪仗",
-            "translate": "throw_snowball.title"
+            "translate": "advancements.madv.throw_snowball.title"
         },
         "description": {
             "fallback": "扔雪球砸中生物",
-            "translate": "throw_snowball.description"
+            "translate": "advancements.madv.throw_snowball.description"
         }
     },
     "criteria": {

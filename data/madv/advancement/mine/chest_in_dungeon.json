@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:mossy_cobblestone"
+            "id": "minecraft:mossy_cobblestone"
         },
         "frame": "task",
         "title": {
             "fallback": "Minecraft：地下城",
-            "translate": "chest_in_dungeon.title"
+            "translate": "advancements.madv.chest_in_dungeon.title"
         },
         "description": {
             "fallback": "打开一个地牢的战利品箱",
-            "translate": "chest_in_dungeon.description"
+            "translate": "advancements.madv.chest_in_dungeon.description"
         }
     },
     "criteria": {
-        "dungeon":{
+        "dungeon": {
             "trigger": "minecraft:player_generates_container_loot",
             "conditions": {
                 "loot_table": "chests/simple_dungeon"

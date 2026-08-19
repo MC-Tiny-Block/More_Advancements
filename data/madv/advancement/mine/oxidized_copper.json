@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:oxidized_copper"
+            "id": "minecraft:oxidized_copper"
         },
         "frame": "goal",
         "title": {
             "fallback": "它氧化了！",
-            "translate": "oxidized_copper.title"
+            "translate": "advancements.madv.oxidized_copper.title"
         },
         "description": {
             "fallback": "让铜块完全氧化",
-            "translate": "oxidized_copper.description"
+            "translate": "advancements.madv.oxidized_copper.description"
         }
     },
     "criteria": {
-        "oxidized_copper":{
+        "oxidized_copper": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

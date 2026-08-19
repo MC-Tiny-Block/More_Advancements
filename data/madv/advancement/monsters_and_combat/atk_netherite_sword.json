@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:netherite_sword"
+            "id": "minecraft:netherite_sword"
         },
         "frame": "task",
         "title": {
             "fallback": "终极武器",
-            "translate": "atk_netherite_sword.title"
+            "translate": "advancements.madv.atk_netherite_sword.title"
         },
         "description": {
             "fallback": "使用下界合金剑攻击你的敌人",
-            "translate": "atk_netherite_sword.description"
+            "translate": "advancements.madv.atk_netherite_sword.description"
         }
     },
     "criteria": {
-        "iron_sword":{
+        "iron_sword": {
             "trigger": "minecraft:player_hurt_entity",
             "conditions": {
                 "player": {

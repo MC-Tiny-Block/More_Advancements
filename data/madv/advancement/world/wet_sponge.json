@@ -14,7 +14,7 @@
         }
     },
     "criteria": {
-        "wet_sponge":{
+        "wet_sponge": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

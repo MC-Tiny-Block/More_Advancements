@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:coal"
+            "id": "minecraft:coal"
         },
         "frame": "task",
         "title": {
             "fallback": "黑色黄金",
-            "translate": "coal.title"
+            "translate": "advancements.madv.coal.title"
         },
         "description": {
             "fallback": "挖到黑乎乎的煤炭",
-            "translate": "coal.description"
+            "translate": "advancements.madv.coal.description"
         }
     },
     "criteria": {
-        "coal":{
+        "coal": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

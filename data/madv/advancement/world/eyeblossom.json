@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:open_eyeblossom"
+            "id": "minecraft:open_eyeblossom"
         },
         "frame": "task",
         "title": {
             "fallback": "“眼花”缭乱",
-            "translate": "eyeblossom.title"
+            "translate": "advancements.madv.eyeblossom.title"
         },
         "description": {
             "fallback": "采下一株眼眸花",
-            "translate": "eyeblossom.description"
+            "translate": "advancements.madv.eyeblossom.description"
         }
     },
     "criteria": {
-        "open_eyeblossom":{
+        "open_eyeblossom": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -24,7 +24,7 @@
                 ]
             }
         },
-        "closed_eyeblossom":{
+        "closed_eyeblossom": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -37,6 +37,9 @@
     },
     "parent": "madv:world/kill_creaking",
     "requirements": [
-        ["closed_eyeblossom", "open_eyeblossom"]
+        [
+            "closed_eyeblossom",
+            "open_eyeblossom"
+        ]
     ]
 }

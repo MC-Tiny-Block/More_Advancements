@@ -14,7 +14,7 @@
         }
     },
     "criteria": {
-        "kill_elder_guardian":{
+        "kill_elder_guardian": {
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": {
@@ -22,7 +22,7 @@
                 }
             }
         },
-        "tide_armor_trim_smithing_template":{
+        "tide_armor_trim_smithing_template": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

@@ -1,31 +1,31 @@
 {
-    "criteria": {
-      "crafting_table": {
-        "conditions": {
-          "items": [
-            {
-                "items": "crafting_table"
-            }
-          ]
-        },
-        "trigger": "minecraft:inventory_changed"
-      }
-    },
-    "display": {
-      "announce_to_chat": false,
-      "background": "minecraft:block/polished_blackstone",
-      "description": {
-        "fallback": "锻造物品，然后给他们附上魔咒！",
-        "translate": "enchantments_and_crafting_root.description"
-      },
-      "icon": {
-        "count": 1,
-        "id": "minecraft:smithing_table"
-      },
-      "show_toast": false,
-      "title": {
-        "fallback": "魔咒与工艺",
-        "translate": "enchantments_and_crafting_root.title"
-      }
-    }
+	"criteria": {
+		"crafting_table": {
+			"conditions": {
+				"items": [
+					{
+						"items": "crafting_table"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"display": {
+		"announce_to_chat": false,
+		"background": "minecraft:block/polished_blackstone",
+		"description": {
+			"fallback": "锻造物品，然后给他们附上魔咒！",
+			"translate": "advancements.madv.enchantments_and_crafting_root.description"
+		},
+		"icon": {
+			"count": 1,
+			"id": "minecraft:smithing_table"
+		},
+		"show_toast": false,
+		"title": {
+			"fallback": "魔咒与工艺",
+			"translate": "advancements.madv.enchantments_and_crafting_root.title"
+		}
+	}
 }

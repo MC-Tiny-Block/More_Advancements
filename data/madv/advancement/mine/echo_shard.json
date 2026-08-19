@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:echo_shard"
+            "id": "minecraft:echo_shard"
         },
         "frame": "task",
         "title": {
             "fallback": "深渊的回响",
-            "translate": "echo_shard.title"
+            "translate": "advancements.madv.echo_shard.title"
         },
         "description": {
             "fallback": "获得回响碎片",
-            "translate": "echo_shard.description"
+            "translate": "advancements.madv.echo_shard.description"
         }
     },
     "criteria": {
-        "echo_shard":{
+        "echo_shard": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

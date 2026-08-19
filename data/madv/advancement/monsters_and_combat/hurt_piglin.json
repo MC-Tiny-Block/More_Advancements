@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:piglin_head"
+            "id": "minecraft:piglin_head"
         },
         "frame": "task",
         "title": {
             "fallback": "猪灵之战",
-            "translate": "hurt_piglin.title"
+            "translate": "advancements.madv.hurt_piglin.title"
         },
         "description": {
             "fallback": "攻击猪灵",
-            "translate": "hurt_piglin.description"
+            "translate": "advancements.madv.hurt_piglin.description"
         }
     },
     "criteria": {
-        "piglin":{
+        "piglin": {
             "trigger": "minecraft:player_hurt_entity",
             "conditions": {
                 "entity": {

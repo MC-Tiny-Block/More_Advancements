@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:creeper_head"
+            "id": "minecraft:creeper_head"
         },
         "frame": "task",
         "title": {
             "fallback": "滋滋滋……",
-            "translate": "kill_creeper.title"
+            "translate": "advancements.madv.kill_creeper.title"
         },
         "description": {
             "fallback": "击杀一只苦力怕",
-            "translate": "kill_creeper.description"
+            "translate": "advancements.madv.kill_creeper.description"
         }
     },
     "criteria": {
-        "creeper":{
+        "creeper": {
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": {

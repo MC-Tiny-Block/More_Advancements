@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:reinforced_deepslate"
+            "id": "minecraft:reinforced_deepslate"
         },
         "frame": "task",
         "title": {
             "fallback": "失落的地下废都",
-            "translate": "to_ancient_city.title"
+            "translate": "advancements.madv.to_ancient_city.title"
         },
         "description": {
             "fallback": "进入远古城市",
-            "translate": "to_ancient_city.description"
+            "translate": "advancements.madv.to_ancient_city.description"
         }
     },
     "criteria": {
-        "ancient_city":{
+        "ancient_city": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {

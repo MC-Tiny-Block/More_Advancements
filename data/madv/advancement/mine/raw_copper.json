@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:raw_copper"
+            "id": "minecraft:raw_copper"
         },
         "frame": "task",
         "title": {
             "fallback": "橙绿相间",
-            "translate": "raw_copper.title"
+            "translate": "advancements.madv.raw_copper.title"
         },
         "description": {
             "fallback": "挖到粗铜",
-            "translate": "raw_copper.description"
+            "translate": "advancements.madv.raw_copper.description"
         }
     },
     "criteria": {
-        "raw_copper":{
+        "raw_copper": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

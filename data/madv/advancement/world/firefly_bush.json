@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:firefly_bush"
+            "id": "minecraft:firefly_bush"
         },
         "frame": "task",
         "title": {
@@ -14,7 +14,7 @@
         }
     },
     "criteria": {
-        "firefly_bush":{
+        "firefly_bush": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

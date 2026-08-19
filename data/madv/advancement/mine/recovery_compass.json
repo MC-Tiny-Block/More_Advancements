@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:recovery_compass"
+            "id": "minecraft:recovery_compass"
         },
         "frame": "goal",
         "title": {
             "fallback": "追溯死亡的回响",
-            "translate": "recovery_compass.title"
+            "translate": "advancements.madv.recovery_compass.title"
         },
         "description": {
             "fallback": "制作追溯指针",
-            "translate": "recovery_compass.description"
+            "translate": "advancements.madv.recovery_compass.description"
         }
     },
     "criteria": {
-        "recovery_compass":{
+        "recovery_compass": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

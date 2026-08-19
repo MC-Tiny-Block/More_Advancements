@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:gold_ore"
+            "id": "minecraft:gold_ore"
         },
         "frame": "task",
         "title": {
             "fallback": "淘金热",
-            "translate": "in_deep_badlands.title"
+            "translate": "advancements.madv.in_deep_badlands.title"
         },
         "description": {
             "fallback": "在恶地的地下挖矿，这里有许多好东西",
-            "translate": "in_deep_badlands.description"
+            "translate": "advancements.madv.in_deep_badlands.description"
         }
     },
     "criteria": {
-        "badlands":{
+        "badlands": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {

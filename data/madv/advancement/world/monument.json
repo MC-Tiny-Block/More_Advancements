@@ -14,7 +14,7 @@
         }
     },
     "criteria": {
-        "monument":{
+        "monument": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {

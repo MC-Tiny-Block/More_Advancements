@@ -1,21 +1,21 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:coal_ore"
+            "id": "minecraft:coal_ore"
         },
         "frame": "task",
         "title": {
             "fallback": "相煎何太急？",
-            "translate": "coal_smelt.coal.title"
+            "translate": "coal_smelt.advancements.madv.coal.title"
         },
         "description": {
             "fallback": "把煤矿石烧成煤炭",
-            "translate": "coal_smelt_coal.description"
+            "translate": "advancements.madv.coal_smelt_coal.description"
         },
         "hidden": true
     },
     "criteria": {
-        "coal_ore":{
+        "coal_ore": {
             "trigger": "minecraft:recipe_crafted",
             "conditions": {
                 "recipe_id": "minecraft:coal_from_smelting_coal_ore"
@@ -27,7 +27,7 @@
                 "recipe_id": "minecraft:coal_from_blasting_coal_ore"
             }
         },
-        "deep_coal_ore":{
+        "deep_coal_ore": {
             "trigger": "minecraft:recipe_crafted",
             "conditions": {
                 "recipe_id": "minecraft:coal_from_smelting_deepslate_coal_ore"
@@ -42,6 +42,11 @@
     },
     "parent": "madv:mine/coal",
     "requirements": [
-        ["coal_ore", "coal_ore_blast", "deep_coal_ore", "deep_coal_ore_blast"]
+        [
+            "coal_ore",
+            "coal_ore_blast",
+            "deep_coal_ore",
+            "deep_coal_ore_blast"
+        ]
     ]
 }

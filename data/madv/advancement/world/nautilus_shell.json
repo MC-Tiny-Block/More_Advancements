@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:nautilus_shell"
+            "id": "minecraft:nautilus_shell"
         },
         "frame": "task",
         "title": {

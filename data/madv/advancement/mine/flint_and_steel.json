@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:flint_and_steel"
+            "id": "minecraft:flint_and_steel"
         },
         "frame": "task",
         "title": {
             "fallback": "迸发火星",
-            "translate": "flint_and_steel.title"
+            "translate": "advancements.madv.flint_and_steel.title"
         },
         "description": {
             "fallback": "制作一个打火石",
-            "translate": "flint_and_steel.description"
+            "translate": "advancements.madv.flint_and_steel.description"
         }
     },
     "criteria": {
-        "flint_and_steel":{
+        "flint_and_steel": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

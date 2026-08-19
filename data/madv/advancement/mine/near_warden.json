@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:warden_spawn_egg"
+            "id": "minecraft:warden_spawn_egg"
         },
         "frame": "task",
         "title": {
             "fallback": "我们有麻烦了……",
-            "translate": "near_warden.title"
+            "translate": "advancements.madv.near_warden.title"
         },
         "description": {
             "fallback": "我们的动静太大了……",
-            "translate": "near_warden.description"
+            "translate": "advancements.madv.near_warden.description"
         }
     },
     "criteria": {
-        "near_warden":{
+        "near_warden": {
             "trigger": "minecraft:impossible"
         }
     },

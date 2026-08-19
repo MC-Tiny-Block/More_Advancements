@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:cod"
+            "id": "minecraft:cod"
         },
         "frame": "task",
         "title": {
@@ -14,7 +14,7 @@
         }
     },
     "criteria": {
-        "feed_dolphin":{
+        "feed_dolphin": {
             "trigger": "minecraft:player_interacted_with_entity",
             "conditions": {
                 "item": {

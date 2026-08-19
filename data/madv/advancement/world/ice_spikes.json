@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:blue_ice"
+            "id": "minecraft:blue_ice"
         },
         "frame": "task",
         "title": {

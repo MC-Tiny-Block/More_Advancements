@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:spruce_sapling"
+            "id": "minecraft:spruce_sapling"
         },
         "frame": "task",
         "title": {
             "fallback": "遍地云杉",
-            "translate": "in_taiga.title"
+            "translate": "advancements.madv.in_taiga.title"
         },
         "description": {
             "fallback": "造访针叶林和积雪针叶林",
-            "translate": "in_taiga.description"
+            "translate": "advancements.madv.in_taiga.description"
         }
     },
     "criteria": {
-        "taiga":{
+        "taiga": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {

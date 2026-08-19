@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:water_bucket"
+            "id": "minecraft:water_bucket"
         },
         "frame": "goal",
         "title": {
             "fallback": "落地水！",
-            "translate": "landing_water.title"
+            "translate": "advancements.madv.landing_water.title"
         },
         "description": {
             "fallback": "从30格及以上的高度跳入水中",
-            "translate": "landing_water.description"
+            "translate": "advancements.madv.landing_water.description"
         }
     },
     "criteria": {
-        "landing_water":{
+        "landing_water": {
             "trigger": "minecraft:fall_from_height",
             "conditions": {
                 "distance": {

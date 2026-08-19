@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:flint_and_steel"
+            "id": "minecraft:flint_and_steel"
         },
         "frame": "task",
         "title": {
             "fallback": "燃起火焰",
-            "translate": "sparking.title"
+            "translate": "advancements.madv.sparking.title"
         },
         "description": {
             "fallback": "使用打火石打火",
-            "translate": "sparking.description"
+            "translate": "advancements.madv.sparking.description"
         }
     },
     "criteria": {
-        "flint_and_steel":{
+        "flint_and_steel": {
             "trigger": "minecraft:item_used_on_block",
             "conditions": {
                 "location": [

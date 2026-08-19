@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:cobweb"
+            "id": "minecraft:cobweb"
         },
         "frame": "task",
         "title": {
             "fallback": "前方限速！",
-            "translate": "in_cobweb.title"
+            "translate": "advancements.madv.in_cobweb.title"
         },
         "description": {
             "fallback": "陷入蜘蛛网",
-            "translate": "in_cobweb.description"
+            "translate": "advancements.madv.in_cobweb.description"
         }
     },
     "criteria": {
-        "in_cobweb":{
+        "in_cobweb": {
             "trigger": "minecraft:enter_block",
             "conditions": {
                 "block": "minecraft:cobweb"

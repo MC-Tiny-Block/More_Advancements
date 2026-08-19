@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:elytra"
+            "id": "minecraft:elytra"
         },
         "frame": "challenge",
         "title": {
             "fallback": "扶摇直上九万里",
-            "translate": "fly_to_90000b.title"
+            "translate": "advancements.madv.fly_to_90000b.title"
         },
         "description": {
             "fallback": "\"太空电梯\"\n飞到y=90000以上",
-            "translate": "fly_to_90000b.description"
+            "translate": "advancements.madv.fly_to_90000b.description"
         }
     },
     "criteria": {
-        "10000b":{
+        "10000b": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {

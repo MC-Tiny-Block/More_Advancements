@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:peony"
+            "id": "minecraft:peony"
         },
         "frame": "task",
         "title": {
             "fallback": "国色天香",
-            "translate": "peony.title"
+            "translate": "advancements.madv.peony.title"
         },
         "description": {
             "fallback": "采集一些牡丹",
-            "translate": "peony.description"
+            "translate": "advancements.madv.peony.description"
         }
     },
     "criteria": {
-        "peony":{
+        "peony": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

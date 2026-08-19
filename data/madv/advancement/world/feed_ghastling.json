@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:happy_ghast_spawn_egg"
+            "id": "minecraft:happy_ghast_spawn_egg"
         },
         "frame": "task",
         "title": {

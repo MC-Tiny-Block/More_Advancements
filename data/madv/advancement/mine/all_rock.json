@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:diorite"
+            "id": "minecraft:diorite"
         },
         "frame": "challenge",
         "title": {
             "fallback": "地质学家",
-            "translate": "all_rock.title"
+            "translate": "advancements.madv.all_rock.title"
         },
         "description": {
             "fallback": "获得所有种类的岩石",
-            "translate": "all_rock.description"
+            "translate": "advancements.madv.all_rock.description"
         }
     },
     "criteria": {
-        "stone":{
+        "stone": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -24,7 +24,7 @@
                 ]
             }
         },
-        "cobblestone":{
+        "cobblestone": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -34,7 +34,7 @@
                 ]
             }
         },
-        "granite":{
+        "granite": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -44,7 +44,7 @@
                 ]
             }
         },
-        "andesite":{
+        "andesite": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -54,7 +54,7 @@
                 ]
             }
         },
-        "diorite":{
+        "diorite": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -64,7 +64,7 @@
                 ]
             }
         },
-        "sandstone":{
+        "sandstone": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -74,7 +74,7 @@
                 ]
             }
         },
-        "red_sandstone":{
+        "red_sandstone": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -84,7 +84,7 @@
                 ]
             }
         },
-        "end_stone":{
+        "end_stone": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -94,7 +94,7 @@
                 ]
             }
         },
-        "obsidian":{
+        "obsidian": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -104,7 +104,7 @@
                 ]
             }
         },
-        "crying_obsidian":{
+        "crying_obsidian": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -114,7 +114,7 @@
                 ]
             }
         },
-        "prismarine":{
+        "prismarine": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -124,7 +124,7 @@
                 ]
             }
         },
-        "dark_prismarine":{
+        "dark_prismarine": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -134,7 +134,7 @@
                 ]
             }
         },
-        "netherrack":{
+        "netherrack": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -144,7 +144,7 @@
                 ]
             }
         },
-        "warped_nylium":{
+        "warped_nylium": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -154,7 +154,7 @@
                 ]
             }
         },
-        "crimson_nylium":{
+        "crimson_nylium": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -164,7 +164,7 @@
                 ]
             }
         },
-        "glowstone":{
+        "glowstone": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -174,7 +174,7 @@
                 ]
             }
         },
-        "blackstone":{
+        "blackstone": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -184,7 +184,7 @@
                 ]
             }
         },
-        "basalt":{
+        "basalt": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -194,7 +194,7 @@
                 ]
             }
         },
-        "calcite":{
+        "calcite": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -204,7 +204,7 @@
                 ]
             }
         },
-        "deepslate":{
+        "deepslate": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -214,7 +214,7 @@
                 ]
             }
         },
-        "cobbled_deepslate":{
+        "cobbled_deepslate": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -224,7 +224,7 @@
                 ]
             }
         },
-        "tuff":{
+        "tuff": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -234,7 +234,7 @@
                 ]
             }
         },
-        "dripstone_block":{
+        "dripstone_block": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

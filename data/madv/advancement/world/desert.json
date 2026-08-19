@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:sand"
+            "id": "minecraft:sand"
         },
         "frame": "task",
         "title": {
             "fallback": "风干物燥",
-            "translate": "desert.title"
+            "translate": "advancements.madv.desert.title"
         },
         "description": {
             "fallback": "造访沙漠并挖下来一块沙子",
-            "translate": "desert.description"
+            "translate": "advancements.madv.desert.description"
         }
     },
     "criteria": {
-        "desert":{
+        "desert": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

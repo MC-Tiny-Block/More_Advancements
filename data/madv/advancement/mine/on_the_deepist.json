@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:bedrock"
+            "id": "minecraft:bedrock"
         },
         "frame": "goal",
         "title": {
             "fallback": "地心游记",
-            "translate": "on_the_deepist.title"
+            "translate": "advancements.madv.on_the_deepist.title"
         },
         "description": {
             "fallback": "到达主世界最底层",
-            "translate": "on_the_deepist.description"
+            "translate": "advancements.madv.on_the_deepist.description"
         }
     },
     "criteria": {
-        "y=-59":{
+        "y=-59": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {

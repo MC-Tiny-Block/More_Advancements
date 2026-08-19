@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:stone_axe"
+            "id": "minecraft:stone_axe"
         },
         "frame": "task",
         "title": {
             "fallback": "维京人",
-            "translate": "atk_stone_axe.title"
+            "translate": "advancements.madv.atk_stone_axe.title"
         },
         "description": {
             "fallback": "用你的斧头重重砸击敌人！",
-            "translate": "atk_stone_axe.description"
+            "translate": "advancements.madv.atk_stone_axe.description"
         }
     },
     "criteria": {
-        "axe":{
+        "axe": {
             "trigger": "minecraft:player_hurt_entity",
             "conditions": {
                 "player": {

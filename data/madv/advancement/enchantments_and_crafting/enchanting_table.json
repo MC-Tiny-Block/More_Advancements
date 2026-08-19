@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:enchanting_table"
+            "id": "minecraft:enchanting_table"
         },
         "frame": "task",
         "title": {
             "fallback": "注入魔力",
-            "translate": "enchanting_table.title"
+            "translate": "advancements.madv.enchanting_table.title"
         },
         "description": {
             "fallback": "制作一个附魔台",
-            "translate": "enchanting_table.description"
+            "translate": "advancements.madv.enchanting_table.description"
         }
     },
     "criteria": {
-        "enchanting_table":{
+        "enchanting_table": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

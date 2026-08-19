@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:music_disc_5"
+            "id": "minecraft:music_disc_5"
         },
         "frame": "task",
         "title": {
             "fallback": "“5”",
-            "translate": "disc_5.title"
+            "translate": "advancements.madv.disc_5.title"
         },
         "description": {
             "fallback": "制作5号唱片",
-            "translate": "disc_5.description"
+            "translate": "advancements.madv.disc_5.description"
         }
     },
     "criteria": {
-        "music_disc_5":{
+        "music_disc_5": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

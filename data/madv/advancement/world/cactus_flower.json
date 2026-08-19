@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:cactus_flower"
+            "id": "minecraft:cactus_flower"
         },
         "frame": "task",
         "title": {
@@ -14,7 +14,7 @@
         }
     },
     "criteria": {
-        "cactus_flower":{
+        "cactus_flower": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

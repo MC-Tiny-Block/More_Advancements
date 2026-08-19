@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:crossbow"
+            "id": "minecraft:crossbow"
         },
         "frame": "goal",
         "title": {

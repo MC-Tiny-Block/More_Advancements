@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:gravel"
+            "id": "minecraft:gravel"
         },
         "frame": "task",
         "title": {
@@ -14,7 +14,7 @@
         }
     },
     "criteria": {
-        "windswept_hills":{
+        "windswept_hills": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {
@@ -24,7 +24,7 @@
                 }
             }
         },
-        "windswept_forest":{
+        "windswept_forest": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {
@@ -34,7 +34,7 @@
                 }
             }
         },
-        "windswept_gravelly_hills":{
+        "windswept_gravelly_hills": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {
@@ -47,6 +47,10 @@
     },
     "parent": "madv:world/high_place",
     "requirements": [
-        ["windswept_forest", "windswept_gravelly_hills", "windswept_hills"]
+        [
+            "windswept_forest",
+            "windswept_gravelly_hills",
+            "windswept_hills"
+        ]
     ]
 }

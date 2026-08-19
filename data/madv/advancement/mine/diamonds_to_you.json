@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:diamond"
+            "id": "minecraft:diamond"
         },
         "frame": "task",
         "title": {
             "fallback": "给你钻石！",
-            "translate": "diamonds_to_you.title"
+            "translate": "advancements.madv.diamonds_to_you.title"
         },
         "description": {
             "fallback": "把钻石扔到别的玩家那儿",
-            "translate": "diamonds_to_you.description"
+            "translate": "advancements.madv.diamonds_to_you.description"
         }
     },
     "criteria": {
-        "diamond":{
+        "diamond": {
             "trigger": "minecraft:thrown_item_picked_up_by_entity",
             "conditions": {
                 "item": {

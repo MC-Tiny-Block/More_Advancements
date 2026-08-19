@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:cauldron"
+            "id": "minecraft:cauldron"
         },
         "frame": "task",
         "title": {
@@ -14,7 +14,7 @@
         }
     },
     "criteria": {
-        "swamp_hut":{
+        "swamp_hut": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {

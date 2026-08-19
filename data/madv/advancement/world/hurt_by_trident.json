@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:trident"
+            "id": "minecraft:trident"
         },
         "frame": "task",
         "title": {

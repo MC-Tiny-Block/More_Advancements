@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:obsidian"
+            "id": "minecraft:obsidian"
         },
         "frame": "task",
         "title": {

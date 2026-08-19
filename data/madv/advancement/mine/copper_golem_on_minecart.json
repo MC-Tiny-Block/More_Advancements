@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:chest_minecart"
+            "id": "minecraft:chest_minecart"
         },
         "frame": "goal",
         "title": {
@@ -9,13 +9,13 @@
             "translate": "advancements.madv.copper_golem_on_minecart.title"
         },
         "description": {
-            "fallback":"让铜傀儡坐在矿车上，然后让它去分拣你的巨大仓库吧！",
+            "fallback": "让铜傀儡坐在矿车上，然后让它去分拣你的巨大仓库吧！",
             "translate": "advancements.madv.copper_golem_on_minecart.description"
         },
         "hidden": true
     },
     "criteria": {
-        "diamond_block":{
+        "diamond_block": {
             "trigger": "minecraft:tick",
             "conditions": {
                 "player": [

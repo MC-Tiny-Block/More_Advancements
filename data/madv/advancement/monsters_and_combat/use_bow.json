@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:bow"
+            "id": "minecraft:bow"
         },
         "frame": "task",
         "title": {
             "fallback": "拉弓上弦",
-            "translate": "use_bow.title"
+            "translate": "advancements.madv.use_bow.title"
         },
         "description": {
             "fallback": "长按右键以拉弓",
-            "translate": "use_bow.description"
+            "translate": "advancements.madv.use_bow.description"
         }
     },
     "criteria": {
-        "bow":{
+        "bow": {
             "trigger": "minecraft:using_item",
             "conditions": {
                 "item": {

@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:panda_spawn_egg"
+            "id": "minecraft:panda_spawn_egg"
         },
         "frame": "task",
         "title": {
@@ -15,7 +15,7 @@
         "hidden": true
     },
     "criteria": {
-        "feed_panda":{
+        "feed_panda": {
             "trigger": "minecraft:player_interacted_with_entity",
             "conditions": {
                 "entity": {

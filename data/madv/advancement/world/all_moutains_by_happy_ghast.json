@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:feather"
+            "id": "minecraft:feather"
         },
         "frame": "challenge",
         "title": {

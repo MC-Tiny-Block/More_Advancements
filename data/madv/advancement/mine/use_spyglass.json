@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:spyglass"
+            "id": "minecraft:spyglass"
         },
         "frame": "task",
         "title": {
             "fallback": "凸透镜成像",
-            "translate": "use_spyglass.title"
+            "translate": "advancements.madv.use_spyglass.title"
         },
         "description": {
             "fallback": "使用望远镜观察远处",
-            "translate": "use_spyglass.description"
+            "translate": "advancements.madv.use_spyglass.description"
         }
     },
     "criteria": {
-        "spyglass":{
+        "spyglass": {
             "trigger": "minecraft:using_item",
             "conditions": {
                 "item": {

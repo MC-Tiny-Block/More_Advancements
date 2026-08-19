@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:wooden_shovel"
+            "id": "minecraft:wooden_shovel"
         },
         "frame": "task",
         "title": {
             "fallback": "整地时间到！",
-            "translate": "get_wooden_shovel.title"
+            "translate": "advancements.madv.get_wooden_shovel.title"
         },
         "description": {
             "fallback": "制作一把木锹",
-            "translate": "get_wooden_shovel.description"
+            "translate": "advancements.madv.get_wooden_shovel.description"
         }
     },
     "criteria": {
-        "wooden_shovel":{
+        "wooden_shovel": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

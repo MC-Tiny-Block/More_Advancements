@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:acacia_sapling"
+            "id": "minecraft:acacia_sapling"
         },
         "frame": "task",
         "title": {
             "fallback": "萨瓦纳草原",
-            "translate": "savanna.title"
+            "translate": "advancements.madv.savanna.title"
         },
         "description": {
             "fallback": "造访热带草原和热带高原",
-            "translate": "savanna.description"
+            "translate": "advancements.madv.savanna.description"
         }
     },
     "criteria": {
-        "savanna":{
+        "savanna": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {

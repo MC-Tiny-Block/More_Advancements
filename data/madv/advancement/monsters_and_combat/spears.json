@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:wooden_spear"
+            "id": "minecraft:wooden_spear"
         },
         "frame": "task",
         "title": {
@@ -14,7 +14,7 @@
         }
     },
     "criteria": {
-        "spears":{
+        "spears": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:sculk"
+            "id": "minecraft:sculk"
         },
         "frame": "task",
         "title": {
             "fallback": "寂静无声",
-            "translate": "to_deep_dark.title"
+            "translate": "advancements.madv.to_deep_dark.title"
         },
         "description": {
             "fallback": "到达深暗之域。记得安静点！",
-            "translate": "to_deep_dark.description"
+            "translate": "advancements.madv.to_deep_dark.description"
         }
     },
     "criteria": {
-        "deep_dark":{
+        "deep_dark": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {

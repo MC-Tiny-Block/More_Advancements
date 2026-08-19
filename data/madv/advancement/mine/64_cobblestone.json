@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:cobblestone"
+            "id": "minecraft:cobblestone"
         },
         "frame": "goal",
         "title": {
             "fallback": "采石工",
-            "translate": "64_cobblestone.title"
+            "translate": "advancements.madv.64_cobblestone.title"
         },
         "description": {
             "fallback": "挖取64个圆石",
-            "translate": "64_cobblestone.description"
+            "translate": "advancements.madv.64_cobblestone.description"
         }
     },
     "criteria": {
-        "cobblestone":{
+        "cobblestone": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

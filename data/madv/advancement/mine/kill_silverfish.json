@@ -1,24 +1,24 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:silverfish_spawn_egg"
+            "id": "minecraft:silverfish_spawn_egg"
         },
         "frame": "task",
         "title": {
             "fallback": "令矿工厌烦的虱虫",
-            "translate": "kill_silverfish.title"
+            "translate": "advancements.madv.kill_silverfish.title"
         },
         "description": {
             "fallback": "击杀一只蠹虫",
-            "translate": "kill_silverfish.description"
+            "translate": "advancements.madv.kill_silverfish.description"
         }
     },
     "criteria": {
-        "silverfish":{
+        "silverfish": {
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": {
-                    "type": "silverfish"
+                    "minecraft:entity_type": "silverfish"
                 }
             }
         }

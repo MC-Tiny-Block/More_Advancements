@@ -1,6 +1,6 @@
 {
     "criteria": {
-        "ender_dragon":{
+        "ender_dragon": {
             "trigger": "minecraft:player_hurt_entity",
             "conditions": {
                 "entity": {

@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:trial_key"
+            "id": "minecraft:trial_key"
         },
         "frame": "task",
         "title": {
             "fallback": "神秘钥匙",
-            "translate": "trial_key.title"
+            "translate": "advancements.madv.trial_key.title"
         },
         "description": {
             "fallback": "获得试炼钥匙",
-            "translate": "trial_key.description"
+            "translate": "advancements.madv.trial_key.description"
         }
     },
     "criteria": {
-        "skeleton":{
+        "skeleton": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

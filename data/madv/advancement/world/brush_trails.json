@@ -1,16 +1,16 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:suspicious_gravel"
+            "id": "minecraft:suspicious_gravel"
         },
         "frame": "task",
         "title": {
             "fallback": "沙砾掩埋的历史",
-            "translate": "brush_trails.title"
+            "translate": "advancements.madv.brush_trails.title"
         },
         "description": {
             "fallback": "刷扫古迹废墟中可疑的沙砾",
-            "translate": "brush_trails.description"
+            "translate": "advancements.madv.brush_trails.description"
         }
     },
     "criteria": {
@@ -29,6 +29,9 @@
     },
     "parent": "madv:world/trail_ruins",
     "requirements": [
-        ["suspicious_gravel_common", "suspicious_gravel_rare"]
+        [
+            "suspicious_gravel_common",
+            "suspicious_gravel_rare"
+        ]
     ]
 }

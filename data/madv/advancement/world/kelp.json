@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:kelp"
+            "id": "minecraft:kelp"
         },
         "frame": "task",
         "title": {
@@ -14,7 +14,7 @@
         }
     },
     "criteria": {
-        "kelp":{
+        "kelp": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

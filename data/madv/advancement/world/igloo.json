@@ -1,16 +1,16 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:ice"
+            "id": "minecraft:ice"
         },
         "frame": "task",
         "title": {
             "fallback": "温馨小屋",
-            "translate": "igloo.title"
+            "translate": "advancements.madv.igloo.title"
         },
         "description": {
             "fallback": "找到一处雪屋",
-            "translate": "igloo.description"
+            "translate": "advancements.madv.igloo.description"
         }
     },
     "criteria": {

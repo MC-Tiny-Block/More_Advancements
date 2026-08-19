@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:calcite"
+            "id": "minecraft:calcite"
         },
         "frame": "task",
         "title": {
             "fallback": "CaCO₃",
-            "translate": "calcite.title"
+            "translate": "advancements.madv.calcite.title"
         },
         "description": {
             "fallback": "挖取一块方解石",
-            "translate": "calcite.description"
+            "translate": "advancements.madv.calcite.description"
         }
     },
     "criteria": {
-        "calcite":{
+        "calcite": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

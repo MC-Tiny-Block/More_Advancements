@@ -6,11 +6,11 @@
         "frame": "challenge",
         "title": {
             "fallback": "采花大盗",
-            "translate": "all_flowers.title"
+            "translate": "advancements.madv.all_flowers.title"
         },
         "description": {
             "fallback": "收集所有种类的花",
-            "translate": "all_flowers.description"
+            "translate": "advancements.madv.all_flowers.description"
         }
     },
     "criteria": {

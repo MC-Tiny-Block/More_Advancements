@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:clock"
+            "id": "minecraft:clock"
         },
         "frame": "task",
         "title": {
             "fallback": "分秒必争",
-            "translate": "clock.title"
+            "translate": "advancements.madv.clock.title"
         },
         "description": {
             "fallback": "在暗无天日的洞穴中用时钟来了解时间",
-            "translate": "clock.description"
+            "translate": "advancements.madv.clock.description"
         }
     },
     "criteria": {
-        "clock":{
+        "clock": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

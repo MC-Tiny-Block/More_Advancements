@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:saddle"
+            "id": "minecraft:saddle"
         },
         "frame": "task",
         "title": {
@@ -14,7 +14,7 @@
         }
     },
     "criteria": {
-        "spear_on_mounts":{
+        "spear_on_mounts": {
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "player": {

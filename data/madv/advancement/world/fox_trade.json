@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:sweet_berries"
+            "id": "minecraft:sweet_berries"
         },
         "frame": "task",
         "title": {
             "fallback": "完美的交易！",
-            "translate": "fox_trade.title"
+            "translate": "advancements.madv.fox_trade.title"
         },
         "description": {
             "fallback": "扔给狐狸甜浆果来让它吐出嘴里的物品",
-            "translate": "fox_trade.description"
+            "translate": "advancements.madv.fox_trade.description"
         }
     },
     "criteria": {
-        "fox_trade":{
+        "fox_trade": {
             "trigger": "minecraft:thrown_item_picked_up_by_entity",
             "conditions": {
                 "entity": {

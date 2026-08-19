@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:elytra"
+            "id": "minecraft:elytra"
         },
         "frame": "task",
         "title": {
@@ -14,7 +14,7 @@
         }
     },
     "criteria": {
-        "elytra":{
+        "elytra": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": [

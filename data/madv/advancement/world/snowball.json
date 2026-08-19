@@ -1,16 +1,16 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:snowball"
+            "id": "minecraft:snowball"
         },
         "frame": "task",
         "title": {
             "fallback": "扔出去试试？",
-            "translate": "snowball.title"
+            "translate": "advancements.madv.snowball.title"
         },
         "description": {
             "fallback": "铲一些雪球",
-            "translate": "snowball.description"
+            "translate": "advancements.madv.snowball.description"
         }
     },
     "criteria": {

@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:gold_ingot"
+            "id": "minecraft:gold_ingot"
         },
         "frame": "task",
         "title": {
             "fallback": "金子！",
-            "translate": "gold_ingot.title"
+            "translate": "advancements.madv.gold_ingot.title"
         },
         "description": {
             "fallback": "冶炼出一块金锭",
-            "translate": "gold_ingot.description"
+            "translate": "advancements.madv.gold_ingot.description"
         }
     },
     "criteria": {
-        "gold_ingot":{
+        "gold_ingot": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

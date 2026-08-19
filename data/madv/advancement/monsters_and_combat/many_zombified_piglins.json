@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:zombified_piglin_spawn_egg"
+            "id": "minecraft:zombified_piglin_spawn_egg"
         },
         "frame": "task",
         "title": {
             "fallback": "千军万马，常伴吾身",
-            "translate": "many_zombified_piglins.title"
+            "translate": "advancements.madv.many_zombified_piglins.title"
         },
         "description": {
             "fallback": "攻击一只僵尸猪灵",
-            "translate": "many_zombified_piglins.description"
+            "translate": "advancements.madv.many_zombified_piglins.description"
         }
     },
     "criteria": {
-        "zombified_piglin":{
+        "zombified_piglin": {
             "trigger": "minecraft:player_hurt_entity",
             "conditions": {
                 "entity": {

@@ -6,11 +6,11 @@
         "frame": "challenge",
         "title": {
             "fallback": "蛟龙号",
-            "translate": "jiao_long.title"
+            "translate": "advancements.madv.jiao_long.title"
         },
         "description": {
             "fallback": "穿戴海龟壳并潜至深海类生物群系的y<-50处",
-            "translate": "jiao_long.description"
+            "translate": "advancements.madv.jiao_long.description"
         }
     },
     "criteria": {
@@ -49,7 +49,7 @@
         }
     },
     "parent": "madv:world/turtle_scute",
-        "rewards": {
-            "experience": 300
-        }
+    "rewards": {
+        "experience": 300
+    }
 }

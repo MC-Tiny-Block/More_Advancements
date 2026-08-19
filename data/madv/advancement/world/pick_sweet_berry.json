@@ -6,11 +6,11 @@
         "frame": "task",
         "title": {
             "fallback": "采浆果的小姑娘",
-            "translate": "pick_sweet_berries.title"
+            "translate": "advancements.madv.pick_sweet_berries.title"
         },
         "description": {
             "fallback": "采下几颗甜浆果",
-            "translate": "pick_sweet_berries.description"
+            "translate": "advancements.madv.pick_sweet_berries.description"
         }
     },
     "criteria": {

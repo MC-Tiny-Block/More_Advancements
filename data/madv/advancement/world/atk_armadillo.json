@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:armadillo_spawn_egg"
+            "id": "minecraft:armadillo_spawn_egg"
         },
         "frame": "task",
         "title": {
             "fallback": "这家伙壳可真硬！",
-            "translate": "atk_armadillo.title"
+            "translate": "advancements.madv.atk_armadillo.title"
         },
         "description": {
             "fallback": "攻击一只蜷缩着的犰狳",
-            "translate": "atk_armadillo.description"
+            "translate": "advancements.madv.atk_armadillo.description"
         }
     },
     "criteria": {
-        "llama":{
+        "llama": {
             "trigger": "minecraft:player_hurt_entity",
             "conditions": {
                 "entity": {

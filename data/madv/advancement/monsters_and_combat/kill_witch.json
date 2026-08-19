@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:witch_spawn_egg"
+            "id": "minecraft:witch_spawn_egg"
         },
         "frame": "task",
         "title": {
             "fallback": "魔法巫师",
-            "translate": "kill_witch.title"
+            "translate": "advancements.madv.kill_witch.title"
         },
         "description": {
             "fallback": "击杀一个女巫",
-            "translate": "kill_witch.description"
+            "translate": "advancements.madv.kill_witch.description"
         }
     },
     "criteria": {
-        "witch":{
+        "witch": {
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": {

@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:bundle"
+            "id": "minecraft:bundle"
         },
         "frame": "task",
         "title": {
             "fallback": "提上行囊",
-            "translate": "bundle.title"
+            "translate": "advancements.madv.bundle.title"
         },
         "description": {
             "fallback": "为你的冒险准备一个收纳袋来装一些杂七杂八的东西",
-            "translate": "bundle.description"
+            "translate": "advancements.madv.bundle.description"
         }
     },
     "criteria": {
-        "bundle":{
+        "bundle": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

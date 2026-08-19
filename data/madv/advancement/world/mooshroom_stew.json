@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:mushroom_stew"
+            "id": "minecraft:mushroom_stew"
         },
         "frame": "task",
         "title": {
@@ -14,11 +14,11 @@
         }
     },
     "criteria": {
-        "mushroom_stew":{
+        "mushroom_stew": {
             "trigger": "minecraft:player_interacted_with_entity",
             "conditions": {
                 "entity": {
-                    "type": "minecraft:mooshroom"
+                    "minecraft:entity_type": "minecraft:mooshroom"
                 },
                 "item": {
                     "items": "minecraft:bowl"

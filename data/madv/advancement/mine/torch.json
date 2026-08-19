@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:torch"
+            "id": "minecraft:torch"
         },
         "frame": "task",
         "title": {
             "fallback": "照亮前方",
-            "translate": "torch.title"
+            "translate": "advancements.madv.torch.title"
         },
         "description": {
             "fallback": "合成一些火把",
-            "translate": "torch.description"
+            "translate": "advancements.madv.torch.description"
         }
     },
     "criteria": {
-        "torch":{
+        "torch": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -24,7 +24,7 @@
                 ]
             }
         },
-        "soul_torch":{
+        "soul_torch": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -37,6 +37,9 @@
     },
     "parent": "madv:mine/coal",
     "requirements": [
-        ["soul_torch","torch"]
+        [
+            "soul_torch",
+            "torch"
+        ]
     ]
 }

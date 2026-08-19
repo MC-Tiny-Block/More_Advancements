@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:wind_charge"
+            "id": "minecraft:wind_charge"
         },
         "frame": "task",
         "title": {
             "fallback": "旋风之力",
-            "translate": "wind_brust.title"
+            "translate": "advancements.madv.wind_brust.title"
         },
         "description": {
             "fallback": "用带风爆附魔的重锤砸击生物(至少造成20点伤害)",
-            "translate": "wind_brust.description"
+            "translate": "advancements.madv.wind_brust.description"
         }
     },
     "criteria": {
-        "crossbow":{
+        "crossbow": {
             "trigger": "minecraft:player_hurt_entity",
             "conditions": {
                 "damage": {

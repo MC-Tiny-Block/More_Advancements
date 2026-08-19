@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:breeze_rod"
+            "id": "minecraft:breeze_rod"
         },
         "frame": "task",
         "title": {
             "fallback": "呼呼呼——",
-            "translate": "kill_breeze.title"
-    },
+            "translate": "advancements.madv.kill_breeze.title"
+        },
         "description": {
             "fallback": "击杀一只旋风人",
-            "translate": "kill_breeze.description"
+            "translate": "advancements.madv.kill_breeze.description"
         }
     },
     "criteria": {
-        "breeze":{
+        "breeze": {
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": {

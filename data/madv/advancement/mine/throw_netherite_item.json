@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:netherite_scrap"
+            "id": "minecraft:netherite_scrap"
         },
         "frame": "goal",
         "title": {
             "fallback": "真“金”不怕火炼",
-            "translate": "throw_netherite_item.title"
+            "translate": "advancements.madv.throw_netherite_item.title"
         },
         "description": {
             "fallback": "这玩意不怕熔岩？？？",
-            "translate": "throw_netherite_item.description"
+            "translate": "advancements.madv.throw_netherite_item.description"
         }
     },
     "criteria": {
-        "throw_netherite_item":{
+        "throw_netherite_item": {
             "trigger": "minecraft:impossible"
         }
     },

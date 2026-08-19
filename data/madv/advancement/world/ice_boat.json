@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:spruce_boat"
+            "id": "minecraft:spruce_boat"
         },
         "frame": "goal",
         "title": {

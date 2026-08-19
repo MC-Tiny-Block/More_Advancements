@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:minecart"
+            "id": "minecraft:minecart"
         },
         "frame": "task",
         "title": {
             "fallback": "废弃的矿井",
-            "translate": "to_mineshaft.title"
+            "translate": "advancements.madv.to_mineshaft.title"
         },
         "description": {
             "fallback": "进入废弃矿井",
-            "translate": "to_mineshaft.description"
+            "translate": "advancements.madv.to_mineshaft.description"
         }
     },
     "criteria": {
-        "mineshaft":{
+        "mineshaft": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {

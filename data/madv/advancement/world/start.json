@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:filled_map"
+            "id": "minecraft:filled_map"
         },
         "frame": "task",
         "title": {
             "fallback": "冒险启程",
-            "translate": "start.title"
+            "translate": "advancements.madv.start.title"
         },
         "description": {
             "fallback": "为你的冒险准备好一张床、一个工作台、64块木板、64块圆石和满满的勇气！",
-            "translate": "start.description"
+            "translate": "advancements.madv.start.description"
         }
     },
     "criteria": {
-        "bed":{
+        "bed": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -24,7 +24,7 @@
                 ]
             }
         },
-        "crafting_table":{
+        "crafting_table": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -37,7 +37,7 @@
                 ]
             }
         },
-        "planks":{
+        "planks": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -48,7 +48,7 @@
                 ]
             }
         },
-        "cobblestone":{
+        "cobblestone": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

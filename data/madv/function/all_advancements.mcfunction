@@ -449,4 +449,12 @@
         advancement grant @s only madv:husbandry/farmland
         advancement grant @s only madv:husbandry/wheat_seeds
 
-    # 截至beta 1.2.5 共387个进度
+    # beta 1.2.7
+
+        # 农牧业
+        advancement grant @s only madv:husbandry/eat_enchanted_golden_apple
+
+
+
+
+# 截至beta 1.2.7 共388个进度

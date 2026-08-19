@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:poppy"
+            "id": "minecraft:poppy"
         },
         "frame": "task",
         "title": {
             "fallback": "自然主义",
-            "translate": "flower.title"
+            "translate": "advancements.madv.flower.title"
         },
         "description": {
             "fallback": "采一些蒲公英和虞美人",
-            "translate": "flower.description"
+            "translate": "advancements.madv.flower.description"
         }
     },
     "criteria": {
-        "dandelion":{
+        "dandelion": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

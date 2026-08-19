@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:fire_charge"
+            "id": "minecraft:fire_charge"
         },
         "frame": "task",
         "title": {
             "fallback": "空袭警告！",
-            "translate": "hurted_by_ghast.title"
+            "translate": "advancements.madv.hurted_by_ghast.title"
         },
         "description": {
             "fallback": "被恶魂的火球炸伤",
-            "translate": "hurted_by_ghast.description"
+            "translate": "advancements.madv.hurted_by_ghast.description"
         }
     },
     "criteria": {
-        "hurted_by_ghast":{
+        "hurted_by_ghast": {
             "trigger": "minecraft:entity_hurt_player",
             "conditions": {
                 "damage": {

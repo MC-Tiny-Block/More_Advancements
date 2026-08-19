@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:golden_pickaxe"
+            "id": "minecraft:golden_pickaxe"
         },
         "frame": "task",
         "title": {
             "fallback": "华而不实",
-            "translate": "golden_pickaxe.title"
+            "translate": "advancements.madv.golden_pickaxe.title"
         },
         "description": {
             "fallback": "制作一把金镐",
-            "translate": "golden_pickaxe.description"
+            "translate": "advancements.madv.golden_pickaxe.description"
         }
     },
     "criteria": {
-        "golden_pickaxe":{
+        "golden_pickaxe": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

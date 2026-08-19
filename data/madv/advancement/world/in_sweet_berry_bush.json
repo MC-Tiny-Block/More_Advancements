@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:sweet_berries"
+            "id": "minecraft:sweet_berries"
         },
         "frame": "task",
         "title": {
             "fallback": "这玩意扎人！",
-            "translate": "in_sweet_berry_bush.title"
+            "translate": "advancements.madv.in_sweet_berry_bush.title"
         },
         "description": {
             "fallback": "走到甜浆果丛里",
-            "translate": "in_sweet_berry_bush.description"
+            "translate": "advancements.madv.in_sweet_berry_bush.description"
         }
     },
     "criteria": {
-        "in_sweet_berry_bush":{
+        "in_sweet_berry_bush": {
             "trigger": "minecraft:enter_block",
             "conditions": {
                 "block": "sweet_berry_bush"

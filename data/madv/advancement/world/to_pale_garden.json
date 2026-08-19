@@ -1,21 +1,21 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:pale_oak_log"
+            "id": "minecraft:pale_oak_log"
         },
         "frame": "task",
         "title": {
             "fallback": "宁静之园？",
-            "translate": "to_pale_garden.title"
+            "translate": "advancements.madv.to_pale_garden.title"
         },
         "description": {
             "fallback": "在白天到达苍白之园",
-            "translate": "to_pale_garden.description"
+            "translate": "advancements.madv.to_pale_garden.description"
         },
-        "hidden": true 
+        "hidden": true
     },
     "criteria": {
-        "pale_garden":{
+        "pale_garden": {
             "trigger": "minecraft:tick",
             "conditions": {
                 "player": [

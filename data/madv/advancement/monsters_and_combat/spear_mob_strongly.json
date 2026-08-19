@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:diamond_spear"
+            "id": "minecraft:diamond_spear"
         },
         "frame": "challenge",
         "title": {
@@ -14,7 +14,7 @@
         }
     },
     "criteria": {
-        "spear_mob_strongly":{
+        "spear_mob_strongly": {
             "trigger": "minecraft:player_hurt_entity",
             "conditions": {
                 "damage": {

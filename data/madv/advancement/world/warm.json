@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:leather_chestplate"
+            "id": "minecraft:leather_chestplate"
         },
         "frame": "task",
         "title": {
             "fallback": "论如何御寒",
-            "translate": "warm.title"
+            "translate": "advancements.madv.warm.title"
         },
         "description": {
             "fallback": "穿上全套皮革衣服",
-            "translate": "warm.description"
+            "translate": "advancements.madv.warm.description"
         }
     },
     "criteria": {
-        "leather_armor":{
+        "leather_armor": {
             "trigger": "minecraft:tick",
             "conditions": {
                 "player": {

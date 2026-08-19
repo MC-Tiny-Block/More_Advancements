@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:sand"
+            "id": "minecraft:sand"
         },
         "frame": "task",
         "title": {
@@ -14,7 +14,7 @@
         }
     },
     "criteria": {
-        "warm_ocean":{
+        "warm_ocean": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {

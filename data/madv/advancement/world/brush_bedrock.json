@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:bedrock"
+            "id": "minecraft:bedrock"
         },
         "frame": "task",
         "title": {
             "fallback": "我再说一遍！没有基岩粉！",
-            "translate": "brush_bedrock.title"
+            "translate": "advancements.madv.brush_bedrock.title"
         },
         "description": {
             "fallback": "你为何如此执迷不悟？",
-            "translate": "brush_bedrock.description"
+            "translate": "advancements.madv.brush_bedrock.description"
         }
     },
     "criteria": {
-        "bedrock":{
+        "bedrock": {
             "trigger": "minecraft:item_used_on_block",
             "conditions": {
                 "location": [

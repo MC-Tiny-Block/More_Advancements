@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:short_grass"
+            "id": "minecraft:short_grass"
         },
         "frame": "task",
         "title": {
             "fallback": "草！",
-            "translate": "short_grass.title"
+            "translate": "advancements.madv.short_grass.title"
         },
         "description": {
             "fallback": "剪一些矮草丛",
-            "translate": "short_grass.description"
+            "translate": "advancements.madv.short_grass.description"
         }
     },
     "criteria": {
-        "short_grass":{
+        "short_grass": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

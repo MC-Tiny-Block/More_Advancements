@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:cod"
+            "id": "minecraft:cod"
         },
         "frame": "task",
         "title": {
             "fallback": "鱼叉？",
-            "translate": "harpoon.title"
+            "translate": "advancements.madv.harpoon.title"
         },
         "description": {
             "fallback": "使用带穿刺魔咒的三叉戟近战攻击水生生物",
-            "translate": "harpoon.description"
+            "translate": "advancements.madv.harpoon.description"
         }
     },
     "criteria": {
-        "trident":{
+        "trident": {
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "player": {

@@ -1,10 +1,15 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:player_head",
+            "id": "minecraft:player_head",
             "components": {
                 "profile": {
-                    "id": [1292091154,-1922610007,-2144268250,1292510952]
+                    "id": [
+                        1292091154,
+                        -1922610007,
+                        -2144268250,
+                        1292510952
+                    ]
                 }
             }
         },
@@ -13,17 +18,17 @@
             "fallback": "无限进度！（未完成）",
             "bold": true,
             "color": "light_purple",
-            "translate": "ia.title"
+            "translate": "advancements.madv.ia.title"
         },
         "description": {
             "fallback": "更多进度已经到此为止了！\n但Minecraft的无限可能还没有结束……",
             "color": "gold",
-            "translate": "ia.description"
+            "translate": "advancements.madv.ia.description"
         },
         "hidden": true
     },
     "criteria": {
-        "all_the_advancements":{
+        "all_the_advancements": {
             "trigger": "minecraft:impossible"
         }
     },

@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:sculk_shrieker"
+            "id": "minecraft:sculk_shrieker"
         },
         "frame": "challenge",
         "title": {
             "fallback": "幽匿狂热者",
-            "translate": "sculk_blocks.title"
+            "translate": "advancements.madv.sculk_blocks.title"
         },
         "description": {
             "fallback": "获得所有种类的幽匿方块",
-            "translate": "sculk_blocks.description"
+            "translate": "advancements.madv.sculk_blocks.description"
         }
     },
     "criteria": {
-        "sculk":{
+        "sculk": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -24,7 +24,7 @@
                 ]
             }
         },
-        "sculk_catalyst":{
+        "sculk_catalyst": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -34,7 +34,7 @@
                 ]
             }
         },
-        "sculk_sensor":{
+        "sculk_sensor": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -44,7 +44,7 @@
                 ]
             }
         },
-        "sculk_shrieker":{
+        "sculk_shrieker": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -54,7 +54,7 @@
                 ]
             }
         },
-        "sculk_vein":{
+        "sculk_vein": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -64,7 +64,7 @@
                 ]
             }
         },
-        "calibrated_sculk_sensor":{
+        "calibrated_sculk_sensor": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

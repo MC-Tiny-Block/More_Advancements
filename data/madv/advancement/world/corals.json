@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:fire_coral"
+            "id": "minecraft:fire_coral"
         },
         "frame": "task",
         "title": {
@@ -14,7 +14,7 @@
         }
     },
     "criteria": {
-        "corals":{
+        "corals": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

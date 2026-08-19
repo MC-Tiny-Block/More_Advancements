@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:mace"
+            "id": "minecraft:mace"
         },
         "frame": "challenge",
         "title": {
             "fallback": "地动山摇",
-            "translate": "kill_ender_dragon_by_mace.title"
+            "translate": "advancements.madv.kill_ender_dragon_by_mace.title"
         },
         "description": {
             "fallback": "用重锤一击终结末影龙",
-            "translate": "kill_ender_dragon_by_mace.description"
+            "translate": "advancements.madv.kill_ender_dragon_by_mace.description"
         }
     },
     "criteria": {
-        "ender_dragon":{
+        "ender_dragon": {
             "trigger": "minecraft:player_hurt_entity",
             "conditions": {
                 "damage": {
@@ -26,7 +26,7 @@
                             }
                         }
                     },
-                    "entity_type": {
+                    "type": {
                         "tags": [
                             {
                                 "id": "is_player_attack",

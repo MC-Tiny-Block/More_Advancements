@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:farmland"
+            "id": "minecraft:farmland"
         },
         "frame": "task",
         "title": {
@@ -14,7 +14,7 @@
         }
     },
     "criteria": {
-        "farmland":{
+        "farmland": {
             "trigger": "minecraft:any_block_use",
             "conditions": {
                 "location": [

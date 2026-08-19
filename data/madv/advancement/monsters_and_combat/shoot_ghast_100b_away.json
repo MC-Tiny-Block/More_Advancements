@@ -8,16 +8,16 @@
         },
         "title": {
             "fallback": "幕后黑手",
-            "translate": "shoot_ghast_100b_away.title"
+            "translate": "advancements.madv.shoot_ghast_100b_away.title"
         },
         "description": {
             "fallback": "在100格外射杀一只恶魂",
-            "translate": "shoot_ghast_100b_away.description"
+            "translate": "advancements.madv.shoot_ghast_100b_away.description"
         },
         "frame": "challenge"
     },
     "criteria": {
-        "ghast":{
+        "ghast": {
             "trigger": "player_killed_entity",
             "conditions": {
                 "entity": {

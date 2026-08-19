@@ -1,24 +1,24 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:chest"
+            "id": "minecraft:chest"
         },
         "frame": "task",
         "title": {
             "fallback": "另一种搬家方式",
-            "translate": "chest_on_llama.title"
+            "translate": "advancements.madv.chest_on_llama.title"
         },
         "description": {
             "fallback": "给羊驼装上箱子",
-            "translate": "chest_on_llama.description"
+            "translate": "advancements.madv.chest_on_llama.description"
         }
     },
     "criteria": {
-        "llama":{
+        "llama": {
             "trigger": "minecraft:player_interacted_with_entity",
             "conditions": {
                 "entity": {
-                    "type": "minecraft:llama",
+                    "minecraft:entity_type": "minecraft:llama",
                     "nbt": "{'ChestedHorse': 1b,'Tame': 1b}"
                 },
                 "item": {

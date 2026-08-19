@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:tnt"
+            "id": "minecraft:tnt"
         },
         "frame": "goal",
         "title": {
             "fallback": "防爆盾牌",
-            "translate": "deflect_creeper.title"
+            "translate": "advancements.madv.deflect_creeper.title"
         },
         "description": {
             "fallback": "用盾牌挡住苦力怕的爆炸",
-            "translate": "deflect_creeper.description"
+            "translate": "advancements.madv.deflect_creeper.description"
         }
     },
     "criteria": {
-        "deflect_creeper":{
+        "deflect_creeper": {
             "trigger": "entity_hurt_player",
             "conditions": {
                 "damage": {

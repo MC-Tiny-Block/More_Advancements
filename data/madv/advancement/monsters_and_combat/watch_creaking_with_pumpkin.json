@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:carved_pumpkin"
+            "id": "minecraft:carved_pumpkin"
         },
         "frame": "task",
         "title": {
-            "translate": "watch_creaking_with_pumpkin.title",
+            "translate": "advancements.madv.watch_creaking_with_pumpkin.title",
             "fallback": "失控的木头人"
-    },
+        },
         "description": {
-            "translate": "watch_creaking_with_pumpkin.description",
+            "translate": "advancements.madv.watch_creaking_with_pumpkin.description",
             "fallback": "戴上雕刻南瓜，然后注视嘎枝……"
         }
     },
     "criteria": {
-        "creaking":{
+        "creaking": {
             "trigger": "minecraft:tick",
             "conditions": {
                 "player": {

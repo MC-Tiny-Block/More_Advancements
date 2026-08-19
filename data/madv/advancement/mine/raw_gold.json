@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:raw_gold"
+            "id": "minecraft:raw_gold"
         },
         "frame": "task",
         "title": {
             "fallback": "是金子吗？",
-            "translate": "raw_gold.title"
+            "translate": "advancements.madv.raw_gold.title"
         },
         "description": {
             "fallback": "挖到一块粗金",
-            "translate": "raw_gold.description"
+            "translate": "advancements.madv.raw_gold.description"
         }
     },
     "criteria": {
-        "raw_gold":{
+        "raw_gold": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

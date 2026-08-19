@@ -6,11 +6,11 @@
         "frame": "challenge",
         "title": {
             "fallback": "唱片收藏家",
-            "translate": "all_discs.title"
+            "translate": "advancements.madv.all_discs.title"
         },
         "description": {
             "fallback": "收集所有种类的唱片",
-            "translate": "all_discs.description"
+            "translate": "advancements.madv.all_discs.description"
         }
     },
     "criteria": {

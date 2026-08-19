@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:green_bed"
+            "id": "minecraft:green_bed"
         },
         "frame": "task",
         "title": {

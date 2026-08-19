@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:red_mushroom"
+            "id": "minecraft:red_mushroom"
         },
         "frame": "task",
         "title": {
             "fallback": "蘑菇胜地！",
-            "translate": "mushroom_in_taiga.title"
+            "translate": "advancements.madv.mushroom_in_taiga.title"
         },
         "description": {
             "fallback": "在针叶林里找到一些蘑菇",
-            "translate": "mushroom_in_taiga.description"
+            "translate": "advancements.madv.mushroom_advancements.madv.in_taiga.description"
         }
     },
     "criteria": {
-        "mushroom":{
+        "mushroom": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

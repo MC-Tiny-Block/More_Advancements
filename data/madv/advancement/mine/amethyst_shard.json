@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:amethyst_shard"
+            "id": "minecraft:amethyst_shard"
         },
         "frame": "task",
         "title": {
             "fallback": "音乐水晶",
-            "translate": "amethyst_shard.title"
+            "translate": "advancements.madv.amethyst_shard.title"
         },
         "description": {
             "fallback": "在紫晶洞里挖到紫水晶碎片",
-            "translate": "amethyst_shard.description"
+            "translate": "advancements.madv.amethyst_shard.description"
         }
     },
     "criteria": {
-        "amethyst_shard":{
+        "amethyst_shard": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

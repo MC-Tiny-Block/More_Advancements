@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:flint_and_steel"
+            "id": "minecraft:flint_and_steel"
         },
         "frame": "task",
         "title": {
             "fallback": "手动引爆",
-            "translate": "fire_creeper.title"
+            "translate": "advancements.madv.fire_creeper.title"
         },
         "description": {
             "fallback": "引爆一只苦力怕",
-            "translate": "fire_creeper.description"
+            "translate": "advancements.madv.fire_creeper.description"
         }
     },
     "criteria": {
-        "creeper":{
+        "creeper": {
             "trigger": "minecraft:player_interacted_with_entity",
             "conditions": {
                 "entity": {

@@ -17,7 +17,7 @@
         }
     },
     "criteria": {
-        "hurt_elder_guardian":{
+        "hurt_elder_guardian": {
             "trigger": "minecraft:player_hurt_entity",
             "conditions": {
                 "player": {
@@ -64,6 +64,9 @@
     },
     "parent": "madv:world/hurt_guardian",
     "requirements": [
-        ["hurt_elder_guardian", "hurt_elder_guardian_by_trident"]
+        [
+            "hurt_elder_guardian",
+            "hurt_elder_guardian_by_trident"
+        ]
     ]
 }

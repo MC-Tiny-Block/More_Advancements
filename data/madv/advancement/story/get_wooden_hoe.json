@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:wooden_hoe"
+            "id": "minecraft:wooden_hoe"
         },
         "frame": "task",
         "title": {
             "fallback": "耕种时间到！",
-            "translate": "get_wooden_hoe.title"
+            "translate": "advancements.madv.get_wooden_hoe.title"
         },
         "description": {
             "fallback": "制作一把木锄",
-            "translate": "get_wooden_hoe.description"
+            "translate": "advancements.madv.get_wooden_hoe.description"
         }
     },
     "criteria": {
-        "wooden_hoe":{
+        "wooden_hoe": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

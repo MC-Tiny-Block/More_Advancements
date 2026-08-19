@@ -1,16 +1,16 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:heavy_core"
+            "id": "minecraft:heavy_core"
         },
         "frame": "goal",
         "title": {
             "fallback": "密度超高",
-            "translate": "heavy_core.title"
+            "translate": "advancements.madv.heavy_core.title"
         },
         "description": {
             "fallback": "获得沉重核心",
-            "translate": "heavy_core.description"
+            "translate": "advancements.madv.heavy_core.description"
         },
         "hidden": true
     },

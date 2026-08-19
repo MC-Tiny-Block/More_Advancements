@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:sandstone_wall"
+            "id": "minecraft:sandstone_wall"
         },
         "frame": "task",
         "title": {

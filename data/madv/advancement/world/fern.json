@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:fern"
+            "id": "minecraft:fern"
         },
         "frame": "task",
         "title": {
             "fallback": "蕨！",
-            "translate": "fern.title"
+            "translate": "advancements.madv.fern.title"
         },
         "description": {
             "fallback": "获得蕨或大型蕨",
-            "translate": "fern.description"
+            "translate": "advancements.madv.fern.description"
         }
     },
     "criteria": {
-        "taiga":{
+        "taiga": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

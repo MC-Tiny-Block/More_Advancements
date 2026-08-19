@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:lapis_lazuli"
+            "id": "minecraft:lapis_lazuli"
         },
         "frame": "task",
         "title": {
             "fallback": "不可思议的魔法石",
-            "translate": "lapis_lazuli.title"
+            "translate": "advancements.madv.lapis_lazuli.title"
         },
         "description": {
             "fallback": "它似乎蕴含着经验的力量！",
-            "translate": "lapis_lazuli.description"
+            "translate": "advancements.madv.lapis_lazuli.description"
         }
     },
     "criteria": {
-        "lapis_lazuli":{
+        "lapis_lazuli": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:flow_armor_trim_smithing_template"
+            "id": "minecraft:flow_armor_trim_smithing_template"
         },
         "frame": "task",
         "title": {

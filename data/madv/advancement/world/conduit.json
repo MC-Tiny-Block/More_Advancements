@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:conduit"
+            "id": "minecraft:conduit"
         },
         "frame": "goal",
         "title": {

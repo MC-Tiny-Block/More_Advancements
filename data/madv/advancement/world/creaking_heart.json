@@ -1,21 +1,21 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:creaking_heart"
+            "id": "minecraft:creaking_heart"
         },
         "frame": "task",
         "title": {
             "fallback": "核心能源",
-            "translate": "creaking_heart.title"
+            "translate": "advancements.madv.creaking_heart.title"
         },
         "description": {
             "fallback": "获取嘎枝之心",
-            "translate": "creaking_heart.description"
+            "translate": "advancements.madv.creaking_heart.description"
         },
         "hidden": true
     },
     "criteria": {
-        "creaking_heart":{
+        "creaking_heart": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

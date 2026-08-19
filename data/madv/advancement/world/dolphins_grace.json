@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:dolphin_spawn_egg"
+            "id": "minecraft:dolphin_spawn_egg"
         },
         "frame": "task",
         "title": {
@@ -14,7 +14,7 @@
         }
     },
     "criteria": {
-        "dolphins_grace":{
+        "dolphins_grace": {
             "trigger": "minecraft:effects_changed",
             "conditions": {
                 "effects": {

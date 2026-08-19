@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:gravel"
+            "id": "minecraft:gravel"
         },
         "frame": "task",
         "title": {
             "fallback": "矿难事故",
-            "translate": "in_gravel.title"
+            "translate": "advancements.madv.in_gravel.title"
         },
         "description": {
             "fallback": "被沙子或沙砾掩埋住",
-            "translate": "in_gravel.description"
+            "translate": "advancements.madv.in_gravel.description"
         }
     },
     "criteria": {
-        "in_gravel":{
+        "in_gravel": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": [
@@ -24,7 +24,8 @@
                         "predicate": {
                             "block": {
                                 "blocks": [
-                                    "sand","gravel"
+                                    "sand",
+                                    "gravel"
                                 ]
                             }
                         }

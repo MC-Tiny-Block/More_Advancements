@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:azalea"
+            "id": "minecraft:azalea"
         },
         "frame": "task",
         "title": {
             "fallback": "矿工的大救星！",
-            "translate": "use_bone_meal_on_azalea.title"
+            "translate": "advancements.madv.use_bone_meal_on_azalea.title"
         },
         "description": {
             "fallback": "对杜鹃花丛使用骨粉",
-            "translate": "use_bone_meal_on_azalea.description"
+            "translate": "advancements.madv.use_bone_meal_on_azalea.description"
         }
     },
     "criteria": {
-        "azalea":{
+        "azalea": {
             "trigger": "minecraft:item_used_on_block",
             "conditions": {
                 "location": [
@@ -31,7 +31,7 @@
                 ]
             }
         },
-        "flowering_azalea":{
+        "flowering_azalea": {
             "trigger": "minecraft:item_used_on_block",
             "conditions": {
                 "location": [
@@ -51,6 +51,9 @@
     },
     "parent": "madv:mine/eat_glow_berries",
     "requirements": [
-        ["azalea","flowering_azalea"]
+        [
+            "azalea",
+            "flowering_azalea"
+        ]
     ]
 }

@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:blue_orchid"
+            "id": "minecraft:blue_orchid"
         },
         "frame": "task",
         "title": {
@@ -14,7 +14,7 @@
         }
     },
     "criteria": {
-        "blue_orchid":{
+        "blue_orchid": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:glass_bottle"
+            "id": "minecraft:glass_bottle"
         },
         "frame": "task",
         "title": {
@@ -14,7 +14,7 @@
         }
     },
     "criteria": {
-        "drown":{
+        "drown": {
             "trigger": "minecraft:entity_hurt_player",
             "conditions": {
                 "damage": {

@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:fox_spawn_egg"
+            "id": "minecraft:fox_spawn_egg"
         },
         "frame": "task",
         "title": {
             "fallback": "毛茸茸的“伙伴”",
-            "translate": "feed_fox.title"
+            "translate": "advancements.madv.feed_fox.title"
         },
         "description": {
             "fallback": "用甜浆果喂食狐狸来博取它的信任",
-            "translate": "feed_fox.description"
+            "translate": "advancements.madv.feed_fox.description"
         }
     },
     "criteria": {
-        "fox":{
+        "fox": {
             "trigger": "minecraft:player_interacted_with_entity",
             "conditions": {
                 "entity": {

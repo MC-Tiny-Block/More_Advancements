@@ -6,11 +6,11 @@
         "frame": "task",
         "title": {
             "fallback": "流通货币",
-            "translate": "emerald.title"
+            "translate": "advancements.madv.emerald.title"
         },
         "description": {
             "fallback": "获得绿宝石",
-            "translate": "emerald.description"
+            "translate": "advancements.madv.emerald.description"
         }
     },
     "criteria": {

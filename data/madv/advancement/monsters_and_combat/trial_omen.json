@@ -1,16 +1,16 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:ominous_bottle"
+            "id": "minecraft:ominous_bottle"
         },
         "frame": "task",
         "title": {
             "fallback": "精英试炼",
-            "translate": "trial_omen.title"
+            "translate": "advancements.madv.trial_omen.title"
         },
         "description": {
             "fallback": "使用不祥之瓶之后靠近一个试炼刷怪笼来开始你的不祥试炼",
-            "translate": "trial_omen.description"
+            "translate": "advancements.madv.trial_omen.description"
         }
     },
     "criteria": {

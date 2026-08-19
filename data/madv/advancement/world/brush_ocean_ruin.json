@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:suspicious_sand"
+            "id": "minecraft:suspicious_sand"
         },
         "frame": "task",
         "title": {
@@ -29,6 +29,9 @@
     },
     "parent": "madv:world/ocean_ruin",
     "requirements": [
-        ["ocean_ruin_cold", "ocean_ruin_warm"]
+        [
+            "ocean_ruin_cold",
+            "ocean_ruin_warm"
+        ]
     ]
 }

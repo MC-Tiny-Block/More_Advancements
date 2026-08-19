@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:lava_bucket"
+            "id": "minecraft:lava_bucket"
         },
         "frame": "task",
         "title": {
             "fallback": "泡个温泉",
-            "translate": "into_lava.title"
+            "translate": "advancements.madv.into_lava.title"
         },
         "description": {
             "fallback": "你试图在熔岩里游泳",
-            "translate": "into_lava.description"
+            "translate": "advancements.madv.into_lava.description"
         }
     },
     "criteria": {
-        "into_lava":{
+        "into_lava": {
             "trigger": "minecraft:enter_block",
             "conditions": {
                 "player": {

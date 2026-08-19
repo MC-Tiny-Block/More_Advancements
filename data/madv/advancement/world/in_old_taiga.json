@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:spruce_wood"
+            "id": "minecraft:spruce_wood"
         },
         "frame": "task",
         "title": {
             "fallback": "终岁常端正",
-            "translate": "in_old_taiga.title"
+            "translate": "advancements.madv.in_old_taiga.title"
         },
         "description": {
             "fallback": "造访原始松木针叶林和原始云杉针叶林",
-            "translate": "in_old_taiga.description"
+            "translate": "advancements.madv.in_old_taiga.description"
         }
     },
     "criteria": {
-        "old_growth_spruce_taiga":{
+        "old_growth_spruce_taiga": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {

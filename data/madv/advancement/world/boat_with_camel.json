@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:acacia_boat"
+            "id": "minecraft:acacia_boat"
         },
         "frame": "task",
         "title": {
@@ -14,17 +14,17 @@
         }
     },
     "criteria": {
-        "camel":{
+        "camel": {
             "trigger": "minecraft:started_riding",
             "conditions": {
-                 "player": {
+                "player": {
                     "vehicle": {
                         "entity_type": "#minecraft:boat",
                         "passenger": {
                             "entity_type": "minecraft:camel"
                         }
                     }
-                 }
+                }
             }
         }
     },

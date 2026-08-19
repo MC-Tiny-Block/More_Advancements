@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:netherrack"
+            "id": "minecraft:netherrack"
         },
         "frame": "goal",
         "title": {
             "fallback": "洗清祸患",
-            "translate": "kill_all_nether_monsters.title"
+            "translate": "advancements.madv.kill_all_nether_monsters.title"
         },
         "description": {
             "fallback": "击杀所有下界敌对生物",
-            "translate": "kill_all_nether_monsters.description"
+            "translate": "advancements.madv.kill_all_nether_monsters.description"
         }
     },
     "criteria": {
-        "ghast":{
+        "ghast": {
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": {
@@ -22,7 +22,7 @@
                 }
             }
         },
-        "magma_cube":{
+        "magma_cube": {
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": {
@@ -30,7 +30,7 @@
                 }
             }
         },
-        "wither_skeleton":{
+        "wither_skeleton": {
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": {
@@ -38,7 +38,7 @@
                 }
             }
         },
-        "blaze":{
+        "blaze": {
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": {
@@ -46,7 +46,7 @@
                 }
             }
         },
-        "enderman":{
+        "enderman": {
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": {
@@ -54,7 +54,7 @@
                 }
             }
         },
-        "hoglin":{
+        "hoglin": {
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": {
@@ -62,7 +62,7 @@
                 }
             }
         },
-        "piglin":{
+        "piglin": {
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": {
@@ -70,7 +70,7 @@
                 }
             }
         },
-        "piglin_brute":{
+        "piglin_brute": {
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": {

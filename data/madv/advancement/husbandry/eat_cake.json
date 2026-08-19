@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:cake"
+            "id": "minecraft:cake"
         },
         "frame": "task",
         "title": {
             "fallback": "美味回忆",
-            "translate": "eat_cake.title"
+            "translate": "advancements.madv.eat_cake.title"
         },
         "description": {
             "fallback": "在饥饿值为0时吃一块蛋糕",
-            "translate": "eat_cake.description"
+            "translate": "advancements.madv.eat_cake.description"
         }
     },
     "criteria": {
-        "cake":{
+        "cake": {
             "trigger": "minecraft:any_block_use",
             "conditions": {
                 "player": [

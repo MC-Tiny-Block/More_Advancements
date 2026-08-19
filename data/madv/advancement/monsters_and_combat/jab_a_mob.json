@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "id":"minecraft:stone_spear"
+            "id": "minecraft:stone_spear"
         },
         "frame": "task",
         "title": {
@@ -14,7 +14,7 @@
         }
     },
     "criteria": {
-        "jab_a_mob":{
+        "jab_a_mob": {
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "player": {
